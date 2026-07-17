@@ -1,0 +1,1701 @@
+{
+  "document_name": "fl5",
+  "total_chunks": 179,
+  "chunks": [
+    {
+      "chunk_id": "a4f0e457",
+      "chunk_type": "summary",
+      "page": 1,
+      "title": "Fuzzy Logic",
+      "content": "The slide appears to be an introductory title slide for a lecture or presentation on Fuzzy Logic, specifically focusing on the concept of approximate reasoning. It indicates that the lecture will be delivered by Dr. Ammar Alnahhas.",
+      "keywords": [
+        "Fuzzy Logic",
+        "Approximate Reasoning",
+        "Dr. Ammar Alnahhas",
+        "Many-valued logic",
+        "Truth values",
+        "Decision-making",
+        "AI"
+      ],
+      "raw_text": "Fuzzy Logic\nApproximate Reasoning\nDr. Ammar Alnahhas",
+      "embedding_text": "The slide appears to be an introductory title slide for a lecture or presentation on Fuzzy Logic, specifically focusing on the concept of approximate reasoning. It indicates that the lecture will be delivered by Dr. Ammar Alnahhas."
+    },
+    {
+      "chunk_id": "6eb3d596",
+      "chunk_type": "exam_point",
+      "page": 1,
+      "content": "Understanding the foundational concepts of Fuzzy Logic",
+      "embedding_text": "Understanding the foundational concepts of Fuzzy Logic"
+    },
+    {
+      "chunk_id": "803a8aef",
+      "chunk_type": "exam_point",
+      "page": 1,
+      "content": "Importance of approximate reasoning in decision-making and AI",
+      "embedding_text": "Importance of approximate reasoning in decision-making and AI"
+    },
+    {
+      "chunk_id": "342d04f0",
+      "chunk_type": "summary",
+      "page": 3,
+      "title": "Fuzzy implications",
+      "content": "The slide discusses various extensions of classical implications in fuzzy logic, presenting mathematical formulations for fuzzy implications involving fuzzy union, intersection, and complement operations.",
+      "keywords": [
+        "Fuzzy implications",
+        "Classical implications",
+        "Fuzzy union",
+        "Fuzzy intersection",
+        "Fuzzy complement",
+        "De Morgan laws",
+        "Continuous fuzzy intersection",
+        "Supremum",
+        "Truth values",
+        "Fuzzy logic"
+      ],
+      "raw_text": "Fuzzy implications\n\nExtensions of classical implications:\n\n▶ J(a, b) = u(c(a), b) for all a, b ∈ [0, 1].\n▶ J(a, b) = sup{x ∈ [0, 1] | i(a, x) ≤ b} for all a, b ∈ [0, 1], where i denotes a continuous fuzzy intersection.\n▶ J(a, b) = u(c(a), i(a, b)),\n▶ J(a, b) = u(i(c(a), c(b)), b),\nwhere u, i, c are required to satisfy the De Morgan laws.",
+      "embedding_text": "The slide discusses various extensions of classical implications in fuzzy logic, presenting mathematical formulations for fuzzy implications involving fuzzy union, intersection, and complement operations."
+    },
+    {
+      "chunk_id": "1cbc7600",
+      "chunk_type": "definition",
+      "page": 3,
+      "concept": "Fuzzy implication",
+      "content": "A generalization of classical implications to fuzzy logic, where truth values are in the interval [0, 1].",
+      "embedding_text": "Fuzzy implication: A generalization of classical implications to fuzzy logic, where truth values are in the interval [0, 1]."
+    },
+    {
+      "chunk_id": "a57d8962",
+      "chunk_type": "definition",
+      "page": 3,
+      "concept": "Continuous fuzzy intersection (i)",
+      "content": "A fuzzy operation that generalizes the intersection of sets, maintaining continuity in the fuzzy context.",
+      "embedding_text": "Continuous fuzzy intersection (i): A fuzzy operation that generalizes the intersection of sets, maintaining continuity in the fuzzy context."
+    },
+    {
+      "chunk_id": "749e767c",
+      "chunk_type": "definition",
+      "page": 3,
+      "concept": "De Morgan laws",
+      "content": "Logical equivalences pertaining to the complement of unions and intersections in fuzzy logic.",
+      "embedding_text": "De Morgan laws: Logical equivalences pertaining to the complement of unions and intersections in fuzzy logic."
+    },
+    {
+      "chunk_id": "5c6b06d9",
+      "chunk_type": "formula",
+      "page": 3,
+      "formula": "J(a, b) = u(c(a), b)",
+      "embedding_text": "J(a, b) = u(c(a), b)"
+    },
+    {
+      "chunk_id": "64c3660a",
+      "chunk_type": "formula",
+      "page": 3,
+      "formula": "J(a, b) = sup{x ∈ [0, 1] | i(a, x) ≤ b}",
+      "embedding_text": "J(a, b) = sup{x ∈ [0, 1] | i(a, x) ≤ b}"
+    },
+    {
+      "chunk_id": "9be5dad3",
+      "chunk_type": "formula",
+      "page": 3,
+      "formula": "J(a, b) = u(c(a), i(a, b))",
+      "embedding_text": "J(a, b) = u(c(a), i(a, b))"
+    },
+    {
+      "chunk_id": "7fa6fbf9",
+      "chunk_type": "formula",
+      "page": 3,
+      "formula": "J(a, b) = u(i(c(a), c(b)), b)",
+      "embedding_text": "J(a, b) = u(i(c(a), c(b)), b)"
+    },
+    {
+      "chunk_id": "57f86908",
+      "chunk_type": "exam_point",
+      "page": 3,
+      "content": "Understanding the different forms of fuzzy implications and their mathematical formulations.",
+      "embedding_text": "Understanding the different forms of fuzzy implications and their mathematical formulations."
+    },
+    {
+      "chunk_id": "3254a8e7",
+      "chunk_type": "exam_point",
+      "page": 3,
+      "content": "Knowledge of the roles of fuzzy union, intersection, and complement in defining fuzzy implications.",
+      "embedding_text": "Knowledge of the roles of fuzzy union, intersection, and complement in defining fuzzy implications."
+    },
+    {
+      "chunk_id": "86c3920e",
+      "chunk_type": "exam_point",
+      "page": 3,
+      "content": "Application of De Morgan laws in fuzzy logic contexts.",
+      "embedding_text": "Application of De Morgan laws in fuzzy logic contexts."
+    },
+    {
+      "chunk_id": "49c5882d",
+      "chunk_type": "summary",
+      "page": 4,
+      "title": "Fuzzy implications",
+      "content": "The slide introduces three types of S-implications in fuzzy logic: Kleene-Dienes, Reichenbach, and Lukasiewicz implications, each defined by a specific mathematical formula.",
+      "keywords": [
+        "Fuzzy implications",
+        "S-implications",
+        "Kleene-Dienes",
+        "Reichenbach",
+        "Lukasiewicz",
+        "Fuzzy logic",
+        "Implication functions",
+        "max function",
+        "min function"
+      ],
+      "raw_text": "Fuzzy implications\n\nS-implications\n\n1. Kleene-Dienes implication\nJ_b(a, b) = max(1 - a, b) for all a, b ∈ [0, 1].\n2. Reichenbach implication\nJ_r(a, b) = 1 - a + ab for all a, b ∈ [0, 1].\n3. Lukasiewicz implication\nJ_a(a, b) = min(1, 1 - a + b) for all a, b ∈ [0, 1].",
+      "embedding_text": "The slide introduces three types of S-implications in fuzzy logic: Kleene-Dienes, Reichenbach, and Lukasiewicz implications, each defined by a specific mathematical formula."
+    },
+    {
+      "chunk_id": "42249f53",
+      "chunk_type": "definition",
+      "page": 4,
+      "concept": "Kleene-Dienes implication",
+      "content": "A type of S-implication defined as J_b(a, b) = max(1 - a, b) for all a, b ∈ [0, 1].",
+      "embedding_text": "Kleene-Dienes implication: A type of S-implication defined as J_b(a, b) = max(1 - a, b) for all a, b ∈ [0, 1]."
+    },
+    {
+      "chunk_id": "75ca1732",
+      "chunk_type": "definition",
+      "page": 4,
+      "concept": "Reichenbach implication",
+      "content": "A type of S-implication defined as J_r(a, b) = 1 - a + ab for all a, b ∈ [0, 1].",
+      "embedding_text": "Reichenbach implication: A type of S-implication defined as J_r(a, b) = 1 - a + ab for all a, b ∈ [0, 1]."
+    },
+    {
+      "chunk_id": "fbef859c",
+      "chunk_type": "definition",
+      "page": 4,
+      "concept": "Lukasiewicz implication",
+      "content": "A type of S-implication defined as J_a(a, b) = min(1, 1 - a + b) for all a, b ∈ [0, 1].",
+      "embedding_text": "Lukasiewicz implication: A type of S-implication defined as J_a(a, b) = min(1, 1 - a + b) for all a, b ∈ [0, 1]."
+    },
+    {
+      "chunk_id": "667a46d9",
+      "chunk_type": "formula",
+      "page": 4,
+      "formula": {
+        "name": "Kleene-Dienes implication",
+        "formula": "J_b(a, b) = max(1 - a, b)"
+      },
+      "embedding_text": {
+        "name": "Kleene-Dienes implication",
+        "formula": "J_b(a, b) = max(1 - a, b)"
+      }
+    },
+    {
+      "chunk_id": "463d53f4",
+      "chunk_type": "formula",
+      "page": 4,
+      "formula": {
+        "name": "Reichenbach implication",
+        "formula": "J_r(a, b) = 1 - a + ab"
+      },
+      "embedding_text": {
+        "name": "Reichenbach implication",
+        "formula": "J_r(a, b) = 1 - a + ab"
+      }
+    },
+    {
+      "chunk_id": "f7d41f9a",
+      "chunk_type": "formula",
+      "page": 4,
+      "formula": {
+        "name": "Lukasiewicz implication",
+        "formula": "J_a(a, b) = min(1, 1 - a + b)"
+      },
+      "embedding_text": {
+        "name": "Lukasiewicz implication",
+        "formula": "J_a(a, b) = min(1, 1 - a + b)"
+      }
+    },
+    {
+      "chunk_id": "0bff9b97",
+      "chunk_type": "exam_point",
+      "page": 4,
+      "content": "Understanding the definitions and applications of different S-implications in fuzzy logic.",
+      "embedding_text": "Understanding the definitions and applications of different S-implications in fuzzy logic."
+    },
+    {
+      "chunk_id": "fec4d86b",
+      "chunk_type": "exam_point",
+      "page": 4,
+      "content": "Ability to differentiate between Kleene-Dienes, Reichenbach, and Lukasiewicz implications.",
+      "embedding_text": "Ability to differentiate between Kleene-Dienes, Reichenbach, and Lukasiewicz implications."
+    },
+    {
+      "chunk_id": "a2af3e2f",
+      "chunk_type": "exam_point",
+      "page": 4,
+      "content": "Recalling and applying the formulas for each type of implication.",
+      "embedding_text": "Recalling and applying the formulas for each type of implication."
+    },
+    {
+      "chunk_id": "c9b67c82",
+      "chunk_type": "summary",
+      "page": 5,
+      "title": "Fuzzy implications",
+      "content": "The slide presents the mathematical definition of the largest S-implication in fuzzy logic, denoted as J_LS(a, b). It specifies the conditions under which different values are assigned based on the inputs a and b, which belong to the interval [0, 1].",
+      "keywords": [
+        "Fuzzy implications",
+        "S-implications",
+        "Largest S-implication",
+        "Fuzzy logic",
+        "J_LS(a, b)",
+        "a = 1",
+        "b = 0",
+        "Interval [0, 1]"
+      ],
+      "raw_text": "Fuzzy implications\n\nS-implications\n4. Largest S-implication\n\nJ_LS(a, b) = {\n b           when a = 1\n 1 − a      when b = 0  for all a, b ∈ [0, 1].\n 1         otherwise,\n}",
+      "embedding_text": "The slide presents the mathematical definition of the largest S-implication in fuzzy logic, denoted as J_LS(a, b). It specifies the conditions under which different values are assigned based on the inputs a and b, which belong to the interval [0, 1]."
+    },
+    {
+      "chunk_id": "3cc5e669",
+      "chunk_type": "definition",
+      "page": 5,
+      "concept": "S-implications",
+      "content": "A type of fuzzy implication used in fuzzy logic to model logical implications with fuzzy sets.",
+      "embedding_text": "S-implications: A type of fuzzy implication used in fuzzy logic to model logical implications with fuzzy sets."
+    },
+    {
+      "chunk_id": "2b1733a5",
+      "chunk_type": "definition",
+      "page": 5,
+      "concept": "Largest S-implication (J_LS)",
+      "content": "A specific type of S-implication defined by particular conditions for values a and b in the interval [0, 1].",
+      "embedding_text": "Largest S-implication (J_LS): A specific type of S-implication defined by particular conditions for values a and b in the interval [0, 1]."
+    },
+    {
+      "chunk_id": "93a0381e",
+      "chunk_type": "formula",
+      "page": 5,
+      "formula": {
+        "expression": "J_LS(a, b) = b, when a = 1",
+        "description": "The implication equals b when a is 1."
+      },
+      "embedding_text": {
+        "expression": "J_LS(a, b) = b, when a = 1",
+        "description": "The implication equals b when a is 1."
+      }
+    },
+    {
+      "chunk_id": "297b095f",
+      "chunk_type": "formula",
+      "page": 5,
+      "formula": {
+        "expression": "J_LS(a, b) = 1 - a, when b = 0",
+        "description": "The implication equals 1 - a when b is 0."
+      },
+      "embedding_text": {
+        "expression": "J_LS(a, b) = 1 - a, when b = 0",
+        "description": "The implication equals 1 - a when b is 0."
+      }
+    },
+    {
+      "chunk_id": "c3a0ce08",
+      "chunk_type": "formula",
+      "page": 5,
+      "formula": {
+        "expression": "J_LS(a, b) = 1, otherwise",
+        "description": "The implication equals 1 for all other cases."
+      },
+      "embedding_text": {
+        "expression": "J_LS(a, b) = 1, otherwise",
+        "description": "The implication equals 1 for all other cases."
+      }
+    },
+    {
+      "chunk_id": "6ae724ed",
+      "chunk_type": "exam_point",
+      "page": 5,
+      "content": "Understanding the definition and conditions of the largest S-implication.",
+      "embedding_text": "Understanding the definition and conditions of the largest S-implication."
+    },
+    {
+      "chunk_id": "1daa9749",
+      "chunk_type": "exam_point",
+      "page": 5,
+      "content": "Ability to apply the formula J_LS(a, b) under different conditions for a and b.",
+      "embedding_text": "Ability to apply the formula J_LS(a, b) under different conditions for a and b."
+    },
+    {
+      "chunk_id": "b4c25aea",
+      "chunk_type": "summary",
+      "page": 6,
+      "title": "Fuzzy implications",
+      "content": "The slide presents two types of R-implications in fuzzy logic: Gödel implication and Goguen implication. It provides their mathematical definitions and conditions under which they yield specific values.",
+      "keywords": [
+        "Fuzzy implications",
+        "R-implications",
+        "Gödel implication",
+        "Goguen implication",
+        "supremum",
+        "min(a, x)",
+        "ax ≤ b",
+        "fuzzy logic",
+        "mathematical expressions"
+      ],
+      "raw_text": "Fuzzy implications\n\nR-implications\n1. Gödel implication\nJ_g(a, b) = sup{x | min(a, x) ≤ b} = { 1 when a ≤ b; b when a > b. }\n2. Goguen implication\nJ_Δ(a, b) = sup{x | ax ≤ b} = { 1 when a ≤ b; b/a when a > b. }",
+      "embedding_text": "The slide presents two types of R-implications in fuzzy logic: Gödel implication and Goguen implication. It provides their mathematical definitions and conditions under which they yield specific values."
+    },
+    {
+      "chunk_id": "d1ed4ac2",
+      "chunk_type": "definition",
+      "page": 6,
+      "concept": "Gödel Implication",
+      "content": "A type of R-implication defined as the supremum of all x such that min(a, x) ≤ b, yielding 1 when a ≤ b and b when a > b.",
+      "embedding_text": "Gödel Implication: A type of R-implication defined as the supremum of all x such that min(a, x) ≤ b, yielding 1 when a ≤ b and b when a > b."
+    },
+    {
+      "chunk_id": "2eb11501",
+      "chunk_type": "definition",
+      "page": 6,
+      "concept": "Goguen Implication",
+      "content": "A type of R-implication defined as the supremum of all x such that ax ≤ b, yielding 1 when a ≤ b and b/a when a > b.",
+      "embedding_text": "Goguen Implication: A type of R-implication defined as the supremum of all x such that ax ≤ b, yielding 1 when a ≤ b and b/a when a > b."
+    },
+    {
+      "chunk_id": "927b2766",
+      "chunk_type": "formula",
+      "page": 6,
+      "formula": {
+        "formula": "J_g(a, b) = sup{x | min(a, x) ≤ b}",
+        "description": "Gödel implication formula"
+      },
+      "embedding_text": {
+        "formula": "J_g(a, b) = sup{x | min(a, x) ≤ b}",
+        "description": "Gödel implication formula"
+      }
+    },
+    {
+      "chunk_id": "9d4bfed7",
+      "chunk_type": "formula",
+      "page": 6,
+      "formula": {
+        "formula": "J_g(a, b) = { 1, when a ≤ b; b, when a > b }",
+        "description": "Gödel implication result"
+      },
+      "embedding_text": {
+        "formula": "J_g(a, b) = { 1, when a ≤ b; b, when a > b }",
+        "description": "Gödel implication result"
+      }
+    },
+    {
+      "chunk_id": "32b912d2",
+      "chunk_type": "formula",
+      "page": 6,
+      "formula": {
+        "formula": "J_Δ(a, b) = sup{x | ax ≤ b}",
+        "description": "Goguen implication formula"
+      },
+      "embedding_text": {
+        "formula": "J_Δ(a, b) = sup{x | ax ≤ b}",
+        "description": "Goguen implication formula"
+      }
+    },
+    {
+      "chunk_id": "ea1629de",
+      "chunk_type": "formula",
+      "page": 6,
+      "formula": {
+        "formula": "J_Δ(a, b) = { 1, when a ≤ b; b/a, when a > b }",
+        "description": "Goguen implication result"
+      },
+      "embedding_text": {
+        "formula": "J_Δ(a, b) = { 1, when a ≤ b; b/a, when a > b }",
+        "description": "Goguen implication result"
+      }
+    },
+    {
+      "chunk_id": "702a2fc9",
+      "chunk_type": "exam_point",
+      "page": 6,
+      "content": "Understanding the difference between Gödel and Goguen implications",
+      "embedding_text": "Understanding the difference between Gödel and Goguen implications"
+    },
+    {
+      "chunk_id": "bc43d723",
+      "chunk_type": "exam_point",
+      "page": 6,
+      "content": "Knowing how to apply the conditions a ≤ b and a > b in each implication",
+      "embedding_text": "Knowing how to apply the conditions a ≤ b and a > b in each implication"
+    },
+    {
+      "chunk_id": "a217a2f8",
+      "chunk_type": "exam_point",
+      "page": 6,
+      "content": "Recognizing the mathematical expressions for both types of implications",
+      "embedding_text": "Recognizing the mathematical expressions for both types of implications"
+    },
+    {
+      "chunk_id": "b5be164b",
+      "chunk_type": "summary",
+      "page": 7,
+      "title": "Fuzzy implications",
+      "content": "The slide presents two specific types of R-implications in fuzzy logic: the Lukasiewicz implication and the limit of all R-implications. It provides mathematical definitions and formulas for each implication type.",
+      "keywords": [
+        "Fuzzy implications",
+        "R-implications",
+        "Lukasiewicz implication",
+        "supremum",
+        "min",
+        "Fuzzy logic",
+        "Limit of all R-implications"
+      ],
+      "raw_text": "Fuzzy implications\n\nR-implications\n3. Lukasiewicz implication\nJ_a(a, b) = sup{x | min(0, a + x - 1) ≤ b}\n= min(1, 1 - a + b).\n4. the limit of all R-implications\nJ_LR(a, b) = {b when a = 1\n1 otherwise.",
+      "embedding_text": "The slide presents two specific types of R-implications in fuzzy logic: the Lukasiewicz implication and the limit of all R-implications. It provides mathematical definitions and formulas for each implication type."
+    },
+    {
+      "chunk_id": "ec21e266",
+      "chunk_type": "definition",
+      "page": 7,
+      "concept": "Lukasiewicz implication",
+      "content": "A type of R-implication defined by the formula involving the supremum of x such that min(0, a + x - 1) ≤ b, simplified to min(1, 1 - a + b).",
+      "embedding_text": "Lukasiewicz implication: A type of R-implication defined by the formula involving the supremum of x such that min(0, a + x - 1) ≤ b, simplified to min(1, 1 - a + b)."
+    },
+    {
+      "chunk_id": "8b6d461c",
+      "chunk_type": "definition",
+      "page": 7,
+      "concept": "Limit of all R-implications",
+      "content": "An implication that equals b when a is 1, and 1 otherwise.",
+      "embedding_text": "Limit of all R-implications: An implication that equals b when a is 1, and 1 otherwise."
+    },
+    {
+      "chunk_id": "21fbfb31",
+      "chunk_type": "formula",
+      "page": 7,
+      "formula": {
+        "label": "Lukasiewicz implication",
+        "expression": "J_a(a, b) = sup{x | min(0, a + x - 1) ≤ b} = min(1, 1 - a + b)"
+      },
+      "embedding_text": {
+        "label": "Lukasiewicz implication",
+        "expression": "J_a(a, b) = sup{x | min(0, a + x - 1) ≤ b} = min(1, 1 - a + b)"
+      }
+    },
+    {
+      "chunk_id": "30a788e2",
+      "chunk_type": "formula",
+      "page": 7,
+      "formula": {
+        "label": "Limit of all R-implications",
+        "expression": "J_LR(a, b) = {b when a = 1, 1 otherwise}"
+      },
+      "embedding_text": {
+        "label": "Limit of all R-implications",
+        "expression": "J_LR(a, b) = {b when a = 1, 1 otherwise}"
+      }
+    },
+    {
+      "chunk_id": "6b3a4557",
+      "chunk_type": "exam_point",
+      "page": 7,
+      "content": "Understanding the definition and formula of the Lukasiewicz implication",
+      "embedding_text": "Understanding the definition and formula of the Lukasiewicz implication"
+    },
+    {
+      "chunk_id": "8bec08ee",
+      "chunk_type": "exam_point",
+      "page": 7,
+      "content": "Knowing the conditions and results for the limit of all R-implications",
+      "embedding_text": "Knowing the conditions and results for the limit of all R-implications"
+    },
+    {
+      "chunk_id": "776f2f8d",
+      "chunk_type": "exam_point",
+      "page": 7,
+      "content": "Differentiating between various types of fuzzy implications",
+      "embedding_text": "Differentiating between various types of fuzzy implications"
+    },
+    {
+      "chunk_id": "ea4cf004",
+      "chunk_type": "summary",
+      "page": 8,
+      "title": "Fuzzy implications",
+      "content": "The slide introduces two types of QL-implications in fuzzy logic: the Zadeh implication and the implication involving algebraic product and sum. It provides mathematical formulas for each type.",
+      "keywords": [
+        "Fuzzy implications",
+        "QL-implications",
+        "Zadeh implication",
+        "max",
+        "min",
+        "algebraic product",
+        "algebraic sum",
+        "fuzzy logic"
+      ],
+      "raw_text": "Fuzzy implications\n\nQL-implications\n1. Zadeh implication\nJ_m(a, b) = max[1 - a, min(a, b)].\n2. When i is the algebraic product and u is the algebraic sum.\nJ_p(a, b) = 1 - a + a^2 * b.",
+      "embedding_text": "The slide introduces two types of QL-implications in fuzzy logic: the Zadeh implication and the implication involving algebraic product and sum. It provides mathematical formulas for each type."
+    },
+    {
+      "chunk_id": "b3445eb9",
+      "chunk_type": "definition",
+      "page": 8,
+      "concept": "Zadeh implication",
+      "content": "A type of QL-implication defined by the formula involving the maximum of (1 - a) and the minimum of (a, b).",
+      "embedding_text": "Zadeh implication: A type of QL-implication defined by the formula involving the maximum of (1 - a) and the minimum of (a, b)."
+    },
+    {
+      "chunk_id": "9b967046",
+      "chunk_type": "definition",
+      "page": 8,
+      "concept": "Algebraic product",
+      "content": "In fuzzy logic, the algebraic product of two values a and b is represented as a * b.",
+      "embedding_text": "Algebraic product: In fuzzy logic, the algebraic product of two values a and b is represented as a * b."
+    },
+    {
+      "chunk_id": "a6eecf05",
+      "chunk_type": "definition",
+      "page": 8,
+      "concept": "Algebraic sum",
+      "content": "In fuzzy logic, the algebraic sum of two values a and b is represented as a + b - a * b.",
+      "embedding_text": "Algebraic sum: In fuzzy logic, the algebraic sum of two values a and b is represented as a + b - a * b."
+    },
+    {
+      "chunk_id": "e188491a",
+      "chunk_type": "formula",
+      "page": 8,
+      "formula": {
+        "label": "Zadeh implication",
+        "formula": "J_m(a, b) = max[1 - a, min(a, b)]"
+      },
+      "embedding_text": {
+        "label": "Zadeh implication",
+        "formula": "J_m(a, b) = max[1 - a, min(a, b)]"
+      }
+    },
+    {
+      "chunk_id": "8faada1e",
+      "chunk_type": "formula",
+      "page": 8,
+      "formula": {
+        "label": "Implication with algebraic product and sum",
+        "formula": "J_p(a, b) = 1 - a + a^2 * b"
+      },
+      "embedding_text": {
+        "label": "Implication with algebraic product and sum",
+        "formula": "J_p(a, b) = 1 - a + a^2 * b"
+      }
+    },
+    {
+      "chunk_id": "7aafc546",
+      "chunk_type": "exam_point",
+      "page": 8,
+      "content": "Understanding the difference between Zadeh implication and implication using algebraic operations",
+      "embedding_text": "Understanding the difference between Zadeh implication and implication using algebraic operations"
+    },
+    {
+      "chunk_id": "e08f46f2",
+      "chunk_type": "exam_point",
+      "page": 8,
+      "content": "Ability to apply the formulas for Zadeh implication and algebraic product/sum implication",
+      "embedding_text": "Ability to apply the formulas for Zadeh implication and algebraic product/sum implication"
+    },
+    {
+      "chunk_id": "07207acc",
+      "chunk_type": "exam_point",
+      "page": 8,
+      "content": "Recognizing the role of max, min, and algebraic operations in fuzzy logic implications",
+      "embedding_text": "Recognizing the role of max, min, and algebraic operations in fuzzy logic implications"
+    },
+    {
+      "chunk_id": "3c38452f",
+      "chunk_type": "summary",
+      "page": 9,
+      "title": "Fuzzy implications",
+      "content": "The slide discusses specific types of QL-implications in fuzzy logic, focusing on the Kleene-Dienes implication derived from bounded difference and bounded sum operations. It provides a piecewise formula for the implication function based on different conditions of the variables a and b.",
+      "keywords": [
+        "Fuzzy logic",
+        "Implication",
+        "QL-implications",
+        "Bounded difference",
+        "Bounded sum",
+        "Kleene-Dienes",
+        "t-norm",
+        "t-conorm",
+        "Piecewise function"
+      ],
+      "raw_text": "Fuzzy implications\n\nQL-implications\n\n3. When i is the bounded difference and u is the bounded sum, we obtain the Kleene-Dienes implication.\n\n4. When i = i_min and u = u_max\nJ_q(a, b) = {\n b              when a = 1\n 1 − a          when a ≠ 1, b ≠ 1\n 1             when a ≠ 1, b = 1.",
+      "embedding_text": "The slide discusses specific types of QL-implications in fuzzy logic, focusing on the Kleene-Dienes implication derived from bounded difference and bounded sum operations. It provides a piecewise formula for the implication function based on different conditions of the variables a and b."
+    },
+    {
+      "chunk_id": "d33ddd92",
+      "chunk_type": "definition",
+      "page": 9,
+      "concept": "Bounded difference (i)",
+      "content": "A t-norm operation used in fuzzy logic to represent the difference between two values within a bounded range.",
+      "embedding_text": "Bounded difference (i): A t-norm operation used in fuzzy logic to represent the difference between two values within a bounded range."
+    },
+    {
+      "chunk_id": "793c3ac8",
+      "chunk_type": "definition",
+      "page": 9,
+      "concept": "Bounded sum (u)",
+      "content": "A t-conorm operation used in fuzzy logic to represent the sum of two values within a bounded range.",
+      "embedding_text": "Bounded sum (u): A t-conorm operation used in fuzzy logic to represent the sum of two values within a bounded range."
+    },
+    {
+      "chunk_id": "f5cdfa87",
+      "chunk_type": "definition",
+      "page": 9,
+      "concept": "Kleene-Dienes implication",
+      "content": "A type of fuzzy implication derived using bounded difference and bounded sum operations.",
+      "embedding_text": "Kleene-Dienes implication: A type of fuzzy implication derived using bounded difference and bounded sum operations."
+    },
+    {
+      "chunk_id": "83e61e93",
+      "chunk_type": "formula",
+      "page": 9,
+      "formula": {
+        "formula": "J_q(a, b) = b when a = 1",
+        "description": "The implication function equals b when a is 1."
+      },
+      "embedding_text": {
+        "formula": "J_q(a, b) = b when a = 1",
+        "description": "The implication function equals b when a is 1."
+      }
+    },
+    {
+      "chunk_id": "ecaba726",
+      "chunk_type": "formula",
+      "page": 9,
+      "formula": {
+        "formula": "J_q(a, b) = 1 - a when a ≠ 1, b ≠ 1",
+        "description": "The implication function equals 1 minus a when neither a nor b is 1."
+      },
+      "embedding_text": {
+        "formula": "J_q(a, b) = 1 - a when a ≠ 1, b ≠ 1",
+        "description": "The implication function equals 1 minus a when neither a nor b is 1."
+      }
+    },
+    {
+      "chunk_id": "26d84760",
+      "chunk_type": "formula",
+      "page": 9,
+      "formula": {
+        "formula": "J_q(a, b) = 1 when a ≠ 1, b = 1",
+        "description": "The implication function equals 1 when a is not 1 but b is 1."
+      },
+      "embedding_text": {
+        "formula": "J_q(a, b) = 1 when a ≠ 1, b = 1",
+        "description": "The implication function equals 1 when a is not 1 but b is 1."
+      }
+    },
+    {
+      "chunk_id": "e9dfaf50",
+      "chunk_type": "exam_point",
+      "page": 9,
+      "content": "Understanding the concept of QL-implications in fuzzy logic.",
+      "embedding_text": "Understanding the concept of QL-implications in fuzzy logic."
+    },
+    {
+      "chunk_id": "104ad81d",
+      "chunk_type": "exam_point",
+      "page": 9,
+      "content": "Knowing how to derive the Kleene-Dienes implication using bounded difference and bounded sum.",
+      "embedding_text": "Knowing how to derive the Kleene-Dienes implication using bounded difference and bounded sum."
+    },
+    {
+      "chunk_id": "2d48ef16",
+      "chunk_type": "exam_point",
+      "page": 9,
+      "content": "Being able to apply the piecewise definition of the Kleene-Dienes implication function.",
+      "embedding_text": "Being able to apply the piecewise definition of the Kleene-Dienes implication function."
+    },
+    {
+      "chunk_id": "09f8dde2",
+      "chunk_type": "summary",
+      "page": 10,
+      "title": "Fuzzy implications",
+      "content": "The slide presents combined fuzzy implication functions using minimum operations between different fuzzy implication operators and their negated counterparts.",
+      "keywords": [
+        "Fuzzy implications",
+        "Combined operators",
+        "Minimum operation",
+        "Fuzzy logic",
+        "Negation",
+        "𝔍_sg",
+        "𝔍_gs",
+        "𝔍_ss",
+        "𝔍_gg",
+        "𝔍_ΔΔ"
+      ],
+      "raw_text": "Fuzzy implications\n\nCombined ones\n𝔍_sg(a, b) = min[𝔍_s(a, b), 𝔍_g(1 - b, 1 - a)],\n𝔍_gs(a, b) = min[𝔍_g(a, b), 𝔍_s(1 - b, 1 - a)],\n𝔍_ss(a, b) = min[𝔍_s(a, b), 𝔍_s(1 - b, 1 - a)],\n𝔍_gg(a, b) = min[𝔍_g(a, b), 𝔍_g(1 - b, 1 - a)],\n𝔍_ΔΔ(a, b) = min[𝔍_Δ(a, b), 𝔍_Δ(1 - b, 1 - a)].",
+      "embedding_text": "The slide presents combined fuzzy implication functions using minimum operations between different fuzzy implication operators and their negated counterparts."
+    },
+    {
+      "chunk_id": "883485fc",
+      "chunk_type": "definition",
+      "page": 10,
+      "concept": "Fuzzy implication",
+      "content": "A logical operation that connects two fuzzy sets or fuzzy values, often used to model conditional statements in fuzzy logic.",
+      "embedding_text": "Fuzzy implication: A logical operation that connects two fuzzy sets or fuzzy values, often used to model conditional statements in fuzzy logic."
+    },
+    {
+      "chunk_id": "e2b946ca",
+      "chunk_type": "definition",
+      "page": 10,
+      "concept": "Combined fuzzy implication operators",
+      "content": "Operators formed by combining different fuzzy implication functions with their negated counterparts using minimum operations.",
+      "embedding_text": "Combined fuzzy implication operators: Operators formed by combining different fuzzy implication functions with their negated counterparts using minimum operations."
+    },
+    {
+      "chunk_id": "9bd500a5",
+      "chunk_type": "formula",
+      "page": 10,
+      "formula": "𝔍_sg(a, b) = min[𝔍_s(a, b), 𝔍_g(1 - b, 1 - a)]",
+      "embedding_text": "𝔍_sg(a, b) = min[𝔍_s(a, b), 𝔍_g(1 - b, 1 - a)]"
+    },
+    {
+      "chunk_id": "bdf45041",
+      "chunk_type": "formula",
+      "page": 10,
+      "formula": "𝔍_gs(a, b) = min[𝔍_g(a, b), 𝔍_s(1 - b, 1 - a)]",
+      "embedding_text": "𝔍_gs(a, b) = min[𝔍_g(a, b), 𝔍_s(1 - b, 1 - a)]"
+    },
+    {
+      "chunk_id": "90b735d6",
+      "chunk_type": "formula",
+      "page": 10,
+      "formula": "𝔍_ss(a, b) = min[𝔍_s(a, b), 𝔍_s(1 - b, 1 - a)]",
+      "embedding_text": "𝔍_ss(a, b) = min[𝔍_s(a, b), 𝔍_s(1 - b, 1 - a)]"
+    },
+    {
+      "chunk_id": "736450f1",
+      "chunk_type": "formula",
+      "page": 10,
+      "formula": "𝔍_gg(a, b) = min[𝔍_g(a, b), 𝔍_g(1 - b, 1 - a)]",
+      "embedding_text": "𝔍_gg(a, b) = min[𝔍_g(a, b), 𝔍_g(1 - b, 1 - a)]"
+    },
+    {
+      "chunk_id": "cd250883",
+      "chunk_type": "formula",
+      "page": 10,
+      "formula": "𝔍_ΔΔ(a, b) = min[𝔍_Δ(a, b), 𝔍_Δ(1 - b, 1 - a)]",
+      "embedding_text": "𝔍_ΔΔ(a, b) = min[𝔍_Δ(a, b), 𝔍_Δ(1 - b, 1 - a)]"
+    },
+    {
+      "chunk_id": "721b1bf1",
+      "chunk_type": "exam_point",
+      "page": 10,
+      "content": "Understanding how different fuzzy implication operators are combined",
+      "embedding_text": "Understanding how different fuzzy implication operators are combined"
+    },
+    {
+      "chunk_id": "10e8a8ce",
+      "chunk_type": "exam_point",
+      "page": 10,
+      "content": "Applying minimum operations in fuzzy logic",
+      "embedding_text": "Applying minimum operations in fuzzy logic"
+    },
+    {
+      "chunk_id": "fdc63fa7",
+      "chunk_type": "exam_point",
+      "page": 10,
+      "content": "Recognizing the role of negated inputs in combined fuzzy implications",
+      "embedding_text": "Recognizing the role of negated inputs in combined fuzzy implications"
+    },
+    {
+      "chunk_id": "ea53458f",
+      "chunk_type": "summary",
+      "page": 11,
+      "title": "Fuzzy implications",
+      "content": "The slide explains the foundational axioms of fuzzy implications, focusing on monotonicity in both arguments and the dominance of falsity. It provides mathematical expressions and explanations for each axiom to clarify how fuzzy logic implications behave under different conditions.",
+      "keywords": [
+        "Fuzzy implications",
+        "Axioms",
+        "Monotonicity",
+        "Antecedent",
+        "Consequent",
+        "Truth value",
+        "Falsity",
+        "Fuzzy logic"
+      ],
+      "raw_text": "Fuzzy implications\n\nAxioms of fuzzy implications\n\nAxiom 1. a ≤ b implies J(a, x) ≥ J(b, x) (monotonicity in first argument). This means that the truth value of fuzzy implications increases as the truth value of the antecedent decreases.\n\nAxiom 2. a ≤ b implies J(x, a) ≤ J(x, b) (monotonicity in second argument). This means that the truth value of fuzzy implications increases as the truth value of the consequent increases.\n\nAxiom 3. J(0, a) = 1 (dominance of falsity). This means that the falsity implies everything.",
+      "embedding_text": "The slide explains the foundational axioms of fuzzy implications, focusing on monotonicity in both arguments and the dominance of falsity. It provides mathematical expressions and explanations for each axiom to clarify how fuzzy logic implications behave under different conditions."
+    },
+    {
+      "chunk_id": "7b852934",
+      "chunk_type": "definition",
+      "page": 11,
+      "concept": "Monotonicity in first argument",
+      "content": "The truth value of fuzzy implications increases as the truth value of the antecedent decreases.",
+      "embedding_text": "Monotonicity in first argument: The truth value of fuzzy implications increases as the truth value of the antecedent decreases."
+    },
+    {
+      "chunk_id": "3c362b3e",
+      "chunk_type": "definition",
+      "page": 11,
+      "concept": "Monotonicity in second argument",
+      "content": "The truth value of fuzzy implications increases as the truth value of the consequent increases.",
+      "embedding_text": "Monotonicity in second argument: The truth value of fuzzy implications increases as the truth value of the consequent increases."
+    },
+    {
+      "chunk_id": "c0535acf",
+      "chunk_type": "definition",
+      "page": 11,
+      "concept": "Dominance of falsity",
+      "content": "A falsity antecedent (0) implies everything, resulting in a truth value of 1.",
+      "embedding_text": "Dominance of falsity: A falsity antecedent (0) implies everything, resulting in a truth value of 1."
+    },
+    {
+      "chunk_id": "97e8f205",
+      "chunk_type": "formula",
+      "page": 11,
+      "formula": "a ≤ b implies J(a, x) ≥ J(b, x)",
+      "embedding_text": "a ≤ b implies J(a, x) ≥ J(b, x)"
+    },
+    {
+      "chunk_id": "02c16dc7",
+      "chunk_type": "formula",
+      "page": 11,
+      "formula": "a ≤ b implies J(x, a) ≤ J(x, b)",
+      "embedding_text": "a ≤ b implies J(x, a) ≤ J(x, b)"
+    },
+    {
+      "chunk_id": "6e865ceb",
+      "chunk_type": "formula",
+      "page": 11,
+      "formula": "J(0, a) = 1",
+      "embedding_text": "J(0, a) = 1"
+    },
+    {
+      "chunk_id": "68877214",
+      "chunk_type": "exam_point",
+      "page": 11,
+      "content": "Understanding the implications of monotonicity in fuzzy logic",
+      "embedding_text": "Understanding the implications of monotonicity in fuzzy logic"
+    },
+    {
+      "chunk_id": "9873059f",
+      "chunk_type": "exam_point",
+      "page": 11,
+      "content": "Recognizing how truth values change with antecedent and consequent",
+      "embedding_text": "Recognizing how truth values change with antecedent and consequent"
+    },
+    {
+      "chunk_id": "ca14c42a",
+      "chunk_type": "exam_point",
+      "page": 11,
+      "content": "Applying the dominance of falsity axiom in fuzzy logic problems",
+      "embedding_text": "Applying the dominance of falsity axiom in fuzzy logic problems"
+    },
+    {
+      "chunk_id": "0236a954",
+      "chunk_type": "summary",
+      "page": 15,
+      "title": "Selecting fuzzy implications",
+      "content": "The slide presents mathematical formulations for generalized modus tollens and generalized hypothetical syllogism in fuzzy logic. It demonstrates how fuzzy implications are used to derive conclusions from premises involving fuzzy sets.",
+      "keywords": [
+        "Fuzzy Logic",
+        "Generalized Modus Tollens",
+        "Generalized Hypothetical Syllogism",
+        "Fuzzy Implications",
+        "Supremum",
+        "Fuzzy Sets",
+        "Inference Rules",
+        "Fuzzy Reasoning"
+      ],
+      "raw_text": "Selecting fuzzy implications\n\nGeneralized modus tollens\n\nc(A(x)) = sup_i [c(B(y)) ⊙ J(A(x), B(y))]\n\nfor all x ∈ X.\n\nGeneralized hypothetical syllogism\n\nJ(A(x), C(z)) = sup_i [J(A(x), B(y)) ⊙ J(B(y), C(z))]\n\nfor all x ∈ X and z ∈ Z.",
+      "embedding_text": "The slide presents mathematical formulations for generalized modus tollens and generalized hypothetical syllogism in fuzzy logic. It demonstrates how fuzzy implications are used to derive conclusions from premises involving fuzzy sets."
+    },
+    {
+      "chunk_id": "a9dec698",
+      "chunk_type": "definition",
+      "page": 15,
+      "concept": "Generalized Modus Tollens",
+      "content": "A rule of inference in fuzzy logic that generalizes classical modus tollens to handle fuzzy sets and implications.",
+      "embedding_text": "Generalized Modus Tollens: A rule of inference in fuzzy logic that generalizes classical modus tollens to handle fuzzy sets and implications."
+    },
+    {
+      "chunk_id": "7876117d",
+      "chunk_type": "definition",
+      "page": 15,
+      "concept": "Generalized Hypothetical Syllogism",
+      "content": "A rule of inference in fuzzy logic that extends classical hypothetical syllogism to accommodate fuzzy implications and reasoning.",
+      "embedding_text": "Generalized Hypothetical Syllogism: A rule of inference in fuzzy logic that extends classical hypothetical syllogism to accommodate fuzzy implications and reasoning."
+    },
+    {
+      "chunk_id": "64d1dd2e",
+      "chunk_type": "definition",
+      "page": 15,
+      "concept": "Supremum (sup)",
+      "content": "The least upper bound of a set, used here to determine the degree of truth in fuzzy logical operations.",
+      "embedding_text": "Supremum (sup): The least upper bound of a set, used here to determine the degree of truth in fuzzy logical operations."
+    },
+    {
+      "chunk_id": "fc5e21b2",
+      "chunk_type": "formula",
+      "page": 15,
+      "formula": {
+        "formula": "c(A(x)) = sup_i [c(B(y)) ⊙ J(A(x), B(y))] for all x ∈ X",
+        "description": "Generalized Modus Tollens formula"
+      },
+      "embedding_text": {
+        "formula": "c(A(x)) = sup_i [c(B(y)) ⊙ J(A(x), B(y))] for all x ∈ X",
+        "description": "Generalized Modus Tollens formula"
+      }
+    },
+    {
+      "chunk_id": "33191d49",
+      "chunk_type": "formula",
+      "page": 15,
+      "formula": {
+        "formula": "J(A(x), C(z)) = sup_i [J(A(x), B(y)) ⊙ J(B(y), C(z))] for all x ∈ X and z ∈ Z",
+        "description": "Generalized Hypothetical Syllogism formula"
+      },
+      "embedding_text": {
+        "formula": "J(A(x), C(z)) = sup_i [J(A(x), B(y)) ⊙ J(B(y), C(z))] for all x ∈ X and z ∈ Z",
+        "description": "Generalized Hypothetical Syllogism formula"
+      }
+    },
+    {
+      "chunk_id": "3e22c4fb",
+      "chunk_type": "exam_point",
+      "page": 15,
+      "content": "Understanding the application of fuzzy implications in generalized modus tollens",
+      "embedding_text": "Understanding the application of fuzzy implications in generalized modus tollens"
+    },
+    {
+      "chunk_id": "b291847f",
+      "chunk_type": "exam_point",
+      "page": 15,
+      "content": "Understanding the application of fuzzy implications in generalized hypothetical syllogism",
+      "embedding_text": "Understanding the application of fuzzy implications in generalized hypothetical syllogism"
+    },
+    {
+      "chunk_id": "4eb714c1",
+      "chunk_type": "exam_point",
+      "page": 15,
+      "content": "Knowing how to use supremum in fuzzy logical operations",
+      "embedding_text": "Knowing how to use supremum in fuzzy logical operations"
+    },
+    {
+      "chunk_id": "be5e3217",
+      "chunk_type": "summary",
+      "page": 16,
+      "title": "Multiconditional reasoning",
+      "content": "The slide explains the general schema of multiconditional approximate reasoning, focusing on how to derive a conclusion (B') based on a given fact (A') using multiple conditional rules. It highlights the method of interpolation as the common approach to determine B'.",
+      "keywords": [
+        "Multiconditional reasoning",
+        "Approximate reasoning",
+        "Rules",
+        "Fact",
+        "Conclusion",
+        "Interpolation",
+        "Schema",
+        "Conditionals"
+      ],
+      "raw_text": "Multiconditional reasoning\n\ngeneral schema of multiconditional approximate reasoning\n\nRule 1 : If X is A₁, then Y is B₁\nRule 2 : If X is A₂, then Y is B₂\n................. If X is Aₙ, then Y is Bₙ\nFact : X is A'\nConclusion : Y is B'\n\nThe method of interpolation is most common way to determine B'. It consists of the following two steps:",
+      "embedding_text": "The slide explains the general schema of multiconditional approximate reasoning, focusing on how to derive a conclusion (B') based on a given fact (A') using multiple conditional rules. It highlights the method of interpolation as the common approach to determine B'."
+    },
+    {
+      "chunk_id": "2915492c",
+      "chunk_type": "definition",
+      "page": 16,
+      "concept": "Multiconditional approximate reasoning",
+      "content": "A reasoning method that uses multiple conditional rules to derive a conclusion based on a given fact, even when the fact does not exactly match any rule.",
+      "embedding_text": "Multiconditional approximate reasoning: A reasoning method that uses multiple conditional rules to derive a conclusion based on a given fact, even when the fact does not exactly match any rule."
+    },
+    {
+      "chunk_id": "fb9ccfb3",
+      "chunk_type": "definition",
+      "page": 16,
+      "concept": "Interpolation method",
+      "content": "A technique used to determine the conclusion B' by estimating its value based on the given rules and the fact A'.",
+      "embedding_text": "Interpolation method: A technique used to determine the conclusion B' by estimating its value based on the given rules and the fact A'."
+    },
+    {
+      "chunk_id": "7e4f303c",
+      "chunk_type": "diagram",
+      "page": 16,
+      "diagram_type": "textual schema",
+      "content": "A textual representation of the general schema of multiconditional approximate reasoning with rules, fact, and conclusion.",
+      "embedding_text": "A textual representation of the general schema of multiconditional approximate reasoning with rules, fact, and conclusion."
+    },
+    {
+      "chunk_id": "9d275217",
+      "chunk_type": "exam_point",
+      "page": 16,
+      "content": "Understanding the general schema of multiconditional approximate reasoning",
+      "embedding_text": "Understanding the general schema of multiconditional approximate reasoning"
+    },
+    {
+      "chunk_id": "49738901",
+      "chunk_type": "exam_point",
+      "page": 16,
+      "content": "Knowing the role of interpolation in deriving conclusions",
+      "embedding_text": "Knowing the role of interpolation in deriving conclusions"
+    },
+    {
+      "chunk_id": "e4265b38",
+      "chunk_type": "exam_point",
+      "page": 16,
+      "content": "Applying rules to derive conclusions from given facts",
+      "embedding_text": "Applying rules to derive conclusions from given facts"
+    },
+    {
+      "chunk_id": "966905f1",
+      "chunk_type": "summary",
+      "page": 17,
+      "title": "Multiconditional reasoning",
+      "content": "The slide explains the process of multiconditional reasoning in fuzzy logic, detailing two steps: calculating the degree of consistency between a given fact and the antecedents of if-then rules, and deriving the conclusion by truncating and combining sets based on these degrees.",
+      "keywords": [
+        "Multiconditional reasoning",
+        "Fuzzy logic",
+        "Degree of consistency",
+        "Fuzzy intersection",
+        "Antecedent compatibility",
+        "Truncated sets",
+        "Union of sets",
+        "If-then rules",
+        "Fuzzy sets",
+        "Height of intersection"
+      ],
+      "raw_text": "Multiconditional reasoning\n\nStep 1. Calculate the degree of consistency, r_j(A'), between the given fact and the antecedent of each if-then rule j in terms of the height of intersection of the associated sets A' and A_j. That is, for each j ∈ N_n,\n\nr_j(A') = h(A' ∩ A_j)\n\nor, using the standard fuzzy intersection,\n\nr_j(A') = sup min[A'(x), A_j(x)].\n\nStep 2. Calculate the conclusion B' by truncating each set B_j by the value of r_j(A'), which expresses the degree to which the antecedent A_j is compatible with the given fact A', and taking the union of the truncated sets. That is,\n\nB'(y) = sup min[r_j(A'), B_j(y)]\n\nfor all y ∈ Y.",
+      "embedding_text": "The slide explains the process of multiconditional reasoning in fuzzy logic, detailing two steps: calculating the degree of consistency between a given fact and the antecedents of if-then rules, and deriving the conclusion by truncating and combining sets based on these degrees."
+    },
+    {
+      "chunk_id": "6e0697c8",
+      "chunk_type": "definition",
+      "page": 17,
+      "concept": "Degree of consistency (r_j(A'))",
+      "content": "The height of the intersection of the given fact set A' and the antecedent set A_j, indicating how consistent they are.",
+      "embedding_text": "Degree of consistency (r_j(A')): The height of the intersection of the given fact set A' and the antecedent set A_j, indicating how consistent they are."
+    },
+    {
+      "chunk_id": "1a31416d",
+      "chunk_type": "definition",
+      "page": 17,
+      "concept": "Fuzzy intersection",
+      "content": "The intersection of fuzzy sets using the minimum operator to determine the degree of overlap between sets.",
+      "embedding_text": "Fuzzy intersection: The intersection of fuzzy sets using the minimum operator to determine the degree of overlap between sets."
+    },
+    {
+      "chunk_id": "602f96c2",
+      "chunk_type": "definition",
+      "page": 17,
+      "concept": "Truncated sets",
+      "content": "Sets B_j modified by taking the minimum with the degree of consistency r_j(A'), reflecting the compatibility of antecedents.",
+      "embedding_text": "Truncated sets: Sets B_j modified by taking the minimum with the degree of consistency r_j(A'), reflecting the compatibility of antecedents."
+    },
+    {
+      "chunk_id": "651508d8",
+      "chunk_type": "formula",
+      "page": 17,
+      "formula": {
+        "formula": "r_j(A') = h(A' ∩ A_j)",
+        "description": "Degree of consistency calculated as the height of the intersection of sets A' and A_j."
+      },
+      "embedding_text": {
+        "formula": "r_j(A') = h(A' ∩ A_j)",
+        "description": "Degree of consistency calculated as the height of the intersection of sets A' and A_j."
+      }
+    },
+    {
+      "chunk_id": "9c5bad0f",
+      "chunk_type": "formula",
+      "page": 17,
+      "formula": {
+        "formula": "r_j(A') = sup min[A'(x), A_j(x)]",
+        "description": "Degree of consistency using the standard fuzzy intersection."
+      },
+      "embedding_text": {
+        "formula": "r_j(A') = sup min[A'(x), A_j(x)]",
+        "description": "Degree of consistency using the standard fuzzy intersection."
+      }
+    },
+    {
+      "chunk_id": "9d86232e",
+      "chunk_type": "formula",
+      "page": 17,
+      "formula": {
+        "formula": "B'(y) = sup min[r_j(A'), B_j(y)]",
+        "description": "Calculation of the conclusion B' by taking the union of truncated sets."
+      },
+      "embedding_text": {
+        "formula": "B'(y) = sup min[r_j(A'), B_j(y)]",
+        "description": "Calculation of the conclusion B' by taking the union of truncated sets."
+      }
+    },
+    {
+      "chunk_id": "972f4986",
+      "chunk_type": "diagram",
+      "page": 17,
+      "diagram_type": "none",
+      "content": "No explicit diagrams shown, but the process involves intersections and unions of fuzzy sets.",
+      "embedding_text": "No explicit diagrams shown, but the process involves intersections and unions of fuzzy sets."
+    },
+    {
+      "chunk_id": "7d39dc54",
+      "chunk_type": "exam_point",
+      "page": 17,
+      "content": "Understanding how to calculate the degree of consistency between fuzzy sets.",
+      "embedding_text": "Understanding how to calculate the degree of consistency between fuzzy sets."
+    },
+    {
+      "chunk_id": "a95ee60d",
+      "chunk_type": "exam_point",
+      "page": 17,
+      "content": "Applying the fuzzy intersection formula.",
+      "embedding_text": "Applying the fuzzy intersection formula."
+    },
+    {
+      "chunk_id": "a60021ee",
+      "chunk_type": "exam_point",
+      "page": 17,
+      "content": "Deriving conclusions using truncated sets and taking their union.",
+      "embedding_text": "Deriving conclusions using truncated sets and taking their union."
+    },
+    {
+      "chunk_id": "74dcd113",
+      "chunk_type": "exam_point",
+      "page": 17,
+      "content": "Recognizing the importance of compatibility degrees in fuzzy reasoning.",
+      "embedding_text": "Recognizing the importance of compatibility degrees in fuzzy reasoning."
+    },
+    {
+      "chunk_id": "f1699d04",
+      "chunk_type": "summary",
+      "page": 19,
+      "title": "Multiconditional reasoning",
+      "content": "The slide presents four different ways of calculating a conclusion B' using set operations and logical compositions involving A' and relations R_j. It includes the relationships between these four methods, highlighting their inclusion properties.",
+      "keywords": [
+        "Multiconditional reasoning",
+        "Union",
+        "Intersection",
+        "Composition of relations",
+        "Set operations",
+        "Logical conclusion",
+        "B′₁, B′₂, B′₃, B′₄",
+        "A′",
+        "R_j",
+        "N_n"
+      ],
+      "raw_text": "Multiconditional reasoning\n\nfour possible ways of calculating the conclusion B′:\n\nB′₁ = A′ ∘ (⋃_(j ∈ N_n) R_j),\n\nB′₂ = A′ ∘ (⋂_(j ∈ N_n) R_j),\n\nB′₃ = ⋃_(j ∈ N_n) (A′ ∘ R_j),\n\nB′₄ = ⋂_(j ∈ N_n) (A′ ∘ R_j).\n\nB′₂ ⊆ B′₄ ⊆ B′₁ = B′₃.",
+      "embedding_text": "The slide presents four different ways of calculating a conclusion B' using set operations and logical compositions involving A' and relations R_j. It includes the relationships between these four methods, highlighting their inclusion properties."
+    },
+    {
+      "chunk_id": "190b5b55",
+      "chunk_type": "definition",
+      "page": 19,
+      "concept": "Union (∪)",
+      "content": "The set of all elements that are in at least one of the sets involved.",
+      "embedding_text": "Union (∪): The set of all elements that are in at least one of the sets involved."
+    },
+    {
+      "chunk_id": "da995860",
+      "chunk_type": "definition",
+      "page": 19,
+      "concept": "Intersection (∩)",
+      "content": "The set of all elements that are in all of the sets involved.",
+      "embedding_text": "Intersection (∩): The set of all elements that are in all of the sets involved."
+    },
+    {
+      "chunk_id": "8027e52f",
+      "chunk_type": "definition",
+      "page": 19,
+      "concept": "Composition of relations (∘)",
+      "content": "An operation that combines two relations to produce a new relation.",
+      "embedding_text": "Composition of relations (∘): An operation that combines two relations to produce a new relation."
+    },
+    {
+      "chunk_id": "826a8bb1",
+      "chunk_type": "formula",
+      "page": 19,
+      "formula": "B′₁ = A′ ∘ (⋃_(j ∈ N_n) R_j)",
+      "embedding_text": "B′₁ = A′ ∘ (⋃_(j ∈ N_n) R_j)"
+    },
+    {
+      "chunk_id": "858c94e8",
+      "chunk_type": "formula",
+      "page": 19,
+      "formula": "B′₂ = A′ ∘ (⋂_(j ∈ N_n) R_j)",
+      "embedding_text": "B′₂ = A′ ∘ (⋂_(j ∈ N_n) R_j)"
+    },
+    {
+      "chunk_id": "97c5bd0b",
+      "chunk_type": "formula",
+      "page": 19,
+      "formula": "B′₃ = ⋃_(j ∈ N_n) (A′ ∘ R_j)",
+      "embedding_text": "B′₃ = ⋃_(j ∈ N_n) (A′ ∘ R_j)"
+    },
+    {
+      "chunk_id": "422b7428",
+      "chunk_type": "formula",
+      "page": 19,
+      "formula": "B′₄ = ⋂_(j ∈ N_n) (A′ ∘ R_j)",
+      "embedding_text": "B′₄ = ⋂_(j ∈ N_n) (A′ ∘ R_j)"
+    },
+    {
+      "chunk_id": "c0b06614",
+      "chunk_type": "formula",
+      "page": 19,
+      "formula": "B′₂ ⊆ B′₄ ⊆ B′₁ = B′₃",
+      "embedding_text": "B′₂ ⊆ B′₄ ⊆ B′₁ = B′₃"
+    },
+    {
+      "chunk_id": "afd8e503",
+      "chunk_type": "diagram",
+      "page": 19,
+      "diagram_type": "none",
+      "content": "No visual diagram, only mathematical expressions.",
+      "embedding_text": "No visual diagram, only mathematical expressions."
+    },
+    {
+      "chunk_id": "401e4ddd",
+      "chunk_type": "exam_point",
+      "page": 19,
+      "content": "Understanding the different ways to derive conclusions using set operations and relation composition.",
+      "embedding_text": "Understanding the different ways to derive conclusions using set operations and relation composition."
+    },
+    {
+      "chunk_id": "b0f098b3",
+      "chunk_type": "exam_point",
+      "page": 19,
+      "content": "Knowing the inclusion relationships between the different methods of calculating B'.",
+      "embedding_text": "Knowing the inclusion relationships between the different methods of calculating B'."
+    },
+    {
+      "chunk_id": "1badafcd",
+      "chunk_type": "exam_point",
+      "page": 19,
+      "content": "Applying union and intersection operations in logical reasoning.",
+      "embedding_text": "Applying union and intersection operations in logical reasoning."
+    },
+    {
+      "chunk_id": "d4579afb",
+      "chunk_type": "summary",
+      "page": 20,
+      "title": "Interval-valued reasoning",
+      "content": "The slide introduces the concept of interval-valued fuzzy sets, explaining their notation, bounds, and relationship to ordinary fuzzy sets.",
+      "keywords": [
+        "Interval-Valued Fuzzy Set",
+        "Fuzzy Set",
+        "Lower Bound",
+        "Upper Bound",
+        "Membership Interval",
+        "Notation",
+        "L_A",
+        "U_A",
+        "Membership Degree"
+      ],
+      "raw_text": "Interval-valued reasoning\n\nLet A denote an interval-valued fuzzy set.\nA(x) = [L_A(x), U_A(x)] ⊆ [0, 1]\n\nL_A, U_A are fuzzy sets called the lower bound and the upper bound of A.\n\nA shorthand notation of A(x)\nA = [L_A, U_A].\nWhen L_A = U_A, A becomes an ordinary fuzzy set.",
+      "embedding_text": "The slide introduces the concept of interval-valued fuzzy sets, explaining their notation, bounds, and relationship to ordinary fuzzy sets."
+    },
+    {
+      "chunk_id": "26436e25",
+      "chunk_type": "definition",
+      "page": 20,
+      "concept": "Interval-Valued Fuzzy Set",
+      "content": "A type of fuzzy set where each element has an interval membership value instead of a single value.",
+      "embedding_text": "Interval-Valued Fuzzy Set: A type of fuzzy set where each element has an interval membership value instead of a single value."
+    },
+    {
+      "chunk_id": "760a306a",
+      "chunk_type": "definition",
+      "page": 20,
+      "concept": "Lower Bound (L_A)",
+      "content": "The lower membership degree of an interval-valued fuzzy set.",
+      "embedding_text": "Lower Bound (L_A): The lower membership degree of an interval-valued fuzzy set."
+    },
+    {
+      "chunk_id": "95dee3f4",
+      "chunk_type": "definition",
+      "page": 20,
+      "concept": "Upper Bound (U_A)",
+      "content": "The upper membership degree of an interval-valued fuzzy set.",
+      "embedding_text": "Upper Bound (U_A): The upper membership degree of an interval-valued fuzzy set."
+    },
+    {
+      "chunk_id": "e78c607a",
+      "chunk_type": "formula",
+      "page": 20,
+      "formula": "A(x) = [L_A(x), U_A(x)] ⊆ [0, 1]",
+      "embedding_text": "A(x) = [L_A(x), U_A(x)] ⊆ [0, 1]"
+    },
+    {
+      "chunk_id": "d7cf014d",
+      "chunk_type": "formula",
+      "page": 20,
+      "formula": "A = [L_A, U_A]",
+      "embedding_text": "A = [L_A, U_A]"
+    },
+    {
+      "chunk_id": "22146095",
+      "chunk_type": "diagram",
+      "page": 20,
+      "diagram_type": "none",
+      "content": "No visual diagram present on the slide.",
+      "embedding_text": "No visual diagram present on the slide."
+    },
+    {
+      "chunk_id": "69e7b12f",
+      "chunk_type": "exam_point",
+      "page": 20,
+      "content": "Understanding the notation and bounds of interval-valued fuzzy sets.",
+      "embedding_text": "Understanding the notation and bounds of interval-valued fuzzy sets."
+    },
+    {
+      "chunk_id": "c879180c",
+      "chunk_type": "exam_point",
+      "page": 20,
+      "content": "Recognizing when an interval-valued fuzzy set reduces to an ordinary fuzzy set.",
+      "embedding_text": "Recognizing when an interval-valued fuzzy set reduces to an ordinary fuzzy set."
+    },
+    {
+      "chunk_id": "64dabd78",
+      "chunk_type": "exam_point",
+      "page": 20,
+      "content": "Differentiating between lower and upper bounds in interval-valued fuzzy sets.",
+      "embedding_text": "Differentiating between lower and upper bounds in interval-valued fuzzy sets."
+    },
+    {
+      "chunk_id": "df62c743",
+      "chunk_type": "summary",
+      "page": 21,
+      "title": "Interval-valued reasoning",
+      "content": "The slide introduces the concept of deriving conclusions from a conditional fuzzy proposition using interval-valued fuzzy sets. It explains how to reason from a given fact to derive a conclusion in the form of an interval-valued fuzzy set.",
+      "keywords": [
+        "Interval-valued fuzzy sets",
+        "Fuzzy logic",
+        "Conditional fuzzy proposition",
+        "If-then rule",
+        "Reasoning",
+        "Fuzzy reasoning",
+        "Interval-valued reasoning",
+        "Universal sets",
+        "Membership degrees"
+      ],
+      "raw_text": "Interval-valued reasoning\ngiven a conditional fuzzy proposition (if - then rule)\nIf X is A, the Y is B,\nwhere A, B are interval-valued fuzzy sets defined on the universal sets X and Y.\ngiven a fact\nX is A',\nhow can we derive a conclusion in the form\nY is B'",
+      "embedding_text": "The slide introduces the concept of deriving conclusions from a conditional fuzzy proposition using interval-valued fuzzy sets. It explains how to reason from a given fact to derive a conclusion in the form of an interval-valued fuzzy set."
+    },
+    {
+      "chunk_id": "7b996b60",
+      "chunk_type": "definition",
+      "page": 21,
+      "concept": "Interval-valued fuzzy sets",
+      "content": "Fuzzy sets where the membership degrees are intervals rather than single values.",
+      "embedding_text": "Interval-valued fuzzy sets: Fuzzy sets where the membership degrees are intervals rather than single values."
+    },
+    {
+      "chunk_id": "8d2ad1b6",
+      "chunk_type": "definition",
+      "page": 21,
+      "concept": "Conditional fuzzy proposition (if-then rule)",
+      "content": "A logical statement of the form 'If X is A, then Y is B', where A and B are fuzzy sets.",
+      "embedding_text": "Conditional fuzzy proposition (if-then rule): A logical statement of the form 'If X is A, then Y is B', where A and B are fuzzy sets."
+    },
+    {
+      "chunk_id": "6ef73660",
+      "chunk_type": "exam_point",
+      "page": 21,
+      "content": "Understanding how to apply interval-valued fuzzy sets in reasoning",
+      "embedding_text": "Understanding how to apply interval-valued fuzzy sets in reasoning"
+    },
+    {
+      "chunk_id": "6748084e",
+      "chunk_type": "exam_point",
+      "page": 21,
+      "content": "Deriving conclusions from conditional fuzzy propositions",
+      "embedding_text": "Deriving conclusions from conditional fuzzy propositions"
+    },
+    {
+      "chunk_id": "9bf68132",
+      "chunk_type": "exam_point",
+      "page": 21,
+      "content": "Knowledge of interval-valued fuzzy logic principles",
+      "embedding_text": "Knowledge of interval-valued fuzzy logic principles"
+    },
+    {
+      "chunk_id": "1ff4702c",
+      "chunk_type": "summary",
+      "page": 22,
+      "title": "Interval-valued reasoning",
+      "content": "The slide discusses interval-valued fuzzy reasoning by defining a conditional proposition as an interval-valued fuzzy relation R, which is bounded by lower and upper membership functions. It emphasizes the proof that the lower bound is less than or equal to the upper bound, ensuring the relation is well-defined.",
+      "keywords": [
+        "Interval-valued fuzzy relation",
+        "Lower membership function",
+        "Upper membership function",
+        "Fuzzy reasoning",
+        "Join operation",
+        "Well-defined relation",
+        "Conditional proposition"
+      ],
+      "raw_text": "Interval-valued reasoning\n\nview this conditional proposition as an interval-valued fuzzy relation R = [LR, UR], where\n\nLR(x, y) = ⋁[UA(x), LB(y)],\nUR(x, y) = ⋁[LA(x), UB(y)]\n\nIt is easy to prove that LR(x, y) ≤ UR(x, y) and, hence, R is well defined.",
+      "embedding_text": "The slide discusses interval-valued fuzzy reasoning by defining a conditional proposition as an interval-valued fuzzy relation R, which is bounded by lower and upper membership functions. It emphasizes the proof that the lower bound is less than or equal to the upper bound, ensuring the relation is well-defined."
+    },
+    {
+      "chunk_id": "e5d47d2f",
+      "chunk_type": "definition",
+      "page": 22,
+      "concept": "Interval-valued fuzzy relation",
+      "content": "A fuzzy relation R defined by an interval [LR, UR], where LR and UR are the lower and upper bounds of the membership function, respectively.",
+      "embedding_text": "Interval-valued fuzzy relation: A fuzzy relation R defined by an interval [LR, UR], where LR and UR are the lower and upper bounds of the membership function, respectively."
+    },
+    {
+      "chunk_id": "067d8d37",
+      "chunk_type": "definition",
+      "page": 22,
+      "concept": "Lower membership function (LR)",
+      "content": "The function LR(x, y) defined as the join (⋁) of UA(x) and LB(y).",
+      "embedding_text": "Lower membership function (LR): The function LR(x, y) defined as the join (⋁) of UA(x) and LB(y)."
+    },
+    {
+      "chunk_id": "63de0bcb",
+      "chunk_type": "definition",
+      "page": 22,
+      "concept": "Upper membership function (UR)",
+      "content": "The function UR(x, y) defined as the join (⋁) of LA(x) and UB(y).",
+      "embedding_text": "Upper membership function (UR): The function UR(x, y) defined as the join (⋁) of LA(x) and UB(y)."
+    },
+    {
+      "chunk_id": "2e37786f",
+      "chunk_type": "formula",
+      "page": 22,
+      "formula": "LR(x, y) = ⋁[UA(x), LB(y)]",
+      "embedding_text": "LR(x, y) = ⋁[UA(x), LB(y)]"
+    },
+    {
+      "chunk_id": "20aaf5c0",
+      "chunk_type": "formula",
+      "page": 22,
+      "formula": "UR(x, y) = ⋁[LA(x), UB(y)]",
+      "embedding_text": "UR(x, y) = ⋁[LA(x), UB(y)]"
+    },
+    {
+      "chunk_id": "a94d8e40",
+      "chunk_type": "formula",
+      "page": 22,
+      "formula": "LR(x, y) ≤ UR(x, y)",
+      "embedding_text": "LR(x, y) ≤ UR(x, y)"
+    },
+    {
+      "chunk_id": "23f9d8d6",
+      "chunk_type": "diagram",
+      "page": 22,
+      "diagram_type": "none",
+      "content": "",
+      "embedding_text": ""
+    },
+    {
+      "chunk_id": "1e96a8d6",
+      "chunk_type": "exam_point",
+      "page": 22,
+      "content": "Understanding the definition of an interval-valued fuzzy relation",
+      "embedding_text": "Understanding the definition of an interval-valued fuzzy relation"
+    },
+    {
+      "chunk_id": "1f228f6a",
+      "chunk_type": "exam_point",
+      "page": 22,
+      "content": "Knowing how to derive LR and UR functions",
+      "embedding_text": "Knowing how to derive LR and UR functions"
+    },
+    {
+      "chunk_id": "6edba900",
+      "chunk_type": "exam_point",
+      "page": 22,
+      "content": "Proving that LR(x, y) ≤ UR(x, y) for a well-defined relation",
+      "embedding_text": "Proving that LR(x, y) ≤ UR(x, y) for a well-defined relation"
+    },
+    {
+      "chunk_id": "1974adcf",
+      "chunk_type": "summary",
+      "page": 23,
+      "title": "Interval-valued reasoning",
+      "content": "The slide explains how to derive a conclusion B' from a given interval A' using a relation R and the compositional rule of inference in interval-valued reasoning. It introduces the use of t-norms to compute the lower and upper bounds of the resulting interval B'",
+      "keywords": [
+        "Interval-valued reasoning",
+        "Compositional rule of inference",
+        "t-norm",
+        "Interval arithmetic",
+        "Inference",
+        "Lower bound",
+        "Upper bound",
+        "Relation R",
+        "Given interval A'"
+      ],
+      "raw_text": "Interval-valued reasoning\n\nOnce relation R is determined, it facilitates the reasoning process. Given A' = [L_A', U_A'], we derive a conclusion B' = [L_B', U_B'] by the compositional rule of inference\n\nB' = A' ⋈ R,\n\nwhere i is a t-norm and\n\nL_B' = L_A' ⋈ L_R,\n\nU_B' = U_A' ⋈ U_R.",
+      "embedding_text": "The slide explains how to derive a conclusion B' from a given interval A' using a relation R and the compositional rule of inference in interval-valued reasoning. It introduces the use of t-norms to compute the lower and upper bounds of the resulting interval B'"
+    },
+    {
+      "chunk_id": "23093b11",
+      "chunk_type": "definition",
+      "page": 23,
+      "concept": "Interval-valued reasoning",
+      "content": "A method of reasoning where values are represented as intervals rather than single points, facilitating uncertainty handling.",
+      "embedding_text": "Interval-valued reasoning: A method of reasoning where values are represented as intervals rather than single points, facilitating uncertainty handling."
+    },
+    {
+      "chunk_id": "7a2e6606",
+      "chunk_type": "definition",
+      "page": 23,
+      "concept": "t-norm",
+      "content": "A function used in fuzzy logic and interval mathematics to model conjunction operations, ensuring the result is within the bounds of the inputs.",
+      "embedding_text": "t-norm: A function used in fuzzy logic and interval mathematics to model conjunction operations, ensuring the result is within the bounds of the inputs."
+    },
+    {
+      "chunk_id": "f81b3934",
+      "chunk_type": "formula",
+      "page": 23,
+      "formula": {
+        "formula": "B' = A' ⋈ R",
+        "description": "The compositional rule of inference for deriving conclusion B' from given interval A' and relation R using t-norm ⋈"
+      },
+      "embedding_text": {
+        "formula": "B' = A' ⋈ R",
+        "description": "The compositional rule of inference for deriving conclusion B' from given interval A' and relation R using t-norm ⋈"
+      }
+    },
+    {
+      "chunk_id": "0783eb1d",
+      "chunk_type": "formula",
+      "page": 23,
+      "formula": {
+        "formula": "L_B' = L_A' ⋈ L_R",
+        "description": "Calculation of the lower bound of the conclusion interval B'"
+      },
+      "embedding_text": {
+        "formula": "L_B' = L_A' ⋈ L_R",
+        "description": "Calculation of the lower bound of the conclusion interval B'"
+      }
+    },
+    {
+      "chunk_id": "5f125121",
+      "chunk_type": "formula",
+      "page": 23,
+      "formula": {
+        "formula": "U_B' = U_A' ⋈ U_R",
+        "description": "Calculation of the upper bound of the conclusion interval B'"
+      },
+      "embedding_text": {
+        "formula": "U_B' = U_A' ⋈ U_R",
+        "description": "Calculation of the upper bound of the conclusion interval B'"
+      }
+    },
+    {
+      "chunk_id": "46648646",
+      "chunk_type": "exam_point",
+      "page": 23,
+      "content": "Understanding the compositional rule of inference in interval-valued reasoning",
+      "embedding_text": "Understanding the compositional rule of inference in interval-valued reasoning"
+    },
+    {
+      "chunk_id": "efc19b86",
+      "chunk_type": "exam_point",
+      "page": 23,
+      "content": "Applying t-norms to derive interval bounds",
+      "embedding_text": "Applying t-norms to derive interval bounds"
+    },
+    {
+      "chunk_id": "8a1e454a",
+      "chunk_type": "exam_point",
+      "page": 23,
+      "content": "Knowing how to use interval arithmetic in logical reasoning",
+      "embedding_text": "Knowing how to use interval arithmetic in logical reasoning"
+    },
+    {
+      "chunk_id": "7fbc2f54",
+      "chunk_type": "summary",
+      "page": 25,
+      "title": "Interval-valued reasoning",
+      "content": "The slide presents interval-valued reasoning with given lower and upper bounds for a premise and a conclusion, using a specific t-norm operation. It demonstrates how to derive the lower and upper bounds of a conclusion based on given interval-valued premises.",
+      "keywords": [
+        "Interval-valued reasoning",
+        "Lower bound",
+        "Upper bound",
+        "Premise",
+        "Conclusion",
+        "t-norm",
+        "Implication function",
+        "Mathematical reasoning",
+        "Interval arithmetic"
+      ],
+      "raw_text": "Interval-valued reasoning\n\nGiven now L_A' = .4/x1 + .8/x2 + 1/x3 and U_A' = .5/x1 + .9/x2 + 1/x3, and choosing i(a,b) = max[0, a + b - 1], we obtain the lower and upper bounds of the conclusion B' by (8.40):\n\nL_B' = .4/y1 + 1/y2,\nU_B' = .9/y1 + 1/y2.",
+      "embedding_text": "The slide presents interval-valued reasoning with given lower and upper bounds for a premise and a conclusion, using a specific t-norm operation. It demonstrates how to derive the lower and upper bounds of a conclusion based on given interval-valued premises."
+    },
+    {
+      "chunk_id": "1a9039ea",
+      "chunk_type": "definition",
+      "page": 25,
+      "concept": "Lower bound (L_A')",
+      "content": "The minimum value of the interval for premise A', expressed as 0.4/x1 + 0.8/x2 + 1/x3.",
+      "embedding_text": "Lower bound (L_A'): The minimum value of the interval for premise A', expressed as 0.4/x1 + 0.8/x2 + 1/x3."
+    },
+    {
+      "chunk_id": "d7f25255",
+      "chunk_type": "definition",
+      "page": 25,
+      "concept": "Upper bound (U_A')",
+      "content": "The maximum value of the interval for premise A', expressed as 0.5/x1 + 0.9/x2 + 1/x3.",
+      "embedding_text": "Upper bound (U_A'): The maximum value of the interval for premise A', expressed as 0.5/x1 + 0.9/x2 + 1/x3."
+    },
+    {
+      "chunk_id": "9f1954ba",
+      "chunk_type": "definition",
+      "page": 25,
+      "concept": "Implication function (i(a,b))",
+      "content": "A function defined as max[0, a + b - 1], used to derive bounds of conclusions.",
+      "embedding_text": "Implication function (i(a,b)): A function defined as max[0, a + b - 1], used to derive bounds of conclusions."
+    },
+    {
+      "chunk_id": "ed835be2",
+      "chunk_type": "formula",
+      "page": 25,
+      "formula": "L_A' = 0.4/x1 + 0.8/x2 + 1/x3",
+      "embedding_text": "L_A' = 0.4/x1 + 0.8/x2 + 1/x3"
+    },
+    {
+      "chunk_id": "daebbafd",
+      "chunk_type": "formula",
+      "page": 25,
+      "formula": "U_A' = 0.5/x1 + 0.9/x2 + 1/x3",
+      "embedding_text": "U_A' = 0.5/x1 + 0.9/x2 + 1/x3"
+    },
+    {
+      "chunk_id": "f5ccda67",
+      "chunk_type": "formula",
+      "page": 25,
+      "formula": "i(a, b) = max[0, a + b - 1]",
+      "embedding_text": "i(a, b) = max[0, a + b - 1]"
+    },
+    {
+      "chunk_id": "2eae80ab",
+      "chunk_type": "formula",
+      "page": 25,
+      "formula": "L_B' = 0.4/y1 + 1/y2",
+      "embedding_text": "L_B' = 0.4/y1 + 1/y2"
+    },
+    {
+      "chunk_id": "9ec8c88a",
+      "chunk_type": "formula",
+      "page": 25,
+      "formula": "U_B' = 0.9/y1 + 1/y2",
+      "embedding_text": "U_B' = 0.9/y1 + 1/y2"
+    },
+    {
+      "chunk_id": "ea8d96af",
+      "chunk_type": "exam_point",
+      "page": 25,
+      "content": "Understanding how to derive interval bounds for conclusions using given premises.",
+      "embedding_text": "Understanding how to derive interval bounds for conclusions using given premises."
+    },
+    {
+      "chunk_id": "74cff631",
+      "chunk_type": "exam_point",
+      "page": 25,
+      "content": "Applying the t-norm operation to interval-valued reasoning.",
+      "embedding_text": "Applying the t-norm operation to interval-valued reasoning."
+    },
+    {
+      "chunk_id": "07f211ac",
+      "chunk_type": "exam_point",
+      "page": 25,
+      "content": "Calculating lower and upper bounds for conclusions using implication functions.",
+      "embedding_text": "Calculating lower and upper bounds for conclusions using implication functions."
+    }
+  ]
+}

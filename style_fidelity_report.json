@@ -1,0 +1,54 @@
+{
+  "cognitive_level": {
+    "original": {
+      "analyze": 6,
+      "apply": 38,
+      "remember": 6,
+      "understand": 16
+    },
+    "generated": {
+      "analyze": 4,
+      "apply": 20,
+      "remember": 3,
+      "understand": 9
+    },
+    "js_divergence": 0.001
+  },
+  "difficulty": {
+    "original": {
+      "easy": 8,
+      "hard": 22,
+      "medium": 36
+    },
+    "generated": {
+      "easy": 4,
+      "hard": 13,
+      "medium": 19
+    },
+    "js_divergence": 0.0007
+  },
+  "n_options": {
+    "original": {
+      "2": 2,
+      "3": 1,
+      "5": 55
+    },
+    "generated": {
+      "2": 0,
+      "3": 0,
+      "5": 36
+    },
+    "js_divergence": 0.0264
+  },
+  "question_length_words": {
+    "original_mean": 14.5,
+    "generated_mean": 18.2,
+    "original_stdev": 10.7,
+    "generated_stdev": 6.5
+  },
+  "formula_based_fraction": {
+    "original": 0.561,
+    "generated": 0.667
+  },
+  "overall_mean_jsd": 0.0094
+}

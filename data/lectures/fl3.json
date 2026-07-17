@@ -1,0 +1,1400 @@
+{
+  "document_name": "fl3",
+  "total_chunks": 149,
+  "chunks": [
+    {
+      "chunk_id": "f9d53897",
+      "chunk_type": "summary",
+      "page": 2,
+      "title": "Fuzzy numbers and intervals",
+      "content": "The slide introduces the concept of fuzzy numbers and their properties. It highlights that fuzzy numbers are widely used and defined on the real number set, mapping to the interval [0,1]. It outlines three key conditions that a fuzzy number must satisfy: being a normal fuzzy set, having closed intervals for every alpha-cut, and having a bounded support.",
+      "keywords": [
+        "Fuzzy numbers",
+        "Fuzzy sets",
+        "Normal fuzzy set",
+        "Alpha-cut",
+        "Closed interval",
+        "Bounded support",
+        "Membership function",
+        "ℝ",
+        "[0, 1]"
+      ],
+      "raw_text": "Fuzzy numbers and intervals\n\n▶ Widely used\n▶ It should be defined on ℝ\n\nA : ℝ → [0, 1]\n\n▶ Fuzzy number satisfies:\n\n(i) A must be a normal fuzzy set;\n(ii) αA must be a closed interval for every α ∈ (0, 1];\n(iii) the support of A, 0+A, must be bounded.",
+      "embedding_text": "The slide introduces the concept of fuzzy numbers and their properties. It highlights that fuzzy numbers are widely used and defined on the real number set, mapping to the interval [0,1]. It outlines three key conditions that a fuzzy number must satisfy: being a normal fuzzy set, having closed intervals for every alpha-cut, and having a bounded support."
+    },
+    {
+      "chunk_id": "c480dbd2",
+      "chunk_type": "definition",
+      "page": 2,
+      "concept": "Fuzzy number",
+      "content": "A fuzzy set A on the real numbers ℝ that satisfies three conditions: (i) A must be a normal fuzzy set, (ii) αA must be a closed interval for every α ∈ (0,1], (iii) the support of A, 0+A, must be bounded.",
+      "embedding_text": "Fuzzy number: A fuzzy set A on the real numbers ℝ that satisfies three conditions: (i) A must be a normal fuzzy set, (ii) αA must be a closed interval for every α ∈ (0,1], (iii) the support of A, 0+A, must be bounded."
+    },
+    {
+      "chunk_id": "ce66f98e",
+      "chunk_type": "definition",
+      "page": 2,
+      "concept": "Normal fuzzy set",
+      "content": "A fuzzy set A where the supremum of its membership function is equal to 1.",
+      "embedding_text": "Normal fuzzy set: A fuzzy set A where the supremum of its membership function is equal to 1."
+    },
+    {
+      "chunk_id": "03c3495e",
+      "chunk_type": "definition",
+      "page": 2,
+      "concept": "Alpha-cut (α-cut)",
+      "content": "The set of elements in the universal set whose degree of membership in A is at least α.",
+      "embedding_text": "Alpha-cut (α-cut): The set of elements in the universal set whose degree of membership in A is at least α."
+    },
+    {
+      "chunk_id": "bd272bcd",
+      "chunk_type": "formula",
+      "page": 2,
+      "formula": "A: ℝ → [0, 1]",
+      "embedding_text": "A: ℝ → [0, 1]"
+    },
+    {
+      "chunk_id": "df7e99db",
+      "chunk_type": "diagram",
+      "page": 2,
+      "diagram_type": "none",
+      "content": "",
+      "embedding_text": ""
+    },
+    {
+      "chunk_id": "a62c220d",
+      "chunk_type": "exam_point",
+      "page": 2,
+      "content": "Understanding the definition and properties of fuzzy numbers",
+      "embedding_text": "Understanding the definition and properties of fuzzy numbers"
+    },
+    {
+      "chunk_id": "fa774b64",
+      "chunk_type": "exam_point",
+      "page": 2,
+      "content": "Knowing the conditions that a fuzzy number must satisfy",
+      "embedding_text": "Knowing the conditions that a fuzzy number must satisfy"
+    },
+    {
+      "chunk_id": "714c1267",
+      "chunk_type": "exam_point",
+      "page": 2,
+      "content": "Differentiating between normal fuzzy sets and general fuzzy sets",
+      "embedding_text": "Differentiating between normal fuzzy sets and general fuzzy sets"
+    },
+    {
+      "chunk_id": "16f9c8bd",
+      "chunk_type": "exam_point",
+      "page": 2,
+      "content": "Understanding the concept of alpha-cuts and their relevance to fuzzy numbers",
+      "embedding_text": "Understanding the concept of alpha-cuts and their relevance to fuzzy numbers"
+    },
+    {
+      "chunk_id": "32f2db5e",
+      "chunk_type": "summary",
+      "page": 4,
+      "title": "Fuzzy numbers",
+      "content": "The slide provides a mathematical definition of fuzzy numbers, specifying their structure and the properties of the functions involved.",
+      "keywords": [
+        "Fuzzy numbers",
+        "Membership function",
+        "Monotonic increasing function",
+        "Monotonic decreasing function",
+        "Continuous function",
+        "Convex fuzzy set",
+        "Normalized fuzzy set",
+        "Piecewise continuous",
+        "Intervals (-∞, a), [a, b], (b, ∞)"
+      ],
+      "raw_text": "Fuzzy numbers\n\n▶ All fuzzy number are of the following:\n\nA(x) = { 1 for x ∈ [a, b]\n       l(x) for x ∈ (-∞, a)\n       r(x) for x ∈ (b, ∞) }\n\n▶ Where l is a monotonic increasing continuous function and r is a monotonic decreasing continuous function",
+      "embedding_text": "The slide provides a mathematical definition of fuzzy numbers, specifying their structure and the properties of the functions involved."
+    },
+    {
+      "chunk_id": "ea2f7b55",
+      "chunk_type": "definition",
+      "page": 4,
+      "concept": "Fuzzy number",
+      "content": "A fuzzy number is a convex normalized fuzzy set on the real line with a membership function A(x) that is piecewise continuous and defined by three intervals: [a, b], (-∞, a), and (b, ∞).",
+      "embedding_text": "Fuzzy number: A fuzzy number is a convex normalized fuzzy set on the real line with a membership function A(x) that is piecewise continuous and defined by three intervals: [a, b], (-∞, a), and (b, ∞)."
+    },
+    {
+      "chunk_id": "90b4f76f",
+      "chunk_type": "definition",
+      "page": 4,
+      "concept": "Membership function (A(x))",
+      "content": "A function that assigns a degree of membership to each element in the real line, where the degree is 1 for x in [a, b], l(x) for x in (-∞, a), and r(x) for x in (b, ∞).",
+      "embedding_text": "Membership function (A(x)): A function that assigns a degree of membership to each element in the real line, where the degree is 1 for x in [a, b], l(x) for x in (-∞, a), and r(x) for x in (b, ∞)."
+    },
+    {
+      "chunk_id": "918abb76",
+      "chunk_type": "definition",
+      "page": 4,
+      "concept": "l(x)",
+      "content": "A monotonic increasing continuous function for x in (-∞, a).",
+      "embedding_text": "l(x): A monotonic increasing continuous function for x in (-∞, a)."
+    },
+    {
+      "chunk_id": "24311252",
+      "chunk_type": "definition",
+      "page": 4,
+      "concept": "r(x)",
+      "content": "A monotonic decreasing continuous function for x in (b, ∞).",
+      "embedding_text": "r(x): A monotonic decreasing continuous function for x in (b, ∞)."
+    },
+    {
+      "chunk_id": "eee76a54",
+      "chunk_type": "formula",
+      "page": 4,
+      "formula": {
+        "expression": "A(x) = { 1, for x ∈ [a, b]; l(x), for x ∈ (-∞, a); r(x), for x ∈ (b, ∞) }"
+      },
+      "embedding_text": {
+        "expression": "A(x) = { 1, for x ∈ [a, b]; l(x), for x ∈ (-∞, a); r(x), for x ∈ (b, ∞) }"
+      }
+    },
+    {
+      "chunk_id": "033ed166",
+      "chunk_type": "diagram",
+      "page": 4,
+      "diagram_type": "Function Graph",
+      "content": "A graph of the membership function A(x) showing the three intervals and the behavior of l(x) and r(x).",
+      "embedding_text": "A graph of the membership function A(x) showing the three intervals and the behavior of l(x) and r(x)."
+    },
+    {
+      "chunk_id": "40246ae1",
+      "chunk_type": "exam_point",
+      "page": 4,
+      "content": "Understanding the structure of fuzzy numbers and their membership functions.",
+      "embedding_text": "Understanding the structure of fuzzy numbers and their membership functions."
+    },
+    {
+      "chunk_id": "5481770d",
+      "chunk_type": "exam_point",
+      "page": 4,
+      "content": "Recognizing the properties of monotonic increasing and decreasing functions in fuzzy numbers.",
+      "embedding_text": "Recognizing the properties of monotonic increasing and decreasing functions in fuzzy numbers."
+    },
+    {
+      "chunk_id": "ff1913fc",
+      "chunk_type": "exam_point",
+      "page": 4,
+      "content": "Ability to differentiate between the intervals and their corresponding function values.",
+      "embedding_text": "Ability to differentiate between the intervals and their corresponding function values."
+    },
+    {
+      "chunk_id": "b1d95b4d",
+      "chunk_type": "summary",
+      "page": 6,
+      "title": "Fuzzy cardinality",
+      "content": "The slide introduces the concept of fuzzy cardinality, distinguishing it from the cardinality of a fuzzy set. It provides a formula for fuzzy cardinality involving an alpha-cut of a fuzzy set.",
+      "keywords": [
+        "Fuzzy cardinality",
+        "Cardinality",
+        "Fuzzy set",
+        "Alpha-cut",
+        "Membership degree",
+        "Fuzzy set theory"
+      ],
+      "raw_text": "Fuzzy cardinality\n\n► Recall from a past session that cardinality of a fuzzy set is different from fuzzy cardinality which is:\n\n|A̅|(|^αA|) = α",
+      "embedding_text": "The slide introduces the concept of fuzzy cardinality, distinguishing it from the cardinality of a fuzzy set. It provides a formula for fuzzy cardinality involving an alpha-cut of a fuzzy set."
+    },
+    {
+      "chunk_id": "d7c31d64",
+      "chunk_type": "definition",
+      "page": 6,
+      "concept": "Fuzzy cardinality",
+      "content": "A measure that quantifies the elements of a fuzzy set based on their membership degrees, specifically using the alpha-cut concept.",
+      "embedding_text": "Fuzzy cardinality: A measure that quantifies the elements of a fuzzy set based on their membership degrees, specifically using the alpha-cut concept."
+    },
+    {
+      "chunk_id": "c74ea3c9",
+      "chunk_type": "definition",
+      "page": 6,
+      "concept": "Alpha-cut",
+      "content": "A crisp set derived from a fuzzy set at a certain membership level alpha.",
+      "embedding_text": "Alpha-cut: A crisp set derived from a fuzzy set at a certain membership level alpha."
+    },
+    {
+      "chunk_id": "0351343a",
+      "chunk_type": "formula",
+      "page": 6,
+      "formula": "|A̅|(|^αA|) = α",
+      "embedding_text": "|A̅|(|^αA|) = α"
+    },
+    {
+      "chunk_id": "caf0f470",
+      "chunk_type": "exam_point",
+      "page": 6,
+      "content": "Understanding the difference between fuzzy cardinality and cardinality of a fuzzy set",
+      "embedding_text": "Understanding the difference between fuzzy cardinality and cardinality of a fuzzy set"
+    },
+    {
+      "chunk_id": "12b84ddc",
+      "chunk_type": "exam_point",
+      "page": 6,
+      "content": "Recalling and applying the formula for fuzzy cardinality",
+      "embedding_text": "Recalling and applying the formula for fuzzy cardinality"
+    },
+    {
+      "chunk_id": "79be142a",
+      "chunk_type": "exam_point",
+      "page": 6,
+      "content": "Knowing the concept of alpha-cut in fuzzy sets",
+      "embedding_text": "Knowing the concept of alpha-cut in fuzzy sets"
+    },
+    {
+      "chunk_id": "ea71d722",
+      "chunk_type": "summary",
+      "page": 7,
+      "title": "Linguistic variables",
+      "content": "The slide introduces the concept of linguistic variables in fuzzy logic, explaining that fuzzy numbers represent values of these variables. It lists examples of linguistic variables with fuzzy states such as temperature, performance, and weight, and emphasizes that each state of the variable corresponds to a fuzzy number.",
+      "keywords": [
+        "Linguistic variables",
+        "Fuzzy numbers",
+        "Fuzzy states",
+        "Temperature",
+        "Performance",
+        "Weight",
+        "Fuzzy logic"
+      ],
+      "raw_text": "▶ Linguistic variables\n\n▶ In reality fuzzy numbers represent values of linguistic variable\n▶ Linguistic variable are those with fuzzy state:\n  ▶ Temperature\n  ▶ Performance\n  ▶ Weight\n  ▶ ...\n▶ Each state of the variable is a fuzzy number",
+      "embedding_text": "The slide introduces the concept of linguistic variables in fuzzy logic, explaining that fuzzy numbers represent values of these variables. It lists examples of linguistic variables with fuzzy states such as temperature, performance, and weight, and emphasizes that each state of the variable corresponds to a fuzzy number."
+    },
+    {
+      "chunk_id": "abab38a6",
+      "chunk_type": "definition",
+      "page": 7,
+      "concept": "Linguistic variables",
+      "content": "Variables that have fuzzy states, representing values in natural language terms such as temperature, performance, and weight.",
+      "embedding_text": "Linguistic variables: Variables that have fuzzy states, representing values in natural language terms such as temperature, performance, and weight."
+    },
+    {
+      "chunk_id": "324ff27b",
+      "chunk_type": "definition",
+      "page": 7,
+      "concept": "Fuzzy numbers",
+      "content": "Numbers used to represent the values of linguistic variables, capturing the imprecise or vague nature of these variables.",
+      "embedding_text": "Fuzzy numbers: Numbers used to represent the values of linguistic variables, capturing the imprecise or vague nature of these variables."
+    },
+    {
+      "chunk_id": "19161ac0",
+      "chunk_type": "exam_point",
+      "page": 7,
+      "content": "Understanding that fuzzy numbers represent values of linguistic variables",
+      "embedding_text": "Understanding that fuzzy numbers represent values of linguistic variables"
+    },
+    {
+      "chunk_id": "e97bf08f",
+      "chunk_type": "exam_point",
+      "page": 7,
+      "content": "Identifying examples of linguistic variables with fuzzy states",
+      "embedding_text": "Identifying examples of linguistic variables with fuzzy states"
+    },
+    {
+      "chunk_id": "3cbc7f4b",
+      "chunk_type": "exam_point",
+      "page": 7,
+      "content": "Recognizing that each state of a linguistic variable is a fuzzy number",
+      "embedding_text": "Recognizing that each state of a linguistic variable is a fuzzy number"
+    },
+    {
+      "chunk_id": "0e9ab595",
+      "chunk_type": "summary",
+      "page": 10,
+      "title": "Fuzzy arithmetic",
+      "content": "The slide explains how mathematical operators defined on real numbers (R) can be generalized to work with fuzzy numbers through two methods: Interval arithmetic and the Extension principle. It also mentions the use of alpha cuts in converting fuzzy sets to crisp sets and vice versa.",
+      "keywords": [
+        "Fuzzy arithmetic",
+        "Mathematical operators",
+        "Fuzzy numbers",
+        "Interval arithmetic",
+        "Alpha cuts",
+        "Extension principle",
+        "Generalization",
+        "Crisp sets"
+      ],
+      "raw_text": "▶ Fuzzy arithmetic\n\n▶ We can generalize mathematical operators defined on R to be applied to the space of fuzzy number by two ways:\n\n▶ Interval arithmetic\n▶ Recall that we can use alpha cuts to convert fuzzy set to crisp set back and forth\n\n▶ Extension principle\n▶ Operators are also functions defined from R x R to R",
+      "embedding_text": "The slide explains how mathematical operators defined on real numbers (R) can be generalized to work with fuzzy numbers through two methods: Interval arithmetic and the Extension principle. It also mentions the use of alpha cuts in converting fuzzy sets to crisp sets and vice versa."
+    },
+    {
+      "chunk_id": "156d01da",
+      "chunk_type": "definition",
+      "page": 10,
+      "concept": "Interval arithmetic",
+      "content": "A method to generalize mathematical operations on real numbers to fuzzy numbers by using alpha cuts to convert fuzzy sets to crisp sets.",
+      "embedding_text": "Interval arithmetic: A method to generalize mathematical operations on real numbers to fuzzy numbers by using alpha cuts to convert fuzzy sets to crisp sets."
+    },
+    {
+      "chunk_id": "ed55b00c",
+      "chunk_type": "definition",
+      "page": 10,
+      "concept": "Extension principle",
+      "content": "A principle that extends mathematical operators, which are functions from R x R to R, to operate on fuzzy numbers.",
+      "embedding_text": "Extension principle: A principle that extends mathematical operators, which are functions from R x R to R, to operate on fuzzy numbers."
+    },
+    {
+      "chunk_id": "f1132ee0",
+      "chunk_type": "definition",
+      "page": 10,
+      "concept": "Alpha cuts",
+      "content": "A technique used to convert fuzzy sets into crisp sets at different levels of membership (alpha levels).",
+      "embedding_text": "Alpha cuts: A technique used to convert fuzzy sets into crisp sets at different levels of membership (alpha levels)."
+    },
+    {
+      "chunk_id": "c59cc1f2",
+      "chunk_type": "exam_point",
+      "page": 10,
+      "content": "Understanding the generalization of mathematical operators to fuzzy numbers",
+      "embedding_text": "Understanding the generalization of mathematical operators to fuzzy numbers"
+    },
+    {
+      "chunk_id": "4e05918d",
+      "chunk_type": "exam_point",
+      "page": 10,
+      "content": "Knowing the two methods for fuzzy arithmetic: Interval arithmetic and Extension principle",
+      "embedding_text": "Knowing the two methods for fuzzy arithmetic: Interval arithmetic and Extension principle"
+    },
+    {
+      "chunk_id": "3aa9c7cc",
+      "chunk_type": "exam_point",
+      "page": 10,
+      "content": "Recalling the role of alpha cuts in fuzzy arithmetic",
+      "embedding_text": "Recalling the role of alpha cuts in fuzzy arithmetic"
+    },
+    {
+      "chunk_id": "a39f7538",
+      "chunk_type": "summary",
+      "page": 11,
+      "title": "Arithmetic operations on closed intervals",
+      "content": "The slide explains how to perform arithmetic operations (addition, subtraction, multiplication, and division) on closed intervals. It provides formulas for these operations and notes that real numbers can be represented as intervals for these operations.",
+      "keywords": [
+        "Arithmetic operations",
+        "Closed intervals",
+        "Addition",
+        "Subtraction",
+        "Multiplication",
+        "Division",
+        "Interval arithmetic",
+        "Real numbers",
+        "Intervals",
+        "Minimum",
+        "Maximum"
+      ],
+      "raw_text": "Arithmetic operations on closed intervals\n\n[a, b] + [d, e] = [a + d, b + e],\n[a, b] − [d, e] = [a − e, b − d],\n[a, b] · [d, e] = [min(ad, ae, bd, be), max(ad, ae, bd, be)],\nand, provided that 0 ∉ [d, e],\n[a, b]/[d, e] = [a, b] · [1/e, 1/d]\n= [min(a/d, a/e, b/d, b/e), max(a/d, a/e, b/d, b/e)].\n\nNote That a real number r can be represented as [r, r], hence you can use operators above for numbers and intervals",
+      "embedding_text": "The slide explains how to perform arithmetic operations (addition, subtraction, multiplication, and division) on closed intervals. It provides formulas for these operations and notes that real numbers can be represented as intervals for these operations."
+    },
+    {
+      "chunk_id": "f3b44ea3",
+      "chunk_type": "definition",
+      "page": 11,
+      "concept": "Closed Interval",
+      "content": "An interval of real numbers including its endpoints, denoted as [a, b].",
+      "embedding_text": "Closed Interval: An interval of real numbers including its endpoints, denoted as [a, b]."
+    },
+    {
+      "chunk_id": "34cd60dc",
+      "chunk_type": "definition",
+      "page": 11,
+      "concept": "Interval Arithmetic",
+      "content": "A method of calculating with intervals rather than single numbers.",
+      "embedding_text": "Interval Arithmetic: A method of calculating with intervals rather than single numbers."
+    },
+    {
+      "chunk_id": "4ccf6fe7",
+      "chunk_type": "formula",
+      "page": 11,
+      "formula": {
+        "operation": "Addition",
+        "formula": "[a, b] + [d, e] = [a + d, b + e]"
+      },
+      "embedding_text": {
+        "operation": "Addition",
+        "formula": "[a, b] + [d, e] = [a + d, b + e]"
+      }
+    },
+    {
+      "chunk_id": "88ebe20f",
+      "chunk_type": "formula",
+      "page": 11,
+      "formula": {
+        "operation": "Subtraction",
+        "formula": "[a, b] - [d, e] = [a - e, b - d]"
+      },
+      "embedding_text": {
+        "operation": "Subtraction",
+        "formula": "[a, b] - [d, e] = [a - e, b - d]"
+      }
+    },
+    {
+      "chunk_id": "313c6486",
+      "chunk_type": "formula",
+      "page": 11,
+      "formula": {
+        "operation": "Multiplication",
+        "formula": "[a, b] · [d, e] = [min(ad, ae, bd, be), max(ad, ae, bd, be)]"
+      },
+      "embedding_text": {
+        "operation": "Multiplication",
+        "formula": "[a, b] · [d, e] = [min(ad, ae, bd, be), max(ad, ae, bd, be)]"
+      }
+    },
+    {
+      "chunk_id": "6ef80212",
+      "chunk_type": "formula",
+      "page": 11,
+      "formula": {
+        "operation": "Division",
+        "formula": "[a, b] / [d, e] = [min(a/d, a/e, b/d, b/e), max(a/d, a/e, b/d, b/e)] where 0 ∉ [d, e]"
+      },
+      "embedding_text": {
+        "operation": "Division",
+        "formula": "[a, b] / [d, e] = [min(a/d, a/e, b/d, b/e), max(a/d, a/e, b/d, b/e)] where 0 ∉ [d, e]"
+      }
+    },
+    {
+      "chunk_id": "43827f29",
+      "chunk_type": "diagram",
+      "page": 11,
+      "diagram_type": "none",
+      "content": "No diagrams present on the slide.",
+      "embedding_text": "No diagrams present on the slide."
+    },
+    {
+      "chunk_id": "7603bfad",
+      "chunk_type": "exam_point",
+      "page": 11,
+      "content": "Understanding how to add, subtract, multiply, and divide intervals",
+      "embedding_text": "Understanding how to add, subtract, multiply, and divide intervals"
+    },
+    {
+      "chunk_id": "b20e1f78",
+      "chunk_type": "exam_point",
+      "page": 11,
+      "content": "Knowing the conditions for division of intervals (0 not in the divisor interval)",
+      "embedding_text": "Knowing the conditions for division of intervals (0 not in the divisor interval)"
+    },
+    {
+      "chunk_id": "bcf05676",
+      "chunk_type": "exam_point",
+      "page": 11,
+      "content": "Applying interval arithmetic to real numbers represented as intervals",
+      "embedding_text": "Applying interval arithmetic to real numbers represented as intervals"
+    },
+    {
+      "chunk_id": "524e1eec",
+      "chunk_type": "summary",
+      "page": 12,
+      "title": "Arithmetic operations on closed intervals properties",
+      "content": "The slide outlines fundamental properties of arithmetic operations on closed intervals, including commutativity, associativity, identity, distributivity, and inclusion monotonicity. It provides a detailed list of mathematical properties and conditions for operations such as addition, multiplication, and subtraction on closed intervals.",
+      "keywords": [
+        "Commutativity",
+        "Associativity",
+        "Identity",
+        "Subdistributivity",
+        "Distributivity",
+        "Inclusion Monotonicity",
+        "Closed Intervals",
+        "Arithmetic Operations",
+        "Addition",
+        "Multiplication",
+        "Subtraction",
+        "Division"
+      ],
+      "raw_text": "Arithmetic operations on closed intervals properties\n\n1. A + B = B + A,\n   A · B = B · A (commutativity).\n2. (A + B) + C = A + (B + C)\n   (A · B) · C = A · (B · C) (associativity).\n3. A = 0 + A ≈ A + 0\n   A = 1 · A = A · 1 (identity).\n4. A · (B + C) ⊆ A · B + A · C (subdistributivity).\n5. If b · c ≥ 0 for every b ∈ B and c ∈ C, then A · (B + C) = A · B + A · C (distributivity).\n   Furthermore, if A = [a, a], then a · (B + C) = a · B + a · C.\n6. 0 ∈ A - A and 1 ∈ A / A.\n7. If A ⊆ E and B ⊆ F, then:\n   A + B ⊆ E + F,\n   A - B ⊆ E - F,\n   A · B ⊆ E · F,\n   A / B ⊆ E / F (inclusion monotonicity).",
+      "embedding_text": "The slide outlines fundamental properties of arithmetic operations on closed intervals, including commutativity, associativity, identity, distributivity, and inclusion monotonicity. It provides a detailed list of mathematical properties and conditions for operations such as addition, multiplication, and subtraction on closed intervals."
+    },
+    {
+      "chunk_id": "7dc778d9",
+      "chunk_type": "definition",
+      "page": 12,
+      "concept": "Commutativity",
+      "content": "The property that the order of operands does not affect the result of the operation.",
+      "embedding_text": "Commutativity: The property that the order of operands does not affect the result of the operation."
+    },
+    {
+      "chunk_id": "61c16b8e",
+      "chunk_type": "definition",
+      "page": 12,
+      "concept": "Associativity",
+      "content": "The property that the grouping of operations does not affect the result.",
+      "embedding_text": "Associativity: The property that the grouping of operations does not affect the result."
+    },
+    {
+      "chunk_id": "cd8ccd72",
+      "chunk_type": "definition",
+      "page": 12,
+      "concept": "Identity",
+      "content": "The property that there exists an element which, when combined with another element, leaves the latter unchanged.",
+      "embedding_text": "Identity: The property that there exists an element which, when combined with another element, leaves the latter unchanged."
+    },
+    {
+      "chunk_id": "bb7675b1",
+      "chunk_type": "definition",
+      "page": 12,
+      "concept": "Subdistributivity",
+      "content": "The property that multiplication distributes over addition in a way that the result of the multiplication is a subset of the sum of the individual multiplications.",
+      "embedding_text": "Subdistributivity: The property that multiplication distributes over addition in a way that the result of the multiplication is a subset of the sum of the individual multiplications."
+    },
+    {
+      "chunk_id": "94e106e1",
+      "chunk_type": "definition",
+      "page": 12,
+      "concept": "Distributivity",
+      "content": "The property that multiplication distributes over addition when certain conditions are met.",
+      "embedding_text": "Distributivity: The property that multiplication distributes over addition when certain conditions are met."
+    },
+    {
+      "chunk_id": "1deea715",
+      "chunk_type": "definition",
+      "page": 12,
+      "concept": "Inclusion Monotonicity",
+      "content": "The property that if intervals A and B are subsets of intervals E and F respectively, then operations on A and B are subsets of the same operations on E and F.",
+      "embedding_text": "Inclusion Monotonicity: The property that if intervals A and B are subsets of intervals E and F respectively, then operations on A and B are subsets of the same operations on E and F."
+    },
+    {
+      "chunk_id": "50d81f0b",
+      "chunk_type": "formula",
+      "page": 12,
+      "formula": "A + B = B + A",
+      "embedding_text": "A + B = B + A"
+    },
+    {
+      "chunk_id": "978c4129",
+      "chunk_type": "formula",
+      "page": 12,
+      "formula": "A · B = B · A",
+      "embedding_text": "A · B = B · A"
+    },
+    {
+      "chunk_id": "7fd053fc",
+      "chunk_type": "formula",
+      "page": 12,
+      "formula": "(A + B) + C = A + (B + C)",
+      "embedding_text": "(A + B) + C = A + (B + C)"
+    },
+    {
+      "chunk_id": "9dda3855",
+      "chunk_type": "formula",
+      "page": 12,
+      "formula": "(A · B) · C = A · (B · C)",
+      "embedding_text": "(A · B) · C = A · (B · C)"
+    },
+    {
+      "chunk_id": "6f4c6e69",
+      "chunk_type": "formula",
+      "page": 12,
+      "formula": "A = 0 + A = A + 0",
+      "embedding_text": "A = 0 + A = A + 0"
+    },
+    {
+      "chunk_id": "ad6f3f31",
+      "chunk_type": "formula",
+      "page": 12,
+      "formula": "A = 1 · A = A · 1",
+      "embedding_text": "A = 1 · A = A · 1"
+    },
+    {
+      "chunk_id": "30c1fd72",
+      "chunk_type": "formula",
+      "page": 12,
+      "formula": "A · (B + C) ⊆ A · B + A · C",
+      "embedding_text": "A · (B + C) ⊆ A · B + A · C"
+    },
+    {
+      "chunk_id": "8d28835e",
+      "chunk_type": "formula",
+      "page": 12,
+      "formula": "If b · c ≥ 0 for every b ∈ B and c ∈ C, then A · (B + C) = A · B + A · C",
+      "embedding_text": "If b · c ≥ 0 for every b ∈ B and c ∈ C, then A · (B + C) = A · B + A · C"
+    },
+    {
+      "chunk_id": "a2122135",
+      "chunk_type": "formula",
+      "page": 12,
+      "formula": "If A = [a, a], then a · (B + C) = a · B + a · C",
+      "embedding_text": "If A = [a, a], then a · (B + C) = a · B + a · C"
+    },
+    {
+      "chunk_id": "156bbd5f",
+      "chunk_type": "formula",
+      "page": 12,
+      "formula": "0 ∈ A - A and 1 ∈ A / A",
+      "embedding_text": "0 ∈ A - A and 1 ∈ A / A"
+    },
+    {
+      "chunk_id": "717835c3",
+      "chunk_type": "formula",
+      "page": 12,
+      "formula": "If A ⊆ E and B ⊆ F, then A + B ⊆ E + F",
+      "embedding_text": "If A ⊆ E and B ⊆ F, then A + B ⊆ E + F"
+    },
+    {
+      "chunk_id": "e8fef181",
+      "chunk_type": "formula",
+      "page": 12,
+      "formula": "If A ⊆ E and B ⊆ F, then A - B ⊆ E - F",
+      "embedding_text": "If A ⊆ E and B ⊆ F, then A - B ⊆ E - F"
+    },
+    {
+      "chunk_id": "c8acab19",
+      "chunk_type": "formula",
+      "page": 12,
+      "formula": "If A ⊆ E and B ⊆ F, then A · B ⊆ E · F",
+      "embedding_text": "If A ⊆ E and B ⊆ F, then A · B ⊆ E · F"
+    },
+    {
+      "chunk_id": "f1b07f19",
+      "chunk_type": "formula",
+      "page": 12,
+      "formula": "If A ⊆ E and B ⊆ F, then A / B ⊆ E / F",
+      "embedding_text": "If A ⊆ E and B ⊆ F, then A / B ⊆ E / F"
+    },
+    {
+      "chunk_id": "d90cd85f",
+      "chunk_type": "diagram",
+      "page": 12,
+      "diagram_type": "none",
+      "content": "No diagrams or charts are present on the slide.",
+      "embedding_text": "No diagrams or charts are present on the slide."
+    },
+    {
+      "chunk_id": "19913dd0",
+      "chunk_type": "exam_point",
+      "page": 12,
+      "content": "Understanding and applying the commutative and associative properties of addition and multiplication on closed intervals.",
+      "embedding_text": "Understanding and applying the commutative and associative properties of addition and multiplication on closed intervals."
+    },
+    {
+      "chunk_id": "528ca09c",
+      "chunk_type": "exam_point",
+      "page": 12,
+      "content": "Recognizing the identity elements for addition and multiplication.",
+      "embedding_text": "Recognizing the identity elements for addition and multiplication."
+    },
+    {
+      "chunk_id": "85121d46",
+      "chunk_type": "exam_point",
+      "page": 12,
+      "content": "Distinguishing between subdistributivity and distributivity conditions.",
+      "embedding_text": "Distinguishing between subdistributivity and distributivity conditions."
+    },
+    {
+      "chunk_id": "1ac8a576",
+      "chunk_type": "exam_point",
+      "page": 12,
+      "content": "Applying inclusion monotonicity in operations involving subsets of intervals.",
+      "embedding_text": "Applying inclusion monotonicity in operations involving subsets of intervals."
+    },
+    {
+      "chunk_id": "2d11764a",
+      "chunk_type": "summary",
+      "page": 13,
+      "title": "Fuzzy arithmetic based on interval arithmetic",
+      "content": "The slide explains the method of performing fuzzy arithmetic operations by using interval arithmetic on alpha cuts of fuzzy numbers. It describes how to represent fuzzy numbers and apply interval arithmetic to obtain the resulting fuzzy number's alpha cuts.",
+      "keywords": [
+        "Fuzzy arithmetic",
+        "Interval arithmetic",
+        "Alpha cuts",
+        "Fuzzy numbers",
+        "Membership levels",
+        "Arithmetic operations",
+        "Union of intervals"
+      ],
+      "raw_text": "Fuzzy arithmetic based on interval arithmetic\n\n▶ Represent fuzzy numbers as their alpha cuts\n▶ Apply interval arithmetic to get cuts of the result\nα(A * B) = αA * αB\n▶ You can generate the results easily (refer to lecture 2):\nA * B = ∪ α∈[0,1] (α(A * B)).",
+      "embedding_text": "The slide explains the method of performing fuzzy arithmetic operations by using interval arithmetic on alpha cuts of fuzzy numbers. It describes how to represent fuzzy numbers and apply interval arithmetic to obtain the resulting fuzzy number's alpha cuts."
+    },
+    {
+      "chunk_id": "7b128c75",
+      "chunk_type": "definition",
+      "page": 13,
+      "concept": "Alpha cuts",
+      "content": "Representation of fuzzy numbers at different levels of membership (alpha levels)",
+      "embedding_text": "Alpha cuts: Representation of fuzzy numbers at different levels of membership (alpha levels)"
+    },
+    {
+      "chunk_id": "b914c9f7",
+      "chunk_type": "definition",
+      "page": 13,
+      "concept": "Interval arithmetic",
+      "content": "Arithmetic operations performed on intervals rather than precise numbers",
+      "embedding_text": "Interval arithmetic: Arithmetic operations performed on intervals rather than precise numbers"
+    },
+    {
+      "chunk_id": "3051a272",
+      "chunk_type": "formula",
+      "page": 13,
+      "formula": {
+        "formula": "α(A * B) = αA * αB",
+        "description": "Alpha cut of the product of fuzzy numbers A and B is the product of their alpha cuts"
+      },
+      "embedding_text": {
+        "formula": "α(A * B) = αA * αB",
+        "description": "Alpha cut of the product of fuzzy numbers A and B is the product of their alpha cuts"
+      }
+    },
+    {
+      "chunk_id": "fc7e241c",
+      "chunk_type": "formula",
+      "page": 13,
+      "formula": {
+        "formula": "A * B = ∪ α∈[0,1] (α(A * B))",
+        "description": "The fuzzy product of A and B is the union of all alpha cuts of the product"
+      },
+      "embedding_text": {
+        "formula": "A * B = ∪ α∈[0,1] (α(A * B))",
+        "description": "The fuzzy product of A and B is the union of all alpha cuts of the product"
+      }
+    },
+    {
+      "chunk_id": "df3c551d",
+      "chunk_type": "diagram",
+      "page": 13,
+      "diagram_type": "none",
+      "content": "No explicit diagram, but the slide implies a conceptual understanding of alpha cuts and interval operations",
+      "embedding_text": "No explicit diagram, but the slide implies a conceptual understanding of alpha cuts and interval operations"
+    },
+    {
+      "chunk_id": "522d9d4d",
+      "chunk_type": "exam_point",
+      "page": 13,
+      "content": "Understanding how fuzzy numbers are represented using alpha cuts",
+      "embedding_text": "Understanding how fuzzy numbers are represented using alpha cuts"
+    },
+    {
+      "chunk_id": "fd6902f1",
+      "chunk_type": "exam_point",
+      "page": 13,
+      "content": "Applying interval arithmetic to fuzzy numbers",
+      "embedding_text": "Applying interval arithmetic to fuzzy numbers"
+    },
+    {
+      "chunk_id": "6890bd64",
+      "chunk_type": "exam_point",
+      "page": 13,
+      "content": "Generating results of fuzzy arithmetic operations using alpha cuts",
+      "embedding_text": "Generating results of fuzzy arithmetic operations using alpha cuts"
+    },
+    {
+      "chunk_id": "35a5837b",
+      "chunk_type": "exam_point",
+      "page": 13,
+      "content": "Knowledge of the formula for fuzzy arithmetic operations based on interval arithmetic",
+      "embedding_text": "Knowledge of the formula for fuzzy arithmetic operations based on interval arithmetic"
+    },
+    {
+      "chunk_id": "63aaab54",
+      "chunk_type": "summary",
+      "page": 15,
+      "title": "Fuzzy arithmetic - Example",
+      "content": "The slide provides a visual and graphical representation of fuzzy arithmetic operations, specifically focusing on addition and subtraction of fuzzy sets. It illustrates how fuzzy numbers are combined using alpha-cut representations and their corresponding membership functions.",
+      "keywords": [
+        "Fuzzy arithmetic",
+        "Alpha-cut",
+        "Membership function",
+        "Fuzzy addition",
+        "Fuzzy subtraction",
+        "Triangular fuzzy numbers",
+        "Graphical representation",
+        "Fuzzy sets"
+      ],
+      "raw_text": "Fuzzy arithmetic - Example",
+      "embedding_text": "The slide provides a visual and graphical representation of fuzzy arithmetic operations, specifically focusing on addition and subtraction of fuzzy sets. It illustrates how fuzzy numbers are combined using alpha-cut representations and their corresponding membership functions."
+    },
+    {
+      "chunk_id": "e59af4ae",
+      "chunk_type": "definition",
+      "page": 15,
+      "concept": "Alpha-Cut",
+      "content": "A method to represent a fuzzy set at different levels of membership (alpha levels), typically used to simplify operations on fuzzy sets.",
+      "embedding_text": "Alpha-Cut: A method to represent a fuzzy set at different levels of membership (alpha levels), typically used to simplify operations on fuzzy sets."
+    },
+    {
+      "chunk_id": "e100b93b",
+      "chunk_type": "definition",
+      "page": 15,
+      "concept": "Membership Function",
+      "content": "A function that defines the degree of membership of an element in a fuzzy set, ranging from 0 to 1.",
+      "embedding_text": "Membership Function: A function that defines the degree of membership of an element in a fuzzy set, ranging from 0 to 1."
+    },
+    {
+      "chunk_id": "87f76af9",
+      "chunk_type": "diagram",
+      "page": 15,
+      "diagram_type": "Alpha-cut Diagram for Addition",
+      "content": "Diagram showing fuzzy sets A, B, and their sum A+B with alpha-cut levels at α=1/2.",
+      "embedding_text": "Diagram showing fuzzy sets A, B, and their sum A+B with alpha-cut levels at α=1/2."
+    },
+    {
+      "chunk_id": "3004e2e8",
+      "chunk_type": "diagram",
+      "page": 15,
+      "diagram_type": "Alpha-cut Diagram for Subtraction",
+      "content": "Diagram showing fuzzy sets A, B, and their difference A-B with alpha-cut levels at α=1/2.",
+      "embedding_text": "Diagram showing fuzzy sets A, B, and their difference A-B with alpha-cut levels at α=1/2."
+    },
+    {
+      "chunk_id": "0b5a6f72",
+      "chunk_type": "diagram",
+      "page": 15,
+      "diagram_type": "Membership Function Graphs for Addition",
+      "content": "Graphs showing membership functions for fuzzy sets A, B, and their sum A+B.",
+      "embedding_text": "Graphs showing membership functions for fuzzy sets A, B, and their sum A+B."
+    },
+    {
+      "chunk_id": "1e9c8bab",
+      "chunk_type": "diagram",
+      "page": 15,
+      "diagram_type": "Membership Function Graphs for Subtraction",
+      "content": "Graphs showing membership functions for fuzzy sets A, B, and their difference A-B.",
+      "embedding_text": "Graphs showing membership functions for fuzzy sets A, B, and their difference A-B."
+    },
+    {
+      "chunk_id": "2257ab5f",
+      "chunk_type": "exam_point",
+      "page": 15,
+      "content": "Understanding how fuzzy arithmetic operations are performed using alpha-cuts",
+      "embedding_text": "Understanding how fuzzy arithmetic operations are performed using alpha-cuts"
+    },
+    {
+      "chunk_id": "97cd83c4",
+      "chunk_type": "exam_point",
+      "page": 15,
+      "content": "Visualizing and interpreting membership functions for fuzzy sets",
+      "embedding_text": "Visualizing and interpreting membership functions for fuzzy sets"
+    },
+    {
+      "chunk_id": "48e0597b",
+      "chunk_type": "exam_point",
+      "page": 15,
+      "content": "Applying fuzzy addition and subtraction rules",
+      "embedding_text": "Applying fuzzy addition and subtraction rules"
+    },
+    {
+      "chunk_id": "7c61b97f",
+      "chunk_type": "exam_point",
+      "page": 15,
+      "content": "Recognizing the graphical representation of fuzzy numbers",
+      "embedding_text": "Recognizing the graphical representation of fuzzy numbers"
+    },
+    {
+      "chunk_id": "cb3516d0",
+      "chunk_type": "summary",
+      "page": 16,
+      "title": "Fuzzy arithmetic - Example",
+      "content": "The slide provides specific examples of fuzzy arithmetic operations including addition, subtraction, multiplication, and division of fuzzy numbers. It illustrates how these operations are defined using alpha-cuts and interval arithmetic.",
+      "keywords": [
+        "Fuzzy arithmetic",
+        "Alpha-cut",
+        "Interval arithmetic",
+        "Fuzzy number",
+        "Addition",
+        "Subtraction",
+        "Multiplication",
+        "Division",
+        "Membership function"
+      ],
+      "raw_text": "Fuzzy arithmetic - Example\n\nα(A + B) = [4α, 8 - 4α] for α ∈ (0, 1),\nα(A - B) = [4α - 6, 2 - 4α] for α ∈ (0, 1),\nα(A · B) = {\n[-4α² + 12α - 5, 4α² - 16α + 15] for α ∈ (0, .5)\n[4α² - 1, 4α² - 16α + 15] for α ∈ (.5, 1],\nα(A/B) = {\n[(2α - 1)/(2α + 1), (3 - 2α)/(2α + 1)] for α ∈ (0, .5)\n[(2α - 1)/(5 - 2α), (3 - 2α)/(2α + 1)] for α ∈ (.5, 1].",
+      "embedding_text": "The slide provides specific examples of fuzzy arithmetic operations including addition, subtraction, multiplication, and division of fuzzy numbers. It illustrates how these operations are defined using alpha-cuts and interval arithmetic."
+    },
+    {
+      "chunk_id": "6821ad97",
+      "chunk_type": "definition",
+      "page": 16,
+      "concept": "Alpha-cut",
+      "content": "A method to represent a fuzzy set by a family of crisp sets at different levels of membership (α ∈ [0, 1])",
+      "embedding_text": "Alpha-cut: A method to represent a fuzzy set by a family of crisp sets at different levels of membership (α ∈ [0, 1])"
+    },
+    {
+      "chunk_id": "fe27b914",
+      "chunk_type": "definition",
+      "page": 16,
+      "concept": "Fuzzy number",
+      "content": "A convex normalized fuzzy set of the real line with a single peak",
+      "embedding_text": "Fuzzy number: A convex normalized fuzzy set of the real line with a single peak"
+    },
+    {
+      "chunk_id": "0d43e652",
+      "chunk_type": "formula",
+      "page": 16,
+      "formula": {
+        "operation": "Addition",
+        "expression": "[4α, 8 - 4α] for α ∈ (0, 1)"
+      },
+      "embedding_text": {
+        "operation": "Addition",
+        "expression": "[4α, 8 - 4α] for α ∈ (0, 1)"
+      }
+    },
+    {
+      "chunk_id": "b6b7bd3f",
+      "chunk_type": "formula",
+      "page": 16,
+      "formula": {
+        "operation": "Subtraction",
+        "expression": "[4α - 6, 2 - 4α] for α ∈ (0, 1)"
+      },
+      "embedding_text": {
+        "operation": "Subtraction",
+        "expression": "[4α - 6, 2 - 4α] for α ∈ (0, 1)"
+      }
+    },
+    {
+      "chunk_id": "9ff6d2b5",
+      "chunk_type": "formula",
+      "page": 16,
+      "formula": {
+        "operation": "Multiplication",
+        "expression": {
+          "case1": "[-4α² + 12α - 5, 4α² - 16α + 15] for α ∈ (0, 0.5)",
+          "case2": "[4α² - 1, 4α² - 16α + 15] for α ∈ (0.5, 1]"
+        }
+      },
+      "embedding_text": {
+        "operation": "Multiplication",
+        "expression": {
+          "case1": "[-4α² + 12α - 5, 4α² - 16α + 15] for α ∈ (0, 0.5)",
+          "case2": "[4α² - 1, 4α² - 16α + 15] for α ∈ (0.5, 1]"
+        }
+      }
+    },
+    {
+      "chunk_id": "2b5a23e3",
+      "chunk_type": "formula",
+      "page": 16,
+      "formula": {
+        "operation": "Division",
+        "expression": {
+          "case1": "[(2α - 1)/(2α + 1), (3 - 2α)/(2α + 1)] for α ∈ (0, 0.5)",
+          "case2": "[(2α - 1)/(5 - 2α), (3 - 2α)/(2α + 1)] for α ∈ (0.5, 1]"
+        }
+      },
+      "embedding_text": {
+        "operation": "Division",
+        "expression": {
+          "case1": "[(2α - 1)/(2α + 1), (3 - 2α)/(2α + 1)] for α ∈ (0, 0.5)",
+          "case2": "[(2α - 1)/(5 - 2α), (3 - 2α)/(2α + 1)] for α ∈ (0.5, 1]"
+        }
+      }
+    },
+    {
+      "chunk_id": "fbe8e508",
+      "chunk_type": "diagram",
+      "page": 16,
+      "diagram_type": "none",
+      "content": "No explicit diagrams are present, but the slide visually represents mathematical expressions for fuzzy arithmetic operations.",
+      "embedding_text": "No explicit diagrams are present, but the slide visually represents mathematical expressions for fuzzy arithmetic operations."
+    },
+    {
+      "chunk_id": "886bdf68",
+      "chunk_type": "exam_point",
+      "page": 16,
+      "content": "Understanding how alpha-cuts are used in fuzzy arithmetic operations",
+      "embedding_text": "Understanding how alpha-cuts are used in fuzzy arithmetic operations"
+    },
+    {
+      "chunk_id": "38c2f21c",
+      "chunk_type": "exam_point",
+      "page": 16,
+      "content": "Ability to apply interval arithmetic to fuzzy number operations",
+      "embedding_text": "Ability to apply interval arithmetic to fuzzy number operations"
+    },
+    {
+      "chunk_id": "2194a532",
+      "chunk_type": "exam_point",
+      "page": 16,
+      "content": "Knowledge of different cases for multiplication and division based on alpha-cut ranges",
+      "embedding_text": "Knowledge of different cases for multiplication and division based on alpha-cut ranges"
+    },
+    {
+      "chunk_id": "9e955dc8",
+      "chunk_type": "summary",
+      "page": 17,
+      "title": "Fuzzy arithmetic - Example",
+      "content": "This slide provides piecewise function examples for basic arithmetic operations (addition, subtraction, multiplication, and division) on fuzzy sets A and B. It illustrates how fuzzy arithmetic is computed over different intervals of x.",
+      "keywords": [
+        "Fuzzy arithmetic",
+        "Piecewise functions",
+        "Addition",
+        "Subtraction",
+        "Multiplication",
+        "Division",
+        "Fuzzy sets",
+        "Intervals",
+        "Fuzzy numbers"
+      ],
+      "raw_text": "Fuzzy arithmetic - Example\n\n(A + B)(x) = { 0 for x ≤ 0 and x > 8, x/4 for 0 < x ≤ 4, (8 - x)/4 for 4 < x ≤ 8 }\n\n(A - B)(x) = { 0 for x ≤ -6 and x > 2, (x + 6)/4 for -6 < x ≤ -2, (2 - x)/4 for -2 < x ≤ 2 }\n\n(A · B)(x) = { 0 for x < -5 and x ≥ 15, [3 - (4 - x)^(1/2)]/2 for -5 ≤ x < 0, (1 + x)^(1/2)/2 for 0 ≤ x < 3, [4 - (1 + x)^(1/2)]/2 for 3 ≤ x < 15 }\n\n(A / B)(x) = { 0 for x < -1 and x ≥ 3, (x + 1)/(2 - 2x) for -1 ≤ x < 0, (5x + 1)/(2x + 2) for 0 ≤ x < 1/3, (3 - x)/(2x + 2) for 1/3 ≤ x < 3 }",
+      "embedding_text": "This slide provides piecewise function examples for basic arithmetic operations (addition, subtraction, multiplication, and division) on fuzzy sets A and B. It illustrates how fuzzy arithmetic is computed over different intervals of x."
+    },
+    {
+      "chunk_id": "19c4bf5e",
+      "chunk_type": "definition",
+      "page": 17,
+      "concept": "Fuzzy Arithmetic",
+      "content": "A method of performing arithmetic operations on fuzzy numbers, represented by piecewise functions over specified intervals.",
+      "embedding_text": "Fuzzy Arithmetic: A method of performing arithmetic operations on fuzzy numbers, represented by piecewise functions over specified intervals."
+    },
+    {
+      "chunk_id": "bccddfdc",
+      "chunk_type": "definition",
+      "page": 17,
+      "concept": "Piecewise Function",
+      "content": "A function defined by different expressions depending on the value of the independent variable within specified intervals.",
+      "embedding_text": "Piecewise Function: A function defined by different expressions depending on the value of the independent variable within specified intervals."
+    },
+    {
+      "chunk_id": "2cb34771",
+      "chunk_type": "formula",
+      "page": 17,
+      "formula": "(A + B)(x) = { 0 for x ≤ 0 and x > 8, x/4 for 0 < x ≤ 4, (8 - x)/4 for 4 < x ≤ 8 }",
+      "embedding_text": "(A + B)(x) = { 0 for x ≤ 0 and x > 8, x/4 for 0 < x ≤ 4, (8 - x)/4 for 4 < x ≤ 8 }"
+    },
+    {
+      "chunk_id": "9f91710d",
+      "chunk_type": "formula",
+      "page": 17,
+      "formula": "(A - B)(x) = { 0 for x ≤ -6 and x > 2, (x + 6)/4 for -6 < x ≤ -2, (2 - x)/4 for -2 < x ≤ 2 }",
+      "embedding_text": "(A - B)(x) = { 0 for x ≤ -6 and x > 2, (x + 6)/4 for -6 < x ≤ -2, (2 - x)/4 for -2 < x ≤ 2 }"
+    },
+    {
+      "chunk_id": "cdeb96b8",
+      "chunk_type": "formula",
+      "page": 17,
+      "formula": "(A · B)(x) = { 0 for x < -5 and x ≥ 15, [3 - (4 - x)^(1/2)]/2 for -5 ≤ x < 0, (1 + x)^(1/2)/2 for 0 ≤ x < 3, [4 - (1 + x)^(1/2)]/2 for 3 ≤ x < 15 }",
+      "embedding_text": "(A · B)(x) = { 0 for x < -5 and x ≥ 15, [3 - (4 - x)^(1/2)]/2 for -5 ≤ x < 0, (1 + x)^(1/2)/2 for 0 ≤ x < 3, [4 - (1 + x)^(1/2)]/2 for 3 ≤ x < 15 }"
+    },
+    {
+      "chunk_id": "d9788480",
+      "chunk_type": "formula",
+      "page": 17,
+      "formula": "(A / B)(x) = { 0 for x < -1 and x ≥ 3, (x + 1)/(2 - 2x) for -1 ≤ x < 0, (5x + 1)/(2x + 2) for 0 ≤ x < 1/3, (3 - x)/(2x + 2) for 1/3 ≤ x < 3 }",
+      "embedding_text": "(A / B)(x) = { 0 for x < -1 and x ≥ 3, (x + 1)/(2 - 2x) for -1 ≤ x < 0, (5x + 1)/(2x + 2) for 0 ≤ x < 1/3, (3 - x)/(2x + 2) for 1/3 ≤ x < 3 }"
+    },
+    {
+      "chunk_id": "1ffb3892",
+      "chunk_type": "diagram",
+      "page": 17,
+      "diagram_type": "Graphical Representation",
+      "content": "Piecewise linear functions for fuzzy arithmetic operations over different intervals of x.",
+      "embedding_text": "Piecewise linear functions for fuzzy arithmetic operations over different intervals of x."
+    },
+    {
+      "chunk_id": "f5c550db",
+      "chunk_type": "exam_point",
+      "page": 17,
+      "content": "Understanding how fuzzy arithmetic operations are defined using piecewise functions.",
+      "embedding_text": "Understanding how fuzzy arithmetic operations are defined using piecewise functions."
+    },
+    {
+      "chunk_id": "b8c5111b",
+      "chunk_type": "exam_point",
+      "page": 17,
+      "content": "Ability to interpret and apply the given piecewise functions for fuzzy addition, subtraction, multiplication, and division.",
+      "embedding_text": "Ability to interpret and apply the given piecewise functions for fuzzy addition, subtraction, multiplication, and division."
+    },
+    {
+      "chunk_id": "d6cb7e69",
+      "chunk_type": "exam_point",
+      "page": 17,
+      "content": "Recognizing intervals and corresponding expressions for fuzzy set operations.",
+      "embedding_text": "Recognizing intervals and corresponding expressions for fuzzy set operations."
+    },
+    {
+      "chunk_id": "e37e38da",
+      "chunk_type": "summary",
+      "page": 18,
+      "title": "Fuzzy arithmetic by using extension principle",
+      "content": "The slide presents the extension principle applied to fuzzy arithmetic operations. It demonstrates how addition, subtraction, multiplication, and division are defined for fuzzy sets using supremum and minimum operations.",
+      "keywords": [
+        "Fuzzy arithmetic",
+        "Extension principle",
+        "Supremum",
+        "Minimum",
+        "Membership function",
+        "Fuzzy sets",
+        "Addition",
+        "Subtraction",
+        "Multiplication",
+        "Division"
+      ],
+      "raw_text": "Fuzzy arithmetic by using extension principle\n\n(A + B)(z) = sup min[A(x), B(y)],\nz=x+y\n(A - B)(z) = sup min[A(x), B(y)],\nz=x-y\n(A · B)(z) = sup min[A(x), B(y)],\nz=x·y\n(A / B)(z) = sup min[A(x), B(y)].\nz=x/y",
+      "embedding_text": "The slide presents the extension principle applied to fuzzy arithmetic operations. It demonstrates how addition, subtraction, multiplication, and division are defined for fuzzy sets using supremum and minimum operations."
+    },
+    {
+      "chunk_id": "fc37c766",
+      "chunk_type": "definition",
+      "page": 18,
+      "concept": "Extension Principle",
+      "content": "A method to extend classical arithmetic operations to fuzzy sets by using the supremum of minimum membership values.",
+      "embedding_text": "Extension Principle: A method to extend classical arithmetic operations to fuzzy sets by using the supremum of minimum membership values."
+    },
+    {
+      "chunk_id": "74339b75",
+      "chunk_type": "definition",
+      "page": 18,
+      "concept": "Fuzzy Arithmetic",
+      "content": "A branch of mathematics dealing with arithmetic operations on fuzzy sets.",
+      "embedding_text": "Fuzzy Arithmetic: A branch of mathematics dealing with arithmetic operations on fuzzy sets."
+    },
+    {
+      "chunk_id": "a23fde7e",
+      "chunk_type": "formula",
+      "page": 18,
+      "formula": {
+        "operation": "Addition",
+        "formula": "(A + B)(z) = sup min[A(x), B(y)], z = x + y"
+      },
+      "embedding_text": {
+        "operation": "Addition",
+        "formula": "(A + B)(z) = sup min[A(x), B(y)], z = x + y"
+      }
+    },
+    {
+      "chunk_id": "4c44e4ed",
+      "chunk_type": "formula",
+      "page": 18,
+      "formula": {
+        "operation": "Subtraction",
+        "formula": "(A - B)(z) = sup min[A(x), B(y)], z = x - y"
+      },
+      "embedding_text": {
+        "operation": "Subtraction",
+        "formula": "(A - B)(z) = sup min[A(x), B(y)], z = x - y"
+      }
+    },
+    {
+      "chunk_id": "065ec6e4",
+      "chunk_type": "formula",
+      "page": 18,
+      "formula": {
+        "operation": "Multiplication",
+        "formula": "(A · B)(z) = sup min[A(x), B(y)], z = x · y"
+      },
+      "embedding_text": {
+        "operation": "Multiplication",
+        "formula": "(A · B)(z) = sup min[A(x), B(y)], z = x · y"
+      }
+    },
+    {
+      "chunk_id": "a0be63ac",
+      "chunk_type": "formula",
+      "page": 18,
+      "formula": {
+        "operation": "Division",
+        "formula": "(A / B)(z) = sup min[A(x), B(y)], z = x / y"
+      },
+      "embedding_text": {
+        "operation": "Division",
+        "formula": "(A / B)(z) = sup min[A(x), B(y)], z = x / y"
+      }
+    },
+    {
+      "chunk_id": "07198247",
+      "chunk_type": "diagram",
+      "page": 18,
+      "diagram_type": "none",
+      "content": "No diagrams or charts are present on the slide.",
+      "embedding_text": "No diagrams or charts are present on the slide."
+    },
+    {
+      "chunk_id": "7a7f05f7",
+      "chunk_type": "exam_point",
+      "page": 18,
+      "content": "Understanding the extension principle in fuzzy arithmetic",
+      "embedding_text": "Understanding the extension principle in fuzzy arithmetic"
+    },
+    {
+      "chunk_id": "763ac2f2",
+      "chunk_type": "exam_point",
+      "page": 18,
+      "content": "Ability to apply the supremum and minimum operations to fuzzy sets",
+      "embedding_text": "Ability to apply the supremum and minimum operations to fuzzy sets"
+    },
+    {
+      "chunk_id": "7313e31f",
+      "chunk_type": "exam_point",
+      "page": 18,
+      "content": "Knowledge of how fuzzy addition, subtraction, multiplication, and division are defined",
+      "embedding_text": "Knowledge of how fuzzy addition, subtraction, multiplication, and division are defined"
+    },
+    {
+      "chunk_id": "96ed80e1",
+      "chunk_type": "summary",
+      "page": 19,
+      "title": "Ordering of fuzzy numbers",
+      "content": "The slide discusses the concept of ordering fuzzy numbers, highlighting that real numbers are fully ordered but fuzzy numbers are not. It introduces the idea of defining a partial order for fuzzy numbers using extension principles for min and max operations.",
+      "keywords": [
+        "Ordering",
+        "Fuzzy numbers",
+        "Partial order",
+        "Extension principle",
+        "Min",
+        "Max",
+        "Real numbers",
+        "Fully ordered",
+        "Supremum"
+      ],
+      "raw_text": "Ordering of fuzzy numbers\n\n▶ Number in R are fully ordered, but clearly fuzzy numbers are not\n▶ We can define a partial order of fuzzy number by extending the principle of min and max by using extension principle:\n\nMIN(A, B)(z) = sup min[A(x), B(y)],\nz=min(x,y)\n\nMAX(A, B)(z) = sup min[A(x), B(y)]\nz=max(x,y)",
+      "embedding_text": "The slide discusses the concept of ordering fuzzy numbers, highlighting that real numbers are fully ordered but fuzzy numbers are not. It introduces the idea of defining a partial order for fuzzy numbers using extension principles for min and max operations."
+    },
+    {
+      "chunk_id": "ad67cb47",
+      "chunk_type": "definition",
+      "page": 19,
+      "concept": "Fully ordered set (in R)",
+      "content": "A set where every pair of elements can be compared.",
+      "embedding_text": "Fully ordered set (in R): A set where every pair of elements can be compared."
+    },
+    {
+      "chunk_id": "604b4e86",
+      "chunk_type": "definition",
+      "page": 19,
+      "concept": "Partial order",
+      "content": "A binary relation that is reflexive, antisymmetric, and transitive, allowing for some elements to be incomparable.",
+      "embedding_text": "Partial order: A binary relation that is reflexive, antisymmetric, and transitive, allowing for some elements to be incomparable."
+    },
+    {
+      "chunk_id": "4b49650d",
+      "chunk_type": "definition",
+      "page": 19,
+      "concept": "Extension principle",
+      "content": "A method to extend operations on crisp numbers to fuzzy numbers.",
+      "embedding_text": "Extension principle: A method to extend operations on crisp numbers to fuzzy numbers."
+    },
+    {
+      "chunk_id": "a19f2bad",
+      "chunk_type": "formula",
+      "page": 19,
+      "formula": {
+        "formula": "MIN(A, B)(z) = sup_{z=min(x,y)} min[A(x), B(y)]",
+        "description": "Extension principle for the minimum of two fuzzy numbers A and B."
+      },
+      "embedding_text": {
+        "formula": "MIN(A, B)(z) = sup_{z=min(x,y)} min[A(x), B(y)]",
+        "description": "Extension principle for the minimum of two fuzzy numbers A and B."
+      }
+    },
+    {
+      "chunk_id": "a235ae50",
+      "chunk_type": "formula",
+      "page": 19,
+      "formula": {
+        "formula": "MAX(A, B)(z) = sup_{z=max(x,y)} min[A(x), B(y)]",
+        "description": "Extension principle for the maximum of two fuzzy numbers A and B."
+      },
+      "embedding_text": {
+        "formula": "MAX(A, B)(z) = sup_{z=max(x,y)} min[A(x), B(y)]",
+        "description": "Extension principle for the maximum of two fuzzy numbers A and B."
+      }
+    },
+    {
+      "chunk_id": "b5505e16",
+      "chunk_type": "diagram",
+      "page": 19,
+      "diagram_type": "none",
+      "content": "No diagrams present on the slide.",
+      "embedding_text": "No diagrams present on the slide."
+    },
+    {
+      "chunk_id": "1ef164c0",
+      "chunk_type": "exam_point",
+      "page": 19,
+      "content": "Understanding why fuzzy numbers are not fully ordered like real numbers.",
+      "embedding_text": "Understanding why fuzzy numbers are not fully ordered like real numbers."
+    },
+    {
+      "chunk_id": "02c5e51d",
+      "chunk_type": "exam_point",
+      "page": 19,
+      "content": "Knowing how to define partial order for fuzzy numbers using extension principles.",
+      "embedding_text": "Knowing how to define partial order for fuzzy numbers using extension principles."
+    },
+    {
+      "chunk_id": "20503d36",
+      "chunk_type": "exam_point",
+      "page": 19,
+      "content": "Applying the extension principle for min and max operations on fuzzy numbers.",
+      "embedding_text": "Applying the extension principle for min and max operations on fuzzy numbers."
+    },
+    {
+      "chunk_id": "985cf1be",
+      "chunk_type": "summary",
+      "page": 22,
+      "title": "Ordering of fuzzy numbers",
+      "content": "The slide explains how fuzzy numbers can be ordered using minimum and maximum operations. It highlights that not all fuzzy numbers are comparable but most linguistic terms within a linguistic variable are comparable, providing an example of ordering linguistic terms from smallest to largest.",
+      "keywords": [
+        "Ordering",
+        "Fuzzy numbers",
+        "MIN operation",
+        "MAX operation",
+        "Comparable",
+        "Linguistic terms",
+        "Fuzzy logic"
+      ],
+      "raw_text": "Ordering of fuzzy numbers:\n\n▶ We can define:\n\nA ≤ B iff MIN(A, B) = A or, alternatively,\nA ≤ B iff MAX(A, B) = B\n\n▶ Note that not all fuzzy numbers are comparable but most of linguistic terms of a linguistic variable are comparable, in our past example:\n\nvery small ≤ small ≤ medium ≤ large ≤ very large.",
+      "embedding_text": "The slide explains how fuzzy numbers can be ordered using minimum and maximum operations. It highlights that not all fuzzy numbers are comparable but most linguistic terms within a linguistic variable are comparable, providing an example of ordering linguistic terms from smallest to largest."
+    },
+    {
+      "chunk_id": "920c1d43",
+      "chunk_type": "definition",
+      "page": 22,
+      "concept": "Ordering of fuzzy numbers",
+      "content": "A method to compare fuzzy numbers using the MIN and MAX operations to determine if one fuzzy number is less than or equal to another.",
+      "embedding_text": "Ordering of fuzzy numbers: A method to compare fuzzy numbers using the MIN and MAX operations to determine if one fuzzy number is less than or equal to another."
+    },
+    {
+      "chunk_id": "f8d601d4",
+      "chunk_type": "definition",
+      "page": 22,
+      "concept": "Comparable fuzzy numbers",
+      "content": "Fuzzy numbers that can be ordered using the MIN and MAX operations.",
+      "embedding_text": "Comparable fuzzy numbers: Fuzzy numbers that can be ordered using the MIN and MAX operations."
+    },
+    {
+      "chunk_id": "a07defc5",
+      "chunk_type": "formula",
+      "page": 22,
+      "formula": {
+        "formula": "A ≤ B iff MIN(A, B) = A",
+        "description": "Condition for fuzzy number A being less than or equal to fuzzy number B using the MIN operation."
+      },
+      "embedding_text": {
+        "formula": "A ≤ B iff MIN(A, B) = A",
+        "description": "Condition for fuzzy number A being less than or equal to fuzzy number B using the MIN operation."
+      }
+    },
+    {
+      "chunk_id": "158f3ac6",
+      "chunk_type": "formula",
+      "page": 22,
+      "formula": {
+        "formula": "A ≤ B iff MAX(A, B) = B",
+        "description": "Condition for fuzzy number A being less than or equal to fuzzy number B using the MAX operation."
+      },
+      "embedding_text": {
+        "formula": "A ≤ B iff MAX(A, B) = B",
+        "description": "Condition for fuzzy number A being less than or equal to fuzzy number B using the MAX operation."
+      }
+    },
+    {
+      "chunk_id": "f8c6e404",
+      "chunk_type": "exam_point",
+      "page": 22,
+      "content": "Understanding how fuzzy numbers can be ordered using MIN and MAX operations.",
+      "embedding_text": "Understanding how fuzzy numbers can be ordered using MIN and MAX operations."
+    },
+    {
+      "chunk_id": "6e27d084",
+      "chunk_type": "exam_point",
+      "page": 22,
+      "content": "Recognizing that not all fuzzy numbers are comparable, but most linguistic terms are.",
+      "embedding_text": "Recognizing that not all fuzzy numbers are comparable, but most linguistic terms are."
+    },
+    {
+      "chunk_id": "d72fd897",
+      "chunk_type": "exam_point",
+      "page": 22,
+      "content": "Ability to order linguistic terms in a sequence.",
+      "embedding_text": "Ability to order linguistic terms in a sequence."
+    }
+  ]
+}

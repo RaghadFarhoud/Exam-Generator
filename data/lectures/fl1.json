@@ -1,0 +1,1348 @@
+{
+  "document_name": "fl1",
+  "total_chunks": 154,
+  "chunks": [
+    {
+      "chunk_id": "8c37c304",
+      "chunk_type": "summary",
+      "page": 2,
+      "title": "Introduction",
+      "content": "This slide introduces the concept of logic systems with more than two values, highlighting key contributors and the introduction of Fuzzy Logic by Lotfi Zadeh.",
+      "keywords": [
+        "Introduction",
+        "Logic systems",
+        "Multi-valued logic",
+        "Plato",
+        "Lukasiewicz",
+        "Four-valued logic",
+        "Five-valued logic",
+        "Knuth",
+        "Lotfi Zadeh",
+        "Fuzzy Logic"
+      ],
+      "raw_text": "Introduction\n\n► Many people introduced logic systems with more than two values\n► Plato\n► Lukasiewicz\n► Four-valued logic and five-valued logic\n► Knuth\n► Lotfi Zadeh introduced Fuzzy Logic",
+      "embedding_text": "This slide introduces the concept of logic systems with more than two values, highlighting key contributors and the introduction of Fuzzy Logic by Lotfi Zadeh."
+    },
+    {
+      "chunk_id": "e54a563a",
+      "chunk_type": "definition",
+      "page": 2,
+      "concept": "Multi-valued logic",
+      "content": "A form of logic in which truth values beyond the traditional true/false (e.g., more than two values) are utilized.",
+      "embedding_text": "Multi-valued logic: A form of logic in which truth values beyond the traditional true/false (e.g., more than two values) are utilized."
+    },
+    {
+      "chunk_id": "564b1501",
+      "chunk_type": "definition",
+      "page": 2,
+      "concept": "Four-valued logic",
+      "content": "A logic system with four possible truth values, introduced by Jan Łukasiewicz.",
+      "embedding_text": "Four-valued logic: A logic system with four possible truth values, introduced by Jan Łukasiewicz."
+    },
+    {
+      "chunk_id": "298ecbc3",
+      "chunk_type": "definition",
+      "page": 2,
+      "concept": "Five-valued logic",
+      "content": "A logic system with five possible truth values, also introduced by Jan Łukasiewicz.",
+      "embedding_text": "Five-valued logic: A logic system with five possible truth values, also introduced by Jan Łukasiewicz."
+    },
+    {
+      "chunk_id": "83f29dba",
+      "chunk_type": "definition",
+      "page": 2,
+      "concept": "Fuzzy Logic",
+      "content": "A form of multi-valued logic where the truth values range between completely true and completely false, introduced by Lotfi Zadeh.",
+      "embedding_text": "Fuzzy Logic: A form of multi-valued logic where the truth values range between completely true and completely false, introduced by Lotfi Zadeh."
+    },
+    {
+      "chunk_id": "2ae01c5f",
+      "chunk_type": "exam_point",
+      "page": 2,
+      "content": "Understanding the contributions of Plato, Lukasiewicz, and Knuth to multi-valued logic systems.",
+      "embedding_text": "Understanding the contributions of Plato, Lukasiewicz, and Knuth to multi-valued logic systems."
+    },
+    {
+      "chunk_id": "e2c4450f",
+      "chunk_type": "exam_point",
+      "page": 2,
+      "content": "Recognizing Lotfi Zadeh's role in introducing Fuzzy Logic.",
+      "embedding_text": "Recognizing Lotfi Zadeh's role in introducing Fuzzy Logic."
+    },
+    {
+      "chunk_id": "2a0545f4",
+      "chunk_type": "summary",
+      "page": 5,
+      "title": "Crisp sets",
+      "content": "The slide introduces fundamental crisp sets used in mathematics, specifically the sets of integers, natural numbers, nonnegative integers, and real numbers.",
+      "keywords": [
+        "Crisp sets",
+        "Integers",
+        "Natural numbers",
+        "Nonnegative integers",
+        "Real numbers",
+        "Z",
+        "N",
+        "N₀",
+        "R",
+        "Set theory"
+      ],
+      "raw_text": "Crisp sets\n\n▶ Z = {..., -2, -1, 0, 1, 2,...} (the set of all integers),\n▶ N = {1, 2, 3,...} (the set of all positive integers or natural numbers),\n▶ N₀ = {0, 1, 2,...} (the set of all nonnegative integers),\n▶ R: the set of all real numbers",
+      "embedding_text": "The slide introduces fundamental crisp sets used in mathematics, specifically the sets of integers, natural numbers, nonnegative integers, and real numbers."
+    },
+    {
+      "chunk_id": "33e9436d",
+      "chunk_type": "definition",
+      "page": 5,
+      "concept": "Z",
+      "content": "The set of all integers, including negative, zero, and positive integers.",
+      "embedding_text": "Z: The set of all integers, including negative, zero, and positive integers."
+    },
+    {
+      "chunk_id": "893e734d",
+      "chunk_type": "definition",
+      "page": 5,
+      "concept": "N",
+      "content": "The set of all positive integers or natural numbers.",
+      "embedding_text": "N: The set of all positive integers or natural numbers."
+    },
+    {
+      "chunk_id": "7fc5d931",
+      "chunk_type": "definition",
+      "page": 5,
+      "concept": "N₀",
+      "content": "The set of all nonnegative integers, including zero and positive integers.",
+      "embedding_text": "N₀: The set of all nonnegative integers, including zero and positive integers."
+    },
+    {
+      "chunk_id": "706f492b",
+      "chunk_type": "definition",
+      "page": 5,
+      "concept": "R",
+      "content": "The set of all real numbers.",
+      "embedding_text": "R: The set of all real numbers."
+    },
+    {
+      "chunk_id": "3afd4d30",
+      "chunk_type": "exam_point",
+      "page": 5,
+      "content": "Understanding the definitions and distinctions between Z, N, N₀, and R.",
+      "embedding_text": "Understanding the definitions and distinctions between Z, N, N₀, and R."
+    },
+    {
+      "chunk_id": "60ab68e4",
+      "chunk_type": "exam_point",
+      "page": 5,
+      "content": "Recognizing the elements that belong to each set.",
+      "embedding_text": "Recognizing the elements that belong to each set."
+    },
+    {
+      "chunk_id": "cdc63add",
+      "chunk_type": "summary",
+      "page": 6,
+      "title": "Crisp set",
+      "content": "The slide introduces the concept of a crisp set, explaining membership and non-membership in sets, and provides three common methods for representing sets.",
+      "keywords": [
+        "Crisp set",
+        "Set membership",
+        "Set notation",
+        "Roster method",
+        "Set-builder notation",
+        "Characteristic function",
+        "Element",
+        "Membership",
+        "Non-membership"
+      ],
+      "raw_text": "Crisp set\n\n► Item in set\nx ∈ A.\n► Item not in set:\n x ∉ A.\n► To represent set we usually use three methods:\nA = {a₁, a₂, ..., aₙ}.\nA = {x | P(x)},\nχ_A(x) = { 1 for x ∈ A\n             0 for x ∉ A. }",
+      "embedding_text": "The slide introduces the concept of a crisp set, explaining membership and non-membership in sets, and provides three common methods for representing sets."
+    },
+    {
+      "chunk_id": "c116f6b3",
+      "chunk_type": "definition",
+      "page": 6,
+      "concept": "Crisp set",
+      "content": "A collection of distinct objects where each object is either an element of the set or not.",
+      "embedding_text": "Crisp set: A collection of distinct objects where each object is either an element of the set or not."
+    },
+    {
+      "chunk_id": "0e67daf4",
+      "chunk_type": "definition",
+      "page": 6,
+      "concept": "Item in set",
+      "content": "An element x is in set A, denoted as x ∈ A.",
+      "embedding_text": "Item in set: An element x is in set A, denoted as x ∈ A."
+    },
+    {
+      "chunk_id": "f320b2fb",
+      "chunk_type": "definition",
+      "page": 6,
+      "concept": "Item not in set",
+      "content": "An element x is not in set A, denoted as x ∉ A.",
+      "embedding_text": "Item not in set: An element x is not in set A, denoted as x ∉ A."
+    },
+    {
+      "chunk_id": "5d322794",
+      "chunk_type": "formula",
+      "page": 6,
+      "formula": "A = {a₁, a₂, ..., aₙ}",
+      "embedding_text": "A = {a₁, a₂, ..., aₙ}"
+    },
+    {
+      "chunk_id": "f7c4cfe1",
+      "chunk_type": "formula",
+      "page": 6,
+      "formula": "A = {x | P(x)}",
+      "embedding_text": "A = {x | P(x)}"
+    },
+    {
+      "chunk_id": "4acc2eca",
+      "chunk_type": "formula",
+      "page": 6,
+      "formula": "χ_A(x) = { 1 for x ∈ A, 0 for x ∉ A }",
+      "embedding_text": "χ_A(x) = { 1 for x ∈ A, 0 for x ∉ A }"
+    },
+    {
+      "chunk_id": "e1c2477a",
+      "chunk_type": "exam_point",
+      "page": 6,
+      "content": "Understanding the notation for membership and non-membership in sets.",
+      "embedding_text": "Understanding the notation for membership and non-membership in sets."
+    },
+    {
+      "chunk_id": "d87f5868",
+      "chunk_type": "exam_point",
+      "page": 6,
+      "content": "Knowing the three methods to represent a crisp set.",
+      "embedding_text": "Knowing the three methods to represent a crisp set."
+    },
+    {
+      "chunk_id": "0efa70e9",
+      "chunk_type": "exam_point",
+      "page": 6,
+      "content": "Recognizing the characteristic function of a set.",
+      "embedding_text": "Recognizing the characteristic function of a set."
+    },
+    {
+      "chunk_id": "e05dff19",
+      "chunk_type": "summary",
+      "page": 7,
+      "title": "Crisp sets",
+      "content": "The slide introduces the concept of crisp sets and outlines fundamental operations associated with them, including intersection, union, difference, subsets, and second order power sets.",
+      "keywords": [
+        "Crisp sets",
+        "Intersection",
+        "Union",
+        "Difference",
+        "Subsets",
+        "Power set",
+        "Second order power set",
+        "Set operations",
+        "Set theory"
+      ],
+      "raw_text": "Crisp sets\n\n▸ Operations\n▸ Intersection\n▸ Union\n▸ Difference\n▸ Subsets\n▸ Second order power set",
+      "embedding_text": "The slide introduces the concept of crisp sets and outlines fundamental operations associated with them, including intersection, union, difference, subsets, and second order power sets."
+    },
+    {
+      "chunk_id": "a86e286b",
+      "chunk_type": "definition",
+      "page": 7,
+      "concept": "Crisp sets",
+      "content": "Sets where elements have clear, unambiguous membership (either fully in or fully out of the set).",
+      "embedding_text": "Crisp sets: Sets where elements have clear, unambiguous membership (either fully in or fully out of the set)."
+    },
+    {
+      "chunk_id": "18891207",
+      "chunk_type": "definition",
+      "page": 7,
+      "concept": "Intersection",
+      "content": "The set of elements common to all given sets.",
+      "embedding_text": "Intersection: The set of elements common to all given sets."
+    },
+    {
+      "chunk_id": "6ab5b040",
+      "chunk_type": "definition",
+      "page": 7,
+      "concept": "Union",
+      "content": "The set of all elements that are in any of the given sets.",
+      "embedding_text": "Union: The set of all elements that are in any of the given sets."
+    },
+    {
+      "chunk_id": "90055a6f",
+      "chunk_type": "definition",
+      "page": 7,
+      "concept": "Difference",
+      "content": "The set of elements in one set but not in another.",
+      "embedding_text": "Difference: The set of elements in one set but not in another."
+    },
+    {
+      "chunk_id": "ab9e36db",
+      "chunk_type": "definition",
+      "page": 7,
+      "concept": "Subsets",
+      "content": "A set A is a subset of a set B if all elements of A are also elements of B.",
+      "embedding_text": "Subsets: A set A is a subset of a set B if all elements of A are also elements of B."
+    },
+    {
+      "chunk_id": "7921dab7",
+      "chunk_type": "definition",
+      "page": 7,
+      "concept": "Second order power set",
+      "content": "The power set of the power set of a given set.",
+      "embedding_text": "Second order power set: The power set of the power set of a given set."
+    },
+    {
+      "chunk_id": "33cb4660",
+      "chunk_type": "exam_point",
+      "page": 7,
+      "content": "Understanding the basic operations of crisp sets: intersection, union, and difference.",
+      "embedding_text": "Understanding the basic operations of crisp sets: intersection, union, and difference."
+    },
+    {
+      "chunk_id": "3a2fd38a",
+      "chunk_type": "exam_point",
+      "page": 7,
+      "content": "Ability to identify subsets and power sets.",
+      "embedding_text": "Ability to identify subsets and power sets."
+    },
+    {
+      "chunk_id": "f88f0fc3",
+      "chunk_type": "exam_point",
+      "page": 7,
+      "content": "Concept of second order power sets.",
+      "embedding_text": "Concept of second order power sets."
+    },
+    {
+      "chunk_id": "dc10f430",
+      "chunk_type": "summary",
+      "page": 8,
+      "title": "Fuzzy sets",
+      "content": "The slide introduces the concept of fuzzy sets, focusing on the membership function and its representation. It highlights that the membership function typically maps elements to values within the range [0,1].",
+      "keywords": [
+        "Fuzzy sets",
+        "Membership function",
+        "Range [0,1]",
+        "Representation",
+        "Degree of membership"
+      ],
+      "raw_text": "Fuzzy sets\n\n▶ Membership function\n▶ Usually in range [0,1]\n▶ Representation\n\nμ_A : X → [0, 1].\nA : X → [0, 1].",
+      "embedding_text": "The slide introduces the concept of fuzzy sets, focusing on the membership function and its representation. It highlights that the membership function typically maps elements to values within the range [0,1]."
+    },
+    {
+      "chunk_id": "a9bebbff",
+      "chunk_type": "definition",
+      "page": 8,
+      "concept": "Membership function",
+      "content": "A function that assigns to each element of a set a value in the range [0,1], indicating the degree of membership.",
+      "embedding_text": "Membership function: A function that assigns to each element of a set a value in the range [0,1], indicating the degree of membership."
+    },
+    {
+      "chunk_id": "8e341dbb",
+      "chunk_type": "definition",
+      "page": 8,
+      "concept": "Fuzzy set",
+      "content": "A set where elements have degrees of membership, typically represented by a function mapping elements to values in [0,1].",
+      "embedding_text": "Fuzzy set: A set where elements have degrees of membership, typically represented by a function mapping elements to values in [0,1]."
+    },
+    {
+      "chunk_id": "1d49b506",
+      "chunk_type": "formula",
+      "page": 8,
+      "formula": "μ_A : X → [0, 1]",
+      "embedding_text": "μ_A : X → [0, 1]"
+    },
+    {
+      "chunk_id": "ee3a2a3d",
+      "chunk_type": "formula",
+      "page": 8,
+      "formula": "A : X → [0, 1]",
+      "embedding_text": "A : X → [0, 1]"
+    },
+    {
+      "chunk_id": "8cb83460",
+      "chunk_type": "exam_point",
+      "page": 8,
+      "content": "Understanding the concept of a membership function in fuzzy sets",
+      "embedding_text": "Understanding the concept of a membership function in fuzzy sets"
+    },
+    {
+      "chunk_id": "f4aa74ec",
+      "chunk_type": "exam_point",
+      "page": 8,
+      "content": "Knowing the range of values for membership functions",
+      "embedding_text": "Knowing the range of values for membership functions"
+    },
+    {
+      "chunk_id": "f1d78046",
+      "chunk_type": "exam_point",
+      "page": 8,
+      "content": "Recognizing the notation used for fuzzy set representation",
+      "embedding_text": "Recognizing the notation used for fuzzy set representation"
+    },
+    {
+      "chunk_id": "9afed9ce",
+      "chunk_type": "summary",
+      "page": 9,
+      "title": "Fuzzy sets",
+      "content": "The slide provides visual examples of fuzzy sets with the concept 'Close to 2' using different membership functions. It illustrates how elements can have degrees of membership in a fuzzy set rather than binary membership as in classical sets.",
+      "keywords": [
+        "Fuzzy sets",
+        "Membership function",
+        "Degree of membership",
+        "Fuzzy logic",
+        "Close to 2",
+        "A1(x)",
+        "A2(x)",
+        "A3(x)",
+        "A4(x)",
+        "Triangular function",
+        "Gaussian function",
+        "Bell-shaped function"
+      ],
+      "raw_text": "Fuzzy sets\n\n► Example of fuzzy set “Close to 2”",
+      "embedding_text": "The slide provides visual examples of fuzzy sets with the concept 'Close to 2' using different membership functions. It illustrates how elements can have degrees of membership in a fuzzy set rather than binary membership as in classical sets."
+    },
+    {
+      "chunk_id": "71cfd05f",
+      "chunk_type": "definition",
+      "page": 9,
+      "concept": "Fuzzy set",
+      "content": "A set where elements have degrees of membership between 0 and 1, rather than a binary yes/no membership.",
+      "embedding_text": "Fuzzy set: A set where elements have degrees of membership between 0 and 1, rather than a binary yes/no membership."
+    },
+    {
+      "chunk_id": "17dfb639",
+      "chunk_type": "definition",
+      "page": 9,
+      "concept": "Membership function",
+      "content": "A function that defines the degree of membership of an element in a fuzzy set.",
+      "embedding_text": "Membership function: A function that defines the degree of membership of an element in a fuzzy set."
+    },
+    {
+      "chunk_id": "2ad1f268",
+      "chunk_type": "diagram",
+      "page": 9,
+      "diagram_type": "membership function graph",
+      "content": "Four graphs labeled A1(x), A2(x), A3(x), and A4(x) showing different membership functions for the fuzzy set 'Close to 2'. Each graph depicts how the degree of membership varies with x.",
+      "embedding_text": "Four graphs labeled A1(x), A2(x), A3(x), and A4(x) showing different membership functions for the fuzzy set 'Close to 2'. Each graph depicts how the degree of membership varies with x."
+    },
+    {
+      "chunk_id": "e1c2d68c",
+      "chunk_type": "exam_point",
+      "page": 9,
+      "content": "Understanding the concept of fuzzy sets and their difference from classical sets.",
+      "embedding_text": "Understanding the concept of fuzzy sets and their difference from classical sets."
+    },
+    {
+      "chunk_id": "4f7f22b6",
+      "chunk_type": "exam_point",
+      "page": 9,
+      "content": "Recognizing and interpreting membership functions.",
+      "embedding_text": "Recognizing and interpreting membership functions."
+    },
+    {
+      "chunk_id": "fae06ee0",
+      "chunk_type": "exam_point",
+      "page": 9,
+      "content": "Ability to describe how elements can have varying degrees of membership in a fuzzy set.",
+      "embedding_text": "Ability to describe how elements can have varying degrees of membership in a fuzzy set."
+    },
+    {
+      "chunk_id": "86f8c11b",
+      "chunk_type": "summary",
+      "page": 10,
+      "title": "Fuzzy sets",
+      "content": "The slide introduces the concept of fuzzy sets by explaining that the universe (or set of discourse) can be either continuous or discrete. It provides an example of a discrete universe using educational levels as categories, ranging from no education to a doctoral degree.",
+      "keywords": [
+        "Fuzzy sets",
+        "Universe",
+        "Set of discourse",
+        "Discrete",
+        "Continuous",
+        "Education levels",
+        "No education",
+        "Elementary school",
+        "High school",
+        "Two-year college degree",
+        "Bachelor’s degree",
+        "Master’s degree",
+        "Doctoral degree"
+      ],
+      "raw_text": "Fuzzy sets\n\n▶ The universe (Set of discourse) The fuzzy set is defined on can be continuous or discrete\n▶ Example of discrete universe:\n\n0 – no education\n1 – elementary school\n2 – high school\n3 – two-year college degree\n4 – bachelor’s degree\n5 – master’s degree\n6 – doctoral degree",
+      "embedding_text": "The slide introduces the concept of fuzzy sets by explaining that the universe (or set of discourse) can be either continuous or discrete. It provides an example of a discrete universe using educational levels as categories, ranging from no education to a doctoral degree."
+    },
+    {
+      "chunk_id": "c2073476",
+      "chunk_type": "definition",
+      "page": 10,
+      "concept": "Universe (Set of discourse)",
+      "content": "The collection of objects or elements on which a fuzzy set is defined.",
+      "embedding_text": "Universe (Set of discourse): The collection of objects or elements on which a fuzzy set is defined."
+    },
+    {
+      "chunk_id": "3bcb2a40",
+      "chunk_type": "definition",
+      "page": 10,
+      "concept": "Discrete universe",
+      "content": "A universe where elements are distinct and separate, often represented by enumerated categories.",
+      "embedding_text": "Discrete universe: A universe where elements are distinct and separate, often represented by enumerated categories."
+    },
+    {
+      "chunk_id": "81e7751d",
+      "chunk_type": "exam_point",
+      "page": 10,
+      "content": "Understanding the difference between continuous and discrete universes in fuzzy sets.",
+      "embedding_text": "Understanding the difference between continuous and discrete universes in fuzzy sets."
+    },
+    {
+      "chunk_id": "d54fff9d",
+      "chunk_type": "exam_point",
+      "page": 10,
+      "content": "Ability to categorize elements into discrete fuzzy sets.",
+      "embedding_text": "Ability to categorize elements into discrete fuzzy sets."
+    },
+    {
+      "chunk_id": "a63f45ed",
+      "chunk_type": "summary",
+      "page": 13,
+      "title": "Generalizing fuzzy sets",
+      "content": "The slide introduces two generalizations of fuzzy sets: interval-valued fuzzy sets and fuzzy sets of type 2. It explains how these generalizations extend the concept of membership functions by allowing interval values and fuzzy values, respectively.",
+      "keywords": [
+        "Generalizing fuzzy sets",
+        "Interval-valued fuzzy sets",
+        "Fuzzy sets of type 2",
+        "Membership function",
+        "ε([0, 1])",
+        "𝒱([0, 1])",
+        "Fuzzy logic",
+        "Uncertainty modeling"
+      ],
+      "raw_text": "Generalizing fuzzy sets\n\n▶ Interval-valued fuzzy sets:\nA : X → ε([0, 1]),\nε([0, 1]) ⊂ 𝒫([0, 1]).\n\n▶ Fuzzy sets of type 2\n▶ The value of membership function is also a fuzzy set\nA : X → 𝒱([0, 1]).",
+      "embedding_text": "The slide introduces two generalizations of fuzzy sets: interval-valued fuzzy sets and fuzzy sets of type 2. It explains how these generalizations extend the concept of membership functions by allowing interval values and fuzzy values, respectively."
+    },
+    {
+      "chunk_id": "9ff76f25",
+      "chunk_type": "definition",
+      "page": 13,
+      "concept": "Interval-valued fuzzy sets",
+      "content": "A type of fuzzy set where the membership value of an element is not a single value in [0, 1], but an interval within [0, 1].",
+      "embedding_text": "Interval-valued fuzzy sets: A type of fuzzy set where the membership value of an element is not a single value in [0, 1], but an interval within [0, 1]."
+    },
+    {
+      "chunk_id": "bd4ffeb2",
+      "chunk_type": "definition",
+      "page": 13,
+      "concept": "Fuzzy sets of type 2",
+      "content": "A type of fuzzy set where the membership value of an element is itself a fuzzy set in the interval [0, 1].",
+      "embedding_text": "Fuzzy sets of type 2: A type of fuzzy set where the membership value of an element is itself a fuzzy set in the interval [0, 1]."
+    },
+    {
+      "chunk_id": "17c5e547",
+      "chunk_type": "formula",
+      "page": 13,
+      "formula": {
+        "expression": "A : X → ε([0, 1])",
+        "description": "Membership function for interval-valued fuzzy sets, where ε([0, 1]) is a subset of the power set of [0, 1]."
+      },
+      "embedding_text": {
+        "expression": "A : X → ε([0, 1])",
+        "description": "Membership function for interval-valued fuzzy sets, where ε([0, 1]) is a subset of the power set of [0, 1]."
+      }
+    },
+    {
+      "chunk_id": "bdfc081e",
+      "chunk_type": "formula",
+      "page": 13,
+      "formula": {
+        "expression": "A : X → 𝒱([0, 1])",
+        "description": "Membership function for fuzzy sets of type 2, where 𝒱([0, 1]) represents fuzzy sets in the interval [0, 1]."
+      },
+      "embedding_text": {
+        "expression": "A : X → 𝒱([0, 1])",
+        "description": "Membership function for fuzzy sets of type 2, where 𝒱([0, 1]) represents fuzzy sets in the interval [0, 1]."
+      }
+    },
+    {
+      "chunk_id": "98a55c91",
+      "chunk_type": "exam_point",
+      "page": 13,
+      "content": "Understanding the difference between interval-valued fuzzy sets and fuzzy sets of type 2",
+      "embedding_text": "Understanding the difference between interval-valued fuzzy sets and fuzzy sets of type 2"
+    },
+    {
+      "chunk_id": "12c11006",
+      "chunk_type": "exam_point",
+      "page": 13,
+      "content": "Knowing how membership functions are generalized in both types",
+      "embedding_text": "Knowing how membership functions are generalized in both types"
+    },
+    {
+      "chunk_id": "da072bd7",
+      "chunk_type": "exam_point",
+      "page": 13,
+      "content": "Recognizing the mathematical notation used for these generalizations",
+      "embedding_text": "Recognizing the mathematical notation used for these generalizations"
+    },
+    {
+      "chunk_id": "a3fdc903",
+      "chunk_type": "summary",
+      "page": 15,
+      "title": "Strong α-cut",
+      "content": "The slide explains the concept of a strong α-cut in fuzzy sets, detailing the conditions for elements in a fuzzy set to belong to a strong α-cut, the definition of level sets, and the relationship between different α-cuts based on their levels.",
+      "keywords": [
+        "Strong α-cut",
+        "Fuzzy set",
+        "Membership value",
+        "Level set",
+        "α-cut",
+        "Superset",
+        "Membership function"
+      ],
+      "raw_text": "Strong α-cut\n\n► Element should be greater than α\n\nα+A = {x|A(x) > α}.\n\n► Level set of a fuzzy set:\n\nΛ(A) = {α|A(x) = α for some x ∈ X},\n\n► If a₁>a₂\n\nα₁A ⊇ α₂A and α₁+A ⊇ α₂+A.",
+      "embedding_text": "The slide explains the concept of a strong α-cut in fuzzy sets, detailing the conditions for elements in a fuzzy set to belong to a strong α-cut, the definition of level sets, and the relationship between different α-cuts based on their levels."
+    },
+    {
+      "chunk_id": "8f4a9731",
+      "chunk_type": "definition",
+      "page": 15,
+      "concept": "Strong α-cut",
+      "content": "A strong α-cut of a fuzzy set A, denoted as α+A, is the set of all elements x in A such that the membership value A(x) is strictly greater than α.",
+      "embedding_text": "Strong α-cut: A strong α-cut of a fuzzy set A, denoted as α+A, is the set of all elements x in A such that the membership value A(x) is strictly greater than α."
+    },
+    {
+      "chunk_id": "14c2aa8e",
+      "chunk_type": "definition",
+      "page": 15,
+      "concept": "Level set of a fuzzy set",
+      "content": "The level set Λ(A) of a fuzzy set A is the set of all α values for which there exists at least one element x in the universal set X such that A(x) equals α.",
+      "embedding_text": "Level set of a fuzzy set: The level set Λ(A) of a fuzzy set A is the set of all α values for which there exists at least one element x in the universal set X such that A(x) equals α."
+    },
+    {
+      "chunk_id": "0273c051",
+      "chunk_type": "formula",
+      "page": 15,
+      "formula": "α+A = {x | A(x) > α}",
+      "embedding_text": "α+A = {x | A(x) > α}"
+    },
+    {
+      "chunk_id": "fc64d781",
+      "chunk_type": "formula",
+      "page": 15,
+      "formula": "Λ(A) = {α | A(x) = α for some x ∈ X}",
+      "embedding_text": "Λ(A) = {α | A(x) = α for some x ∈ X}"
+    },
+    {
+      "chunk_id": "9e8989c8",
+      "chunk_type": "formula",
+      "page": 15,
+      "formula": "If a₁ > a₂, then α₁A ⊇ α₂A and α₁+A ⊇ α₂+A",
+      "embedding_text": "If a₁ > a₂, then α₁A ⊇ α₂A and α₁+A ⊇ α₂+A"
+    },
+    {
+      "chunk_id": "07a1f70f",
+      "chunk_type": "diagram",
+      "page": 15,
+      "diagram_type": "none",
+      "content": "No diagrams or charts are present on the slide.",
+      "embedding_text": "No diagrams or charts are present on the slide."
+    },
+    {
+      "chunk_id": "1088d752",
+      "chunk_type": "exam_point",
+      "page": 15,
+      "content": "Understanding the definition and conditions for a strong α-cut",
+      "embedding_text": "Understanding the definition and conditions for a strong α-cut"
+    },
+    {
+      "chunk_id": "f3087c34",
+      "chunk_type": "exam_point",
+      "page": 15,
+      "content": "Knowing how to determine the level set of a fuzzy set",
+      "embedding_text": "Knowing how to determine the level set of a fuzzy set"
+    },
+    {
+      "chunk_id": "263b029c",
+      "chunk_type": "exam_point",
+      "page": 15,
+      "content": "Applying the relationship between different α-cuts based on their levels",
+      "embedding_text": "Applying the relationship between different α-cuts based on their levels"
+    },
+    {
+      "chunk_id": "a308fe35",
+      "chunk_type": "summary",
+      "page": 16,
+      "title": "Other properties",
+      "content": "The slide explains key properties related to fuzzy sets, including the support, core, height, and normality of a fuzzy set. It provides definitions, mathematical notations, and conditions for classifying fuzzy sets as normal or subnormal.",
+      "keywords": [
+        "Support",
+        "Core",
+        "Height",
+        "Normal fuzzy set",
+        "Subnormal fuzzy set",
+        "Membership function",
+        "Fuzzy set",
+        "Crisp set",
+        "Universal set",
+        "supremum"
+      ],
+      "raw_text": "Other properties\n\n▶ Support of fuzzy set supp(A) is the crisp set from the universal set X that membership value exactly greater than 0\n▶ supp(A) = ⁰⁺A\n▶ Core of A is ¹A\n▶ Height of A is the maximum value of membership function:\n\nh(A) = sup A(x).\nx ∈ X\n▶ When h(A) is 1 then A is called Normal, else it is subnormal",
+      "embedding_text": "The slide explains key properties related to fuzzy sets, including the support, core, height, and normality of a fuzzy set. It provides definitions, mathematical notations, and conditions for classifying fuzzy sets as normal or subnormal."
+    },
+    {
+      "chunk_id": "a70cfa35",
+      "chunk_type": "definition",
+      "page": 16,
+      "concept": "Support of fuzzy set (supp(A))",
+      "content": "The crisp set from the universal set X that has membership values exactly greater than 0.",
+      "embedding_text": "Support of fuzzy set (supp(A)): The crisp set from the universal set X that has membership values exactly greater than 0."
+    },
+    {
+      "chunk_id": "633a6e0d",
+      "chunk_type": "definition",
+      "page": 16,
+      "concept": "Core of fuzzy set (¹A)",
+      "content": "The crisp set from the universal set X that has membership values exactly equal to 1.",
+      "embedding_text": "Core of fuzzy set (¹A): The crisp set from the universal set X that has membership values exactly equal to 1."
+    },
+    {
+      "chunk_id": "e8749187",
+      "chunk_type": "definition",
+      "page": 16,
+      "concept": "Height of fuzzy set (h(A))",
+      "content": "The maximum value of the membership function of the fuzzy set.",
+      "embedding_text": "Height of fuzzy set (h(A)): The maximum value of the membership function of the fuzzy set."
+    },
+    {
+      "chunk_id": "68d716b8",
+      "chunk_type": "definition",
+      "page": 16,
+      "concept": "Normal fuzzy set",
+      "content": "A fuzzy set A where the height h(A) is equal to 1.",
+      "embedding_text": "Normal fuzzy set: A fuzzy set A where the height h(A) is equal to 1."
+    },
+    {
+      "chunk_id": "2ed2c499",
+      "chunk_type": "definition",
+      "page": 16,
+      "concept": "Subnormal fuzzy set",
+      "content": "A fuzzy set A where the height h(A) is less than 1.",
+      "embedding_text": "Subnormal fuzzy set: A fuzzy set A where the height h(A) is less than 1."
+    },
+    {
+      "chunk_id": "6eadef5a",
+      "chunk_type": "formula",
+      "page": 16,
+      "formula": "supp(A) = ⁰⁺A",
+      "embedding_text": "supp(A) = ⁰⁺A"
+    },
+    {
+      "chunk_id": "7f4e2442",
+      "chunk_type": "formula",
+      "page": 16,
+      "formula": "h(A) = sup A(x)",
+      "embedding_text": "h(A) = sup A(x)"
+    },
+    {
+      "chunk_id": "35652fdd",
+      "chunk_type": "formula",
+      "page": 16,
+      "formula": "x ∈ X",
+      "embedding_text": "x ∈ X"
+    },
+    {
+      "chunk_id": "a3cb6b25",
+      "chunk_type": "exam_point",
+      "page": 16,
+      "content": "Understanding the concept of support and core in fuzzy sets.",
+      "embedding_text": "Understanding the concept of support and core in fuzzy sets."
+    },
+    {
+      "chunk_id": "54c85bab",
+      "chunk_type": "exam_point",
+      "page": 16,
+      "content": "Calculating the height of a fuzzy set using the membership function.",
+      "embedding_text": "Calculating the height of a fuzzy set using the membership function."
+    },
+    {
+      "chunk_id": "3a131dc6",
+      "chunk_type": "exam_point",
+      "page": 16,
+      "content": "Differentiating between normal and subnormal fuzzy sets based on height.",
+      "embedding_text": "Differentiating between normal and subnormal fuzzy sets based on height."
+    },
+    {
+      "chunk_id": "7ed6c2f1",
+      "chunk_type": "summary",
+      "page": 17,
+      "title": "Convex fuzzy set",
+      "content": "The slide explains the concept of convexity in the context of crisp and fuzzy sets. It describes how a crisp set can be convex and generalizes this concept to fuzzy sets using alpha-cuts.",
+      "keywords": [
+        "Convex fuzzy set",
+        "Crisp set",
+        "Fuzzy set",
+        "Alpha-cut",
+        "Membership function",
+        "Convexity",
+        "Line segments",
+        "Threshold alpha"
+      ],
+      "raw_text": "Convex fuzzy set\n\n▶ Crisp set can be convex when all points of lines segments connecting any pair of elements should be members of the set\n\n▶ As a generalization a fuzzy set is convex when all α-cuts are convex for α in the range [0,1]",
+      "embedding_text": "The slide explains the concept of convexity in the context of crisp and fuzzy sets. It describes how a crisp set can be convex and generalizes this concept to fuzzy sets using alpha-cuts."
+    },
+    {
+      "chunk_id": "104e830b",
+      "chunk_type": "definition",
+      "page": 17,
+      "concept": "Convex Crisp Set",
+      "content": "A crisp set is convex if all points on the line segments connecting any pair of elements in the set are also members of the set.",
+      "embedding_text": "Convex Crisp Set: A crisp set is convex if all points on the line segments connecting any pair of elements in the set are also members of the set."
+    },
+    {
+      "chunk_id": "d2c467d0",
+      "chunk_type": "definition",
+      "page": 17,
+      "concept": "Convex Fuzzy Set",
+      "content": "A fuzzy set is convex if all its alpha-cuts are convex for alpha in the range [0, 1].",
+      "embedding_text": "Convex Fuzzy Set: A fuzzy set is convex if all its alpha-cuts are convex for alpha in the range [0, 1]."
+    },
+    {
+      "chunk_id": "314054ef",
+      "chunk_type": "definition",
+      "page": 17,
+      "concept": "Alpha-cut",
+      "content": "A subset of elements in a fuzzy set whose membership values are greater than or equal to a specified threshold alpha.",
+      "embedding_text": "Alpha-cut: A subset of elements in a fuzzy set whose membership values are greater than or equal to a specified threshold alpha."
+    },
+    {
+      "chunk_id": "9c788717",
+      "chunk_type": "diagram",
+      "page": 17,
+      "diagram_type": "membership function plot",
+      "content": "A plot showing a fuzzy set's membership function A(x) with respect to x, illustrating the concept of alpha-cuts at different levels of alpha.",
+      "embedding_text": "A plot showing a fuzzy set's membership function A(x) with respect to x, illustrating the concept of alpha-cuts at different levels of alpha."
+    },
+    {
+      "chunk_id": "f9cc62bb",
+      "chunk_type": "exam_point",
+      "page": 17,
+      "content": "Understanding the definition of convexity in crisp sets.",
+      "embedding_text": "Understanding the definition of convexity in crisp sets."
+    },
+    {
+      "chunk_id": "2a9b1d6a",
+      "chunk_type": "exam_point",
+      "page": 17,
+      "content": "Applying the concept of alpha-cuts to determine convexity in fuzzy sets.",
+      "embedding_text": "Applying the concept of alpha-cuts to determine convexity in fuzzy sets."
+    },
+    {
+      "chunk_id": "5482b651",
+      "chunk_type": "exam_point",
+      "page": 17,
+      "content": "Recognizing the graphical representation of alpha-cuts on a membership function.",
+      "embedding_text": "Recognizing the graphical representation of alpha-cuts on a membership function."
+    },
+    {
+      "chunk_id": "f0d4e533",
+      "chunk_type": "summary",
+      "page": 18,
+      "title": "Convex fuzzy set",
+      "content": "The slide presents a theorem defining the condition for a fuzzy set to be convex. It highlights the mathematical inequality that must hold for all real elements and a scalar between 0 and 1.",
+      "keywords": [
+        "Convex fuzzy set",
+        "Fuzzy set",
+        "Convexity",
+        "Membership value",
+        "Convex combination",
+        "Minimum operator",
+        "Lambda (λ)",
+        "Theorem"
+      ],
+      "raw_text": "Convex fuzzy set\n\n▶ Theorem:\n\nA fuzzy set A is convex when:\n\nA(λx1 + (1 - λ)x2) ≥ min[A(x1), A(x2)]\n\nfor all x1, x2 ∈ ℝ and all λ ∈ [0, 1], where min denotes the minimum operator.",
+      "embedding_text": "The slide presents a theorem defining the condition for a fuzzy set to be convex. It highlights the mathematical inequality that must hold for all real elements and a scalar between 0 and 1."
+    },
+    {
+      "chunk_id": "a975f68a",
+      "chunk_type": "definition",
+      "page": 18,
+      "concept": "Convex fuzzy set",
+      "content": "A fuzzy set A where for all elements x1, x2 in the universal set and all λ in the interval [0, 1], the membership value of the convex combination of x1 and x2 is greater than or equal to the minimum of the membership values of x1 and x2.",
+      "embedding_text": "Convex fuzzy set: A fuzzy set A where for all elements x1, x2 in the universal set and all λ in the interval [0, 1], the membership value of the convex combination of x1 and x2 is greater than or equal to the minimum of the membership values of x1 and x2."
+    },
+    {
+      "chunk_id": "e047db4e",
+      "chunk_type": "formula",
+      "page": 18,
+      "formula": "A(λx1 + (1 - λ)x2) ≥ min[A(x1), A(x2)]",
+      "embedding_text": "A(λx1 + (1 - λ)x2) ≥ min[A(x1), A(x2)]"
+    },
+    {
+      "chunk_id": "cd01a200",
+      "chunk_type": "exam_point",
+      "page": 18,
+      "content": "Understanding the definition of a convex fuzzy set",
+      "embedding_text": "Understanding the definition of a convex fuzzy set"
+    },
+    {
+      "chunk_id": "e5f9919f",
+      "chunk_type": "exam_point",
+      "page": 18,
+      "content": "Applying the convexity condition to verify if a fuzzy set is convex",
+      "embedding_text": "Applying the convexity condition to verify if a fuzzy set is convex"
+    },
+    {
+      "chunk_id": "40a4e512",
+      "chunk_type": "exam_point",
+      "page": 18,
+      "content": "Recognizing the role of λ in the convex combination",
+      "embedding_text": "Recognizing the role of λ in the convex combination"
+    },
+    {
+      "chunk_id": "460d41a5",
+      "chunk_type": "summary",
+      "page": 21,
+      "title": "Fuzzy Set Operations",
+      "content": "The slide explains the preservation of De Morgan algebra laws under standard fuzzy set operations, highlighting exceptions for the law of contradiction and the law of excluded middle. It lists various algebraic properties and laws applicable to fuzzy sets, including involution, commutativity, associativity, distributivity, idempotence, absorption, identity, and De Morgan's laws.",
+      "keywords": [
+        "Fuzzy Sets",
+        "De Morgan Laws",
+        "Involution",
+        "Commutativity",
+        "Associativity",
+        "Distributivity",
+        "Idempotence",
+        "Absorption",
+        "Identity",
+        "Law of Contradiction",
+        "Law of Excluded Middle",
+        "Fuzzy Logic",
+        "Set Operations"
+      ],
+      "raw_text": "Fuzzy Set operations\n\n► De Morgan algebra laws are all preserved under standard fuzzy operations except for the law of contradiction and the law of excluded middle\n\nInvolution\nA̅̅ = A\n\nCommutativity\nA ∪ B = B ∪ A\nA ∩ B = B ∩ A\n\nAssociativity\n(A ∪ B) ∪ C = A ∪ (B ∪ C)\n(A ∩ B) ∩ C = A ∩ (B ∩ C)\n\nDistributivity\nA ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)\nA ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)\n\nIdempotence\nA ∪ A = A\nA ∩ A = A\n\nAbsorption\nA ∪ (A ∩ B) = A\nA ∩ (A ∪ B) = A\n\nAbsorption by X and ∅\nA ∪ X = X\nA ∩ ∅ = ∅\n\nIdentity\nA ∪ ∅ = A\nA ∩ X = A\n\nLaw of contradiction\nA ∩ A̅ = ∅\n\nLaw of excluded middle\nA ∪ A̅ = X\n\nDe Morgan’s laws\nA̅ ∩ B̅ = A̅ ∪ B̅\nA̅ ∪ B̅ = A̅ ∩ B̅",
+      "embedding_text": "The slide explains the preservation of De Morgan algebra laws under standard fuzzy set operations, highlighting exceptions for the law of contradiction and the law of excluded middle. It lists various algebraic properties and laws applicable to fuzzy sets, including involution, commutativity, associativity, distributivity, idempotence, absorption, identity, and De Morgan's laws."
+    },
+    {
+      "chunk_id": "a7ff5ce0",
+      "chunk_type": "definition",
+      "page": 21,
+      "concept": "Involution",
+      "content": "The complement of a fuzzy set A is A itself when applied twice.",
+      "embedding_text": "Involution: The complement of a fuzzy set A is A itself when applied twice."
+    },
+    {
+      "chunk_id": "08f856f4",
+      "chunk_type": "definition",
+      "page": 21,
+      "concept": "Commutativity",
+      "content": "The order of operations does not affect the result in union and intersection.",
+      "embedding_text": "Commutativity: The order of operations does not affect the result in union and intersection."
+    },
+    {
+      "chunk_id": "c31a1ca1",
+      "chunk_type": "definition",
+      "page": 21,
+      "concept": "Associativity",
+      "content": "The grouping of operations does not affect the result in union and intersection.",
+      "embedding_text": "Associativity: The grouping of operations does not affect the result in union and intersection."
+    },
+    {
+      "chunk_id": "69fbd879",
+      "chunk_type": "definition",
+      "page": 21,
+      "concept": "Distributivity",
+      "content": "The intersection over union and union over intersection operations distribute over each other.",
+      "embedding_text": "Distributivity: The intersection over union and union over intersection operations distribute over each other."
+    },
+    {
+      "chunk_id": "823f9dd7",
+      "chunk_type": "definition",
+      "page": 21,
+      "concept": "Idempotence",
+      "content": "The union or intersection of a set with itself remains the same.",
+      "embedding_text": "Idempotence: The union or intersection of a set with itself remains the same."
+    },
+    {
+      "chunk_id": "4b4fabab",
+      "chunk_type": "definition",
+      "page": 21,
+      "concept": "Absorption",
+      "content": "The union or intersection of a set with another operation involving itself results in the original set.",
+      "embedding_text": "Absorption: The union or intersection of a set with another operation involving itself results in the original set."
+    },
+    {
+      "chunk_id": "3dfc345c",
+      "chunk_type": "definition",
+      "page": 21,
+      "concept": "Identity",
+      "content": "The union with the universal set or intersection with the empty set results in the original set.",
+      "embedding_text": "Identity: The union with the universal set or intersection with the empty set results in the original set."
+    },
+    {
+      "chunk_id": "b3f6080d",
+      "chunk_type": "definition",
+      "page": 21,
+      "concept": "Law of Contradiction",
+      "content": "The intersection of a set with its complement is the empty set.",
+      "embedding_text": "Law of Contradiction: The intersection of a set with its complement is the empty set."
+    },
+    {
+      "chunk_id": "4e7b1bf4",
+      "chunk_type": "definition",
+      "page": 21,
+      "concept": "Law of Excluded Middle",
+      "content": "The union of a set with its complement is the universal set.",
+      "embedding_text": "Law of Excluded Middle: The union of a set with its complement is the universal set."
+    },
+    {
+      "chunk_id": "09799883",
+      "chunk_type": "definition",
+      "page": 21,
+      "concept": "De Morgan's Laws",
+      "content": "The complement of the union is the intersection of complements and vice versa.",
+      "embedding_text": "De Morgan's Laws: The complement of the union is the intersection of complements and vice versa."
+    },
+    {
+      "chunk_id": "cfd1c3b5",
+      "chunk_type": "formula",
+      "page": 21,
+      "formula": "A̅̅ = A",
+      "embedding_text": "A̅̅ = A"
+    },
+    {
+      "chunk_id": "568cfd9b",
+      "chunk_type": "formula",
+      "page": 21,
+      "formula": "A ∪ B = B ∪ A",
+      "embedding_text": "A ∪ B = B ∪ A"
+    },
+    {
+      "chunk_id": "c357d862",
+      "chunk_type": "formula",
+      "page": 21,
+      "formula": "A ∩ B = B ∩ A",
+      "embedding_text": "A ∩ B = B ∩ A"
+    },
+    {
+      "chunk_id": "989e8d26",
+      "chunk_type": "formula",
+      "page": 21,
+      "formula": "(A ∪ B) ∪ C = A ∪ (B ∪ C)",
+      "embedding_text": "(A ∪ B) ∪ C = A ∪ (B ∪ C)"
+    },
+    {
+      "chunk_id": "fdfb0829",
+      "chunk_type": "formula",
+      "page": 21,
+      "formula": "(A ∩ B) ∩ C = A ∩ (B ∩ C)",
+      "embedding_text": "(A ∩ B) ∩ C = A ∩ (B ∩ C)"
+    },
+    {
+      "chunk_id": "1bf6a036",
+      "chunk_type": "formula",
+      "page": 21,
+      "formula": "A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)",
+      "embedding_text": "A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)"
+    },
+    {
+      "chunk_id": "f7f8da81",
+      "chunk_type": "formula",
+      "page": 21,
+      "formula": "A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)",
+      "embedding_text": "A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)"
+    },
+    {
+      "chunk_id": "f17ab1c5",
+      "chunk_type": "formula",
+      "page": 21,
+      "formula": "A ∪ A = A",
+      "embedding_text": "A ∪ A = A"
+    },
+    {
+      "chunk_id": "0227c1e5",
+      "chunk_type": "formula",
+      "page": 21,
+      "formula": "A ∩ A = A",
+      "embedding_text": "A ∩ A = A"
+    },
+    {
+      "chunk_id": "51ffa219",
+      "chunk_type": "formula",
+      "page": 21,
+      "formula": "A ∪ (A ∩ B) = A",
+      "embedding_text": "A ∪ (A ∩ B) = A"
+    },
+    {
+      "chunk_id": "cb19edc6",
+      "chunk_type": "formula",
+      "page": 21,
+      "formula": "A ∩ (A ∪ B) = A",
+      "embedding_text": "A ∩ (A ∪ B) = A"
+    },
+    {
+      "chunk_id": "317c7874",
+      "chunk_type": "formula",
+      "page": 21,
+      "formula": "A ∪ X = X",
+      "embedding_text": "A ∪ X = X"
+    },
+    {
+      "chunk_id": "94b42efe",
+      "chunk_type": "formula",
+      "page": 21,
+      "formula": "A ∩ ∅ = ∅",
+      "embedding_text": "A ∩ ∅ = ∅"
+    },
+    {
+      "chunk_id": "bed1d5dc",
+      "chunk_type": "formula",
+      "page": 21,
+      "formula": "A ∪ ∅ = A",
+      "embedding_text": "A ∪ ∅ = A"
+    },
+    {
+      "chunk_id": "463fff4e",
+      "chunk_type": "formula",
+      "page": 21,
+      "formula": "A ∩ X = A",
+      "embedding_text": "A ∩ X = A"
+    },
+    {
+      "chunk_id": "0588ecd9",
+      "chunk_type": "formula",
+      "page": 21,
+      "formula": "A ∩ A̅ = ∅",
+      "embedding_text": "A ∩ A̅ = ∅"
+    },
+    {
+      "chunk_id": "5968ce82",
+      "chunk_type": "formula",
+      "page": 21,
+      "formula": "A ∪ A̅ = X",
+      "embedding_text": "A ∪ A̅ = X"
+    },
+    {
+      "chunk_id": "4cc567da",
+      "chunk_type": "formula",
+      "page": 21,
+      "formula": "A̅ ∩ B̅ = A̅ ∪ B̅",
+      "embedding_text": "A̅ ∩ B̅ = A̅ ∪ B̅"
+    },
+    {
+      "chunk_id": "6ff76947",
+      "chunk_type": "formula",
+      "page": 21,
+      "formula": "A̅ ∪ B̅ = A̅ ∩ B̅",
+      "embedding_text": "A̅ ∪ B̅ = A̅ ∩ B̅"
+    },
+    {
+      "chunk_id": "a7ed1e0a",
+      "chunk_type": "diagram",
+      "page": 21,
+      "diagram_type": "Table",
+      "content": "A table listing various fuzzy set operation laws and their corresponding formulas.",
+      "embedding_text": "A table listing various fuzzy set operation laws and their corresponding formulas."
+    },
+    {
+      "chunk_id": "243504de",
+      "chunk_type": "exam_point",
+      "page": 21,
+      "content": "Understanding which De Morgan algebra laws are preserved in fuzzy set operations.",
+      "embedding_text": "Understanding which De Morgan algebra laws are preserved in fuzzy set operations."
+    },
+    {
+      "chunk_id": "a8cd423a",
+      "chunk_type": "exam_point",
+      "page": 21,
+      "content": "Recognizing exceptions to the laws of contradiction and excluded middle in fuzzy logic.",
+      "embedding_text": "Recognizing exceptions to the laws of contradiction and excluded middle in fuzzy logic."
+    },
+    {
+      "chunk_id": "bec89f62",
+      "chunk_type": "exam_point",
+      "page": 21,
+      "content": "Memorizing and applying the formulas for involution, commutativity, associativity, distributivity, idempotence, absorption, and identity.",
+      "embedding_text": "Memorizing and applying the formulas for involution, commutativity, associativity, distributivity, idempotence, absorption, and identity."
+    },
+    {
+      "chunk_id": "a4ef70e2",
+      "chunk_type": "exam_point",
+      "page": 21,
+      "content": "Understanding De Morgan's laws in the context of fuzzy sets.",
+      "embedding_text": "Understanding De Morgan's laws in the context of fuzzy sets."
+    },
+    {
+      "chunk_id": "1187bc0a",
+      "chunk_type": "summary",
+      "page": 22,
+      "title": "Scalar cardinality",
+      "content": "The slide introduces the concept of scalar cardinality and the degree of subsethood in fuzzy set theory. It provides mathematical formulas to quantify the cardinality of a fuzzy set and the similarity between two sets.",
+      "keywords": [
+        "Scalar Cardinality",
+        "Degree of Subsethood",
+        "Fuzzy Set",
+        "Membership Values",
+        "Subset",
+        "Intersection",
+        "Cardinality"
+      ],
+      "raw_text": "Scalar cardinality\n\n► Scalar Cardinality\n\n|A| = Σ (x ∈ X) A(x).\n\n► Degree of subsethood\n\nS(A, B) = |A ∩ B| / |A|",
+      "embedding_text": "The slide introduces the concept of scalar cardinality and the degree of subsethood in fuzzy set theory. It provides mathematical formulas to quantify the cardinality of a fuzzy set and the similarity between two sets."
+    },
+    {
+      "chunk_id": "5f441273",
+      "chunk_type": "definition",
+      "page": 22,
+      "concept": "Scalar Cardinality",
+      "content": "The sum of membership values of all elements in a fuzzy set A, denoted as |A|.",
+      "embedding_text": "Scalar Cardinality: The sum of membership values of all elements in a fuzzy set A, denoted as |A|."
+    },
+    {
+      "chunk_id": "73201edd",
+      "chunk_type": "definition",
+      "page": 22,
+      "concept": "Degree of Subsethood",
+      "content": "A measure of how much one fuzzy set A is a subset of another fuzzy set B, denoted as S(A, B).",
+      "embedding_text": "Degree of Subsethood: A measure of how much one fuzzy set A is a subset of another fuzzy set B, denoted as S(A, B)."
+    },
+    {
+      "chunk_id": "1732c9f9",
+      "chunk_type": "formula",
+      "page": 22,
+      "formula": "|A| = Σ (x ∈ X) A(x)",
+      "embedding_text": "|A| = Σ (x ∈ X) A(x)"
+    },
+    {
+      "chunk_id": "76a3c3cf",
+      "chunk_type": "formula",
+      "page": 22,
+      "formula": "S(A, B) = |A ∩ B| / |A|",
+      "embedding_text": "S(A, B) = |A ∩ B| / |A|"
+    },
+    {
+      "chunk_id": "ebd73969",
+      "chunk_type": "diagram",
+      "page": 22,
+      "diagram_type": "none",
+      "content": "",
+      "embedding_text": ""
+    },
+    {
+      "chunk_id": "e89021a0",
+      "chunk_type": "exam_point",
+      "page": 22,
+      "content": "Understanding the concept of scalar cardinality in fuzzy sets",
+      "embedding_text": "Understanding the concept of scalar cardinality in fuzzy sets"
+    },
+    {
+      "chunk_id": "4c186f4f",
+      "chunk_type": "exam_point",
+      "page": 22,
+      "content": "Ability to compute the scalar cardinality of a fuzzy set",
+      "embedding_text": "Ability to compute the scalar cardinality of a fuzzy set"
+    },
+    {
+      "chunk_id": "f365f9f0",
+      "chunk_type": "exam_point",
+      "page": 22,
+      "content": "Understanding the degree of subsethood and its formula",
+      "embedding_text": "Understanding the degree of subsethood and its formula"
+    },
+    {
+      "chunk_id": "bb4ea5a0",
+      "chunk_type": "exam_point",
+      "page": 22,
+      "content": "Applying the degree of subsethood formula to determine the subset relationship between two fuzzy sets",
+      "embedding_text": "Applying the degree of subsethood formula to determine the subset relationship between two fuzzy sets"
+    },
+    {
+      "chunk_id": "391656b0",
+      "chunk_type": "summary",
+      "page": 23,
+      "title": "Fuzzy set notation",
+      "content": "The slide explains how fuzzy sets are represented in both discrete and continuous forms using mathematical notation.",
+      "keywords": [
+        "Fuzzy set notation",
+        "Discrete fuzzy set",
+        "Continuous fuzzy set",
+        "Support",
+        "Membership values",
+        "Summation notation",
+        "Integral notation"
+      ],
+      "raw_text": "Fuzzy set notation\n\n▶ If fuzzy set is discrete, the set is represented by the elements of the support\n\nA = a₁/x₁ + a₂/x₂ + ... + aₙ/xₙ,\n\nA = Σ (from i=1 to n) aᵢ / xᵢ or A = Σ (from i=1 to ∞) aᵢ / xᵢ.\n\n▶ When the set of discourse is continuous:\n\nA = ∫ A(x) / x.",
+      "embedding_text": "The slide explains how fuzzy sets are represented in both discrete and continuous forms using mathematical notation."
+    },
+    {
+      "chunk_id": "933ae744",
+      "chunk_type": "definition",
+      "page": 23,
+      "concept": "Discrete fuzzy set",
+      "content": "A fuzzy set where elements are represented individually with their membership values.",
+      "embedding_text": "Discrete fuzzy set: A fuzzy set where elements are represented individually with their membership values."
+    },
+    {
+      "chunk_id": "b736a9eb",
+      "chunk_type": "definition",
+      "page": 23,
+      "concept": "Continuous fuzzy set",
+      "content": "A fuzzy set where the set of discourse is continuous, represented by an integral of membership functions.",
+      "embedding_text": "Continuous fuzzy set: A fuzzy set where the set of discourse is continuous, represented by an integral of membership functions."
+    },
+    {
+      "chunk_id": "76ba410c",
+      "chunk_type": "formula",
+      "page": 23,
+      "formula": "A = a₁/x₁ + a₂/x₂ + ... + aₙ/xₙ",
+      "embedding_text": "A = a₁/x₁ + a₂/x₂ + ... + aₙ/xₙ"
+    },
+    {
+      "chunk_id": "f11a1843",
+      "chunk_type": "formula",
+      "page": 23,
+      "formula": "A = Σ (from i=1 to n) aᵢ / xᵢ",
+      "embedding_text": "A = Σ (from i=1 to n) aᵢ / xᵢ"
+    },
+    {
+      "chunk_id": "85e90d81",
+      "chunk_type": "formula",
+      "page": 23,
+      "formula": "A = Σ (from i=1 to ∞) aᵢ / xᵢ",
+      "embedding_text": "A = Σ (from i=1 to ∞) aᵢ / xᵢ"
+    },
+    {
+      "chunk_id": "55776af0",
+      "chunk_type": "formula",
+      "page": 23,
+      "formula": "A = ∫ A(x) / x",
+      "embedding_text": "A = ∫ A(x) / x"
+    },
+    {
+      "chunk_id": "f93bf437",
+      "chunk_type": "diagram",
+      "page": 23,
+      "diagram_type": "none",
+      "content": "",
+      "embedding_text": ""
+    },
+    {
+      "chunk_id": "97f3ebe0",
+      "chunk_type": "exam_point",
+      "page": 23,
+      "content": "Understanding the notation for discrete fuzzy sets",
+      "embedding_text": "Understanding the notation for discrete fuzzy sets"
+    },
+    {
+      "chunk_id": "672bed20",
+      "chunk_type": "exam_point",
+      "page": 23,
+      "content": "Understanding the notation for continuous fuzzy sets",
+      "embedding_text": "Understanding the notation for continuous fuzzy sets"
+    },
+    {
+      "chunk_id": "9230b9e8",
+      "chunk_type": "exam_point",
+      "page": 23,
+      "content": "Differentiating between discrete and continuous fuzzy set representations",
+      "embedding_text": "Differentiating between discrete and continuous fuzzy set representations"
+    }
+  ]
+}

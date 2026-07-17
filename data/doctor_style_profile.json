@@ -1,0 +1,105 @@
+{
+  "document_ids": [
+    "all_exams"
+  ],
+  "total_questions_analyzed": 66,
+  "question_type_distribution": {
+    "multiple_choice": 64,
+    "fill_blank": 1,
+    "matching": 1
+  },
+  "cognitive_level_distribution": {
+    "apply": 38,
+    "analyze": 6,
+    "understand": 16,
+    "remember": 6
+  },
+  "difficulty_distribution": {
+    "medium": 36,
+    "hard": 22,
+    "easy": 8
+  },
+  "top_action_verbs": [
+    "calculate",
+    "identify",
+    "evaluate",
+    "determine",
+    "apply",
+    "verify",
+    "choose",
+    "compare",
+    "ما هو ناتج",
+    "infer"
+  ],
+  "most_tested_topics": [
+    "Fuzzy sets",
+    "Genetic algorithms",
+    "Membership functions",
+    "Fuzzy numbers",
+    "Fuzzy membership function",
+    "Fuzzy set operations",
+    "Defuzzification",
+    "Fuzzy implication",
+    "fuzzy qualifiers",
+    "Extension principle"
+  ],
+  "distractor_patterns": [
+    {
+      "pattern": "إجابة متطرفة (أقصى قيمة أو صفر)",
+      "example": "A) 0, E) 1 (في أسئلة حول مجموعات صبابية)"
+    },
+    {
+      "pattern": "إجابات متكررة أو مشابهة",
+      "example": "اختيار بين 0.2, 0.4, 0.6, 0.8 (قيم متكررة في أسئلة حول مجموعات صبابية)"
+    },
+    {
+      "pattern": "إجابات تحتوي على عمليات رياضية غير صحيحة",
+      "example": "D) كل الإجابات السابقة صحيحة (في أسئلة تحليليّة)"
+    },
+    {
+      "pattern": "إجابات تحتوي على مفاهيم غير ذات صلة",
+      "example": "E) كل ما سبق خاطىء (في أسئلة حول منطق الترجيحي)"
+    },
+    {
+      "pattern": "إجابات تحتوي على مفاهيم رياضية معقدة غير ذات صلة",
+      "example": "C) max(1 - a, min(a, b)) (في أسئلة حول اقتضاءات صبابية)"
+    }
+  ],
+  "language_style": "مختلط (Arabic/English) مع لغة رسمية في السياق الأكاديمي",
+  "avg_reasoning_steps": 3.5,
+  "style_summary": "الاستاذ يفضل أسئلة متعددة الاختيارات مع تركيز على تطبيق المفاهيم الصبابية والرياضيات المرتبطة بها. يفضل استخدام لغة مختلطة (عربية/إنجليزية) مع تركيز على المفاهيم الرياضية والتطبيقية. يفضل أسئلة متوسطة الصعوبة مع بعض الأسئلة الصعبة لتحليل المفاهيم. يفضل استخدام مفاهيم من منطق الترجيحي، المجموعات الصبابية، والعمليات الرياضية المرتبطة بها. يفضل استخدام إجابات تحتوي على مفاهيم رياضية معقدة أو متطرفة كخيار خاطئ.",
+  "question_structure_patterns": [
+    {
+      "pattern": "سؤال يحدد مجموعة صبابية ثم يسأل عن قيمة أو خاصية رياضية",
+      "example": "Q1, Q3, Q4, Q5, Q9"
+    },
+    {
+      "pattern": "سؤال يتطلب تطبيق عملية رياضية على مجموعات صبابية",
+      "example": "Q7, Q15, Q24, Q29, Q30"
+    },
+    {
+      "pattern": "سؤال يتطلب تحليل مفهوم أو نظرية صبابية",
+      "example": "Q2, Q13, Q22, Q32, Q43"
+    },
+    {
+      "pattern": "سؤال يتطلب تحديد قيمة الحقيقة أو درجة الانتماء",
+      "example": "Q5, Q9, Q25, Q36, Q56"
+    },
+    {
+      "pattern": "سؤال يتطلب تطبيق منطق الترجيحي أو الاستدلال الصبابي",
+      "example": "Q8, Q14, Q22, Q24, Q58"
+    },
+    {
+      "pattern": "سؤال يتطلب تحديد خاصية أو شرط رياضي",
+      "example": "Q6, Q11, Q26, Q33, Q41"
+    },
+    {
+      "pattern": "سؤال يتطلب حل مسألة باستخدام خوارزميات جينية أو مفاهيم ذات صلة",
+      "example": "Q16, Q18, Q23, Q27"
+    },
+    {
+      "pattern": "سؤال يتطلب تحديد صيغة رياضية أو مفهوم رياضي",
+      "example": "Q10, Q32, Q40, Q60"
+    }
+  ]
+}

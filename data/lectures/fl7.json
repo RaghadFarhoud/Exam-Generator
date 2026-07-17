@@ -1,0 +1,1927 @@
+{
+  "document_name": "Genetic-Algorithms",
+  "total_chunks": 210,
+  "chunks": [
+    {
+      "chunk_id": "3f0933bd",
+      "chunk_type": "summary",
+      "page": 1,
+      "title": "Genetic Algorithms",
+      "content": "The slide appears to be an introductory or title slide for a lecture or presentation on Genetic Algorithms, a subset of evolutionary algorithms used for optimization and search problems.",
+      "keywords": [
+        "Genetic Algorithms",
+        "Algorithms",
+        "Evolutionary Computation",
+        "Optimization Techniques",
+        "Search Algorithms"
+      ],
+      "raw_text": "Genetic Algorithms",
+      "embedding_text": "The slide appears to be an introductory or title slide for a lecture or presentation on Genetic Algorithms, a subset of evolutionary algorithms used for optimization and search problems."
+    },
+    {
+      "chunk_id": "17f06dd4",
+      "chunk_type": "summary",
+      "page": 2,
+      "title": "Introduction",
+      "content": "The slide introduces the historical context of scientists' shift from classical and neo-classical approaches to modeling intelligence, highlighting the emergence of two new fields: connectionism and evolutionary computing. It specifically focuses on evolutionary computing, including genetic algorithms and genetic programming.",
+      "keywords": [
+        "Introduction",
+        "Scientists",
+        "Disillusioned",
+        "Classical",
+        "Neo-classical",
+        "Modeling intelligence",
+        "Directions",
+        "Connectionism",
+        "Neural networking",
+        "Parallel processing",
+        "Evolutionary computing",
+        "Genetic algorithms",
+        "Genetic programming",
+        "Essay"
+      ],
+      "raw_text": "Introduction\n\n▶ After scientists became disillusioned with classical and neo-classical attempts at modeling intelligence, they looked in other directions.\n\n▶ Two prominent fields arose, connectionism (neural networking, parallel processing) and evolutionary computing.\n\n▶ It is the latter that this essay deals with - genetic algorithms and genetic programming.",
+      "embedding_text": "The slide introduces the historical context of scientists' shift from classical and neo-classical approaches to modeling intelligence, highlighting the emergence of two new fields: connectionism and evolutionary computing. It specifically focuses on evolutionary computing, including genetic algorithms and genetic programming."
+    },
+    {
+      "chunk_id": "981c166b",
+      "chunk_type": "definition",
+      "page": 2,
+      "concept": "Connectionism",
+      "content": "A field that involves neural networking and parallel processing to model intelligence.",
+      "embedding_text": "Connectionism: A field that involves neural networking and parallel processing to model intelligence."
+    },
+    {
+      "chunk_id": "0de340d7",
+      "chunk_type": "definition",
+      "page": 2,
+      "concept": "Evolutionary computing",
+      "content": "A field that uses principles inspired by biological evolution to solve problems, including genetic algorithms and genetic programming.",
+      "embedding_text": "Evolutionary computing: A field that uses principles inspired by biological evolution to solve problems, including genetic algorithms and genetic programming."
+    },
+    {
+      "chunk_id": "8c737fe4",
+      "chunk_type": "definition",
+      "page": 2,
+      "concept": "Genetic algorithms",
+      "content": "A subset of evolutionary computing that uses techniques inspired by natural selection to generate solutions to optimization problems.",
+      "embedding_text": "Genetic algorithms: A subset of evolutionary computing that uses techniques inspired by natural selection to generate solutions to optimization problems."
+    },
+    {
+      "chunk_id": "08d3d429",
+      "chunk_type": "definition",
+      "page": 2,
+      "concept": "Genetic programming",
+      "content": "A subset of evolutionary computing that uses techniques inspired by biological evolution to create computer programs.",
+      "embedding_text": "Genetic programming: A subset of evolutionary computing that uses techniques inspired by biological evolution to create computer programs."
+    },
+    {
+      "chunk_id": "ae35aa82",
+      "chunk_type": "exam_point",
+      "page": 2,
+      "content": "Understanding the historical context of modeling intelligence",
+      "embedding_text": "Understanding the historical context of modeling intelligence"
+    },
+    {
+      "chunk_id": "44e1c5f1",
+      "chunk_type": "exam_point",
+      "page": 2,
+      "content": "Differentiating between classical, neo-classical, connectionist, and evolutionary approaches",
+      "embedding_text": "Differentiating between classical, neo-classical, connectionist, and evolutionary approaches"
+    },
+    {
+      "chunk_id": "4043853c",
+      "chunk_type": "exam_point",
+      "page": 2,
+      "content": "Recognizing the significance of genetic algorithms and genetic programming in evolutionary computing",
+      "embedding_text": "Recognizing the significance of genetic algorithms and genetic programming in evolutionary computing"
+    },
+    {
+      "chunk_id": "30993ff0",
+      "chunk_type": "summary",
+      "page": 3,
+      "title": "What is GA",
+      "content": "The slide provides an introductory definition of genetic algorithms (GA), explaining their use in computing for optimization and search problems, their categorization as global search heuristics, and their inspiration from evolutionary biology principles.",
+      "keywords": [
+        "Genetic Algorithm",
+        "GA",
+        "Search Technique",
+        "Optimization",
+        "Search Problems",
+        "Global Search Heuristics",
+        "Evolutionary Algorithms",
+        "Inheritance",
+        "Mutation",
+        "Selection",
+        "Crossover",
+        "Recombination",
+        "Computing"
+      ],
+      "raw_text": "What is GA\n\n▶ A genetic algorithm (or GA) is a search technique used in computing to find true or approximate solutions to optimization and search problems.\n▶ Genetic algorithms are categorized as global search heuristics.\n▶ Genetic algorithms are a particular class of evolutionary algorithms that use techniques inspired by evolutionary biology such as inheritance, mutation, selection, and crossover (also called recombination).",
+      "embedding_text": "The slide provides an introductory definition of genetic algorithms (GA), explaining their use in computing for optimization and search problems, their categorization as global search heuristics, and their inspiration from evolutionary biology principles."
+    },
+    {
+      "chunk_id": "bff255fa",
+      "chunk_type": "definition",
+      "page": 3,
+      "concept": "Genetic Algorithm (GA)",
+      "content": "A search technique used in computing to find true or approximate solutions to optimization and search problems.",
+      "embedding_text": "Genetic Algorithm (GA): A search technique used in computing to find true or approximate solutions to optimization and search problems."
+    },
+    {
+      "chunk_id": "8b8c1142",
+      "chunk_type": "definition",
+      "page": 3,
+      "concept": "Global Search Heuristics",
+      "content": "A category of search techniques that genetic algorithms belong to.",
+      "embedding_text": "Global Search Heuristics: A category of search techniques that genetic algorithms belong to."
+    },
+    {
+      "chunk_id": "155e929d",
+      "chunk_type": "definition",
+      "page": 3,
+      "concept": "Evolutionary Algorithms",
+      "content": "A class of optimization algorithms inspired by biological evolution, of which genetic algorithms are a specific type.",
+      "embedding_text": "Evolutionary Algorithms: A class of optimization algorithms inspired by biological evolution, of which genetic algorithms are a specific type."
+    },
+    {
+      "chunk_id": "4e0d96eb",
+      "chunk_type": "exam_point",
+      "page": 3,
+      "content": "Understanding the role of genetic algorithms in solving optimization and search problems.",
+      "embedding_text": "Understanding the role of genetic algorithms in solving optimization and search problems."
+    },
+    {
+      "chunk_id": "bbea7a82",
+      "chunk_type": "exam_point",
+      "page": 3,
+      "content": "Recognizing genetic algorithms as a subset of evolutionary algorithms.",
+      "embedding_text": "Recognizing genetic algorithms as a subset of evolutionary algorithms."
+    },
+    {
+      "chunk_id": "d8d5201f",
+      "chunk_type": "exam_point",
+      "page": 3,
+      "content": "Knowing the biological processes that inspire genetic algorithms: inheritance, mutation, selection, and crossover.",
+      "embedding_text": "Knowing the biological processes that inspire genetic algorithms: inheritance, mutation, selection, and crossover."
+    },
+    {
+      "chunk_id": "c5cddaa7",
+      "chunk_type": "summary",
+      "page": 4,
+      "title": "What is GA",
+      "content": "The slide provides an introductory explanation of Genetic Algorithms (GA), focusing on their implementation as a computer simulation to solve optimization problems using evolutionary processes. It highlights the representation of solutions and the traditional encoding method.",
+      "keywords": [
+        "Genetic Algorithms",
+        "Computer Simulation",
+        "Population",
+        "Candidate Solutions",
+        "Chromosomes",
+        "Genotype",
+        "Genome",
+        "Individuals",
+        "Creatures",
+        "Phenotypes",
+        "Optimization Problem",
+        "Evolution",
+        "Binary Encoding"
+      ],
+      "raw_text": "What is GA\n\n▶ Genetic algorithms are implemented as a computer simulation in which a population of abstract representations (called chromosomes or the genotype or the genome) of candidate solutions (called individuals, creatures, or phenotypes) to an optimization problem evolves toward better solutions.\n\n▶ Traditionally, solutions are represented in binary as strings of 0s and 1s, but other encodings are also possible.",
+      "embedding_text": "The slide provides an introductory explanation of Genetic Algorithms (GA), focusing on their implementation as a computer simulation to solve optimization problems using evolutionary processes. It highlights the representation of solutions and the traditional encoding method."
+    },
+    {
+      "chunk_id": "e693b201",
+      "chunk_type": "definition",
+      "page": 4,
+      "concept": "Genetic Algorithms (GA)",
+      "content": "A computer simulation in which a population of abstract representations (chromosomes or genotypes) of candidate solutions (individuals, creatures, or phenotypes) to an optimization problem evolves toward better solutions.",
+      "embedding_text": "Genetic Algorithms (GA): A computer simulation in which a population of abstract representations (chromosomes or genotypes) of candidate solutions (individuals, creatures, or phenotypes) to an optimization problem evolves toward better solutions."
+    },
+    {
+      "chunk_id": "691264e8",
+      "chunk_type": "definition",
+      "page": 4,
+      "concept": "Chromosomes/Genotype/Genome",
+      "content": "Abstract representations of candidate solutions in a Genetic Algorithm.",
+      "embedding_text": "Chromosomes/Genotype/Genome: Abstract representations of candidate solutions in a Genetic Algorithm."
+    },
+    {
+      "chunk_id": "1a27ea9d",
+      "chunk_type": "definition",
+      "page": 4,
+      "concept": "Individuals/Creatures/Phenotypes",
+      "content": "Candidate solutions in a Genetic Algorithm.",
+      "embedding_text": "Individuals/Creatures/Phenotypes: Candidate solutions in a Genetic Algorithm."
+    },
+    {
+      "chunk_id": "4b61c987",
+      "chunk_type": "exam_point",
+      "page": 4,
+      "content": "Understanding the basic concept of Genetic Algorithms as a simulation for optimization problems.",
+      "embedding_text": "Understanding the basic concept of Genetic Algorithms as a simulation for optimization problems."
+    },
+    {
+      "chunk_id": "52ce3cef",
+      "chunk_type": "exam_point",
+      "page": 4,
+      "content": "Knowing the terminology used in Genetic Algorithms such as chromosomes, genotypes, phenotypes, and individuals.",
+      "embedding_text": "Knowing the terminology used in Genetic Algorithms such as chromosomes, genotypes, phenotypes, and individuals."
+    },
+    {
+      "chunk_id": "5817e8a3",
+      "chunk_type": "exam_point",
+      "page": 4,
+      "content": "Recognizing the traditional encoding method for solutions in Genetic Algorithms.",
+      "embedding_text": "Recognizing the traditional encoding method for solutions in Genetic Algorithms."
+    },
+    {
+      "chunk_id": "55fc2afd",
+      "chunk_type": "summary",
+      "page": 5,
+      "title": "What is GA",
+      "content": "The slide explains the basic concept and process of Genetic Algorithms (GA), focusing on how evolution occurs through generations of randomly generated individuals, fitness evaluation, selection, and modification to form new populations.",
+      "keywords": [
+        "Genetic Algorithms",
+        "Evolution",
+        "Generations",
+        "Randomly Generated Individuals",
+        "Fitness Evaluation",
+        "Selection",
+        "Recombination",
+        "Mutation",
+        "Population"
+      ],
+      "raw_text": "What is GA\n\n▶ The evolution usually starts from a population of randomly generated individuals and happens in generations.\n\n▶ In each generation, the fitness of every individual in the population is evaluated, multiple individuals are selected from the current population (based on their fitness), and modified (recombined and possibly mutated) to form a new population.",
+      "embedding_text": "The slide explains the basic concept and process of Genetic Algorithms (GA), focusing on how evolution occurs through generations of randomly generated individuals, fitness evaluation, selection, and modification to form new populations."
+    },
+    {
+      "chunk_id": "94ddbf2e",
+      "chunk_type": "definition",
+      "page": 5,
+      "concept": "Genetic Algorithms (GA)",
+      "content": "A search heuristic that mimics the process of natural evolution. It starts with a population of randomly generated individuals and evolves them over generations through selection, recombination, and mutation.",
+      "embedding_text": "Genetic Algorithms (GA): A search heuristic that mimics the process of natural evolution. It starts with a population of randomly generated individuals and evolves them over generations through selection, recombination, and mutation."
+    },
+    {
+      "chunk_id": "67f8ca4e",
+      "chunk_type": "definition",
+      "page": 5,
+      "concept": "Fitness Evaluation",
+      "content": "The process of assessing how well each individual in a population solves a given problem.",
+      "embedding_text": "Fitness Evaluation: The process of assessing how well each individual in a population solves a given problem."
+    },
+    {
+      "chunk_id": "715a86cb",
+      "chunk_type": "definition",
+      "page": 5,
+      "concept": "Selection",
+      "content": "Choosing multiple individuals from the current population based on their fitness to reproduce and form a new population.",
+      "embedding_text": "Selection: Choosing multiple individuals from the current population based on their fitness to reproduce and form a new population."
+    },
+    {
+      "chunk_id": "eee57013",
+      "chunk_type": "definition",
+      "page": 5,
+      "concept": "Recombination",
+      "content": "Combining genetic information from selected individuals to create new individuals.",
+      "embedding_text": "Recombination: Combining genetic information from selected individuals to create new individuals."
+    },
+    {
+      "chunk_id": "b1715f7f",
+      "chunk_type": "definition",
+      "page": 5,
+      "concept": "Mutation",
+      "content": "Randomly altering parts of the genetic information of individuals to introduce variability.",
+      "embedding_text": "Mutation: Randomly altering parts of the genetic information of individuals to introduce variability."
+    },
+    {
+      "chunk_id": "0c7e686d",
+      "chunk_type": "exam_point",
+      "page": 5,
+      "content": "Understanding the iterative nature of GA",
+      "embedding_text": "Understanding the iterative nature of GA"
+    },
+    {
+      "chunk_id": "0b29fccd",
+      "chunk_type": "exam_point",
+      "page": 5,
+      "content": "Importance of fitness evaluation in GA",
+      "embedding_text": "Importance of fitness evaluation in GA"
+    },
+    {
+      "chunk_id": "e3e56866",
+      "chunk_type": "exam_point",
+      "page": 5,
+      "content": "Process of selection, recombination, and mutation",
+      "embedding_text": "Process of selection, recombination, and mutation"
+    },
+    {
+      "chunk_id": "e45b0422",
+      "chunk_type": "exam_point",
+      "page": 5,
+      "content": "Starting point of GA with a population of randomly generated individuals",
+      "embedding_text": "Starting point of GA with a population of randomly generated individuals"
+    },
+    {
+      "chunk_id": "bb31863c",
+      "chunk_type": "summary",
+      "page": 6,
+      "title": "What is GA",
+      "content": "The slide explains the iterative process of Genetic Algorithms (GA), focusing on the use of new populations in subsequent iterations, termination conditions, and potential outcomes upon termination.",
+      "keywords": [
+        "Genetic Algorithms",
+        "Population",
+        "Iteration",
+        "Algorithm",
+        "Generations",
+        "Fitness level",
+        "Termination",
+        "Satisfactory solution"
+      ],
+      "raw_text": "What is GA\n\n► The new population is then used in the next iteration of the algorithm.\n► Commonly, the algorithm terminates when either a maximum number of generations has been produced, or a satisfactory fitness level has been reached for the population.\n► If the algorithm has terminated due to a maximum number of generations, a satisfactory solution may or may not have been reached.",
+      "embedding_text": "The slide explains the iterative process of Genetic Algorithms (GA), focusing on the use of new populations in subsequent iterations, termination conditions, and potential outcomes upon termination."
+    },
+    {
+      "chunk_id": "5ac78e77",
+      "chunk_type": "definition",
+      "page": 6,
+      "concept": "Genetic Algorithms (GA)",
+      "content": "An iterative algorithm that evolves populations through generations to find satisfactory solutions.",
+      "embedding_text": "Genetic Algorithms (GA): An iterative algorithm that evolves populations through generations to find satisfactory solutions."
+    },
+    {
+      "chunk_id": "e1277921",
+      "chunk_type": "definition",
+      "page": 6,
+      "concept": "Iteration",
+      "content": "A single cycle in the algorithm where a new population is generated and evaluated.",
+      "embedding_text": "Iteration: A single cycle in the algorithm where a new population is generated and evaluated."
+    },
+    {
+      "chunk_id": "30b68a7d",
+      "chunk_type": "definition",
+      "page": 6,
+      "concept": "Termination conditions",
+      "content": "Criteria that stop the algorithm, such as reaching a maximum number of generations or achieving a satisfactory fitness level.",
+      "embedding_text": "Termination conditions: Criteria that stop the algorithm, such as reaching a maximum number of generations or achieving a satisfactory fitness level."
+    },
+    {
+      "chunk_id": "c027df86",
+      "chunk_type": "exam_point",
+      "page": 6,
+      "content": "Understanding the iterative nature of GA and how populations evolve.",
+      "embedding_text": "Understanding the iterative nature of GA and how populations evolve."
+    },
+    {
+      "chunk_id": "1767c672",
+      "chunk_type": "exam_point",
+      "page": 6,
+      "content": "Knowing the conditions under which GA terminates.",
+      "embedding_text": "Knowing the conditions under which GA terminates."
+    },
+    {
+      "chunk_id": "b8d6e2d6",
+      "chunk_type": "exam_point",
+      "page": 6,
+      "content": "Recognizing that termination due to a maximum number of generations does not guarantee a satisfactory solution.",
+      "embedding_text": "Recognizing that termination due to a maximum number of generations does not guarantee a satisfactory solution."
+    },
+    {
+      "chunk_id": "ad51808a",
+      "chunk_type": "summary",
+      "page": 8,
+      "title": "Chromosome, Genes and Genomes",
+      "content": "The slide visually explains the relationship between chromosomes, genes, and genomes. It illustrates how chromosomes are composed of many genes and how a genome is the complete set of chromosomes in an organism.",
+      "keywords": [
+        "Chromosome",
+        "Gene",
+        "Genome",
+        "DNA",
+        "Genetic material",
+        "Proteins",
+        "RNA"
+      ],
+      "raw_text": "Chromosome, Genes and Genomes Chromosome Gene Genome",
+      "embedding_text": "The slide visually explains the relationship between chromosomes, genes, and genomes. It illustrates how chromosomes are composed of many genes and how a genome is the complete set of chromosomes in an organism."
+    },
+    {
+      "chunk_id": "21d2f0d2",
+      "chunk_type": "definition",
+      "page": 8,
+      "concept": "Chromosome",
+      "content": "A structure within cells that contains a long DNA molecule with part or all of the genetic material of an organism.",
+      "embedding_text": "Chromosome: A structure within cells that contains a long DNA molecule with part or all of the genetic material of an organism."
+    },
+    {
+      "chunk_id": "82554016",
+      "chunk_type": "definition",
+      "page": 8,
+      "concept": "Gene",
+      "content": "A segment of DNA that contains the information needed to produce a functional product, typically a protein or RNA molecule.",
+      "embedding_text": "Gene: A segment of DNA that contains the information needed to produce a functional product, typically a protein or RNA molecule."
+    },
+    {
+      "chunk_id": "98a8aac5",
+      "chunk_type": "definition",
+      "page": 8,
+      "concept": "Genome",
+      "content": "The complete set of genetic material in an organism; it includes all of the chromosomes.",
+      "embedding_text": "Genome: The complete set of genetic material in an organism; it includes all of the chromosomes."
+    },
+    {
+      "chunk_id": "b4ca46de",
+      "chunk_type": "diagram",
+      "page": 8,
+      "diagram_type": "Illustrative Diagram",
+      "content": "A schematic representation showing multiple chromosomes, each composed of several colored blocks representing genes. The entire set of chromosomes is labeled as the genome.",
+      "embedding_text": "A schematic representation showing multiple chromosomes, each composed of several colored blocks representing genes. The entire set of chromosomes is labeled as the genome."
+    },
+    {
+      "chunk_id": "901287d3",
+      "chunk_type": "exam_point",
+      "page": 8,
+      "content": "Understanding the hierarchical relationship between genes, chromosomes, and genomes.",
+      "embedding_text": "Understanding the hierarchical relationship between genes, chromosomes, and genomes."
+    },
+    {
+      "chunk_id": "e3475284",
+      "chunk_type": "exam_point",
+      "page": 8,
+      "content": "Recognizing that genes are segments of chromosomes.",
+      "embedding_text": "Recognizing that genes are segments of chromosomes."
+    },
+    {
+      "chunk_id": "8fce8fbc",
+      "chunk_type": "exam_point",
+      "page": 8,
+      "content": "Knowing that the genome encompasses all chromosomes in an organism.",
+      "embedding_text": "Knowing that the genome encompasses all chromosomes in an organism."
+    },
+    {
+      "chunk_id": "dd9be122",
+      "chunk_type": "summary",
+      "page": 9,
+      "title": "Genotype and Phenotype",
+      "content": "The slide provides definitions and distinctions between genotype and phenotype, explaining that genotype refers to the specific set of genes in an organism's genome, while phenotype refers to the observable physical characteristics influenced by the genotype and environment.",
+      "keywords": [
+        "Genotype",
+        "Phenotype",
+        "Genes",
+        "Genome",
+        "Physical characteristics",
+        "Smart",
+        "Beautiful",
+        "Healthy"
+      ],
+      "raw_text": "Genotype and Phenotype\n\n▶ Genotype:\n- Particular set of genes in a genome\n\n▶ Phenotype:\n- Physical characteristic of the genotype (smart, beautiful, healthy, etc.)",
+      "embedding_text": "The slide provides definitions and distinctions between genotype and phenotype, explaining that genotype refers to the specific set of genes in an organism's genome, while phenotype refers to the observable physical characteristics influenced by the genotype and environment."
+    },
+    {
+      "chunk_id": "452eff69",
+      "chunk_type": "definition",
+      "page": 9,
+      "concept": "Genotype",
+      "content": "Particular set of genes in a genome",
+      "embedding_text": "Genotype: Particular set of genes in a genome"
+    },
+    {
+      "chunk_id": "00593986",
+      "chunk_type": "definition",
+      "page": 9,
+      "concept": "Phenotype",
+      "content": "Physical characteristic of the genotype (e.g., smart, beautiful, healthy)",
+      "embedding_text": "Phenotype: Physical characteristic of the genotype (e.g., smart, beautiful, healthy)"
+    },
+    {
+      "chunk_id": "01d4d37c",
+      "chunk_type": "exam_point",
+      "page": 9,
+      "content": "Understanding the difference between genotype and phenotype",
+      "embedding_text": "Understanding the difference between genotype and phenotype"
+    },
+    {
+      "chunk_id": "e12eb613",
+      "chunk_type": "exam_point",
+      "page": 9,
+      "content": "Recognizing that genotype is genetic makeup while phenotype is observable traits",
+      "embedding_text": "Recognizing that genotype is genetic makeup while phenotype is observable traits"
+    },
+    {
+      "chunk_id": "bfd78490",
+      "chunk_type": "exam_point",
+      "page": 9,
+      "content": "Knowing that phenotype can be influenced by both genotype and environmental factors",
+      "embedding_text": "Knowing that phenotype can be influenced by both genotype and environmental factors"
+    },
+    {
+      "chunk_id": "108aea8d",
+      "chunk_type": "summary",
+      "page": 10,
+      "title": "Genotype and Phenotype",
+      "content": "The slide visually distinguishes between genotype and phenotype using a color-coded diagram. It illustrates how the genetic makeup (genotype) of an organism influences its observable traits (phenotype).",
+      "keywords": [
+        "Genotype",
+        "Phenotype",
+        "Genetics",
+        "DNA",
+        "Observable traits",
+        "Genetic inheritance",
+        "Genetic code",
+        "Genetic makeup"
+      ],
+      "raw_text": "Genotype and Phenotype",
+      "embedding_text": "The slide visually distinguishes between genotype and phenotype using a color-coded diagram. It illustrates how the genetic makeup (genotype) of an organism influences its observable traits (phenotype)."
+    },
+    {
+      "chunk_id": "80156d30",
+      "chunk_type": "definition",
+      "page": 10,
+      "concept": "Genotype",
+      "content": "The genetic constitution of an organism, represented by the specific sequence of nucleotides in its DNA.",
+      "embedding_text": "Genotype: The genetic constitution of an organism, represented by the specific sequence of nucleotides in its DNA."
+    },
+    {
+      "chunk_id": "85a43566",
+      "chunk_type": "definition",
+      "page": 10,
+      "concept": "Phenotype",
+      "content": "The observable physical or biochemical characteristics of an organism, determined by both genetic makeup and environmental influences.",
+      "embedding_text": "Phenotype: The observable physical or biochemical characteristics of an organism, determined by both genetic makeup and environmental influences."
+    },
+    {
+      "chunk_id": "2b345adf",
+      "chunk_type": "diagram",
+      "page": 10,
+      "diagram_type": "Genotype-Phenotype Representation",
+      "content": "A visual representation showing three rows of colored blocks. The top two rows represent the genotype (genetic makeup) of two parents, and the bottom row represents the phenotype (observable traits) of the offspring. The highlighted section indicates the specific genetic segment (genotype) that influences the phenotype.",
+      "embedding_text": "A visual representation showing three rows of colored blocks. The top two rows represent the genotype (genetic makeup) of two parents, and the bottom row represents the phenotype (observable traits) of the offspring. The highlighted section indicates the specific genetic segment (genotype) that influences the phenotype."
+    },
+    {
+      "chunk_id": "47e82cb0",
+      "chunk_type": "exam_point",
+      "page": 10,
+      "content": "Understanding the difference between genotype and phenotype",
+      "embedding_text": "Understanding the difference between genotype and phenotype"
+    },
+    {
+      "chunk_id": "ee787b2d",
+      "chunk_type": "exam_point",
+      "page": 10,
+      "content": "How genetic information (genotype) translates into observable traits (phenotype)",
+      "embedding_text": "How genetic information (genotype) translates into observable traits (phenotype)"
+    },
+    {
+      "chunk_id": "1841cc30",
+      "chunk_type": "exam_point",
+      "page": 10,
+      "content": "Visual representation of genetic inheritance",
+      "embedding_text": "Visual representation of genetic inheritance"
+    },
+    {
+      "chunk_id": "1ccd500c",
+      "chunk_type": "summary",
+      "page": 11,
+      "title": "GA Requirements",
+      "content": "The slide explains the fundamental requirements for implementing a genetic algorithm, focusing on the genetic representation of the solution domain and the fitness function. It also discusses different types of genetic representations and their properties.",
+      "keywords": [
+        "Genetic Algorithm",
+        "Genetic Representation",
+        "Solution Domain",
+        "Fitness Function",
+        "Fixed-size Arrays",
+        "Crossover Operation",
+        "Variable Length Representations",
+        "Tree-like Representations",
+        "Genetic Programming"
+      ],
+      "raw_text": "GA Requirements\n\n▶ A typical genetic algorithm requires two things to be defined:\n▶ a genetic representation of the solution domain, and\n▶ a fitness function to evaluate the solution domain.\n\n▶ A standard representation of the solution is as an array of bits. Arrays of other types and structures can be used in essentially the same way.\n\n▶ The main property that makes these genetic representations convenient is that their parts are easily aligned due to their fixed size, that facilitates simple crossover operation.\n\n▶ Variable length representations may also be used, but crossover implementation is more complex in this case.\n\n▶ Tree-like representations are explored in Genetic programming.",
+      "embedding_text": "The slide explains the fundamental requirements for implementing a genetic algorithm, focusing on the genetic representation of the solution domain and the fitness function. It also discusses different types of genetic representations and their properties."
+    },
+    {
+      "chunk_id": "e53287eb",
+      "chunk_type": "definition",
+      "page": 11,
+      "concept": "Genetic Representation",
+      "content": "A method to encode solutions to a problem in a format suitable for genetic algorithms, typically using arrays of bits or other structures.",
+      "embedding_text": "Genetic Representation: A method to encode solutions to a problem in a format suitable for genetic algorithms, typically using arrays of bits or other structures."
+    },
+    {
+      "chunk_id": "61d59208",
+      "chunk_type": "definition",
+      "page": 11,
+      "concept": "Fitness Function",
+      "content": "A function used to evaluate the quality of solutions in the context of a genetic algorithm.",
+      "embedding_text": "Fitness Function: A function used to evaluate the quality of solutions in the context of a genetic algorithm."
+    },
+    {
+      "chunk_id": "55dc6610",
+      "chunk_type": "definition",
+      "page": 11,
+      "concept": "Fixed-size Arrays",
+      "content": "Arrays with a constant length, facilitating straightforward crossover operations in genetic algorithms.",
+      "embedding_text": "Fixed-size Arrays: Arrays with a constant length, facilitating straightforward crossover operations in genetic algorithms."
+    },
+    {
+      "chunk_id": "8e27d634",
+      "chunk_type": "definition",
+      "page": 11,
+      "concept": "Variable Length Representations",
+      "content": "Representations that can vary in length, making crossover operations more complex.",
+      "embedding_text": "Variable Length Representations: Representations that can vary in length, making crossover operations more complex."
+    },
+    {
+      "chunk_id": "38b637e9",
+      "chunk_type": "definition",
+      "page": 11,
+      "concept": "Tree-like Representations",
+      "content": "Representations used in genetic programming, typically structured as trees.",
+      "embedding_text": "Tree-like Representations: Representations used in genetic programming, typically structured as trees."
+    },
+    {
+      "chunk_id": "e314d7d8",
+      "chunk_type": "exam_point",
+      "page": 11,
+      "content": "Understanding the necessity of defining a genetic representation and a fitness function in genetic algorithms.",
+      "embedding_text": "Understanding the necessity of defining a genetic representation and a fitness function in genetic algorithms."
+    },
+    {
+      "chunk_id": "1f89415f",
+      "chunk_type": "exam_point",
+      "page": 11,
+      "content": "Recognizing the convenience of fixed-size arrays for crossover operations.",
+      "embedding_text": "Recognizing the convenience of fixed-size arrays for crossover operations."
+    },
+    {
+      "chunk_id": "f68b158e",
+      "chunk_type": "exam_point",
+      "page": 11,
+      "content": "Knowing the complexity added by variable length representations.",
+      "embedding_text": "Knowing the complexity added by variable length representations."
+    },
+    {
+      "chunk_id": "f9261786",
+      "chunk_type": "exam_point",
+      "page": 11,
+      "content": "Awareness of tree-like representations in genetic programming.",
+      "embedding_text": "Awareness of tree-like representations in genetic programming."
+    },
+    {
+      "chunk_id": "8c5f5a95",
+      "chunk_type": "summary",
+      "page": 12,
+      "title": "Representation",
+      "content": "The slide explains various ways chromosomes can be represented in genetic algorithms, highlighting different data structures and formats.",
+      "keywords": [
+        "Chromosomes",
+        "Representation",
+        "Bit strings",
+        "Real numbers",
+        "Permutations",
+        "Lists of rules",
+        "Program elements",
+        "Genetic algorithms",
+        "Genetic programming",
+        "Data structures"
+      ],
+      "raw_text": "Representation\n\nChromosomes could be:\n\n► Bit strings\n\t\t\t\t\t\t\t\t(0101 … 1100)\n► Real numbers\n\t\t\t\t\t\t(43.2 -33.1 … 0.0 89.2)\n► Permutations of element\n\t\t\t(E11 E3 E7 … E1 E15)\n► Lists of rules\n\t\t\t\t(R1 R2 R3 … R22 R23)\n► Program elements\n\t\t\t\t\t(genetic programming)\n► … any data structure …",
+      "embedding_text": "The slide explains various ways chromosomes can be represented in genetic algorithms, highlighting different data structures and formats."
+    },
+    {
+      "chunk_id": "b83616d4",
+      "chunk_type": "definition",
+      "page": 12,
+      "concept": "Bit strings",
+      "content": "A sequence of binary digits (0s and 1s) used to represent chromosomes.",
+      "embedding_text": "Bit strings: A sequence of binary digits (0s and 1s) used to represent chromosomes."
+    },
+    {
+      "chunk_id": "977d4095",
+      "chunk_type": "definition",
+      "page": 12,
+      "concept": "Real numbers",
+      "content": "A sequence of floating-point numbers used to represent chromosomes.",
+      "embedding_text": "Real numbers: A sequence of floating-point numbers used to represent chromosomes."
+    },
+    {
+      "chunk_id": "f16626e1",
+      "chunk_type": "definition",
+      "page": 12,
+      "concept": "Permutations of elements",
+      "content": "An ordered arrangement of elements used to represent chromosomes.",
+      "embedding_text": "Permutations of elements: An ordered arrangement of elements used to represent chromosomes."
+    },
+    {
+      "chunk_id": "6ba35820",
+      "chunk_type": "definition",
+      "page": 12,
+      "concept": "Lists of rules",
+      "content": "A sequence of rules (e.g., R1, R2, R3) used to represent chromosomes.",
+      "embedding_text": "Lists of rules: A sequence of rules (e.g., R1, R2, R3) used to represent chromosomes."
+    },
+    {
+      "chunk_id": "b7103b4a",
+      "chunk_type": "definition",
+      "page": 12,
+      "concept": "Program elements",
+      "content": "Elements of a program used in genetic programming to represent chromosomes.",
+      "embedding_text": "Program elements: Elements of a program used in genetic programming to represent chromosomes."
+    },
+    {
+      "chunk_id": "43d4c80b",
+      "chunk_type": "exam_point",
+      "page": 12,
+      "content": "Understanding different chromosome representations in genetic algorithms",
+      "embedding_text": "Understanding different chromosome representations in genetic algorithms"
+    },
+    {
+      "chunk_id": "74026ac5",
+      "chunk_type": "exam_point",
+      "page": 12,
+      "content": "Recognizing the use of bit strings, real numbers, permutations, lists of rules, and program elements in genetic algorithms",
+      "embedding_text": "Recognizing the use of bit strings, real numbers, permutations, lists of rules, and program elements in genetic algorithms"
+    },
+    {
+      "chunk_id": "0db7bf16",
+      "chunk_type": "summary",
+      "page": 13,
+      "title": "GA Requirements",
+      "content": "The slide explains the concept of fitness functions in Genetic Algorithms (GA), emphasizing their role in measuring solution quality, problem dependency, and specific application in the knapsack problem. It also discusses solution representation, validity, and the use of interactive genetic algorithms when defining fitness expressions is challenging.",
+      "keywords": [
+        "Genetic Algorithms",
+        "Fitness Function",
+        "Genetic Representation",
+        "Quality of Solution",
+        "Knapsack Problem",
+        "Solution Representation",
+        "Valid Representation",
+        "Fitness Calculation",
+        "Interactive Genetic Algorithms",
+        "Problem Dependency"
+      ],
+      "raw_text": "GA Requirements\n\n▶ The fitness function is defined over the genetic representation and measures the quality of the represented solution.\n\n▶ The fitness function is always problem dependent.\n\n▶ For instance, in the knapsack problem we want to maximize the total value of objects that we can put in a knapsack of some fixed capacity.\n\n▶ A representation of a solution might be an array of bits, where each bit represents a different object, and the value of the bit (0 or 1) represents whether or not the object is in the knapsack.\n\n▶ Not every such representation is valid, as the size of objects may exceed the capacity of the knapsack.\n\n▶ The fitness of the solution is the sum of values of all objects in the knapsack if the representation is valid, or 0 otherwise. In some problems, it is hard or even impossible to define the fitness expression; in these cases, interactive genetic algorithms are used.",
+      "embedding_text": "The slide explains the concept of fitness functions in Genetic Algorithms (GA), emphasizing their role in measuring solution quality, problem dependency, and specific application in the knapsack problem. It also discusses solution representation, validity, and the use of interactive genetic algorithms when defining fitness expressions is challenging."
+    },
+    {
+      "chunk_id": "1d621d85",
+      "chunk_type": "definition",
+      "page": 13,
+      "concept": "Fitness Function",
+      "content": "A function defined over the genetic representation that measures the quality of the represented solution.",
+      "embedding_text": "Fitness Function: A function defined over the genetic representation that measures the quality of the represented solution."
+    },
+    {
+      "chunk_id": "3793de10",
+      "chunk_type": "definition",
+      "page": 13,
+      "concept": "Problem Dependency",
+      "content": "The fitness function is always tailored to the specific problem being solved.",
+      "embedding_text": "Problem Dependency: The fitness function is always tailored to the specific problem being solved."
+    },
+    {
+      "chunk_id": "2514e12e",
+      "chunk_type": "definition",
+      "page": 13,
+      "concept": "Knapsack Problem",
+      "content": "A problem where the goal is to maximize the total value of objects in a knapsack without exceeding its weight capacity.",
+      "embedding_text": "Knapsack Problem: A problem where the goal is to maximize the total value of objects in a knapsack without exceeding its weight capacity."
+    },
+    {
+      "chunk_id": "3fe35cfc",
+      "chunk_type": "definition",
+      "page": 13,
+      "concept": "Representation of a Solution",
+      "content": "An array of bits where each bit represents whether an object is included (1) or not (0) in the knapsack.",
+      "embedding_text": "Representation of a Solution: An array of bits where each bit represents whether an object is included (1) or not (0) in the knapsack."
+    },
+    {
+      "chunk_id": "f2791aa1",
+      "chunk_type": "definition",
+      "page": 13,
+      "concept": "Valid Representation",
+      "content": "A representation where the total size of the included objects does not exceed the knapsack capacity.",
+      "embedding_text": "Valid Representation: A representation where the total size of the included objects does not exceed the knapsack capacity."
+    },
+    {
+      "chunk_id": "b6a90a8e",
+      "chunk_type": "definition",
+      "page": 13,
+      "concept": "Fitness of the Solution",
+      "content": "The sum of values of all objects in the knapsack if the representation is valid, otherwise 0.",
+      "embedding_text": "Fitness of the Solution: The sum of values of all objects in the knapsack if the representation is valid, otherwise 0."
+    },
+    {
+      "chunk_id": "0cc4bf4b",
+      "chunk_type": "definition",
+      "page": 13,
+      "concept": "Interactive Genetic Algorithms",
+      "content": "Algorithms used when it is hard or impossible to define the fitness expression analytically.",
+      "embedding_text": "Interactive Genetic Algorithms: Algorithms used when it is hard or impossible to define the fitness expression analytically."
+    },
+    {
+      "chunk_id": "76ba0b15",
+      "chunk_type": "exam_point",
+      "page": 13,
+      "content": "Understanding the role of fitness functions in GA",
+      "embedding_text": "Understanding the role of fitness functions in GA"
+    },
+    {
+      "chunk_id": "6b660be7",
+      "chunk_type": "exam_point",
+      "page": 13,
+      "content": "Recognizing that fitness functions are problem-dependent",
+      "embedding_text": "Recognizing that fitness functions are problem-dependent"
+    },
+    {
+      "chunk_id": "4c3b5c04",
+      "chunk_type": "exam_point",
+      "page": 13,
+      "content": "Knowing how to represent solutions in the knapsack problem",
+      "embedding_text": "Knowing how to represent solutions in the knapsack problem"
+    },
+    {
+      "chunk_id": "dbc2921e",
+      "chunk_type": "exam_point",
+      "page": 13,
+      "content": "Understanding the concept of valid and invalid representations",
+      "embedding_text": "Understanding the concept of valid and invalid representations"
+    },
+    {
+      "chunk_id": "970c41b8",
+      "chunk_type": "exam_point",
+      "page": 13,
+      "content": "Knowing the fitness calculation for valid and invalid solutions",
+      "embedding_text": "Knowing the fitness calculation for valid and invalid solutions"
+    },
+    {
+      "chunk_id": "47dbe03a",
+      "chunk_type": "exam_point",
+      "page": 13,
+      "content": "Awareness of the use of interactive genetic algorithms",
+      "embedding_text": "Awareness of the use of interactive genetic algorithms"
+    },
+    {
+      "chunk_id": "2d70e591",
+      "chunk_type": "summary",
+      "page": 16,
+      "title": "General Algorithm for GA",
+      "content": "The slide explains the initialization step in the general algorithm for Genetic Algorithms (GA). It describes how an initial population of potential solutions is created randomly, covering the entire search space, and occasionally may be seeded in areas where optimal solutions are likely to be found.",
+      "keywords": [
+        "Genetic Algorithms",
+        "Initialization",
+        "Population",
+        "Search Space",
+        "Random Generation",
+        "Seeding",
+        "Individual Solutions"
+      ],
+      "raw_text": "General Algorithm for GA\n\n▶ Initialization\n▶ Initially many individual solutions are randomly generated to form an initial population. The population size depends on the nature of the problem, but typically contains several hundreds or thousands of possible solutions.\n▶ Traditionally, the population is generated randomly, covering the entire range of possible solutions (the search space).\n▶ Occasionally, the solutions may be \"seeded\" in areas where optimal solutions are likely to be found.",
+      "embedding_text": "The slide explains the initialization step in the general algorithm for Genetic Algorithms (GA). It describes how an initial population of potential solutions is created randomly, covering the entire search space, and occasionally may be seeded in areas where optimal solutions are likely to be found."
+    },
+    {
+      "chunk_id": "06f1c1ab",
+      "chunk_type": "definition",
+      "page": 16,
+      "concept": "Initialization",
+      "content": "The process of generating an initial set of potential solutions for a Genetic Algorithm.",
+      "embedding_text": "Initialization: The process of generating an initial set of potential solutions for a Genetic Algorithm."
+    },
+    {
+      "chunk_id": "748d2674",
+      "chunk_type": "definition",
+      "page": 16,
+      "concept": "Population",
+      "content": "A set of individual solutions generated to explore the search space in Genetic Algorithms.",
+      "embedding_text": "Population: A set of individual solutions generated to explore the search space in Genetic Algorithms."
+    },
+    {
+      "chunk_id": "540433da",
+      "chunk_type": "definition",
+      "page": 16,
+      "concept": "Search Space",
+      "content": "The entire range of possible solutions to a problem that the Genetic Algorithm explores.",
+      "embedding_text": "Search Space: The entire range of possible solutions to a problem that the Genetic Algorithm explores."
+    },
+    {
+      "chunk_id": "9c938849",
+      "chunk_type": "definition",
+      "page": 16,
+      "concept": "Seeding",
+      "content": "The process of starting the population in areas where optimal solutions are likely to be found, rather than generating solutions completely at random.",
+      "embedding_text": "Seeding: The process of starting the population in areas where optimal solutions are likely to be found, rather than generating solutions completely at random."
+    },
+    {
+      "chunk_id": "28de9521",
+      "chunk_type": "exam_point",
+      "page": 16,
+      "content": "Understanding the role of initialization in GA",
+      "embedding_text": "Understanding the role of initialization in GA"
+    },
+    {
+      "chunk_id": "6ba54d81",
+      "chunk_type": "exam_point",
+      "page": 16,
+      "content": "Importance of population size in GA",
+      "embedding_text": "Importance of population size in GA"
+    },
+    {
+      "chunk_id": "660f9cce",
+      "chunk_type": "exam_point",
+      "page": 16,
+      "content": "Difference between random generation and seeding in GA initialization",
+      "embedding_text": "Difference between random generation and seeding in GA initialization"
+    },
+    {
+      "chunk_id": "6dfa42dc",
+      "chunk_type": "summary",
+      "page": 17,
+      "title": "General Algorithm for GA",
+      "content": "The slide explains the selection process in Genetic Algorithms (GA), detailing how individuals are chosen based on fitness to breed a new generation. It highlights the fitness-based nature of selection, methods for rating fitness, and the importance of maintaining diversity to avoid premature convergence.",
+      "keywords": [
+        "Genetic Algorithms",
+        "Selection",
+        "Fitness-based process",
+        "Fitness function",
+        "Stochastic functions",
+        "Population diversity",
+        "Premature convergence",
+        "Roulette wheel selection",
+        "Tournament selection",
+        "New generation",
+        "Breeding"
+      ],
+      "raw_text": "General Algorithm for GA\n\n▶ Selection\n▶ During each successive generation, a proportion of the existing population is selected to breed a new generation.\n▶ Individual solutions are selected through a fitness-based process, where fitter solutions (as measured by a fitness function) are typically more likely to be selected.\n▶ Certain selection methods rate the fitness of each solution and preferentially select the best solutions. Other methods rate only a random sample of the population, as this process may be very time-consuming.\n▶ Most functions are stochastic and designed so that a small proportion of less fit solutions are selected. This helps keep the diversity of the population large, preventing premature convergence on poor solutions. Popular and well-studied selection methods include roulette wheel selection and tournament selection.",
+      "embedding_text": "The slide explains the selection process in Genetic Algorithms (GA), detailing how individuals are chosen based on fitness to breed a new generation. It highlights the fitness-based nature of selection, methods for rating fitness, and the importance of maintaining diversity to avoid premature convergence."
+    },
+    {
+      "chunk_id": "0226085d",
+      "chunk_type": "definition",
+      "page": 17,
+      "concept": "Selection",
+      "content": "The process of choosing a proportion of the existing population to breed a new generation in Genetic Algorithms.",
+      "embedding_text": "Selection: The process of choosing a proportion of the existing population to breed a new generation in Genetic Algorithms."
+    },
+    {
+      "chunk_id": "df704dba",
+      "chunk_type": "definition",
+      "page": 17,
+      "concept": "Fitness-based process",
+      "content": "A method of selecting individual solutions where fitter solutions, measured by a fitness function, are more likely to be chosen.",
+      "embedding_text": "Fitness-based process: A method of selecting individual solutions where fitter solutions, measured by a fitness function, are more likely to be chosen."
+    },
+    {
+      "chunk_id": "ef61cd6c",
+      "chunk_type": "definition",
+      "page": 17,
+      "concept": "Fitness function",
+      "content": "A function that measures the quality or 'fitness' of individual solutions in a population.",
+      "embedding_text": "Fitness function: A function that measures the quality or 'fitness' of individual solutions in a population."
+    },
+    {
+      "chunk_id": "da1ef32b",
+      "chunk_type": "definition",
+      "page": 17,
+      "concept": "Premature convergence",
+      "content": "A situation in Genetic Algorithms where the population converges too quickly to suboptimal solutions, reducing diversity.",
+      "embedding_text": "Premature convergence: A situation in Genetic Algorithms where the population converges too quickly to suboptimal solutions, reducing diversity."
+    },
+    {
+      "chunk_id": "6d1ef976",
+      "chunk_type": "diagram",
+      "page": 17,
+      "diagram_type": "none",
+      "content": "No diagrams or charts are present on the slide.",
+      "embedding_text": "No diagrams or charts are present on the slide."
+    },
+    {
+      "chunk_id": "7d62eb4f",
+      "chunk_type": "exam_point",
+      "page": 17,
+      "content": "Understanding the role of selection in GA",
+      "embedding_text": "Understanding the role of selection in GA"
+    },
+    {
+      "chunk_id": "b8e3ba9e",
+      "chunk_type": "exam_point",
+      "page": 17,
+      "content": "Importance of fitness functions in selection",
+      "embedding_text": "Importance of fitness functions in selection"
+    },
+    {
+      "chunk_id": "d96948d9",
+      "chunk_type": "exam_point",
+      "page": 17,
+      "content": "Methods for maintaining population diversity",
+      "embedding_text": "Methods for maintaining population diversity"
+    },
+    {
+      "chunk_id": "73da01d8",
+      "chunk_type": "exam_point",
+      "page": 17,
+      "content": "Common selection methods like roulette wheel and tournament selection",
+      "embedding_text": "Common selection methods like roulette wheel and tournament selection"
+    },
+    {
+      "chunk_id": "edc32fb0",
+      "chunk_type": "summary",
+      "page": 18,
+      "title": "General Algorithm for GA",
+      "content": "The slide explains the roulette wheel selection method used in Genetic Algorithms (GA). It describes how individuals are selected based on their fitness proportionate probabilities and how offspring are produced from selected individuals.",
+      "keywords": [
+        "Genetic Algorithms",
+        "Roulette Wheel Selection",
+        "Fitness",
+        "Individuals",
+        "Offspring",
+        "Probability",
+        "Selection"
+      ],
+      "raw_text": "General Algorithm for GA\n\n▶ In roulette wheel selection, individuals are given a probability of being selected that is directly proportionate to their fitness.\n\n▶ Two individuals are then chosen randomly based on these probabilities and produce offspring.",
+      "embedding_text": "The slide explains the roulette wheel selection method used in Genetic Algorithms (GA). It describes how individuals are selected based on their fitness proportionate probabilities and how offspring are produced from selected individuals."
+    },
+    {
+      "chunk_id": "b9d3ab2f",
+      "chunk_type": "definition",
+      "page": 18,
+      "concept": "Roulette Wheel Selection",
+      "content": "A selection method in Genetic Algorithms where individuals are chosen with a probability proportional to their fitness.",
+      "embedding_text": "Roulette Wheel Selection: A selection method in Genetic Algorithms where individuals are chosen with a probability proportional to their fitness."
+    },
+    {
+      "chunk_id": "d5e78047",
+      "chunk_type": "definition",
+      "page": 18,
+      "concept": "Fitness",
+      "content": "A measure of how well an individual solution solves the problem; higher fitness increases the chance of selection.",
+      "embedding_text": "Fitness: A measure of how well an individual solution solves the problem; higher fitness increases the chance of selection."
+    },
+    {
+      "chunk_id": "fd604202",
+      "chunk_type": "diagram",
+      "page": 18,
+      "diagram_type": "Conceptual Diagram",
+      "content": "A conceptual diagram of the roulette wheel selection process showing selection probabilities based on fitness and the production of offspring.",
+      "embedding_text": "A conceptual diagram of the roulette wheel selection process showing selection probabilities based on fitness and the production of offspring."
+    },
+    {
+      "chunk_id": "0ee21543",
+      "chunk_type": "exam_point",
+      "page": 18,
+      "content": "Understanding the concept of roulette wheel selection in GA",
+      "embedding_text": "Understanding the concept of roulette wheel selection in GA"
+    },
+    {
+      "chunk_id": "76626a94",
+      "chunk_type": "exam_point",
+      "page": 18,
+      "content": "How fitness influences selection probability",
+      "embedding_text": "How fitness influences selection probability"
+    },
+    {
+      "chunk_id": "986b09d0",
+      "chunk_type": "exam_point",
+      "page": 18,
+      "content": "The process of selecting individuals and producing offspring",
+      "embedding_text": "The process of selecting individuals and producing offspring"
+    },
+    {
+      "chunk_id": "181f6eaa",
+      "chunk_type": "summary",
+      "page": 20,
+      "title": "General Algorithm for GA",
+      "content": "This slide explains the reproduction step in Genetic Algorithms (GA), detailing how a second generation of solutions is created using genetic operators such as crossover and mutation. It describes the selection of parent solutions, the creation of child solutions, and the iterative process of generating a new population.",
+      "keywords": [
+        "Genetic Algorithms",
+        "Reproduction",
+        "Crossover",
+        "Mutation",
+        "Parent Solutions",
+        "Child Solutions",
+        "Population",
+        "Genetic Operators",
+        "Recombination"
+      ],
+      "raw_text": "General Algorithm for GA\n\n▶ Reproduction\n▶ The next step is to generate a second generation population of solutions from those selected through genetic operators: crossover (also called recombination), and/or mutation.\n▶ For each new solution to be produced, a pair of \"parent\" solutions is selected for breeding from the pool selected previously.\n▶ By producing a \"child\" solution using the above methods of crossover and mutation, a new solution is created which typically shares many of the characteristics of its \"parents\". New parents are selected for each child, and the process continues until a new population of solutions of appropriate size is generated.",
+      "embedding_text": "This slide explains the reproduction step in Genetic Algorithms (GA), detailing how a second generation of solutions is created using genetic operators such as crossover and mutation. It describes the selection of parent solutions, the creation of child solutions, and the iterative process of generating a new population."
+    },
+    {
+      "chunk_id": "a284a2f2",
+      "chunk_type": "definition",
+      "page": 20,
+      "concept": "Reproduction",
+      "content": "The process of generating a new population of solutions from selected solutions using genetic operators.",
+      "embedding_text": "Reproduction: The process of generating a new population of solutions from selected solutions using genetic operators."
+    },
+    {
+      "chunk_id": "0978c791",
+      "chunk_type": "definition",
+      "page": 20,
+      "concept": "Crossover (Recombination)",
+      "content": "A genetic operator that combines parts of two parent solutions to create a new solution.",
+      "embedding_text": "Crossover (Recombination): A genetic operator that combines parts of two parent solutions to create a new solution."
+    },
+    {
+      "chunk_id": "b3dc698c",
+      "chunk_type": "definition",
+      "page": 20,
+      "concept": "Mutation",
+      "content": "A genetic operator that introduces random changes in a solution to maintain diversity in the population.",
+      "embedding_text": "Mutation: A genetic operator that introduces random changes in a solution to maintain diversity in the population."
+    },
+    {
+      "chunk_id": "113c00e1",
+      "chunk_type": "definition",
+      "page": 20,
+      "concept": "Parent Solutions",
+      "content": "Selected solutions from the current population used to produce new solutions.",
+      "embedding_text": "Parent Solutions: Selected solutions from the current population used to produce new solutions."
+    },
+    {
+      "chunk_id": "1871b5f0",
+      "chunk_type": "definition",
+      "page": 20,
+      "concept": "Child Solutions",
+      "content": "New solutions created through crossover and/or mutation from parent solutions.",
+      "embedding_text": "Child Solutions: New solutions created through crossover and/or mutation from parent solutions."
+    },
+    {
+      "chunk_id": "192a068f",
+      "chunk_type": "diagram",
+      "page": 20,
+      "diagram_type": "process_flow",
+      "content": "Illustrates the flow of selecting parent solutions, applying crossover and mutation, and generating child solutions to form a new population.",
+      "embedding_text": "Illustrates the flow of selecting parent solutions, applying crossover and mutation, and generating child solutions to form a new population."
+    },
+    {
+      "chunk_id": "73d7ee26",
+      "chunk_type": "exam_point",
+      "page": 20,
+      "content": "Understanding the role of crossover and mutation in generating new solutions.",
+      "embedding_text": "Understanding the role of crossover and mutation in generating new solutions."
+    },
+    {
+      "chunk_id": "bd5e8594",
+      "chunk_type": "exam_point",
+      "page": 20,
+      "content": "The iterative nature of generating a new population in GA.",
+      "embedding_text": "The iterative nature of generating a new population in GA."
+    },
+    {
+      "chunk_id": "faf155dc",
+      "chunk_type": "exam_point",
+      "page": 20,
+      "content": "How parent solutions are selected and used to create child solutions.",
+      "embedding_text": "How parent solutions are selected and used to create child solutions."
+    },
+    {
+      "chunk_id": "9d4c4b34",
+      "chunk_type": "summary",
+      "page": 21,
+      "title": "General Algorithm for GA",
+      "content": "The slide explains the outcome of the processes in a Genetic Algorithm (GA), focusing on how the next generation population of chromosomes differs from the initial generation and how the average fitness of the population generally increases through selection and breeding of the best organisms with some inclusion of less fit solutions.",
+      "keywords": [
+        "Genetic Algorithms",
+        "Chromosomes",
+        "Generations",
+        "Fitness",
+        "Selection",
+        "Breeding",
+        "Next Generation",
+        "Optimization",
+        "Evolutionary Process"
+      ],
+      "raw_text": "General Algorithm for GA\n\n▶ These processes ultimately result in the next generation population of chromosomes that is different from the initial generation.\n\n▶ Generally the average fitness will have increased by this procedure for the population, since only the best organisms from the first generation are selected for breeding, along with a small proportion of less fit solutions, for reasons already mentioned above.",
+      "embedding_text": "The slide explains the outcome of the processes in a Genetic Algorithm (GA), focusing on how the next generation population of chromosomes differs from the initial generation and how the average fitness of the population generally increases through selection and breeding of the best organisms with some inclusion of less fit solutions."
+    },
+    {
+      "chunk_id": "9328038b",
+      "chunk_type": "definition",
+      "page": 21,
+      "concept": "Genetic Algorithms (GA)",
+      "content": "A search heuristic that mimics the process of natural evolution to generate useful solutions to optimization and search problems.",
+      "embedding_text": "Genetic Algorithms (GA): A search heuristic that mimics the process of natural evolution to generate useful solutions to optimization and search problems."
+    },
+    {
+      "chunk_id": "1c8327fc",
+      "chunk_type": "definition",
+      "page": 21,
+      "concept": "Chromosomes",
+      "content": "A set of parameters or solutions encoded in a way that can undergo operations like crossover and mutation.",
+      "embedding_text": "Chromosomes: A set of parameters or solutions encoded in a way that can undergo operations like crossover and mutation."
+    },
+    {
+      "chunk_id": "41b18cc5",
+      "chunk_type": "definition",
+      "page": 21,
+      "concept": "Fitness",
+      "content": "A measure of how well a particular solution solves the problem at hand.",
+      "embedding_text": "Fitness: A measure of how well a particular solution solves the problem at hand."
+    },
+    {
+      "chunk_id": "fa206c08",
+      "chunk_type": "exam_point",
+      "page": 21,
+      "content": "Understanding how GA processes lead to a new generation of chromosomes.",
+      "embedding_text": "Understanding how GA processes lead to a new generation of chromosomes."
+    },
+    {
+      "chunk_id": "5fcf585f",
+      "chunk_type": "exam_point",
+      "page": 21,
+      "content": "The concept of increased average fitness in subsequent generations.",
+      "embedding_text": "The concept of increased average fitness in subsequent generations."
+    },
+    {
+      "chunk_id": "98a06491",
+      "chunk_type": "exam_point",
+      "page": 21,
+      "content": "The role of selection and breeding in GA.",
+      "embedding_text": "The role of selection and breeding in GA."
+    },
+    {
+      "chunk_id": "063bf2ae",
+      "chunk_type": "summary",
+      "page": 22,
+      "title": "Crossover",
+      "content": "The slide explains the concept of single point crossover in genetic algorithms, detailing how genetic material from two parents is combined to produce offspring. It highlights the process, probability of occurrence, and visual understanding of chromosome exchange.",
+      "keywords": [
+        "Single Point Crossover",
+        "Alleles",
+        "Chromosome",
+        "Crossover Point",
+        "Offspring",
+        "Genetic Algorithms",
+        "Probability",
+        "Parents",
+        "Population",
+        "Locus"
+      ],
+      "raw_text": "the most common type is single point crossover. In single point crossover, you choose a locus at which you swap the remaining alleles from on parent to the other. This is complex and is best understood visually. As you can see, the children take one section of the chromosome from each parent. The point at which the chromosome is broken depends on the randomly selected crossover point. This particular method is called single point crossover because only one crossover point exists. Sometimes only child 1 or child 2 is created, but oftentimes both offspring are created and put into the new population. Crossover does not always occur, however. Sometimes, based on a set probability, no crossover occurs and the parents are copied directly to the new population. The probability of crossover occurring is usually 60% to 70%",
+      "embedding_text": "The slide explains the concept of single point crossover in genetic algorithms, detailing how genetic material from two parents is combined to produce offspring. It highlights the process, probability of occurrence, and visual understanding of chromosome exchange."
+    },
+    {
+      "chunk_id": "415532a2",
+      "chunk_type": "definition",
+      "page": 22,
+      "concept": "Single Point Crossover",
+      "content": "A method in genetic algorithms where a single locus is chosen to swap the remaining alleles from one parent to the other.",
+      "embedding_text": "Single Point Crossover: A method in genetic algorithms where a single locus is chosen to swap the remaining alleles from one parent to the other."
+    },
+    {
+      "chunk_id": "8ab9a3fb",
+      "chunk_type": "definition",
+      "page": 22,
+      "concept": "Crossover Point",
+      "content": "The specific locus on the chromosome where the crossover occurs, breaking the chromosome into sections for recombination.",
+      "embedding_text": "Crossover Point: The specific locus on the chromosome where the crossover occurs, breaking the chromosome into sections for recombination."
+    },
+    {
+      "chunk_id": "958c775a",
+      "chunk_type": "definition",
+      "page": 22,
+      "concept": "Crossover Probability",
+      "content": "The likelihood that crossover will occur between two parents, typically set between 60% to 70%.",
+      "embedding_text": "Crossover Probability: The likelihood that crossover will occur between two parents, typically set between 60% to 70%."
+    },
+    {
+      "chunk_id": "4383319d",
+      "chunk_type": "diagram",
+      "page": 22,
+      "diagram_type": "Visual Representation",
+      "content": "A visual diagram showing chromosomes from two parents and the resulting offspring after crossover at a single point.",
+      "embedding_text": "A visual diagram showing chromosomes from two parents and the resulting offspring after crossover at a single point."
+    },
+    {
+      "chunk_id": "1a6d6f52",
+      "chunk_type": "exam_point",
+      "page": 22,
+      "content": "Understanding the process of single point crossover and its role in genetic algorithms.",
+      "embedding_text": "Understanding the process of single point crossover and its role in genetic algorithms."
+    },
+    {
+      "chunk_id": "9d7f7889",
+      "chunk_type": "exam_point",
+      "page": 22,
+      "content": "Recognizing how offspring inherit sections of chromosomes from each parent.",
+      "embedding_text": "Recognizing how offspring inherit sections of chromosomes from each parent."
+    },
+    {
+      "chunk_id": "1083db10",
+      "chunk_type": "exam_point",
+      "page": 22,
+      "content": "Knowing the typical probability range for crossover occurrence.",
+      "embedding_text": "Knowing the typical probability range for crossover occurrence."
+    },
+    {
+      "chunk_id": "46324e7f",
+      "chunk_type": "exam_point",
+      "page": 22,
+      "content": "Explaining the difference between crossover and direct copying of parents.",
+      "embedding_text": "Explaining the difference between crossover and direct copying of parents."
+    },
+    {
+      "chunk_id": "02fae963",
+      "chunk_type": "summary",
+      "page": 24,
+      "title": "Mutation",
+      "content": "The slide explains the concept of mutation in genetic algorithms, emphasizing its role in introducing genetic diversity after selection and crossover processes. It describes how mutation works by randomly altering alleles with a low probability, ensuring variation within the population.",
+      "keywords": [
+        "Mutation",
+        "Genetic Algorithms",
+        "Alleles",
+        "Genetic Diversity",
+        "Selection",
+        "Crossover",
+        "Probability",
+        "Population",
+        "Variation"
+      ],
+      "raw_text": "▶ After selection and crossover, you now have a new population full of individuals. ▶ Some are directly copied, and others are produced by crossover. ▶ In order to ensure that the individuals are not all exactly the same, you allow for a small chance of mutation. ▶ You loop through all the alleles of all the individuals, and if that allele is selected for mutation, you can either change it by a small amount or replace it with a new value. The probability of mutation is usually between 1 and 2 tenths of a percent. ▶ Mutation is fairly simple. You just change the selected alleles based on what you feel is necessary and move on. Mutation is, however, vital to ensuring genetic diversity within the population.",
+      "embedding_text": "The slide explains the concept of mutation in genetic algorithms, emphasizing its role in introducing genetic diversity after selection and crossover processes. It describes how mutation works by randomly altering alleles with a low probability, ensuring variation within the population."
+    },
+    {
+      "chunk_id": "7c996158",
+      "chunk_type": "definition",
+      "page": 24,
+      "concept": "Mutation",
+      "content": "A process in genetic algorithms where alleles of individuals are randomly altered with a small probability to introduce genetic diversity.",
+      "embedding_text": "Mutation: A process in genetic algorithms where alleles of individuals are randomly altered with a small probability to introduce genetic diversity."
+    },
+    {
+      "chunk_id": "2a4f13df",
+      "chunk_type": "definition",
+      "page": 24,
+      "concept": "Alleles",
+      "content": "Variants of a gene that can be selected for mutation in genetic algorithms.",
+      "embedding_text": "Alleles: Variants of a gene that can be selected for mutation in genetic algorithms."
+    },
+    {
+      "chunk_id": "e8872e0e",
+      "chunk_type": "exam_point",
+      "page": 24,
+      "content": "Mutation's role in maintaining genetic diversity in populations.",
+      "embedding_text": "Mutation's role in maintaining genetic diversity in populations."
+    },
+    {
+      "chunk_id": "66f265d7",
+      "chunk_type": "exam_point",
+      "page": 24,
+      "content": "Typical probability range for mutation (1-2 tenths of a percent).",
+      "embedding_text": "Typical probability range for mutation (1-2 tenths of a percent)."
+    },
+    {
+      "chunk_id": "d27ba4d8",
+      "chunk_type": "exam_point",
+      "page": 24,
+      "content": "Difference between copying individuals directly and producing them by crossover.",
+      "embedding_text": "Difference between copying individuals directly and producing them by crossover."
+    },
+    {
+      "chunk_id": "6dfd9219",
+      "chunk_type": "exam_point",
+      "page": 24,
+      "content": "How mutation is applied to alleles in genetic algorithms.",
+      "embedding_text": "How mutation is applied to alleles in genetic algorithms."
+    },
+    {
+      "chunk_id": "ee837779",
+      "chunk_type": "summary",
+      "page": 26,
+      "title": "General Algorithm for GA",
+      "content": "The slide explains the termination criteria for the general algorithm of Genetic Algorithms (GA). It outlines various conditions under which the generational process of GA is stopped, including finding a satisfactory solution, reaching a fixed number of generations, exhausting allocated resources, plateauing of fitness, manual inspection, or combinations of these conditions.",
+      "keywords": [
+        "Termination",
+        "Generational Process",
+        "Genetic Algorithms",
+        "Termination Condition",
+        "Solution Criteria",
+        "Generations",
+        "Budget",
+        "Fitness Plateau",
+        "Manual Inspection"
+      ],
+      "raw_text": "General Algorithm for GA\n\n▶ Termination\n▶ This generational process is repeated until a termination condition has been reached.\n▶ Common terminating conditions are:\n▶ A solution is found that satisfies minimum criteria\n▶ Fixed number of generations reached\n▶ Allocated budget (computation time/money) reached\n▶ The highest ranking solution’s fitness is reaching or has reached a plateau such that successive iterations no longer produce better results\n▶ Manual inspection\n▶ Any Combinations of the above",
+      "embedding_text": "The slide explains the termination criteria for the general algorithm of Genetic Algorithms (GA). It outlines various conditions under which the generational process of GA is stopped, including finding a satisfactory solution, reaching a fixed number of generations, exhausting allocated resources, plateauing of fitness, manual inspection, or combinations of these conditions."
+    },
+    {
+      "chunk_id": "8daf1e4b",
+      "chunk_type": "definition",
+      "page": 26,
+      "concept": "Termination Condition",
+      "content": "Conditions that determine when the generational process of a Genetic Algorithm should stop.",
+      "embedding_text": "Termination Condition: Conditions that determine when the generational process of a Genetic Algorithm should stop."
+    },
+    {
+      "chunk_id": "1c05b3d4",
+      "chunk_type": "definition",
+      "page": 26,
+      "concept": "Fitness Plateau",
+      "content": "A state in which the highest ranking solution’s fitness no longer improves with successive iterations.",
+      "embedding_text": "Fitness Plateau: A state in which the highest ranking solution’s fitness no longer improves with successive iterations."
+    },
+    {
+      "chunk_id": "0471e89b",
+      "chunk_type": "exam_point",
+      "page": 26,
+      "content": "Understanding the different termination conditions for Genetic Algorithms.",
+      "embedding_text": "Understanding the different termination conditions for Genetic Algorithms."
+    },
+    {
+      "chunk_id": "13526f38",
+      "chunk_type": "exam_point",
+      "page": 26,
+      "content": "Recognizing when a GA process should be stopped based on predefined criteria.",
+      "embedding_text": "Recognizing when a GA process should be stopped based on predefined criteria."
+    },
+    {
+      "chunk_id": "1b132960",
+      "chunk_type": "exam_point",
+      "page": 26,
+      "content": "Importance of fitness plateau in determining termination.",
+      "embedding_text": "Importance of fitness plateau in determining termination."
+    },
+    {
+      "chunk_id": "3ba7ca94",
+      "chunk_type": "summary",
+      "page": 28,
+      "title": "Genetic Programming",
+      "content": "The slide explains the concept of prefix notation used in programming languages like LISP, highlighting its differences from standard mathematical notation. It provides examples of prefix notation and explains how it simplifies parsing and evaluation by avoiding order precedence issues and parentheses. The slide also mentions the construction of expression trees from these notations.",
+      "keywords": [
+        "Prefix Notation",
+        "LISP",
+        "Expression Trees",
+        "Order Precedence",
+        "Mathematical Notation",
+        "Programming Languages",
+        "Compilers",
+        "Operators",
+        "Operands"
+      ],
+      "raw_text": "Genetic Programming\n\n▶ In programming languages such as LISP, the mathematical notation is not written in standard notation, but in prefix notation. Some examples of this:\n▶ + 2 1 : 2 + 1\n▶ * + 2 1 2 : 2 * (2+1)\n▶ * + - 2 1 4 9 : 9 * ((2 - 1) + 4)\n▶ Notice the difference between the left-hand side to the right? Apart from the order being different, no parenthesis! The prefix method makes it a lot easier for programmers and compilers alike, because order precedence is not an issue.\n▶ You can build expression trees out of these strings that then can be easily evaluated, for example, here are the trees for the above three expressions.",
+      "embedding_text": "The slide explains the concept of prefix notation used in programming languages like LISP, highlighting its differences from standard mathematical notation. It provides examples of prefix notation and explains how it simplifies parsing and evaluation by avoiding order precedence issues and parentheses. The slide also mentions the construction of expression trees from these notations."
+    },
+    {
+      "chunk_id": "793434aa",
+      "chunk_type": "definition",
+      "page": 28,
+      "concept": "Prefix Notation",
+      "content": "A form of mathematical notation where the operator precedes its operands, used in programming languages like LISP.",
+      "embedding_text": "Prefix Notation: A form of mathematical notation where the operator precedes its operands, used in programming languages like LISP."
+    },
+    {
+      "chunk_id": "50887628",
+      "chunk_type": "definition",
+      "page": 28,
+      "concept": "Expression Trees",
+      "content": "Tree data structures that represent expressions and can be easily evaluated, constructed from prefix notation strings.",
+      "embedding_text": "Expression Trees: Tree data structures that represent expressions and can be easily evaluated, constructed from prefix notation strings."
+    },
+    {
+      "chunk_id": "9eff02a2",
+      "chunk_type": "diagram",
+      "page": 28,
+      "diagram_type": "Expression Trees",
+      "content": "Expression trees for the prefix notation examples provided: (+ 2 1), (* + 2 1 2), (* + - 2 1 4 9).",
+      "embedding_text": "Expression trees for the prefix notation examples provided: (+ 2 1), (* + 2 1 2), (* + - 2 1 4 9)."
+    },
+    {
+      "chunk_id": "90fbae8f",
+      "chunk_type": "exam_point",
+      "page": 28,
+      "content": "Understanding the difference between standard mathematical notation and prefix notation.",
+      "embedding_text": "Understanding the difference between standard mathematical notation and prefix notation."
+    },
+    {
+      "chunk_id": "ac440b04",
+      "chunk_type": "exam_point",
+      "page": 28,
+      "content": "Ability to convert prefix notation expressions to standard mathematical notation.",
+      "embedding_text": "Ability to convert prefix notation expressions to standard mathematical notation."
+    },
+    {
+      "chunk_id": "7725f039",
+      "chunk_type": "exam_point",
+      "page": 28,
+      "content": "Knowledge of how expression trees are built from prefix notation.",
+      "embedding_text": "Knowledge of how expression trees are built from prefix notation."
+    },
+    {
+      "chunk_id": "6decddb8",
+      "chunk_type": "exam_point",
+      "page": 28,
+      "content": "Importance of prefix notation in simplifying parsing and evaluation in programming languages.",
+      "embedding_text": "Importance of prefix notation in simplifying parsing and evaluation in programming languages."
+    },
+    {
+      "chunk_id": "97324d43",
+      "chunk_type": "summary",
+      "page": 30,
+      "title": "Genetic Programming",
+      "content": "The slide explains the application of Genetic Algorithms (GAs) in evolving expression trees to fit numerical data and answers when no predefined expression exists. It describes the process of 'splicing' and 'grafting' trees, evaluating expressions, and using a fitness function to determine how closely the evolved expression matches the data.",
+      "keywords": [
+        "Genetic Programming",
+        "Expression Evaluation",
+        "Genetic Algorithms",
+        "Expression Trees",
+        "Fitness Function",
+        "Splicing",
+        "Grafting",
+        "Evolution",
+        "Data Fit",
+        "Numerical Data"
+      ],
+      "raw_text": "Genetic Programming\n\n▶ You can see how expression evaluation is thus a lot easier.\n\n▶ What this have to do with GAs? If for example you have numerical data and 'answers', but no expression to conjoin the data with the answers.\n\n▶ A genetic algorithm can be used to 'evolve' an expression tree to create a very close fit to the data.\n\n▶ By 'splicing' and 'grafting' the trees and evaluating the resulting expression with the data and testing it to the answers, the fitness function can return how close the expression is.",
+      "embedding_text": "The slide explains the application of Genetic Algorithms (GAs) in evolving expression trees to fit numerical data and answers when no predefined expression exists. It describes the process of 'splicing' and 'grafting' trees, evaluating expressions, and using a fitness function to determine how closely the evolved expression matches the data."
+    },
+    {
+      "chunk_id": "53045614",
+      "chunk_type": "definition",
+      "page": 30,
+      "concept": "Genetic Programming",
+      "content": "A method to evolve computer programs using genetic algorithms, often represented as expression trees.",
+      "embedding_text": "Genetic Programming: A method to evolve computer programs using genetic algorithms, often represented as expression trees."
+    },
+    {
+      "chunk_id": "43257bbc",
+      "chunk_type": "definition",
+      "page": 30,
+      "concept": "Expression Tree",
+      "content": "A data structure representing expressions, used in genetic programming to evolve solutions.",
+      "embedding_text": "Expression Tree: A data structure representing expressions, used in genetic programming to evolve solutions."
+    },
+    {
+      "chunk_id": "f998f0b0",
+      "chunk_type": "definition",
+      "page": 30,
+      "concept": "Fitness Function",
+      "content": "A function that evaluates how closely an evolved expression fits the given data and answers.",
+      "embedding_text": "Fitness Function: A function that evaluates how closely an evolved expression fits the given data and answers."
+    },
+    {
+      "chunk_id": "fa2aed30",
+      "chunk_type": "definition",
+      "page": 30,
+      "concept": "Splicing and Grafting",
+      "content": "Techniques used in genetic programming to combine and modify expression trees to create new candidate solutions.",
+      "embedding_text": "Splicing and Grafting: Techniques used in genetic programming to combine and modify expression trees to create new candidate solutions."
+    },
+    {
+      "chunk_id": "de97d079",
+      "chunk_type": "diagram",
+      "page": 30,
+      "diagram_type": "Conceptual Diagram",
+      "content": "A conceptual diagram showing the process of evolving expression trees using genetic algorithms, including splicing, grafting, and fitness evaluation.",
+      "embedding_text": "A conceptual diagram showing the process of evolving expression trees using genetic algorithms, including splicing, grafting, and fitness evaluation."
+    },
+    {
+      "chunk_id": "91a17b75",
+      "chunk_type": "exam_point",
+      "page": 30,
+      "content": "Understanding how genetic algorithms can be used to evolve expressions without predefined formulas.",
+      "embedding_text": "Understanding how genetic algorithms can be used to evolve expressions without predefined formulas."
+    },
+    {
+      "chunk_id": "7240cf0e",
+      "chunk_type": "exam_point",
+      "page": 30,
+      "content": "The role of expression trees in genetic programming.",
+      "embedding_text": "The role of expression trees in genetic programming."
+    },
+    {
+      "chunk_id": "733ebdb8",
+      "chunk_type": "exam_point",
+      "page": 30,
+      "content": "The process of evaluating expressions and using a fitness function to determine their accuracy.",
+      "embedding_text": "The process of evaluating expressions and using a fitness function to determine their accuracy."
+    },
+    {
+      "chunk_id": "10099f23",
+      "chunk_type": "exam_point",
+      "page": 30,
+      "content": "The techniques of splicing and grafting in genetic programming.",
+      "embedding_text": "The techniques of splicing and grafting in genetic programming."
+    },
+    {
+      "chunk_id": "acf864f4",
+      "chunk_type": "summary",
+      "page": 35,
+      "title": "Example",
+      "content": "The slide demonstrates an example of using a genetic algorithm to solve a maximization problem by encoding solutions as binary strings, generating an initial population, and evaluating each solution against an objective function.",
+      "keywords": [
+        "Genetic Algorithm",
+        "Maximization",
+        "Binary Encoding",
+        "Fitness Function",
+        "Initial Population",
+        "Objective Function",
+        "Evaluation",
+        "Bit String",
+        "Solution",
+        "f(x) = MAX(x^2)"
+      ],
+      "raw_text": "Example\n\n▶ f(x) = {MAX(x^2): 0 <= x <= 32 }\n▶ Encode Solution: Just use 5 bits (1 or 0).\n▶ Generate initial population.\n\nA 0 1 1 0 1\nB 1 1 0 0 0\nC 0 1 0 0 0\nD 1 0 0 1 1\n\n▶ Evaluate each solution against objective.\n\nSol. String Fitness % of Total\nA 01101 169 14.4\nB 11000 576 49.2\nC 01000 64 5.5\nD 10011 361 30.9",
+      "embedding_text": "The slide demonstrates an example of using a genetic algorithm to solve a maximization problem by encoding solutions as binary strings, generating an initial population, and evaluating each solution against an objective function."
+    },
+    {
+      "chunk_id": "8cc0fa12",
+      "chunk_type": "definition",
+      "page": 35,
+      "concept": "Genetic Algorithm",
+      "content": "A search heuristic that mimics the process of natural selection to generate useful solutions to optimization and search problems.",
+      "embedding_text": "Genetic Algorithm: A search heuristic that mimics the process of natural selection to generate useful solutions to optimization and search problems."
+    },
+    {
+      "chunk_id": "e5372057",
+      "chunk_type": "definition",
+      "page": 35,
+      "concept": "Fitness Function",
+      "content": "A particular function by which the fitness of a solution candidate in an optimization problem is measured.",
+      "embedding_text": "Fitness Function: A particular function by which the fitness of a solution candidate in an optimization problem is measured."
+    },
+    {
+      "chunk_id": "4920e0b7",
+      "chunk_type": "definition",
+      "page": 35,
+      "concept": "Binary Encoding",
+      "content": "Representation of solutions as binary strings (composed of 0s and 1s).",
+      "embedding_text": "Binary Encoding: Representation of solutions as binary strings (composed of 0s and 1s)."
+    },
+    {
+      "chunk_id": "0999e880",
+      "chunk_type": "formula",
+      "page": 35,
+      "formula": "f(x) = {MAX(x^2): 0 <= x <= 32}",
+      "embedding_text": "f(x) = {MAX(x^2): 0 <= x <= 32}"
+    },
+    {
+      "chunk_id": "12279c07",
+      "chunk_type": "diagram",
+      "page": 35,
+      "diagram_type": "table",
+      "content": "A table showing the initial population of binary strings (A, B, C, D) and their corresponding bit patterns.",
+      "embedding_text": "A table showing the initial population of binary strings (A, B, C, D) and their corresponding bit patterns."
+    },
+    {
+      "chunk_id": "c9de90bb",
+      "chunk_type": "diagram",
+      "page": 35,
+      "diagram_type": "table",
+      "content": "A table evaluating each solution's fitness and percentage of total fitness.",
+      "embedding_text": "A table evaluating each solution's fitness and percentage of total fitness."
+    },
+    {
+      "chunk_id": "3c204b29",
+      "chunk_type": "exam_point",
+      "page": 35,
+      "content": "Understanding how to encode solutions in binary for optimization problems.",
+      "embedding_text": "Understanding how to encode solutions in binary for optimization problems."
+    },
+    {
+      "chunk_id": "fcd4b958",
+      "chunk_type": "exam_point",
+      "page": 35,
+      "content": "Evaluating fitness of solutions in a genetic algorithm context.",
+      "embedding_text": "Evaluating fitness of solutions in a genetic algorithm context."
+    },
+    {
+      "chunk_id": "81644fd9",
+      "chunk_type": "exam_point",
+      "page": 35,
+      "content": "Generating and interpreting initial populations in genetic algorithms.",
+      "embedding_text": "Generating and interpreting initial populations in genetic algorithms."
+    },
+    {
+      "chunk_id": "d85810ae",
+      "chunk_type": "summary",
+      "page": 36,
+      "title": "Example Cont’d",
+      "content": "The slide explains the process of generating a new generation of solutions in genetic algorithms, focusing on the selection of parent solutions based on fitness and the methods for creating offspring through reproduction, crossover, and mutation.",
+      "keywords": [
+        "Genetic Algorithms",
+        "Next Generation",
+        "Fitness",
+        "Reproduction",
+        "Crossover",
+        "Mutation",
+        "Parent Selection",
+        "String",
+        "Combination"
+      ],
+      "raw_text": "Example Cont’d\n\n► Create next generation of solutions\n► Probability of “being a parent” depends on the fitness.\n\n► Ways for parents to create next generation\n► Reproduction\n► Use a string again unmodified.\n► Crossover\n► Cut and paste portions of one string to another.\n► Mutation\n► Randomly flip a bit.\n► COMBINATION of all of the above.",
+      "embedding_text": "The slide explains the process of generating a new generation of solutions in genetic algorithms, focusing on the selection of parent solutions based on fitness and the methods for creating offspring through reproduction, crossover, and mutation."
+    },
+    {
+      "chunk_id": "a8b9ef6e",
+      "chunk_type": "definition",
+      "page": 36,
+      "concept": "Reproduction",
+      "content": "Using a string (solution) again unmodified to create the next generation.",
+      "embedding_text": "Reproduction: Using a string (solution) again unmodified to create the next generation."
+    },
+    {
+      "chunk_id": "e27d2c6d",
+      "chunk_type": "definition",
+      "page": 36,
+      "concept": "Crossover",
+      "content": "Cutting and pasting portions of one string to another to create new solutions.",
+      "embedding_text": "Crossover: Cutting and pasting portions of one string to another to create new solutions."
+    },
+    {
+      "chunk_id": "952b2105",
+      "chunk_type": "definition",
+      "page": 36,
+      "concept": "Mutation",
+      "content": "Randomly flipping a bit in a string to introduce variability.",
+      "embedding_text": "Mutation: Randomly flipping a bit in a string to introduce variability."
+    },
+    {
+      "chunk_id": "8bab174f",
+      "chunk_type": "exam_point",
+      "page": 36,
+      "content": "Understanding how fitness influences parent selection in genetic algorithms.",
+      "embedding_text": "Understanding how fitness influences parent selection in genetic algorithms."
+    },
+    {
+      "chunk_id": "58b83db0",
+      "chunk_type": "exam_point",
+      "page": 36,
+      "content": "Knowing the methods of reproduction, crossover, and mutation for generating new solutions.",
+      "embedding_text": "Knowing the methods of reproduction, crossover, and mutation for generating new solutions."
+    },
+    {
+      "chunk_id": "e74e90ea",
+      "chunk_type": "exam_point",
+      "page": 36,
+      "content": "Recognizing that combinations of reproduction, crossover, and mutation are used in genetic algorithms.",
+      "embedding_text": "Recognizing that combinations of reproduction, crossover, and mutation are used in genetic algorithms."
+    },
+    {
+      "chunk_id": "e0bac5ae",
+      "chunk_type": "summary",
+      "page": 37,
+      "title": "Checkboard example",
+      "content": "The slide demonstrates a problem of coloring an n by n grid (checkboard) with four colors such that no adjacent cells (horizontally or vertically) share the same color. It shows an initial configuration and a corrected configuration meeting the constraints.",
+      "keywords": [
+        "Checkboard",
+        "Coloring",
+        "Adjacent cells",
+        "Constraints",
+        "Grid",
+        "Graph coloring",
+        "Constraint satisfaction",
+        "Four colors"
+      ],
+      "raw_text": "Checkboard example\n\n► We are given an n by n checkboard in which every field can have a different colour from a set of four colors.\n► Goal is to achieve a checkboard in a way that there are no neighbours with the same color (not diagonal)",
+      "embedding_text": "The slide demonstrates a problem of coloring an n by n grid (checkboard) with four colors such that no adjacent cells (horizontally or vertically) share the same color. It shows an initial configuration and a corrected configuration meeting the constraints."
+    },
+    {
+      "chunk_id": "4d4a1788",
+      "chunk_type": "definition",
+      "page": 37,
+      "concept": "Adjacent cells",
+      "content": "Cells that share a common edge (not diagonal) on the grid.",
+      "embedding_text": "Adjacent cells: Cells that share a common edge (not diagonal) on the grid."
+    },
+    {
+      "chunk_id": "1d484402",
+      "chunk_type": "definition",
+      "page": 37,
+      "concept": "Checkboard",
+      "content": "An n by n grid where each cell can be assigned a color from a predefined set.",
+      "embedding_text": "Checkboard: An n by n grid where each cell can be assigned a color from a predefined set."
+    },
+    {
+      "chunk_id": "22a5b6b3",
+      "chunk_type": "definition",
+      "page": 37,
+      "concept": "Coloring problem",
+      "content": "Assigning colors to elements (here, grid cells) under certain constraints (here, no adjacent cells share the same color).",
+      "embedding_text": "Coloring problem: Assigning colors to elements (here, grid cells) under certain constraints (here, no adjacent cells share the same color)."
+    },
+    {
+      "chunk_id": "526a3936",
+      "chunk_type": "diagram",
+      "page": 37,
+      "diagram_type": "checkboard grid",
+      "content": "Two 10x10 grid visualizations showing an initial coloring with adjacent cells having the same color and a corrected coloring where no adjacent cells share the same color.",
+      "embedding_text": "Two 10x10 grid visualizations showing an initial coloring with adjacent cells having the same color and a corrected coloring where no adjacent cells share the same color."
+    },
+    {
+      "chunk_id": "f5e9478f",
+      "chunk_type": "exam_point",
+      "page": 37,
+      "content": "Understanding the constraints of graph coloring problems",
+      "embedding_text": "Understanding the constraints of graph coloring problems"
+    },
+    {
+      "chunk_id": "18932bc9",
+      "chunk_type": "exam_point",
+      "page": 37,
+      "content": "Applying coloring rules to grids",
+      "embedding_text": "Applying coloring rules to grids"
+    },
+    {
+      "chunk_id": "630356b7",
+      "chunk_type": "exam_point",
+      "page": 37,
+      "content": "Identifying and correcting violations of coloring constraints",
+      "embedding_text": "Identifying and correcting violations of coloring constraints"
+    },
+    {
+      "chunk_id": "19157822",
+      "chunk_type": "summary",
+      "page": 39,
+      "title": "Checkboard example Cont’d",
+      "content": "The slide continues an example involving a graph with n nodes and (n-1) edges, defining the fitness function f(x) for this graph structure.",
+      "keywords": [
+        "Graph",
+        "Nodes",
+        "Edges",
+        "Fitness Function",
+        "Problem Modeling",
+        "Checkboard Example"
+      ],
+      "raw_text": "Checkboard example Cont’d\n\n• This problem can be seen as a graph with n nodes  and (n-1) edges, so the fitness f(x) is defined as:\n\nf(x) = 2 · (n-1) · n",
+      "embedding_text": "The slide continues an example involving a graph with n nodes and (n-1) edges, defining the fitness function f(x) for this graph structure."
+    },
+    {
+      "chunk_id": "a3f1c1cd",
+      "chunk_type": "definition",
+      "page": 39,
+      "concept": "Nodes",
+      "content": "Vertices in a graph representing discrete points.",
+      "embedding_text": "Nodes: Vertices in a graph representing discrete points."
+    },
+    {
+      "chunk_id": "87d316e1",
+      "chunk_type": "definition",
+      "page": 39,
+      "concept": "Edges",
+      "content": "Connections between nodes in a graph.",
+      "embedding_text": "Edges: Connections between nodes in a graph."
+    },
+    {
+      "chunk_id": "df935cf1",
+      "chunk_type": "definition",
+      "page": 39,
+      "concept": "Fitness Function (f(x))",
+      "content": "A function used to evaluate the quality or effectiveness of a solution in a given problem context.",
+      "embedding_text": "Fitness Function (f(x)): A function used to evaluate the quality or effectiveness of a solution in a given problem context."
+    },
+    {
+      "chunk_id": "e7eb701a",
+      "chunk_type": "formula",
+      "page": 39,
+      "formula": {
+        "formula": "f(x) = 2 * (n - 1) * n",
+        "description": "Fitness function for a graph with n nodes and (n-1) edges."
+      },
+      "embedding_text": {
+        "formula": "f(x) = 2 * (n - 1) * n",
+        "description": "Fitness function for a graph with n nodes and (n-1) edges."
+      }
+    },
+    {
+      "chunk_id": "3b39df75",
+      "chunk_type": "diagram",
+      "page": 39,
+      "diagram_type": "Graph",
+      "content": "A graph with n nodes and (n-1) edges, though not visually depicted on the slide.",
+      "embedding_text": "A graph with n nodes and (n-1) edges, though not visually depicted on the slide."
+    },
+    {
+      "chunk_id": "e06875f7",
+      "chunk_type": "exam_point",
+      "page": 39,
+      "content": "Understanding how to model a problem as a graph with nodes and edges.",
+      "embedding_text": "Understanding how to model a problem as a graph with nodes and edges."
+    },
+    {
+      "chunk_id": "c057b657",
+      "chunk_type": "exam_point",
+      "page": 39,
+      "content": "Calculating the fitness function for a given number of nodes and edges.",
+      "embedding_text": "Calculating the fitness function for a given number of nodes and edges."
+    },
+    {
+      "chunk_id": "0979ca6d",
+      "chunk_type": "exam_point",
+      "page": 39,
+      "content": "Recognizing the relationship between nodes, edges, and the fitness function.",
+      "embedding_text": "Recognizing the relationship between nodes, edges, and the fitness function."
+    },
+    {
+      "chunk_id": "bd80e7c1",
+      "chunk_type": "summary",
+      "page": 41,
+      "title": "",
+      "content": "The slide appears to be a closing slide for a presentation, expressing gratitude to the audience.",
+      "keywords": [
+        "thank you",
+        "gratitude",
+        "closing slide"
+      ],
+      "raw_text": "THANK YOU",
+      "embedding_text": "The slide appears to be a closing slide for a presentation, expressing gratitude to the audience."
+    }
+  ]
+}

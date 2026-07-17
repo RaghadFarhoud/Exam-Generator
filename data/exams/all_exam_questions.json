@@ -1,0 +1,3736 @@
+{
+  "document_id": "all_exams",
+  "total_questions": 66,
+  "questions": [
+    {
+      "question_id": "q_001_80f9",
+      "question_type": "multiple_choice",
+      "question": "اختَر الإجابة الأكثر صحة لكل سؤال من الأسئلة التالية: لتكن لدينا المجموعة الصبابية التالية: A=0.3/2+0.4/3+0.2/4+0.1/5",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.2",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "0.4",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "0.6",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "text": "0.8",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "0",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "topic": "Extension principle",
+      "academic": {
+        "knowledge_points": [
+          "Extension principle of fuzzy sets"
+        ],
+        "cognitive_level": "apply",
+        "difficulty": "medium",
+        "classification_confidence": 0.95
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "choose",
+          "calculate"
+        ],
+        "reasoning_steps": 2,
+        "distractor_pattern": "numerical options close to each other",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": true,
+      "raw_text": "ما هو ناتج (A+A)(7) باستخدام Extension principle",
+      "source": {
+        "document_id": "exam1",
+        "page": 1
+      },
+      "embedding_text": "اختَر الإجابة الأكثر صحة لكل سؤال من الأسئلة التالية: لتكن لدينا المجموعة الصبابية التالية: A=0.3/2+0.4/3+0.2/4+0.1/5 | A: 0.2 | B: 0.4 | C: 0.6 | D: 0.8 | E: 0 | Topic: Extension principle | Concepts: Extension principle of fuzzy sets"
+    },
+    {
+      "question_id": "q_002_c7b9",
+      "question_type": "multiple_choice",
+      "question": "اختَر العبارة الخاطئة مما يلي:",
+      "options": [
+        {
+          "label": "A",
+          "text": "fuzzy number يمكن تمثيلها كعدد صبابي",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "في حالة المتحول اللغوي يمكن تمثيلها كعدد صبابي",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "يمكن توليد مصطلحات لغوية جديدة من مصطلحات موجودة",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "يمكن في بعض الأحيان تعريف علاقة ترابط بين المصطلحات اللغوية للحصول على مصطلحات لغوية جديدة",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "يمكن تطبيق الحساب الصبابي على المصطلحات اللغوية والحصول على مصطلحات جديدة",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E",
+      "topic": "Fuzzy numbers and linguistic variables",
+      "academic": {
+        "knowledge_points": [
+          "Fuzzy numbers",
+          "Linguistic variables"
+        ],
+        "cognitive_level": "analyze",
+        "difficulty": "hard",
+        "classification_confidence": 0.9
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "choose",
+          "identify"
+        ],
+        "reasoning_steps": 3,
+        "distractor_pattern": "plausible statements about fuzzy logic",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": false,
+      "raw_text": "",
+      "source": {
+        "document_id": "exam1",
+        "page": 1
+      },
+      "embedding_text": "اختَر العبارة الخاطئة مما يلي: | A: fuzzy number يمكن تمثيلها كعدد صبابي | B: في حالة المتحول اللغوي يمكن تمثيلها كعدد صبابي | C: يمكن توليد مصطلحات لغوية جديدة من مصطلحات موجودة | D: يمكن في بعض الأحيان تعريف علاقة ترابط بين المصطلحات اللغوية للحصول على مصطلحات لغوية جديدة | E: يمكن تطبيق الحساب الصبابي على المصطلحات اللغوية والحصول على مصطلحات جديدة | Topic: Fuzzy numbers and linguistic variables | Concepts: Fuzzy numbers, Linguistic variables"
+    },
+    {
+      "question_id": "q_003_0a9c",
+      "question_type": "multiple_choice",
+      "question": "إذا كانت لدينا المجموعة الصبابية التالية التي تدل على العبارة \"البيت ذو قيمة عالية\":",
+      "options": [],
+      "correct_answer": null,
+      "topic": "Fuzzy membership function",
+      "academic": {
+        "knowledge_points": [
+          "Membership functions",
+          "Fuzzy sets"
+        ],
+        "cognitive_level": "apply",
+        "difficulty": "medium",
+        "classification_confidence": 0.9
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "identify",
+          "calculate"
+        ],
+        "reasoning_steps": 2,
+        "distractor_pattern": null,
+        "explanation": ""
+      },
+      "references_figure": true,
+      "references_formula": true,
+      "raw_text": "p(x) = {0 if x < 50000, (x-50000)/50000 if x in [50000, 100000], 1 if x > 100000}",
+      "source": {
+        "document_id": "exam1",
+        "page": 1
+      },
+      "embedding_text": "إذا كانت لدينا المجموعة الصبابية التالية التي تدل على العبارة \"البيت ذو قيمة عالية\": | Topic: Fuzzy membership function | Concepts: Membership functions, Fuzzy sets"
+    },
+    {
+      "question_id": "q_004_fbb4",
+      "question_type": "multiple_choice",
+      "question": "لتكن المجموعة الصبابية التالية تدل على العبارة \"حولي ثالثة\":",
+      "options": [
+        {
+          "label": "A",
+          "text": "0",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "0.2",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "0.4",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "0.6",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "0.8",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E",
+      "topic": "Fuzzy membership function",
+      "academic": {
+        "knowledge_points": [
+          "Membership function evaluation"
+        ],
+        "cognitive_level": "apply",
+        "difficulty": "medium",
+        "classification_confidence": 0.9
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "calculate",
+          "evaluate"
+        ],
+        "reasoning_steps": 2,
+        "distractor_pattern": "numerical options",
+        "explanation": ""
+      },
+      "references_figure": true,
+      "references_formula": true,
+      "raw_text": "t(x) = 1 - |x - 3| / 2 if x in [1,5] else 0",
+      "source": {
+        "document_id": "exam1",
+        "page": 1
+      },
+      "embedding_text": "لتكن المجموعة الصبابية التالية تدل على العبارة \"حولي ثالثة\": | A: 0 | B: 0.2 | C: 0.4 | D: 0.6 | E: 0.8 | Topic: Fuzzy membership function | Concepts: Membership function evaluation"
+    },
+    {
+      "question_id": "q_005_f6ad",
+      "question_type": "multiple_choice",
+      "question": "ما هي قيمة الحقيقية للعبارة التالية: \"هناك حوالي ثلاث بيوت ذات قيمة عالية عند هذا المكتب\":",
+      "options": [
+        {
+          "label": "A",
+          "text": "0",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "0.2",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "0.4",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "text": "0.6",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "0.8",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "topic": "Fuzzy logic aggregation",
+      "academic": {
+        "knowledge_points": [
+          "Fuzzy aggregation",
+          "Linguistic hedges"
+        ],
+        "cognitive_level": "apply",
+        "difficulty": "medium",
+        "classification_confidence": 0.9
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "calculate",
+          "evaluate"
+        ],
+        "reasoning_steps": 2,
+        "distractor_pattern": "numerical options",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": false,
+      "raw_text": "",
+      "source": {
+        "document_id": "exam1",
+        "page": 1
+      },
+      "embedding_text": "ما هي قيمة الحقيقية للعبارة التالية: \"هناك حوالي ثلاث بيوت ذات قيمة عالية عند هذا المكتب\": | A: 0 | B: 0.2 | C: 0.4 | D: 0.6 | E: 0.8 | Topic: Fuzzy logic aggregation | Concepts: Fuzzy aggregation, Linguistic hedges"
+    },
+    {
+      "question_id": "q_006_3634",
+      "question_type": "multiple_choice",
+      "question": "أي من التوابع التالية ممكن أن يكون متمم صبابي:",
+      "options": [
+        {
+          "label": "A",
+          "text": "c(x) = 2 - x",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "c(x) = (1-2x)/(1+5x)",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "c(x) = (x-1)^2",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "كل الإجابات السابقة صحيحة",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "كل الإجابات السابقة خاطئة",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B",
+      "topic": "Fuzzy complement",
+      "academic": {
+        "knowledge_points": [
+          "Fuzzy complement functions"
+        ],
+        "cognitive_level": "understand",
+        "difficulty": "medium",
+        "classification_confidence": 0.9
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "identify",
+          "choose"
+        ],
+        "reasoning_steps": 2,
+        "distractor_pattern": "mathematical functions",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": true,
+      "raw_text": "",
+      "source": {
+        "document_id": "exam1",
+        "page": 1
+      },
+      "embedding_text": "أي من التوابع التالية ممكن أن يكون متمم صبابي: | A: c(x) = 2 - x | B: c(x) = (1-2x)/(1+5x) | C: c(x) = (x-1)^2 | D: كل الإجابات السابقة صحيحة | E: كل الإجابات السابقة خاطئة | Topic: Fuzzy complement | Concepts: Fuzzy complement functions"
+    },
+    {
+      "question_id": "q_007_65ad",
+      "question_type": "multiple_choice",
+      "question": "ليكن لدينا المجموع عطان الصبابين التاليان:",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.1/1+0.2/2+0.3/3+0.2/4+0.1/5",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "0.2/1+0.3/2+0.4/3+0.1/4",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": null,
+      "topic": "Fuzzy set operations",
+      "academic": {
+        "knowledge_points": [
+          "Fuzzy set intersection and union"
+        ],
+        "cognitive_level": "apply",
+        "difficulty": "hard",
+        "classification_confidence": 0.85
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "calculate",
+          "compare"
+        ],
+        "reasoning_steps": 3,
+        "distractor_pattern": "fuzzy set notations",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": true,
+      "raw_text": "ما هي قيمة RT(A'/A)(0.1)",
+      "source": {
+        "document_id": "exam1",
+        "page": 1
+      },
+      "embedding_text": "ليكن لدينا المجموع عطان الصبابين التاليان: | A: 0.1/1+0.2/2+0.3/3+0.2/4+0.1/5 | B: 0.2/1+0.3/2+0.4/3+0.1/4 | Topic: Fuzzy set operations | Concepts: Fuzzy set intersection and union"
+    },
+    {
+      "question_id": "q_008_fc3a",
+      "question_type": "multiple_choice",
+      "question": "If x is A then y is B",
+      "options": [
+        {
+          "label": "A",
+          "text": "لا يمكن أن نستنتج",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "نستنتج أن x is A' حيث يمكن إجبار A' على طريق الطريقة المركبة للاستدلال",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "نستنتج أن y is B' بشرط أن B' محتواة ضمن B",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "نستنتج أن A' = MIN(A,B) حيث x is A'",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "نستنتج أن x is B",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": null,
+      "topic": "Compositional rule of inference in fuzzy logic",
+      "academic": {
+        "knowledge_points": [
+          "compositional rule of inference",
+          "fuzzy logic implication"
+        ],
+        "cognitive_level": "apply",
+        "difficulty": "medium",
+        "classification_confidence": 0.85
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "imply",
+          "infer",
+          "deduce"
+        ],
+        "reasoning_steps": 2,
+        "distractor_pattern": "incorrect logical implications",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": true,
+      "raw_text": "If x is A then y is B",
+      "source": {
+        "document_id": "exam1",
+        "page": 2
+      },
+      "embedding_text": "If x is A then y is B | A: لا يمكن أن نستنتج | B: نستنتج أن x is A' حيث يمكن إجبار A' على طريق الطريقة المركبة للاستدلال | C: نستنتج أن y is B' بشرط أن B' محتواة ضمن B | D: نستنتج أن A' = MIN(A,B) حيث x is A' | E: نستنتج أن x is B | Topic: Compositional rule of inference in fuzzy logic | Concepts: compositional rule of inference, fuzzy logic implication"
+    },
+    {
+      "question_id": "q_009_ea8f",
+      "question_type": "multiple_choice",
+      "question": "ما هي قيمة المجموعة الحقيقية للمعبارة التالية: \"من الممكن أن يكون عدد الطلبات المتحصل عليه حوالي: \"",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.621",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "0.788",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "0.856",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "0.94",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "1",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B",
+      "topic": "Probability of fuzzy sets",
+      "academic": {
+        "knowledge_points": [
+          "probability of fuzzy events",
+          "fuzzy set membership"
+        ],
+        "cognitive_level": "apply",
+        "difficulty": "medium",
+        "classification_confidence": 0.95
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "calculate",
+          "evaluate"
+        ],
+        "reasoning_steps": 3,
+        "distractor_pattern": "incorrect probability values",
+        "explanation": ""
+      },
+      "references_figure": true,
+      "references_formula": true,
+      "raw_text": "ما هي قيمة المجموعة الحقيقية للمعبارة التالية: \"من الممكن أن يكون عدد الطلبات المتحصل عليه حوالي: \"",
+      "source": {
+        "document_id": "exam1",
+        "page": 2
+      },
+      "embedding_text": "ما هي قيمة المجموعة الحقيقية للمعبارة التالية: \"من الممكن أن يكون عدد الطلبات المتحصل عليه حوالي: \" | A: 0.621 | B: 0.788 | C: 0.856 | D: 0.94 | E: 1 | Topic: Probability of fuzzy sets | Concepts: probability of fuzzy events, fuzzy set membership"
+    },
+    {
+      "question_id": "q_010_7fa4",
+      "question_type": "multiple_choice",
+      "question": "كيف نحسب درجة التوافق بين مجموعتين ضبابيتين A,B",
+      "options": [
+        {
+          "label": "A",
+          "text": "h(A ∩ B)",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "sup_x∈X min[A(x), b(x)]",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "|supp(A ∪ B)|",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "A و B",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "كل الإجابات السابقة صحيحة",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B",
+      "topic": "Degree of consistency between fuzzy sets",
+      "academic": {
+        "knowledge_points": [
+          "fuzzy set intersection",
+          "degree of consistency"
+        ],
+        "cognitive_level": "understand",
+        "difficulty": "medium",
+        "classification_confidence": 0.9
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "calculate",
+          "assess"
+        ],
+        "reasoning_steps": 2,
+        "distractor_pattern": "incorrect formulas",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": true,
+      "raw_text": "كيف نحسب درجة التوافق بين مجموعتين ضبابيتين A,B",
+      "source": {
+        "document_id": "exam1",
+        "page": 2
+      },
+      "embedding_text": "كيف نحسب درجة التوافق بين مجموعتين ضبابيتين A,B | A: h(A ∩ B) | B: sup_x∈X min[A(x), b(x)] | C: |supp(A ∪ B)| | D: A و B | E: كل الإجابات السابقة صحيحة | Topic: Degree of consistency between fuzzy sets | Concepts: fuzzy set intersection, degree of consistency"
+    },
+    {
+      "question_id": "q_011_f7cc",
+      "question_type": "multiple_choice",
+      "question": "إذا كانت المجموعة الضبابية A هي أحد عناصر fuzzy pseudopartition فأي حالة يجب أن تحقق بعض الشروط منها:",
+      "options": [
+        {
+          "label": "A",
+          "text": "A is normal",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "supp(A) غير خالية",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "h(A) < 1",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "|A| < n",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "كل ما سبق هي شروط يجب تحقيقها",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A",
+      "topic": "Fuzzy pseudopartition properties",
+      "academic": {
+        "knowledge_points": [
+          "fuzzy pseudopartition",
+          "normal fuzzy sets"
+        ],
+        "cognitive_level": "understand",
+        "difficulty": "medium",
+        "classification_confidence": 0.85
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "identify",
+          "verify"
+        ],
+        "reasoning_steps": 2,
+        "distractor_pattern": "incorrect conditions",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": false,
+      "raw_text": "إذا كانت المجموعة الضبابية A هي أحد عناصر fuzzy pseudopartition فأي حالة يجب أن تحقق بعض الشروط منها:",
+      "source": {
+        "document_id": "exam1",
+        "page": 2
+      },
+      "embedding_text": "إذا كانت المجموعة الضبابية A هي أحد عناصر fuzzy pseudopartition فأي حالة يجب أن تحقق بعض الشروط منها: | A: A is normal | B: supp(A) غير خالية | C: h(A) < 1 | D: |A| < n | E: كل ما سبق هي شروط يجب تحقيقها | Topic: Fuzzy pseudopartition properties | Concepts: fuzzy pseudopartition, normal fuzzy sets"
+    },
+    {
+      "question_id": "q_012_0042",
+      "question_type": "multiple_choice",
+      "question": "لا يمكن أن يكون A مجموعة خالية مما يعني:",
+      "options": [
+        {
+          "label": "A",
+          "text": "تكون A مجموعة خالية",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "تكون supp(A) مجموعة خالية",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "تكون A مجموعة غير خالية",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "text": "هي دائما مجموعة خالية بدون شروط",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "تكون A محبة A",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "topic": "Fuzzy set properties",
+      "academic": {
+        "knowledge_points": [
+          "fuzzy set non-emptiness",
+          "support of fuzzy sets"
+        ],
+        "cognitive_level": "understand",
+        "difficulty": "easy",
+        "classification_confidence": 0.9
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "identify",
+          "verify"
+        ],
+        "reasoning_steps": 1,
+        "distractor_pattern": "incorrect logical statements",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": false,
+      "raw_text": "لا يمكن أن يكون A مجموعة خالية مما يعني:",
+      "source": {
+        "document_id": "exam1",
+        "page": 2
+      },
+      "embedding_text": "لا يمكن أن يكون A مجموعة خالية مما يعني: | A: تكون A مجموعة خالية | B: تكون supp(A) مجموعة خالية | C: تكون A مجموعة غير خالية | D: هي دائما مجموعة خالية بدون شروط | E: تكون A محبة A | Topic: Fuzzy set properties | Concepts: fuzzy set non-emptiness, support of fuzzy sets"
+    },
+    {
+      "question_id": "q_013_a68f",
+      "question_type": "multiple_choice",
+      "question": "fuzzy implication: أي مما يلي لا يمكن أن يكون اقتضاء ضبابي",
+      "options": [
+        {
+          "label": "A",
+          "text": "f(a,b) = 1 - a + ab",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "f(a,b) = b if a = 1 otherwise 1",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "f(a,b) = max(1 - a, min(a, b))",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "f(a,b) = min(1 - a, b)",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "كل ما سبق ممكن أن يكون اقتضاء ضبابي",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A",
+      "topic": "Fuzzy implication functions",
+      "academic": {
+        "knowledge_points": [
+          "fuzzy implication",
+          "fuzzy logic operators"
+        ],
+        "cognitive_level": "analyze",
+        "difficulty": "hard",
+        "classification_confidence": 0.8
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "identify",
+          "analyze"
+        ],
+        "reasoning_steps": 3,
+        "distractor_pattern": "valid fuzzy implication functions",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": true,
+      "raw_text": "fuzzy implication: أي مما يلي لا يمكن أن يكون اقتضاء ضبابي",
+      "source": {
+        "document_id": "exam1",
+        "page": 2
+      },
+      "embedding_text": "fuzzy implication: أي مما يلي لا يمكن أن يكون اقتضاء ضبابي | A: f(a,b) = 1 - a + ab | B: f(a,b) = b if a = 1 otherwise 1 | C: f(a,b) = max(1 - a, min(a, b)) | D: f(a,b) = min(1 - a, b) | E: كل ما سبق ممكن أن يكون اقتضاء ضبابي | Topic: Fuzzy implication functions | Concepts: fuzzy implication, fuzzy logic operators"
+    },
+    {
+      "question_id": "q_014_fb93",
+      "question_type": "multiple_choice",
+      "question": "لدينا العلاقة الصبائية التالية:",
+      "options": [
+        {
+          "label": "A",
+          "text": "انعكاسية",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "تناظرية",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "توافق",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "كل ما سبق صحيح",
+          "is_correct": true
+        },
+        {
+          "label": "E",
+          "text": "كل ما سبق خاطىء",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D",
+      "topic": "Properties of fuzzy relations",
+      "academic": {
+        "knowledge_points": [
+          "Fuzzy relation properties",
+          "Reflexivity",
+          "Symmetry",
+          "Transitivity"
+        ],
+        "cognitive_level": "understand",
+        "difficulty": "medium",
+        "classification_confidence": 0.95
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "identify",
+          "determine"
+        ],
+        "reasoning_steps": 2,
+        "distractor_pattern": "partial properties",
+        "explanation": ""
+      },
+      "references_figure": true,
+      "references_formula": false,
+      "raw_text": "لدينا العلاقة الصبائية التالية: \n[1 0.7 0.4 0.3; 0.7 1 0.2 0.2; 0.4 0.2 1 0.4; 0.3 0.2 0.4 1]\n\nان العلاقة السابقة: A: انعكاسية B: تناظرية C: توافق D: كل ما سبق صحيح E: كل ما سبق خاطىء",
+      "source": {
+        "document_id": "exam1",
+        "page": 3
+      },
+      "embedding_text": "لدينا العلاقة الصبائية التالية: | A: انعكاسية | B: تناظرية | C: توافق | D: كل ما سبق صحيح | E: كل ما سبق خاطىء | Topic: Properties of fuzzy relations | Concepts: Fuzzy relation properties, Reflexivity, Symmetry, Transitivity"
+    },
+    {
+      "question_id": "q_015_3855",
+      "question_type": "multiple_choice",
+      "question": "تتمة للمسائل السابقة: ما هو عدد العناصر التي تنتمي إلى كل من المجموعات A و B و C و D و E مع α=0.5",
+      "options": [
+        {
+          "label": "A",
+          "text": "1",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "2",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "3",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "4",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "5",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E",
+      "topic": "Fuzzy set membership and alpha-cut",
+      "academic": {
+        "knowledge_points": [
+          "Alpha-cut",
+          "Fuzzy set cardinality"
+        ],
+        "cognitive_level": "apply",
+        "difficulty": "hard",
+        "classification_confidence": 0.9
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "count",
+          "determine"
+        ],
+        "reasoning_steps": 3,
+        "distractor_pattern": "incorrect counts",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": false,
+      "raw_text": "تتمة للمسائل السابقة: ما هو عدد العناصر التي تنتمي إلى كل من المجموعات A و B و C و D و E مع α=0.5",
+      "source": {
+        "document_id": "exam1",
+        "page": 3
+      },
+      "embedding_text": "تتمة للمسائل السابقة: ما هو عدد العناصر التي تنتمي إلى كل من المجموعات A و B و C و D و E مع α=0.5 | A: 1 | B: 2 | C: 3 | D: 4 | E: 5 | Topic: Fuzzy set membership and alpha-cut | Concepts: Alpha-cut, Fuzzy set cardinality"
+    },
+    {
+      "question_id": "q_016_3587",
+      "question_type": "multiple_choice",
+      "question": "في الخوارزميات الجينية يمكن الانتقال لحل أفضل من نهاية صغرى محلية عن طريق:",
+      "options": [
+        {
+          "label": "A",
+          "text": "الاختيار",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "الطفرات",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "التزاوج",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "كل الإجابات خاطئة",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "تطبيق التقييم",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B",
+      "topic": "Genetic algorithms",
+      "academic": {
+        "knowledge_points": [
+          "Genetic algorithms",
+          "Local minima escape"
+        ],
+        "cognitive_level": "apply",
+        "difficulty": "medium",
+        "classification_confidence": 0.95
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "escape",
+          "transition"
+        ],
+        "reasoning_steps": 2,
+        "distractor_pattern": "incorrect genetic operations",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": false,
+      "raw_text": "في الخوارزميات الجينية يمكن الانتقال لحل أفضل من نهاية صغرى محلية عن طريق:",
+      "source": {
+        "document_id": "exam1",
+        "page": 3
+      },
+      "embedding_text": "في الخوارزميات الجينية يمكن الانتقال لحل أفضل من نهاية صغرى محلية عن طريق: | A: الاختيار | B: الطفرات | C: التزاوج | D: كل الإجابات خاطئة | E: تطبيق التقييم | Topic: Genetic algorithms | Concepts: Genetic algorithms, Local minima escape"
+    },
+    {
+      "question_id": "q_017_f171",
+      "question_type": "fill_blank",
+      "question": "لتكن المجموعة الصبائية التالية: A=0.8/10+0.6/20+0.4/30+0.2/40",
+      "options": [],
+      "correct_answer": "center of mass defuzzification",
+      "topic": "Defuzzification methods",
+      "academic": {
+        "knowledge_points": [
+          "Center of mass",
+          "Defuzzification"
+        ],
+        "cognitive_level": "apply",
+        "difficulty": "medium",
+        "classification_confidence": 0.85
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "calculate",
+          "determine"
+        ],
+        "reasoning_steps": 3,
+        "distractor_pattern": "none",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": true,
+      "raw_text": "لتكن المجموعة الصبائية التالية: A=0.8/10+0.6/20+0.4/30+0.2/40\nما هو ناتج تطبيق: center of mass defuzzification",
+      "source": {
+        "document_id": "exam1",
+        "page": 3
+      },
+      "embedding_text": "لتكن المجموعة الصبائية التالية: A=0.8/10+0.6/20+0.4/30+0.2/40 | Topic: Defuzzification methods | Concepts: Center of mass, Defuzzification"
+    },
+    {
+      "question_id": "q_018_c46c",
+      "question_type": "multiple_choice",
+      "question": "أي مما يلي ليس من عناصر الخوارزمية الجينية؟",
+      "options": [
+        {
+          "label": "A",
+          "text": "population",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "crossover",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "mutation",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "fitness function",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "كل ما سبق هو من عناصر الخوارزمية الجينية",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E",
+      "topic": "Genetic algorithms components",
+      "academic": {
+        "knowledge_points": [
+          "Genetic algorithms",
+          "Components"
+        ],
+        "cognitive_level": "remember",
+        "difficulty": "easy",
+        "classification_confidence": 0.95
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "identify",
+          "recognize"
+        ],
+        "reasoning_steps": 1,
+        "distractor_pattern": "partial components",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": false,
+      "raw_text": "أي مما يلي ليس من عناصر الخوارزمية الجينية؟",
+      "source": {
+        "document_id": "exam1",
+        "page": 3
+      },
+      "embedding_text": "أي مما يلي ليس من عناصر الخوارزمية الجينية؟ | A: population | B: crossover | C: mutation | D: fitness function | E: كل ما سبق هو من عناصر الخوارزمية الجينية | Topic: Genetic algorithms components | Concepts: Genetic algorithms, Components"
+    },
+    {
+      "question_id": "q_019_a290",
+      "question_type": "multiple_choice",
+      "question": "يعتمد المنطق الترجيحي بشكل أساسي على:",
+      "options": [
+        {
+          "label": "A",
+          "text": "نظرية المجموعات الصبائية",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "نظرية الاحتمالات",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "نظرية المعلومات",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "يعتمد على كل ما سبق",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "يعتمد على كل ما سبق",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B",
+      "topic": "Probabilistic logic",
+      "academic": {
+        "knowledge_points": [
+          "Probabilistic logic",
+          "Foundations"
+        ],
+        "cognitive_level": "remember",
+        "difficulty": "easy",
+        "classification_confidence": 0.95
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "depend",
+          "based"
+        ],
+        "reasoning_steps": 1,
+        "distractor_pattern": "incorrect theories",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": false,
+      "raw_text": "يعتمد المنطق الترجيحي بشكل أساسي على:",
+      "source": {
+        "document_id": "exam1",
+        "page": 3
+      },
+      "embedding_text": "يعتمد المنطق الترجيحي بشكل أساسي على: | A: نظرية المجموعات الصبائية | B: نظرية الاحتمالات | C: نظرية المعلومات | D: يعتمد على كل ما سبق | E: يعتمد على كل ما سبق | Topic: Probabilistic logic | Concepts: Probabilistic logic, Foundations"
+    },
+    {
+      "question_id": "q_020_9617",
+      "question_type": "multiple_choice",
+      "question": "المجموعة الصبائية كل العنصر x هي:",
+      "options": [
+        {
+          "label": "A",
+          "text": "مجموعة صبائية كل عناصرها صغرى أو صفر",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "مجموعة صبائية كل عناصرها أكبر من صفر",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "مجموعة صبائية كل عناصرها أقل من واحد",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "مجموعة صبائية كل عناصرها أقل من أو تساوي واحد",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "كل الإجابات السابقة خاطئة",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E",
+      "topic": "Fuzzy sets",
+      "academic": {
+        "knowledge_points": [
+          "Fuzzy sets",
+          "Membership functions"
+        ],
+        "cognitive_level": "understand",
+        "difficulty": "medium",
+        "classification_confidence": 0.9
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "define",
+          "identify"
+        ],
+        "reasoning_steps": 2,
+        "distractor_pattern": "incorrect definitions",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": false,
+      "raw_text": "المجموعة الصبائية كل العنصر x هي:",
+      "source": {
+        "document_id": "exam1",
+        "page": 3
+      },
+      "embedding_text": "المجموعة الصبائية كل العنصر x هي: | A: مجموعة صبائية كل عناصرها صغرى أو صفر | B: مجموعة صبائية كل عناصرها أكبر من صفر | C: مجموعة صبائية كل عناصرها أقل من واحد | D: مجموعة صبائية كل عناصرها أقل من أو تساوي واحد | E: كل الإجابات السابقة خاطئة | Topic: Fuzzy sets | Concepts: Fuzzy sets, Membership functions"
+    },
+    {
+      "question_id": "q_021_f477",
+      "question_type": "multiple_choice",
+      "question": "ما هو ارتبط بالمجموعة الصبائية التالية: A(x) = 0.2 - |x - 2| / 10 if x ∈ [0,4] else 0",
+      "options": [
+        {
+          "label": "A",
+          "text": "0",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "1",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "0.2",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "غير ذلك",
+          "is_correct": true
+        },
+        {
+          "label": "E",
+          "text": "",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D",
+      "topic": "Fuzzy set membership function",
+      "academic": {
+        "knowledge_points": [
+          "Membership function",
+          "Fuzzy set"
+        ],
+        "cognitive_level": "apply",
+        "difficulty": "hard",
+        "classification_confidence": 0.85
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "calculate",
+          "evaluate"
+        ],
+        "reasoning_steps": 3,
+        "distractor_pattern": "incorrect evaluations",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": true,
+      "raw_text": "ما هو ارتبط بالمجموعة الصبائية التالية: A(x) = 0.2 - |x - 2| / 10 if x ∈ [0,4] else 0",
+      "source": {
+        "document_id": "exam1",
+        "page": 3
+      },
+      "embedding_text": "ما هو ارتبط بالمجموعة الصبائية التالية: A(x) = 0.2 - |x - 2| / 10 if x ∈ [0,4] else 0 | A: 0 | B: 1 | C: 0.2 | D: غير ذلك | E:  | Topic: Fuzzy set membership function | Concepts: Membership function, Fuzzy set"
+    },
+    {
+      "question_id": "q_022_c517",
+      "question_type": "multiple_choice",
+      "question": "أي العبارات التالية صحيحة:",
+      "options": [
+        {
+          "label": "A",
+          "text": "نحتاج إلى القيام بعملية ازالة الصبائية بعد استخدام الاستدلال الصبائي",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "لا يمكن استخدام الحقائق الصبائية كمخرجات استدلالية",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "يوجد المنطق الترجيحي المنطقي بعدم القدرة على استخدام قاعدة الاستدلال modus ponens",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "في النظام الخبراء الصبائي نختار قاعدة واحدة واحدة لتطبيقها في كل دورة استدلال",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "كل العبارات السابقة صحيحة",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E",
+      "topic": "Fuzzy logic and inference systems",
+      "academic": {
+        "knowledge_points": [
+          "Fuzzy inference",
+          "Defuzzification"
+        ],
+        "cognitive_level": "understand",
+        "difficulty": "medium",
+        "classification_confidence": 0.9
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "evaluate",
+          "determine"
+        ],
+        "reasoning_steps": 3,
+        "distractor_pattern": "incorrect statements",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": false,
+      "raw_text": "أي العبارات التالية صحيحة:",
+      "source": {
+        "document_id": "exam1",
+        "page": 3
+      },
+      "embedding_text": "أي العبارات التالية صحيحة: | A: نحتاج إلى القيام بعملية ازالة الصبائية بعد استخدام الاستدلال الصبائي | B: لا يمكن استخدام الحقائق الصبائية كمخرجات استدلالية | C: يوجد المنطق الترجيحي المنطقي بعدم القدرة على استخدام قاعدة الاستدلال modus ponens | D: في النظام الخبراء الصبائي نختار قاعدة واحدة واحدة لتطبيقها في كل دورة استدلال | E: كل العبارات السابقة صحيحة | Topic: Fuzzy logic and inference systems | Concepts: Fuzzy inference, Defuzzification"
+    },
+    {
+      "question_id": "q_023_111b",
+      "question_type": "multiple_choice",
+      "question": "من طرق الاختيار في الخوارزميات الجينية:",
+      "options": [
+        {
+          "label": "A",
+          "text": "دولاب الحظ",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "Roulette wheel selection",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "الطفرات",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "و A و B و C",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "و A و B فقط",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B",
+      "topic": "Genetic algorithms selection methods",
+      "academic": {
+        "knowledge_points": [
+          "Genetic algorithms",
+          "Selection methods"
+        ],
+        "cognitive_level": "remember",
+        "difficulty": "easy",
+        "classification_confidence": 0.95
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "identify",
+          "recognize"
+        ],
+        "reasoning_steps": 1,
+        "distractor_pattern": "incorrect methods",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": false,
+      "raw_text": "من طرق الاختيار في الخوارزميات الجينية:",
+      "source": {
+        "document_id": "exam1",
+        "page": 3
+      },
+      "embedding_text": "من طرق الاختيار في الخوارزميات الجينية: | A: دولاب الحظ | B: Roulette wheel selection | C: الطفرات | D: و A و B و C | E: و A و B فقط | Topic: Genetic algorithms selection methods | Concepts: Genetic algorithms, Selection methods"
+    },
+    {
+      "question_id": "q_024_ac8c",
+      "question_type": "multiple_choice",
+      "question": "لتكن لدينا المجموعة الثنائية الضبابية التي تدل على العبارة \"كمية الأمطار كبيرة\": R(x) = 0.1/200 + 0.4/300 + 0.6/400 + 0.8/500 + 1/600. وكن المجموعة الثنائية التي تدل على العبارة \"كمية المحصول كبير\": C(x) = 0.1/100 + 0.2/200 + 0.4/300 + 0.6/400 + 0.7/500 + 0.8/600 + 1/700. ما هي قيمة الحقيقة للعبارة الثنائية \"إذا كانت كمية الأمطار كبيرة تكون كمية المحصول كبير\" إذا كانت كمية الأمطار هي Lukasiewicz وبلاستخدام هيج:",
+      "options": [
+        {
+          "label": "A",
+          "text": "0",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "0.2",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "0.4",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "0.6",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "0.8",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B",
+      "topic": "Fuzzy logic operations (Lukasiewicz implication)",
+      "academic": {
+        "knowledge_points": [
+          "Fuzzy sets",
+          "Fuzzy implication",
+          "Lukasiewicz t-norm"
+        ],
+        "cognitive_level": "apply",
+        "difficulty": "hard",
+        "classification_confidence": 0.95
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "calculate",
+          "apply"
+        ],
+        "reasoning_steps": 3,
+        "distractor_pattern": "numerical options close to each other",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": true,
+      "raw_text": "R(x) and C(x) fuzzy sets, Lukasiewicz implication",
+      "source": {
+        "document_id": "exam1",
+        "page": 4
+      },
+      "embedding_text": "لتكن لدينا المجموعة الثنائية الضبابية التي تدل على العبارة \"كمية الأمطار كبيرة\": R(x) = 0.1/200 + 0.4/300 + 0.6/400 + 0.8/500 + 1/600. وكن المجموعة الثنائية التي تدل على العبارة \"كمية المحصول كبير\": C(x) = 0.1/100 + 0.2/200 + 0.4/300 + 0.6/400 + 0.7/500 + 0.8/600 + 1/700. ما هي قيمة الحقيقة للعبارة الثنائية \"إذا كانت كمية الأمطار كبيرة تكون كمية المحصول كبير\" إذا كانت كمية الأمطار هي Lukasiewicz وبلاستخدام هيج: | A: 0 | B: 0.2 | C: 0.4 | D: 0.6 | E: 0.8 | Topic: Fuzzy logic operations (Lukasiewicz implication) | Concepts: Fuzzy sets, Fuzzy implication, Lukasiewicz t-norm"
+    },
+    {
+      "question_id": "q_025_346a",
+      "question_type": "multiple_choice",
+      "question": "إذا عرفنا المجموعة الضبابية الثنائية والتي تدل على درجة الحرارة مرتفعة: high(x) = {0 if x < 20, (x-20)/20 if x ∈ [20,40], 1 if x > 40}. ما هي قيمة الحقيقة للعبارة \"إذا كان درجة الحرارة مرتفعة\" عندما تكون درجة الحرارة 30؟",
+      "options": [
+        {
+          "label": "A",
+          "text": "0",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "0.25",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "0.5",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "text": "0.75",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "1",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "topic": "Membership function evaluation",
+      "academic": {
+        "knowledge_points": [
+          "Fuzzy sets",
+          "Membership functions"
+        ],
+        "cognitive_level": "apply",
+        "difficulty": "medium",
+        "classification_confidence": 0.95
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "evaluate",
+          "calculate"
+        ],
+        "reasoning_steps": 2,
+        "distractor_pattern": "numerical options around expected value",
+        "explanation": ""
+      },
+      "references_figure": true,
+      "references_formula": true,
+      "raw_text": "high(x) membership function",
+      "source": {
+        "document_id": "exam1",
+        "page": 4
+      },
+      "embedding_text": "إذا عرفنا المجموعة الضبابية الثنائية والتي تدل على درجة الحرارة مرتفعة: high(x) = {0 if x < 20, (x-20)/20 if x ∈ [20,40], 1 if x > 40}. ما هي قيمة الحقيقة للعبارة \"إذا كان درجة الحرارة مرتفعة\" عندما تكون درجة الحرارة 30؟ | A: 0 | B: 0.25 | C: 0.5 | D: 0.75 | E: 1 | Topic: Membership function evaluation | Concepts: Fuzzy sets, Membership functions"
+    },
+    {
+      "question_id": "q_026_4f02",
+      "question_type": "multiple_choice",
+      "question": "أي مما يلي ليس عددا ضبابيا؟",
+      "options": [
+        {
+          "label": "A",
+          "text": "A(x) = 1 if x ∈ [2,4] else 0",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "A(x) = 1 if x > 2 else 0",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "A(x) = 0.5 - |x-1|/4 if x ∈ [0,2] else 0",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "A(x) = {3-|x|/2 if x ∈ [-3,-1] ∪ [1,3], 0 otherwise}",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "كل ما سبق ليس عدد ضبابي",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E",
+      "topic": "Fuzzy numbers",
+      "academic": {
+        "knowledge_points": [
+          "Fuzzy numbers",
+          "Membership functions"
+        ],
+        "cognitive_level": "understand",
+        "difficulty": "medium",
+        "classification_confidence": 0.9
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "identify",
+          "classify"
+        ],
+        "reasoning_steps": 2,
+        "distractor_pattern": "membership function definitions",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": true,
+      "raw_text": "Fuzzy number definitions",
+      "source": {
+        "document_id": "exam1",
+        "page": 4
+      },
+      "embedding_text": "أي مما يلي ليس عددا ضبابيا؟ | A: A(x) = 1 if x ∈ [2,4] else 0 | B: A(x) = 1 if x > 2 else 0 | C: A(x) = 0.5 - |x-1|/4 if x ∈ [0,2] else 0 | D: A(x) = {3-|x|/2 if x ∈ [-3,-1] ∪ [1,3], 0 otherwise} | E: كل ما سبق ليس عدد ضبابي | Topic: Fuzzy numbers | Concepts: Fuzzy numbers, Membership functions"
+    },
+    {
+      "question_id": "q_027_d43d",
+      "question_type": "multiple_choice",
+      "question": "في حساب المجالات المغلقة ما هو ناتج ما يلي: [-1,1] + [4,6]",
+      "options": [
+        {
+          "label": "A",
+          "text": "[-4,6]",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "[-6,6]",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "[4,6]",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "[-6,4]",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "[1,6]",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E",
+      "topic": "Closed interval arithmetic",
+      "academic": {
+        "knowledge_points": [
+          "Interval arithmetic"
+        ],
+        "cognitive_level": "apply",
+        "difficulty": "easy",
+        "classification_confidence": 0.95
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "calculate",
+          "evaluate"
+        ],
+        "reasoning_steps": 1,
+        "distractor_pattern": "incorrect interval sums",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": false,
+      "raw_text": "Interval arithmetic",
+      "source": {
+        "document_id": "exam1",
+        "page": 4
+      },
+      "embedding_text": "في حساب المجالات المغلقة ما هو ناتج ما يلي: [-1,1] + [4,6] | A: [-4,6] | B: [-6,6] | C: [4,6] | D: [-6,4] | E: [1,6] | Topic: Closed interval arithmetic | Concepts: Interval arithmetic"
+    },
+    {
+      "question_id": "q_028_f54f",
+      "question_type": "multiple_choice",
+      "question": "أي العبارات التالية صحيحة:",
+      "options": [
+        {
+          "label": "A",
+          "text": "إن مجموعة العالم هي fuzzy set في المنطق الترجيحي هي دائما متقطعة.",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "يمكن أن نعد المجموعة الضبابية هي حالة خاصة من المجموعة العادية.",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "لا يمكن لعنصر أن ينتمي إلى المجموعة عادية إلا في نفس الوقت ويمكنه أن ينتمي إلى المجموعة الضبابية.",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "يمكن أن تكون مجموعة عالم fuzzy set من المنطق الترجيحي محدود.",
+          "is_correct": true
+        },
+        {
+          "label": "E",
+          "text": "كل العبارات السابقة خاطئة.",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D",
+      "topic": "Fuzzy sets theory",
+      "academic": {
+        "knowledge_points": [
+          "Fuzzy sets",
+          "Crisp sets"
+        ],
+        "cognitive_level": "understand",
+        "difficulty": "medium",
+        "classification_confidence": 0.9
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "identify",
+          "evaluate"
+        ],
+        "reasoning_steps": 2,
+        "distractor_pattern": "theoretical statements",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": false,
+      "raw_text": "Fuzzy sets theory statements",
+      "source": {
+        "document_id": "exam1",
+        "page": 4
+      },
+      "embedding_text": "أي العبارات التالية صحيحة: | A: إن مجموعة العالم هي fuzzy set في المنطق الترجيحي هي دائما متقطعة. | B: يمكن أن نعد المجموعة الضبابية هي حالة خاصة من المجموعة العادية. | C: لا يمكن لعنصر أن ينتمي إلى المجموعة عادية إلا في نفس الوقت ويمكنه أن ينتمي إلى المجموعة الضبابية. | D: يمكن أن تكون مجموعة عالم fuzzy set من المنطق الترجيحي محدود. | E: كل العبارات السابقة خاطئة. | Topic: Fuzzy sets theory | Concepts: Fuzzy sets, Crisp sets"
+    },
+    {
+      "question_id": "q_029_b885",
+      "question_type": "multiple_choice",
+      "question": "لتكن المجموعة الضبابية الثنائية: A = 0.2/-2 + 0.4/-1 + 0.6/0 + 0.8/1 + 0.6/2. نعرف التابع f بأنه تابع القيمة المطلقة: f(x) = |x|. ما هي قيمة f(A)؟",
+      "options": [
+        {
+          "label": "A",
+          "text": "1",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "2.4",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "1.2",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "1.6",
+          "is_correct": true
+        },
+        {
+          "label": "E",
+          "text": "غير ذلك",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D",
+      "topic": "Fuzzy set extension principle",
+      "academic": {
+        "knowledge_points": [
+          "Fuzzy arithmetic",
+          "Extension principle"
+        ],
+        "cognitive_level": "apply",
+        "difficulty": "hard",
+        "classification_confidence": 0.9
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "calculate",
+          "apply"
+        ],
+        "reasoning_steps": 4,
+        "distractor_pattern": "numerical options",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": true,
+      "raw_text": "Fuzzy set and extension principle",
+      "source": {
+        "document_id": "exam1",
+        "page": 4
+      },
+      "embedding_text": "لتكن المجموعة الضبابية الثنائية: A = 0.2/-2 + 0.4/-1 + 0.6/0 + 0.8/1 + 0.6/2. نعرف التابع f بأنه تابع القيمة المطلقة: f(x) = |x|. ما هي قيمة f(A)؟ | A: 1 | B: 2.4 | C: 1.2 | D: 1.6 | E: غير ذلك | Topic: Fuzzy set extension principle | Concepts: Fuzzy arithmetic, Extension principle"
+    },
+    {
+      "question_id": "q_030_6a06",
+      "question_type": "multiple_choice",
+      "question": "لتكن لدينا المجموعة الضبابية الثنائية A و B كما يلي: A = 0.1/2 + 0.6/3 + 0.3/4, B = 0.1/3 + 0.5/4 + 0.4/5. ما هو ناتج |A ∪ B| باستخدام العمليات القياسية؟",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.7",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "1",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "1.4",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "text": "1.6",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "غير ذلك",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "topic": "Fuzzy set operations",
+      "academic": {
+        "knowledge_points": [
+          "Fuzzy union",
+          "Fuzzy arithmetic"
+        ],
+        "cognitive_level": "apply",
+        "difficulty": "hard",
+        "classification_confidence": 0.9
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "calculate",
+          "apply"
+        ],
+        "reasoning_steps": 3,
+        "distractor_pattern": "numerical options",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": false,
+      "raw_text": "Fuzzy union operation",
+      "source": {
+        "document_id": "exam1",
+        "page": 4
+      },
+      "embedding_text": "لتكن لدينا المجموعة الضبابية الثنائية A و B كما يلي: A = 0.1/2 + 0.6/3 + 0.3/4, B = 0.1/3 + 0.5/4 + 0.4/5. ما هو ناتج |A ∪ B| باستخدام العمليات القياسية؟ | A: 0.7 | B: 1 | C: 1.4 | D: 1.6 | E: غير ذلك | Topic: Fuzzy set operations | Concepts: Fuzzy union, Fuzzy arithmetic"
+    },
+    {
+      "question_id": "q_031_e8c1",
+      "question_type": "multiple_choice",
+      "question": "تتمة السؤال السابق إن قيمة S(A,B) هي: degree of subsethood بين المجموعتين",
+      "options": [
+        {
+          "label": "E",
+          "text": "غير ذلك",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "0.4",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "1",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "0.44",
+          "is_correct": false
+        },
+        {
+          "label": "A",
+          "text": "1.2",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "topic": "degree of subsethood, fuzzy set theory",
+      "academic": {
+        "knowledge_points": [
+          "subset degree calculation",
+          "fuzzy set operations"
+        ],
+        "cognitive_level": "apply",
+        "difficulty": "medium",
+        "classification_confidence": 0.95
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "calculate",
+          "determine"
+        ],
+        "reasoning_steps": 2,
+        "distractor_pattern": "numerical values close to plausible answers",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": true,
+      "raw_text": "تتمة السؤال السابق إن قيمة S(A,B) هي: 0.4:D 1:C 0.44:B 1.2:A",
+      "source": {
+        "document_id": "exam1",
+        "page": 5
+      },
+      "embedding_text": "تتمة السؤال السابق إن قيمة S(A,B) هي: degree of subsethood بين المجموعتين | E: غير ذلك | D: 0.4 | C: 1 | B: 0.44 | A: 1.2 | Topic: degree of subsethood, fuzzy set theory | Concepts: subset degree calculation, fuzzy set operations"
+    },
+    {
+      "question_id": "q_032_bf50",
+      "question_type": "multiple_choice",
+      "question": "حتى تكون عملية t-norm معملية i مزودة بمزدوجة dual مع عملية t-conorm c يجب أن يتحقق:",
+      "options": [
+        {
+          "label": "A",
+          "text": "c(i(a,b)) = u(c(a),c(b))",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "c(u(a,b)) = i(c(a),c(b))",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "يجب أن تتحقق إما A أو B معا",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "text": "يجب أن تتحقق إما A أو B بدون شرط",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "إن أي عملية ممكن أن تكون مزودة مع أي عملية t-conorm بدون شروط",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "topic": "t-norm and t-conorm duality in fuzzy logic",
+      "academic": {
+        "knowledge_points": [
+          "t-norm properties",
+          "dual operations in fuzzy logic"
+        ],
+        "cognitive_level": "analyze",
+        "difficulty": "hard",
+        "classification_confidence": 0.9
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "verify",
+          "ensure",
+          "achieve"
+        ],
+        "reasoning_steps": 3,
+        "distractor_pattern": "logical conditions involving dual operations",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": true,
+      "raw_text": "حتى تكون عملية t-norm معملية i مزودة بمزدوجة dual مع عملية t-conorm c يجب أن يتحقق: c(i(a,b)) = u(c(a),c(b)):A c(u(a,b)) = i(c(a),c(b)):B يجب أن تتحقق إما A أو B معا: C يجب أن تتحقق إما A أو B بدون شرط: D إن أي عملية ممكن أن تكون مزودة مع أي عملية t-conorm بدون شروط: E",
+      "source": {
+        "document_id": "exam1",
+        "page": 5
+      },
+      "embedding_text": "حتى تكون عملية t-norm معملية i مزودة بمزدوجة dual مع عملية t-conorm c يجب أن يتحقق: | A: c(i(a,b)) = u(c(a),c(b)) | B: c(u(a,b)) = i(c(a),c(b)) | C: يجب أن تتحقق إما A أو B معا | D: يجب أن تتحقق إما A أو B بدون شرط | E: إن أي عملية ممكن أن تكون مزودة مع أي عملية t-conorm بدون شروط | Topic: t-norm and t-conorm duality in fuzzy logic | Concepts: t-norm properties, dual operations in fuzzy logic"
+    },
+    {
+      "question_id": "q_001_092e",
+      "question_type": "multiple_choice",
+      "question": "أي من المعادرات التالية صحيحة لكل سؤال من الأسئلة التالية:",
+      "options": [
+        {
+          "label": "A",
+          "text": "A = {x/f(x) = 0.2/3}",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "F = {x/f(x): f(x) = 1 - x}",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "F = {x/f(x): f(x) = |x - 10|/10 if x in [0,20] else 0}",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "F = 0.1/1 + 1/2 + 0.1/3 + 1/4 + 0.1/5",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "كل ما سبق صحيح",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B",
+      "topic": "Fuzzy set membership functions",
+      "academic": {
+        "knowledge_points": [
+          "Fuzzy set theory",
+          "Membership function definitions"
+        ],
+        "cognitive_level": "understand",
+        "difficulty": "medium",
+        "classification_confidence": 0.95
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "identify",
+          "determine"
+        ],
+        "reasoning_steps": 2,
+        "distractor_pattern": "incorrect function definitions",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": true,
+      "raw_text": "أي من المعادرات التالية صحيحة لكل سؤال من الأسئلة التالية:",
+      "source": {
+        "document_id": "exam2",
+        "page": 1
+      },
+      "embedding_text": "أي من المعادرات التالية صحيحة لكل سؤال من الأسئلة التالية: | A: A = {x/f(x) = 0.2/3} | B: F = {x/f(x): f(x) = 1 - x} | C: F = {x/f(x): f(x) = |x - 10|/10 if x in [0,20] else 0} | D: F = 0.1/1 + 1/2 + 0.1/3 + 1/4 + 0.1/5 | E: كل ما سبق صحيح | Topic: Fuzzy set membership functions | Concepts: Fuzzy set theory, Membership function definitions"
+    },
+    {
+      "question_id": "q_002_fe3e",
+      "question_type": "multiple_choice",
+      "question": "أكمل العبارة التالية: إذا كانت مجموعة A = {0.1/1 + 0.4/2 + 0.3/3 + 0.4/4 + 0.1/5} فأن نتيجة عملية ∪ على الصعيد [1,5] باستخدام standard fuzzy operations هي:",
+      "options": [
+        {
+          "label": "A",
+          "text": "1",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "0.1",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "0",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "0.9",
+          "is_correct": true
+        },
+        {
+          "label": "E",
+          "text": "0.5",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D",
+      "topic": "Fuzzy set union operations",
+      "academic": {
+        "knowledge_points": [
+          "Fuzzy union operations",
+          "Membership function aggregation"
+        ],
+        "cognitive_level": "apply",
+        "difficulty": "medium",
+        "classification_confidence": 0.95
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "complete",
+          "calculate"
+        ],
+        "reasoning_steps": 3,
+        "distractor_pattern": "incorrect union results",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": true,
+      "raw_text": "أكمل العبارة التالية: إذا كانت مجموعة A = {0.1/1 + 0.4/2 + 0.3/3 + 0.4/4 + 0.1/5} فأن نتيجة عملية ∪ على الصعيد [1,5] باستخدام standard fuzzy operations هي:",
+      "source": {
+        "document_id": "exam2",
+        "page": 1
+      },
+      "embedding_text": "أكمل العبارة التالية: إذا كانت مجموعة A = {0.1/1 + 0.4/2 + 0.3/3 + 0.4/4 + 0.1/5} فأن نتيجة عملية ∪ على الصعيد [1,5] باستخدام standard fuzzy operations هي: | A: 1 | B: 0.1 | C: 0 | D: 0.9 | E: 0.5 | Topic: Fuzzy set union operations | Concepts: Fuzzy union operations, Membership function aggregation"
+    },
+    {
+      "question_id": "q_003_aef3",
+      "question_type": "multiple_choice",
+      "question": "إذا كانت مجموعة A = {0.2/1 + 0.5/2 + 0.3/3} و B = {0.4/1 + 0.6/2 + 0.5/3} فأن support(A) ∩ normal(A) = ?",
+      "options": [
+        {
+          "label": "A",
+          "text": "support(A) = {1, 2, 3}",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "support(A) = {1, 2}",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "support(A) ∩ normal(A) = {2}",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "text": "support(A) ∩ normal(A) = {1, 2, 3}",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "كل ما سبق صحيح",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "topic": "Fuzzy set support and normalization",
+      "academic": {
+        "knowledge_points": [
+          "Support of fuzzy sets",
+          "Normal fuzzy sets"
+        ],
+        "cognitive_level": "analyze",
+        "difficulty": "hard",
+        "classification_confidence": 0.9
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "identify",
+          "intersect"
+        ],
+        "reasoning_steps": 4,
+        "distractor_pattern": "incorrect set operations",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": false,
+      "raw_text": "إذا كانت مجموعة A = {0.2/1 + 0.5/2 + 0.3/3} و B = {0.4/1 + 0.6/2 + 0.5/3} فأن support(A) ∩ normal(A) = ?",
+      "source": {
+        "document_id": "exam2",
+        "page": 1
+      },
+      "embedding_text": "إذا كانت مجموعة A = {0.2/1 + 0.5/2 + 0.3/3} و B = {0.4/1 + 0.6/2 + 0.5/3} فأن support(A) ∩ normal(A) = ? | A: support(A) = {1, 2, 3} | B: support(A) = {1, 2} | C: support(A) ∩ normal(A) = {2} | D: support(A) ∩ normal(A) = {1, 2, 3} | E: كل ما سبق صحيح | Topic: Fuzzy set support and normalization | Concepts: Support of fuzzy sets, Normal fuzzy sets"
+    },
+    {
+      "question_id": "q_004_3f4e",
+      "question_type": "multiple_choice",
+      "question": "ما هو درجة الانتماء للعضو الأول في المجموعة A = {0.1/1 + 0.2/2 + 0.3/3 + 0.4/4} إذا كان العضو الأول هو 1؟",
+      "options": [
+        {
+          "label": "A",
+          "text": "0",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "0.1",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "0.4",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "0.9",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "1",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B",
+      "topic": "Membership degree in fuzzy sets",
+      "academic": {
+        "knowledge_points": [
+          "Membership function",
+          "Degree of membership"
+        ],
+        "cognitive_level": "remember",
+        "difficulty": "easy",
+        "classification_confidence": 0.95
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "identify",
+          "determine"
+        ],
+        "reasoning_steps": 1,
+        "distractor_pattern": "incorrect membership values",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": false,
+      "raw_text": "ما هو درجة الانتماء للعضو الأول في المجموعة A = {0.1/1 + 0.2/2 + 0.3/3 + 0.4/4} إذا كان العضو الأول هو 1؟",
+      "source": {
+        "document_id": "exam2",
+        "page": 1
+      },
+      "embedding_text": "ما هو درجة الانتماء للعضو الأول في المجموعة A = {0.1/1 + 0.2/2 + 0.3/3 + 0.4/4} إذا كان العضو الأول هو 1؟ | A: 0 | B: 0.1 | C: 0.4 | D: 0.9 | E: 1 | Topic: Membership degree in fuzzy sets | Concepts: Membership function, Degree of membership"
+    },
+    {
+      "question_id": "q_005_09a8",
+      "question_type": "multiple_choice",
+      "question": "أوجد المسافة بين المجموعتين A = {0.2/1 + 0.5/2 + 0.3/3} و B = {0.2/2 + 0.4/3 + 0.4/4} باستخدام Hamming distance.",
+      "options": [
+        {
+          "label": "A",
+          "text": "(0.2/1 + 0.5/2 + 0.3/3)",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "(0.2/2 + 0.4/3 + 0.4/4)",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": null,
+      "topic": "Hamming distance between fuzzy sets",
+      "academic": {
+        "knowledge_points": [
+          "Distance measures in fuzzy sets",
+          "Hamming distance"
+        ],
+        "cognitive_level": "apply",
+        "difficulty": "hard",
+        "classification_confidence": 0.85
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "calculate",
+          "determine"
+        ],
+        "reasoning_steps": 5,
+        "distractor_pattern": "incorrect distance formula",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": true,
+      "raw_text": "أوجد المسافة بين المجموعتين A = {0.2/1 + 0.5/2 + 0.3/3} و B = {0.2/2 + 0.4/3 + 0.4/4} باستخدام Hamming distance.",
+      "source": {
+        "document_id": "exam2",
+        "page": 1
+      },
+      "embedding_text": "أوجد المسافة بين المجموعتين A = {0.2/1 + 0.5/2 + 0.3/3} و B = {0.2/2 + 0.4/3 + 0.4/4} باستخدام Hamming distance. | A: (0.2/1 + 0.5/2 + 0.3/3) | B: (0.2/2 + 0.4/3 + 0.4/4) | Topic: Hamming distance between fuzzy sets | Concepts: Distance measures in fuzzy sets, Hamming distance"
+    },
+    {
+      "question_id": "q_006_c8ad",
+      "question_type": "multiple_choice",
+      "question": "ما هو المجموع على العناصر المختلفة على الشكل [1,4] لكل A:",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.1/1 + 0.4/2 + 0.5/3 + 0.1/4",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "0.4/1 + 0.5/2 + 0.1/3 + 0.6/4",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "0.9",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "1",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "غير ذلك",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A",
+      "topic": "Fuzzy set membership aggregation",
+      "academic": {
+        "knowledge_points": [
+          "Fuzzy sets",
+          "Membership functions",
+          "Aggregation of fuzzy values"
+        ],
+        "cognitive_level": "apply",
+        "difficulty": "medium",
+        "classification_confidence": 0.95
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "calculate",
+          "aggregate"
+        ],
+        "reasoning_steps": 2,
+        "distractor_pattern": "Incorrect membership values",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": false,
+      "raw_text": "ما هو المجموع على العناصر المختلفة على الشكل [1,4] لكل A:",
+      "source": {
+        "document_id": "exam2",
+        "page": 2
+      },
+      "embedding_text": "ما هو المجموع على العناصر المختلفة على الشكل [1,4] لكل A: | A: 0.1/1 + 0.4/2 + 0.5/3 + 0.1/4 | B: 0.4/1 + 0.5/2 + 0.1/3 + 0.6/4 | C: 0.9 | D: 1 | E: غير ذلك | Topic: Fuzzy set membership aggregation | Concepts: Fuzzy sets, Membership functions, Aggregation of fuzzy values"
+    },
+    {
+      "question_id": "q_007_8c9a",
+      "question_type": "multiple_choice",
+      "question": "ما هو ارتفاع الصمود A ∪ B",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.1",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "0.4",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "0.6",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "text": "0.8",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "1",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "topic": "Union of fuzzy sets",
+      "academic": {
+        "knowledge_points": [
+          "Fuzzy union",
+          "Membership function operations"
+        ],
+        "cognitive_level": "apply",
+        "difficulty": "medium",
+        "classification_confidence": 0.95
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "calculate",
+          "determine"
+        ],
+        "reasoning_steps": 2,
+        "distractor_pattern": "Incorrect union values",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": true,
+      "raw_text": "ما هو ارتفاع الصمود A ∪ B",
+      "source": {
+        "document_id": "exam2",
+        "page": 2
+      },
+      "embedding_text": "ما هو ارتفاع الصمود A ∪ B | A: 0.1 | B: 0.4 | C: 0.6 | D: 0.8 | E: 1 | Topic: Union of fuzzy sets | Concepts: Fuzzy union, Membership function operations"
+    },
+    {
+      "question_id": "q_008_0a8f",
+      "question_type": "multiple_choice",
+      "question": "إذا كان A(x) = α · Ã(x) ، فما هي الصمود A على شكل العددية؟",
+      "options": [
+        {
+          "label": "A",
+          "text": "A = U_{α∈A}(αA)",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "A = ∩_{α∈A}(αA)",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "A = {x : A(x) = min(αA(x))}",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "غير ذلك",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "ما سبق خطا",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B",
+      "topic": "Alpha-cut and fuzzy set representation",
+      "academic": {
+        "knowledge_points": [
+          "Alpha-level sets",
+          "Fuzzy set arithmetic"
+        ],
+        "cognitive_level": "understand",
+        "difficulty": "hard",
+        "classification_confidence": 0.9
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "determine",
+          "represent"
+        ],
+        "reasoning_steps": 3,
+        "distractor_pattern": "Incorrect alpha-cut definitions",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": true,
+      "raw_text": "إذا كان A(x) = α · Ã(x) ، فما هي الصمود A على شكل العددية؟",
+      "source": {
+        "document_id": "exam2",
+        "page": 2
+      },
+      "embedding_text": "إذا كان A(x) = α · Ã(x) ، فما هي الصمود A على شكل العددية؟ | A: A = U_{α∈A}(αA) | B: A = ∩_{α∈A}(αA) | C: A = {x : A(x) = min(αA(x))} | D: غير ذلك | E: ما سبق خطا | Topic: Alpha-cut and fuzzy set representation | Concepts: Alpha-level sets, Fuzzy set arithmetic"
+    },
+    {
+      "question_id": "q_009_f791",
+      "question_type": "multiple_choice",
+      "question": "أي من الخواص التالية صحيحة؟",
+      "options": [
+        {
+          "label": "A",
+          "text": "x ≤ y ⇒ A(x) ≤ A(y)",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "x ≤ y ⇒ A(x) ≥ A(y)",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "x ≤ y ⇒ A(x) = A(y)",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "غير ذلك",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "ما سبق خطا",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B",
+      "topic": "Properties of fuzzy membership functions",
+      "academic": {
+        "knowledge_points": [
+          "Monotonicity of fuzzy sets",
+          "Membership function properties"
+        ],
+        "cognitive_level": "remember",
+        "difficulty": "easy",
+        "classification_confidence": 0.95
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "identify",
+          "verify"
+        ],
+        "reasoning_steps": 1,
+        "distractor_pattern": "Incorrect monotonicity properties",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": false,
+      "raw_text": "أي من الخواص التالية صحيحة؟",
+      "source": {
+        "document_id": "exam2",
+        "page": 2
+      },
+      "embedding_text": "أي من الخواص التالية صحيحة؟ | A: x ≤ y ⇒ A(x) ≤ A(y) | B: x ≤ y ⇒ A(x) ≥ A(y) | C: x ≤ y ⇒ A(x) = A(y) | D: غير ذلك | E: ما سبق خطا | Topic: Properties of fuzzy membership functions | Concepts: Monotonicity of fuzzy sets, Membership function properties"
+    },
+    {
+      "question_id": "q_010_27b5",
+      "question_type": "multiple_choice",
+      "question": "ما هو F(A)(2) إذا كان F(x) = |x|",
+      "options": [
+        {
+          "label": "A",
+          "text": "0",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "0.1",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "0.2",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "text": "0.3",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "0.4",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "topic": "Fuzzy set function evaluation",
+      "academic": {
+        "knowledge_points": [
+          "Fuzzy set operations",
+          "Function evaluation on fuzzy sets"
+        ],
+        "cognitive_level": "apply",
+        "difficulty": "medium",
+        "classification_confidence": 0.9
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "evaluate",
+          "calculate"
+        ],
+        "reasoning_steps": 2,
+        "distractor_pattern": "Incorrect function evaluation",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": true,
+      "raw_text": "ما هو F(A)(2) إذا كان F(x) = |x|",
+      "source": {
+        "document_id": "exam2",
+        "page": 2
+      },
+      "embedding_text": "ما هو F(A)(2) إذا كان F(x) = |x| | A: 0 | B: 0.1 | C: 0.2 | D: 0.3 | E: 0.4 | Topic: Fuzzy set function evaluation | Concepts: Fuzzy set operations, Function evaluation on fuzzy sets"
+    },
+    {
+      "question_id": "q_011_0af7",
+      "question_type": "multiple_choice",
+      "question": "أي مما يلي ليس من شروط t-norm؟",
+      "options": [
+        {
+          "label": "A",
+          "text": "i(a,1) = 1",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "i(a,b) = i(b,a)",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "i(a, i(b,c)) = i(i(a,b), c)",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "i(a,a) < a",
+          "is_correct": true
+        },
+        {
+          "label": "E",
+          "text": "i مشتق",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D",
+      "topic": "Triangular norm (t-norm) properties",
+      "academic": {
+        "knowledge_points": [
+          "t-norm",
+          "Properties of norms"
+        ],
+        "cognitive_level": "understand",
+        "difficulty": "hard",
+        "classification_confidence": 0.85
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "identify",
+          "verify"
+        ],
+        "reasoning_steps": 3,
+        "distractor_pattern": "Incorrect t-norm properties",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": false,
+      "raw_text": "أي مما يلي ليس من شروط t-norm؟",
+      "source": {
+        "document_id": "exam2",
+        "page": 2
+      },
+      "embedding_text": "أي مما يلي ليس من شروط t-norm؟ | A: i(a,1) = 1 | B: i(a,b) = i(b,a) | C: i(a, i(b,c)) = i(i(a,b), c) | D: i(a,a) < a | E: i مشتق | Topic: Triangular norm (t-norm) properties | Concepts: t-norm, Properties of norms"
+    },
+    {
+      "question_id": "q_012_7714",
+      "question_type": "multiple_choice",
+      "question": "i(0,2,0.3) drastic intersection على شكل t-norm هو",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.2",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "0.3",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "0",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "text": "0.5",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "1",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "topic": "Drastic intersection and t-norm",
+      "academic": {
+        "knowledge_points": [
+          "Drastic intersection",
+          "t-norm operations"
+        ],
+        "cognitive_level": "apply",
+        "difficulty": "hard",
+        "classification_confidence": 0.85
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "calculate",
+          "apply"
+        ],
+        "reasoning_steps": 3,
+        "distractor_pattern": "Incorrect drastic intersection values",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": true,
+      "raw_text": "i(0,2,0.3) drastic intersection على شكل t-norm هو",
+      "source": {
+        "document_id": "exam2",
+        "page": 2
+      },
+      "embedding_text": "i(0,2,0.3) drastic intersection على شكل t-norm هو | A: 0.2 | B: 0.3 | C: 0 | D: 0.5 | E: 1 | Topic: Drastic intersection and t-norm | Concepts: Drastic intersection, t-norm operations"
+    },
+    {
+      "question_id": "q_013_e0d6",
+      "question_type": "multiple_choice",
+      "question": "أي مما يلي ليس من شروط الصمود A فزيائي؟",
+      "options": [
+        {
+          "label": "A",
+          "text": "A صمود",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "A من موصوف α-cut",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "supp(A) محدود",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "text": "A من موصوف و أجزاؤه متصل",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "غير ذلك",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "topic": "Properties of fuzzy numbers",
+      "academic": {
+        "knowledge_points": [
+          "Fuzzy numbers",
+          "Fuzzy set properties"
+        ],
+        "cognitive_level": "understand",
+        "difficulty": "medium",
+        "classification_confidence": 0.8
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "identify",
+          "verify"
+        ],
+        "reasoning_steps": 2,
+        "distractor_pattern": "Incorrect fuzzy number properties",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": false,
+      "raw_text": "أي مما يلي ليس من شروط الصمود A فزيائي؟",
+      "source": {
+        "document_id": "exam2",
+        "page": 2
+      },
+      "embedding_text": "أي مما يلي ليس من شروط الصمود A فزيائي؟ | A: A صمود | B: A من موصوف α-cut | C: supp(A) محدود | D: A من موصوف و أجزاؤه متصل | E: غير ذلك | Topic: Properties of fuzzy numbers | Concepts: Fuzzy numbers, Fuzzy set properties"
+    },
+    {
+      "question_id": "q_014_96a3",
+      "question_type": "multiple_choice",
+      "question": "يكون تمثيل المتحول اللغوي A:",
+      "options": [
+        {
+          "label": "A",
+          "text": "من خلال مصفوفة ذاتية",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "للتحول اللغوي مرتبط بمجموعة من المتحولات العددية",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "كل عدد ترجيح fuzzy number مرتبط بمجموعة من المتحولات العددية",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "ارتفاق درجة المرارة والقطافها في ألة عن متحولات لغوية",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "كل المتغيرات اللغوية ذاتية",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E",
+      "topic": "linguistic variables and fuzzy sets",
+      "academic": {
+        "knowledge_points": [
+          "linguistic variables",
+          "fuzzy sets"
+        ],
+        "cognitive_level": "understand",
+        "difficulty": "medium",
+        "classification_confidence": 0.95
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "يكون",
+          "مرتبط"
+        ],
+        "reasoning_steps": 1,
+        "distractor_pattern": "incorrect associations with fuzzy sets and linguistic variables",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": false,
+      "raw_text": "يكون تمثيل المتحول اللغوي A: يكون تمثيل المتحول اللغوي A من خلال مصفوفة ذاتية B: لتحول اللغوي مرتبط بمجموعة من المتحولات العددية C: كل عدد ترجيح fuzzy number مرتبط بمجموعة من المتحولات العددية D: ارتفاق درجة المرارة والقطافها في ألة عن متحولات لغوية E: كل المتغيرات اللغوية ذاتية",
+      "source": {
+        "document_id": "exam2",
+        "page": 3
+      },
+      "embedding_text": "يكون تمثيل المتحول اللغوي A: | A: من خلال مصفوفة ذاتية | B: للتحول اللغوي مرتبط بمجموعة من المتحولات العددية | C: كل عدد ترجيح fuzzy number مرتبط بمجموعة من المتحولات العددية | D: ارتفاق درجة المرارة والقطافها في ألة عن متحولات لغوية | E: كل المتغيرات اللغوية ذاتية | Topic: linguistic variables and fuzzy sets | Concepts: linguistic variables, fuzzy sets"
+    },
+    {
+      "question_id": "q_015_a2e1",
+      "question_type": "multiple_choice",
+      "question": "لتكن المجموعة A = {0.1/1 + 0.2/2 + 0.3/3 + 0.4/4} ما هو ناتج (A+A)؟",
+      "options": [],
+      "correct_answer": null,
+      "topic": "fuzzy set arithmetic",
+      "academic": {
+        "knowledge_points": [
+          "fuzzy set addition"
+        ],
+        "cognitive_level": "apply",
+        "difficulty": "medium",
+        "classification_confidence": 0.9
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "لتكن",
+          "ما هو ناتج"
+        ],
+        "reasoning_steps": 2,
+        "distractor_pattern": "none",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": true,
+      "raw_text": "A=0.1/1+0.2/2+0.3/3+0.4/4 ما هو ناتج (A+A)",
+      "source": {
+        "document_id": "exam2",
+        "page": 3
+      },
+      "embedding_text": "لتكن المجموعة A = {0.1/1 + 0.2/2 + 0.3/3 + 0.4/4} ما هو ناتج (A+A)؟ | Topic: fuzzy set arithmetic | Concepts: fuzzy set addition"
+    },
+    {
+      "question_id": "q_016_a2da",
+      "question_type": "multiple_choice",
+      "question": "باستخدام مبدأ الامتداد extension principle، إذا كانت A=0.1 و B=0.2 و C=0.3 و D=0.4 و E=0، و L=1/30+0.9/40+0.8/50+0.7/60+0.6/70+0.5/80+0.4/90+0/100، ما هو مجموع A+B+C+D+E؟",
+      "options": [],
+      "correct_answer": null,
+      "topic": "extension principle in fuzzy sets",
+      "academic": {
+        "knowledge_points": [
+          "extension principle",
+          "fuzzy arithmetic"
+        ],
+        "cognitive_level": "apply",
+        "difficulty": "hard",
+        "classification_confidence": 0.85
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "باستخدام",
+          "ما هو"
+        ],
+        "reasoning_steps": 3,
+        "distractor_pattern": "none",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": true,
+      "raw_text": "باستخدام مبدأ الامتداد extension principle A:0.1 B:0.2 C:0.3 D:0.4 E:0 L=1/30+0.9/40+0.8/50+0.7/60+0.6/70+0.5/80+0.4/90+0/100",
+      "source": {
+        "document_id": "exam2",
+        "page": 3
+      },
+      "embedding_text": "باستخدام مبدأ الامتداد extension principle، إذا كانت A=0.1 و B=0.2 و C=0.3 و D=0.4 و E=0، و L=1/30+0.9/40+0.8/50+0.7/60+0.6/70+0.5/80+0.4/90+0/100، ما هو مجموع A+B+C+D+E؟ | Topic: extension principle in fuzzy sets | Concepts: extension principle, fuzzy arithmetic"
+    },
+    {
+      "question_id": "q_017_1b26",
+      "question_type": "multiple_choice",
+      "question": "ما هو ناتج very(x) حيث very fuzzy qualifier very(x) = x^2؟",
+      "options": [],
+      "correct_answer": null,
+      "topic": "fuzzy qualifiers",
+      "academic": {
+        "knowledge_points": [
+          "fuzzy qualifiers",
+          "concentration/dilation operations"
+        ],
+        "cognitive_level": "apply",
+        "difficulty": "medium",
+        "classification_confidence": 0.85
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "ما هو ناتج"
+        ],
+        "reasoning_steps": 2,
+        "distractor_pattern": "none",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": true,
+      "raw_text": "very(x) = x^2",
+      "source": {
+        "document_id": "exam2",
+        "page": 3
+      },
+      "embedding_text": "ما هو ناتج very(x) حيث very fuzzy qualifier very(x) = x^2؟ | Topic: fuzzy qualifiers | Concepts: fuzzy qualifiers, concentration/dilation operations"
+    },
+    {
+      "question_id": "q_018_20d5",
+      "question_type": "multiple_choice",
+      "question": "Samira is very lazy and naughty. A: 0, B: 0.5, C: 0.9, D: 0.25, E: 0.45. ما هو أكبر من الضيوف المعروضة على المجموعة؟",
+      "options": [
+        {
+          "label": "A",
+          "text": "0",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "0.5",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "0.9",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "text": "0.25",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "0.45",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "topic": "fuzzy logic and qualifiers",
+      "academic": {
+        "knowledge_points": [
+          "fuzzy qualifiers",
+          "linguistic hedges"
+        ],
+        "cognitive_level": "apply",
+        "difficulty": "medium",
+        "classification_confidence": 0.9
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "ما هو أكبر"
+        ],
+        "reasoning_steps": 2,
+        "distractor_pattern": "numerical comparison",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": false,
+      "raw_text": "Samira is very lazy and naughty A: 0 B: 0.5 C: 0.9 D: 0.25 E: 0.45",
+      "source": {
+        "document_id": "exam2",
+        "page": 3
+      },
+      "embedding_text": "Samira is very lazy and naughty. A: 0, B: 0.5, C: 0.9, D: 0.25, E: 0.45. ما هو أكبر من الضيوف المعروضة على المجموعة؟ | A: 0 | B: 0.5 | C: 0.9 | D: 0.25 | E: 0.45 | Topic: fuzzy logic and qualifiers | Concepts: fuzzy qualifiers, linguistic hedges"
+    },
+    {
+      "question_id": "q_019_0810",
+      "question_type": "multiple_choice",
+      "question": "ما هو قيمة A(x) إذا كانت A(x) = 1 - |x - 10| / 5 if x ≥ 5 and 0 if x < 5؟",
+      "options": [],
+      "correct_answer": null,
+      "topic": "membership functions",
+      "academic": {
+        "knowledge_points": [
+          "membership function definition"
+        ],
+        "cognitive_level": "apply",
+        "difficulty": "hard",
+        "classification_confidence": 0.8
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "ما هو"
+        ],
+        "reasoning_steps": 3,
+        "distractor_pattern": "none",
+        "explanation": ""
+      },
+      "references_figure": true,
+      "references_formula": true,
+      "raw_text": "A(x) = 1 - |x - 10| / 5 if x ≥ 5 and 0 if x < 5",
+      "source": {
+        "document_id": "exam2",
+        "page": 3
+      },
+      "embedding_text": "ما هو قيمة A(x) إذا كانت A(x) = 1 - |x - 10| / 5 if x ≥ 5 and 0 if x < 5؟ | Topic: membership functions | Concepts: membership function definition"
+    },
+    {
+      "question_id": "q_020_93fd",
+      "question_type": "multiple_choice",
+      "question": "ما هي قيمة الحقيقة (truth value) للمجموعة A من الضيوف على الضيف الذي يزن 7؟",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.324",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "0.562",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "0.723",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "text": "0.1375",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "0",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "topic": "membership function evaluation",
+      "academic": {
+        "knowledge_points": [
+          "evaluating membership functions"
+        ],
+        "cognitive_level": "apply",
+        "difficulty": "medium",
+        "classification_confidence": 0.9
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "ما هي قيمة الحقيقة"
+        ],
+        "reasoning_steps": 2,
+        "distractor_pattern": "numerical evaluation",
+        "explanation": ""
+      },
+      "references_figure": true,
+      "references_formula": true,
+      "raw_text": "ما هي قيمة الحقيقة (truth value) للمجموعة A من الضيوف على الضيف الذي يزن 7؟ A: 0.324 B: 0.562 C: 0.723 D: 0.1375 E: 0",
+      "source": {
+        "document_id": "exam2",
+        "page": 3
+      },
+      "embedding_text": "ما هي قيمة الحقيقة (truth value) للمجموعة A من الضيوف على الضيف الذي يزن 7؟ | A: 0.324 | B: 0.562 | C: 0.723 | D: 0.1375 | E: 0 | Topic: membership function evaluation | Concepts: evaluating membership functions"
+    },
+    {
+      "question_id": "q_021_2576",
+      "question_type": "multiple_choice",
+      "question": "ما هو الناتج من مجموعة A=0.1/2+0.2/3+0.4/4+0.3/5+0.1/6 و B=0.1/1+0.2/2+0.4/3+0.3/4+0.1/5 باستخدام Lukasiewicz؟",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.6",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "0.7",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "0.8",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "0.9",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "0",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B",
+      "topic": "fuzzy set operations (Lukasiewicz t-norm)",
+      "academic": {
+        "knowledge_points": [
+          "fuzzy set intersection using Lukasiewicz t-norm"
+        ],
+        "cognitive_level": "apply",
+        "difficulty": "hard",
+        "classification_confidence": 0.85
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "ما هو الناتج"
+        ],
+        "reasoning_steps": 3,
+        "distractor_pattern": "numerical comparison",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": true,
+      "raw_text": "ما هو الناتج من مجموعة A=0.1/2+0.2/3+0.4/4+0.3/5+0.1/6 و B=0.1/1+0.2/2+0.4/3+0.3/4+0.1/5 باستخدام Lukasiewicz",
+      "source": {
+        "document_id": "exam2",
+        "page": 3
+      },
+      "embedding_text": "ما هو الناتج من مجموعة A=0.1/2+0.2/3+0.4/4+0.3/5+0.1/6 و B=0.1/1+0.2/2+0.4/3+0.3/4+0.1/5 باستخدام Lukasiewicz؟ | A: 0.6 | B: 0.7 | C: 0.8 | D: 0.9 | E: 0 | Topic: fuzzy set operations (Lukasiewicz t-norm) | Concepts: fuzzy set intersection using Lukasiewicz t-norm"
+    },
+    {
+      "question_id": "q_022_b46f",
+      "question_type": "multiple_choice",
+      "question": "لتكن مجموعة A = {0.2/x + 0.4/y + 0.7/z + 0.7/w} و P = {0.5/x + 0.9/y + 0.7/z + 0.7/w}. ما هو ناتج المجموعة A ∪ P؟",
+      "options": [],
+      "correct_answer": null,
+      "topic": "fuzzy set union",
+      "academic": {
+        "knowledge_points": [
+          "fuzzy set union operation"
+        ],
+        "cognitive_level": "apply",
+        "difficulty": "hard",
+        "classification_confidence": 0.75
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "ما هو ناتج"
+        ],
+        "reasoning_steps": 3,
+        "distractor_pattern": "none",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": true,
+      "raw_text": "V={0.2/x+0.4/y+0.7/z+0.7/w} P={0.5/x+0.9/y+0.7/z+0.7/w}",
+      "source": {
+        "document_id": "exam2",
+        "page": 3
+      },
+      "embedding_text": "لتكن مجموعة A = {0.2/x + 0.4/y + 0.7/z + 0.7/w} و P = {0.5/x + 0.9/y + 0.7/z + 0.7/w}. ما هو ناتج المجموعة A ∪ P؟ | Topic: fuzzy set union | Concepts: fuzzy set union operation"
+    },
+    {
+      "question_id": "q_023_3261",
+      "question_type": "multiple_choice",
+      "question": "ما هي قيمة الدالة T(x) = 1 - |x - 2| عندما x ∈ [1,3] و 0 في غير ذلك؟",
+      "options": [
+        {
+          "label": "A",
+          "text": "0",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "0.3",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "0.7",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "1",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "غير ذلك",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E",
+      "topic": "Fuzzy membership function",
+      "academic": {
+        "knowledge_points": [
+          "Membership function definition",
+          "Piecewise linear functions"
+        ],
+        "cognitive_level": "apply",
+        "difficulty": "medium",
+        "classification_confidence": 0.95
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "calculate",
+          "evaluate"
+        ],
+        "reasoning_steps": 2,
+        "distractor_pattern": "numerical values",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": true,
+      "raw_text": "T(x) = 1 - |x - 2| when x ∈ [1,3] and 0 otherwise",
+      "source": {
+        "document_id": "exam2",
+        "page": 4
+      },
+      "embedding_text": "ما هي قيمة الدالة T(x) = 1 - |x - 2| عندما x ∈ [1,3] و 0 في غير ذلك؟ | A: 0 | B: 0.3 | C: 0.7 | D: 1 | E: غير ذلك | Topic: Fuzzy membership function | Concepts: Membership function definition, Piecewise linear functions"
+    },
+    {
+      "question_id": "q_024_d585",
+      "question_type": "multiple_choice",
+      "question": "ما هي قيمة الحقيقة للمجموعة A = {0.1/2 + 0.5/3 + 0.9/4} عندما x هو 3؟",
+      "options": [
+        {
+          "label": "A",
+          "text": "0",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "0.3",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "0.5",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "0.9",
+          "is_correct": true
+        },
+        {
+          "label": "E",
+          "text": "1",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D",
+      "topic": "Fuzzy set membership evaluation",
+      "academic": {
+        "knowledge_points": [
+          "Fuzzy set notation",
+          "Membership degree"
+        ],
+        "cognitive_level": "remember",
+        "difficulty": "easy",
+        "classification_confidence": 0.95
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "evaluate",
+          "identify"
+        ],
+        "reasoning_steps": 1,
+        "distractor_pattern": "membership values",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": false,
+      "raw_text": "A={0.1/2+0.5/3+0.9/4}",
+      "source": {
+        "document_id": "exam2",
+        "page": 4
+      },
+      "embedding_text": "ما هي قيمة الحقيقة للمجموعة A = {0.1/2 + 0.5/3 + 0.9/4} عندما x هو 3؟ | A: 0 | B: 0.3 | C: 0.5 | D: 0.9 | E: 1 | Topic: Fuzzy set membership evaluation | Concepts: Fuzzy set notation, Membership degree"
+    },
+    {
+      "question_id": "q_025_0a62",
+      "question_type": "multiple_choice",
+      "question": "إذا كان x هو A، فإن y هو B. ما هو y عندما x هو 3؟",
+      "options": [
+        {
+          "label": "A",
+          "text": "0",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "0.3",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "0.6",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "0.9",
+          "is_correct": true
+        },
+        {
+          "label": "E",
+          "text": "1",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D",
+      "topic": "Fuzzy implication and compositional rule of inference",
+      "academic": {
+        "knowledge_points": [
+          "Fuzzy implication",
+          "Compositional rule of inference"
+        ],
+        "cognitive_level": "apply",
+        "difficulty": "medium",
+        "classification_confidence": 0.95
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "infer",
+          "apply"
+        ],
+        "reasoning_steps": 3,
+        "distractor_pattern": "membership values",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": true,
+      "raw_text": "If x is A then y is B, A'={0/2+0/3+0.9/4}, x is A'",
+      "source": {
+        "document_id": "exam2",
+        "page": 4
+      },
+      "embedding_text": "إذا كان x هو A، فإن y هو B. ما هو y عندما x هو 3؟ | A: 0 | B: 0.3 | C: 0.6 | D: 0.9 | E: 1 | Topic: Fuzzy implication and compositional rule of inference | Concepts: Fuzzy implication, Compositional rule of inference"
+    },
+    {
+      "question_id": "q_026_f0c0",
+      "question_type": "multiple_choice",
+      "question": "ما هي قيمة الحقيقة للاقتران اللوجستي عندما يكون A={0.5/1+0.7/2+0.4/4} و B={0.1/1+0.2/2+0.3/3+0.4/4}؟",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.5/1+0.5/2+0.7/3+0.4/4",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "0.1/1+0.2/2+0.3/3+0.4/4",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "0.2/1+0.8/2+0.4/3+0.1/4",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "C",
+      "topic": "Fuzzy logical operations",
+      "academic": {
+        "knowledge_points": [
+          "Fuzzy intersection",
+          "Logical AND operation"
+        ],
+        "cognitive_level": "apply",
+        "difficulty": "hard",
+        "classification_confidence": 0.9
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "calculate",
+          "evaluate"
+        ],
+        "reasoning_steps": 4,
+        "distractor_pattern": "membership combinations",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": true,
+      "raw_text": "If x is A then y is B, If x is B then y is C",
+      "source": {
+        "document_id": "exam2",
+        "page": 4
+      },
+      "embedding_text": "ما هي قيمة الحقيقة للاقتران اللوجستي عندما يكون A={0.5/1+0.7/2+0.4/4} و B={0.1/1+0.2/2+0.3/3+0.4/4}؟ | A: 0.5/1+0.5/2+0.7/3+0.4/4 | B: 0.1/1+0.2/2+0.3/3+0.4/4 | C: 0.2/1+0.8/2+0.4/3+0.1/4 | Topic: Fuzzy logical operations | Concepts: Fuzzy intersection, Logical AND operation"
+    },
+    {
+      "question_id": "q_027_baf0",
+      "question_type": "multiple_choice",
+      "question": "ما هي قيمة الحقيقة عندما يكون 4 في A و 1 في C باستخدام Lukasiewicz implication؟",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.1",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "0.3",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "0.5",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "0.7",
+          "is_correct": true
+        },
+        {
+          "label": "E",
+          "text": "0.9",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D",
+      "topic": "Fuzzy implication",
+      "academic": {
+        "knowledge_points": [
+          "Lukasiewicz implication",
+          "Fuzzy logic operations"
+        ],
+        "cognitive_level": "apply",
+        "difficulty": "medium",
+        "classification_confidence": 0.9
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "calculate",
+          "apply"
+        ],
+        "reasoning_steps": 3,
+        "distractor_pattern": "numerical values",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": true,
+      "raw_text": "If 4 is A then 1 is C",
+      "source": {
+        "document_id": "exam2",
+        "page": 4
+      },
+      "embedding_text": "ما هي قيمة الحقيقة عندما يكون 4 في A و 1 في C باستخدام Lukasiewicz implication؟ | A: 0.1 | B: 0.3 | C: 0.5 | D: 0.7 | E: 0.9 | Topic: Fuzzy implication | Concepts: Lukasiewicz implication, Fuzzy logic operations"
+    },
+    {
+      "question_id": "q_028_f699",
+      "question_type": "multiple_choice",
+      "question": "ما هي الصيغة الصحيحة ل I(a,b) في الاقتران اللوجستي؟",
+      "options": [
+        {
+          "label": "A",
+          "text": "I(a,b) = 1",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "I(a,b) = 1 if a >= b",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "I(a,b) = I(c(b), c(a)) where c is a fuzzy complement",
+          "is_correct": true
+        },
+        {
+          "label": "D",
+          "text": "I(1,b) = b",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "كل الخيار السابق صحيح",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "topic": "Fuzzy implication functions",
+      "academic": {
+        "knowledge_points": [
+          "Fuzzy complement",
+          "Implication functions"
+        ],
+        "cognitive_level": "understand",
+        "difficulty": "medium",
+        "classification_confidence": 0.95
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "identify",
+          "compare"
+        ],
+        "reasoning_steps": 2,
+        "distractor_pattern": "logical expressions",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": true,
+      "raw_text": "fuzzy implication",
+      "source": {
+        "document_id": "exam2",
+        "page": 4
+      },
+      "embedding_text": "ما هي الصيغة الصحيحة ل I(a,b) في الاقتران اللوجستي؟ | A: I(a,b) = 1 | B: I(a,b) = 1 if a >= b | C: I(a,b) = I(c(b), c(a)) where c is a fuzzy complement | D: I(1,b) = b | E: كل الخيار السابق صحيح | Topic: Fuzzy implication functions | Concepts: Fuzzy complement, Implication functions"
+    },
+    {
+      "question_id": "q_029_2ac4",
+      "question_type": "multiple_choice",
+      "question": "ما هو مركز الجاذبية للعضو A={0.2/2+0.4/4+0.6/6+0.8/8+1/10}؟",
+      "options": [
+        {
+          "label": "A",
+          "text": "1",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "2",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "3",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "4",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "5",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E",
+      "topic": "Defuzzification methods",
+      "academic": {
+        "knowledge_points": [
+          "Center of gravity",
+          "Defuzzification"
+        ],
+        "cognitive_level": "apply",
+        "difficulty": "hard",
+        "classification_confidence": 0.85
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "calculate",
+          "evaluate"
+        ],
+        "reasoning_steps": 4,
+        "distractor_pattern": "numerical values",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": true,
+      "raw_text": "center of gravity defuzzification",
+      "source": {
+        "document_id": "exam2",
+        "page": 4
+      },
+      "embedding_text": "ما هو مركز الجاذبية للعضو A={0.2/2+0.4/4+0.6/6+0.8/8+1/10}؟ | A: 1 | B: 2 | C: 3 | D: 4 | E: 5 | Topic: Defuzzification methods | Concepts: Center of gravity, Defuzzification"
+    },
+    {
+      "question_id": "q_030_ef95",
+      "question_type": "multiple_choice",
+      "question": "ما هو درجة الاتساق بين المجموعات A و B؟",
+      "options": [],
+      "correct_answer": null,
+      "topic": "Degree of consistency in fuzzy sets",
+      "academic": {
+        "knowledge_points": [
+          "Consistency measure",
+          "Fuzzy set comparison"
+        ],
+        "cognitive_level": "analyze",
+        "difficulty": "hard",
+        "classification_confidence": 0.8
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "calculate",
+          "compare"
+        ],
+        "reasoning_steps": 5,
+        "distractor_pattern": "none",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": false,
+      "raw_text": "A={0.1/1+0.4/2+0.7/3+0.4/4}, B={0.8/1+0.7/2+0.3/3+0.1/4}",
+      "source": {
+        "document_id": "exam2",
+        "page": 4
+      },
+      "embedding_text": "ما هو درجة الاتساق بين المجموعات A و B؟ | Topic: Degree of consistency in fuzzy sets | Concepts: Consistency measure, Fuzzy set comparison"
+    },
+    {
+      "question_id": "q_031_fcfb",
+      "question_type": "multiple_choice",
+      "question": "إذا كانت العلاقة الصبغية R التالية التي تربط مجموعة من أربع عناصر مع نفسها:",
+      "options": [
+        {
+          "label": "A",
+          "text": "0",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "0.3",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "0.4",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "0.7",
+          "is_correct": true
+        },
+        {
+          "label": "E",
+          "text": "غير ذلك",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D",
+      "topic": "Fuzzy Relation and Alpha Cut",
+      "academic": {
+        "knowledge_points": [
+          "Fuzzy relations",
+          "Alpha cut (α-cut)",
+          "Membership degree"
+        ],
+        "cognitive_level": "apply",
+        "difficulty": "medium",
+        "classification_confidence": 0.95
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "determine",
+          "identify"
+        ],
+        "reasoning_steps": 2,
+        "distractor_pattern": "numerical values",
+        "explanation": ""
+      },
+      "references_figure": true,
+      "references_formula": false,
+      "raw_text": "إذا كانت العلاقة الصبغية R التالية التي تربط مجموعة من أربع عناصر مع نفسها، فإن قيمة α=0.7 ستصل إلى عدد العناصر التي ستدخل في هذه المجموعات (clusters)",
+      "source": {
+        "document_id": "exam2",
+        "page": 5
+      },
+      "embedding_text": "إذا كانت العلاقة الصبغية R التالية التي تربط مجموعة من أربع عناصر مع نفسها: | A: 0 | B: 0.3 | C: 0.4 | D: 0.7 | E: غير ذلك | Topic: Fuzzy Relation and Alpha Cut | Concepts: Fuzzy relations, Alpha cut (α-cut), Membership degree"
+    },
+    {
+      "question_id": "q_032_9055",
+      "question_type": "multiple_choice",
+      "question": "في الخوارزمية fuzzy c-means، يمكن أن نحدد عدد المجموعات قبل تطبيق الخوارزمية، أي علاقة ترابط شاملة (transitive closure) على علاقة التوافق الصبغية؟",
+      "options": [
+        {
+          "label": "A",
+          "text": "1",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "2",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "3",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "4",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "0",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E",
+      "topic": "Fuzzy Equivalence Relation and Transitive Closure",
+      "academic": {
+        "knowledge_points": [
+          "Fuzzy equivalence relation",
+          "Transitive closure",
+          "Fuzzy c-means clustering"
+        ],
+        "cognitive_level": "analyze",
+        "difficulty": "hard",
+        "classification_confidence": 0.9
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "determine",
+          "apply"
+        ],
+        "reasoning_steps": 3,
+        "distractor_pattern": "numerical options",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": false,
+      "raw_text": "في الخوارزمية fuzzy c-means، يمكن أن نحدد عدد المجموعات قبل تطبيق الخوارزمية، أي علاقة ترابط شاملة على علاقة التوافق الصبغية؟",
+      "source": {
+        "document_id": "exam2",
+        "page": 5
+      },
+      "embedding_text": "في الخوارزمية fuzzy c-means، يمكن أن نحدد عدد المجموعات قبل تطبيق الخوارزمية، أي علاقة ترابط شاملة (transitive closure) على علاقة التوافق الصبغية؟ | A: 1 | B: 2 | C: 3 | D: 4 | E: 0 | Topic: Fuzzy Equivalence Relation and Transitive Closure | Concepts: Fuzzy equivalence relation, Transitive closure, Fuzzy c-means clustering"
+    },
+    {
+      "question_id": "q_033_7e82",
+      "question_type": "matching",
+      "question": "في الخوارزميات التالية، يمكن تحديد المردودين التاليين:",
+      "options": [
+        {
+          "label": "A",
+          "text": "ABCABDEBFE",
+          "is_correct": false
+        },
+        {
+          "label": "B",
+          "text": "FEFEEFABD",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "FEFEEFAFF",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "ABCEEFEFF",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "ABCAEEABD",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": [
+        {
+          "label": "A",
+          "text": "ABCABDEBFE",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "FEFEEFABD",
+          "is_correct": true
+        },
+        {
+          "label": "C",
+          "text": "FEFEEFAFF",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "ABCEEFEFF",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "ABCAEEABD",
+          "is_correct": false
+        }
+      ],
+      "topic": "Crossover Operation in Genetic Algorithms",
+      "academic": {
+        "knowledge_points": [
+          "Genetic algorithms",
+          "Crossover operation"
+        ],
+        "cognitive_level": "apply",
+        "difficulty": "medium",
+        "classification_confidence": 0.85
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "identify",
+          "match"
+        ],
+        "reasoning_steps": 2,
+        "distractor_pattern": "sequence matching",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": false,
+      "raw_text": "أي من الأعداد التالية يمكن أن تنتج عن عملية crossover للمردودين التاليين:",
+      "source": {
+        "document_id": "exam2",
+        "page": 5
+      },
+      "embedding_text": "في الخوارزميات التالية، يمكن تحديد المردودين التاليين: | A: ABCABDEBFE | B: FEFEEFABD | C: FEFEEFAFF | D: ABCEEFEFF | E: ABCAEEABD | Topic: Crossover Operation in Genetic Algorithms | Concepts: Genetic algorithms, Crossover operation"
+    },
+    {
+      "question_id": "q_034_4092",
+      "question_type": "multiple_choice",
+      "question": "في الخوارزميات الوراثية، يجب أن يحقق دالة التكييف ما يلي:",
+      "options": [
+        {
+          "label": "A",
+          "text": "تكون أكبر قيمة ممكنة",
+          "is_correct": true
+        },
+        {
+          "label": "B",
+          "text": "تكون أقل قيمة ممكنة",
+          "is_correct": false
+        },
+        {
+          "label": "C",
+          "text": "تكون أكبر قيمة ممكنة في حالة وجود حل واحد فقط",
+          "is_correct": false
+        },
+        {
+          "label": "D",
+          "text": "تكون أقل قيمة ممكنة بين مجموعة الحلول الممكنة",
+          "is_correct": false
+        },
+        {
+          "label": "E",
+          "text": "تكون متوسطة بين مجموعة الحلول الممكنة",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A",
+      "topic": "Fitness Function in Genetic Algorithms",
+      "academic": {
+        "knowledge_points": [
+          "Genetic algorithms",
+          "Fitness function"
+        ],
+        "cognitive_level": "understand",
+        "difficulty": "medium",
+        "classification_confidence": 0.95
+      },
+      "doctor_style": {
+        "action_verbs": [
+          "achieve",
+          "evaluate"
+        ],
+        "reasoning_steps": 2,
+        "distractor_pattern": "logical conditions",
+        "explanation": ""
+      },
+      "references_figure": false,
+      "references_formula": false,
+      "raw_text": "في الخوارزميات الوراثية، يجب أن يحقق دالة التكييف ما يلي:",
+      "source": {
+        "document_id": "exam2",
+        "page": 5
+      },
+      "embedding_text": "في الخوارزميات الوراثية، يجب أن يحقق دالة التكييف ما يلي: | A: تكون أكبر قيمة ممكنة | B: تكون أقل قيمة ممكنة | C: تكون أكبر قيمة ممكنة في حالة وجود حل واحد فقط | D: تكون أقل قيمة ممكنة بين مجموعة الحلول الممكنة | E: تكون متوسطة بين مجموعة الحلول الممكنة | Topic: Fitness Function in Genetic Algorithms | Concepts: Genetic algorithms, Fitness function"
+    }
+  ]
+}

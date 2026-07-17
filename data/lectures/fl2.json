@@ -1,0 +1,1397 @@
+{
+  "document_name": "fl2",
+  "total_chunks": 156,
+  "chunks": [
+    {
+      "chunk_id": "659bec08",
+      "chunk_type": "summary",
+      "page": 4,
+      "title": "Properties of α-cut",
+      "content": "The slide presents properties and formulas related to α-cuts in fuzzy sets, including operations on unions and intersections of fuzzy sets, subset and equality conditions, and relationships between different levels of α-cuts.",
+      "keywords": [
+        "α-cut",
+        "α+ cut",
+        "Fuzzy sets",
+        "Union",
+        "Intersection",
+        "Subset",
+        "Equality",
+        "Membership values",
+        "Crisp sets"
+      ],
+      "raw_text": "Properties of α-cut\n\n∪(αAi) ⊆ (∪Ai)α and ∩(αAi) = (∩Ai)α;\n\n∪(α+Ai) = (∪Ai)α+ and ∩(α+Ai) ⊆ (∩Ai)α+.\n\nA ⊆ B iff αA ⊆ αB;\nA ⊆ B iff α+A ⊆ α+B;\nA = B iff αA = αB;\nA = B iff α+A = α+B.\n\nαA = ∩(β<α) βA = ∩(β<α) β+A;\nα+A = ∪(α<β) βA = ∪(α<β) β+A.",
+      "embedding_text": "The slide presents properties and formulas related to α-cuts in fuzzy sets, including operations on unions and intersections of fuzzy sets, subset and equality conditions, and relationships between different levels of α-cuts."
+    },
+    {
+      "chunk_id": "1e0dd063",
+      "chunk_type": "definition",
+      "page": 4,
+      "concept": "α-cut",
+      "content": "For a fuzzy set A, the α-cut is defined as the crisp set containing all elements of the universal set whose membership values in A are greater than or equal to α.",
+      "embedding_text": "α-cut: For a fuzzy set A, the α-cut is defined as the crisp set containing all elements of the universal set whose membership values in A are greater than or equal to α."
+    },
+    {
+      "chunk_id": "39a9ea6e",
+      "chunk_type": "definition",
+      "page": 4,
+      "concept": "α+ cut",
+      "content": "For a fuzzy set A, the α+ cut is defined as the crisp set containing all elements of the universal set whose membership values in A are strictly greater than α.",
+      "embedding_text": "α+ cut: For a fuzzy set A, the α+ cut is defined as the crisp set containing all elements of the universal set whose membership values in A are strictly greater than α."
+    },
+    {
+      "chunk_id": "fa38613e",
+      "chunk_type": "formula",
+      "page": 4,
+      "formula": "∪(αAi) ⊆ (∪Ai)α and ∩(αAi) = (∩Ai)α",
+      "embedding_text": "∪(αAi) ⊆ (∪Ai)α and ∩(αAi) = (∩Ai)α"
+    },
+    {
+      "chunk_id": "12b37db7",
+      "chunk_type": "formula",
+      "page": 4,
+      "formula": "∪(α+Ai) = (∪Ai)α+ and ∩(α+Ai) ⊆ (∩Ai)α+",
+      "embedding_text": "∪(α+Ai) = (∪Ai)α+ and ∩(α+Ai) ⊆ (∩Ai)α+"
+    },
+    {
+      "chunk_id": "6260c0cc",
+      "chunk_type": "formula",
+      "page": 4,
+      "formula": "A ⊆ B iff αA ⊆ αB",
+      "embedding_text": "A ⊆ B iff αA ⊆ αB"
+    },
+    {
+      "chunk_id": "64461e0e",
+      "chunk_type": "formula",
+      "page": 4,
+      "formula": "A ⊆ B iff α+A ⊆ α+B",
+      "embedding_text": "A ⊆ B iff α+A ⊆ α+B"
+    },
+    {
+      "chunk_id": "6f700d61",
+      "chunk_type": "formula",
+      "page": 4,
+      "formula": "A = B iff αA = αB",
+      "embedding_text": "A = B iff αA = αB"
+    },
+    {
+      "chunk_id": "fa07281c",
+      "chunk_type": "formula",
+      "page": 4,
+      "formula": "A = B iff α+A = α+B",
+      "embedding_text": "A = B iff α+A = α+B"
+    },
+    {
+      "chunk_id": "400b6a0e",
+      "chunk_type": "formula",
+      "page": 4,
+      "formula": "αA = ∩(β<α) βA = ∩(β<α) β+A",
+      "embedding_text": "αA = ∩(β<α) βA = ∩(β<α) β+A"
+    },
+    {
+      "chunk_id": "e89b7f0b",
+      "chunk_type": "formula",
+      "page": 4,
+      "formula": "α+A = ∪(α<β) βA = ∪(α<β) β+A",
+      "embedding_text": "α+A = ∪(α<β) βA = ∪(α<β) β+A"
+    },
+    {
+      "chunk_id": "5c204565",
+      "chunk_type": "diagram",
+      "page": 4,
+      "diagram_type": "none",
+      "content": "",
+      "embedding_text": ""
+    },
+    {
+      "chunk_id": "b710e58e",
+      "chunk_type": "exam_point",
+      "page": 4,
+      "content": "Understanding the relationship between α-cuts and set operations (union and intersection)",
+      "embedding_text": "Understanding the relationship between α-cuts and set operations (union and intersection)"
+    },
+    {
+      "chunk_id": "dfeb1dd6",
+      "chunk_type": "exam_point",
+      "page": 4,
+      "content": "Applying α-cut properties to determine subset and equality relations between fuzzy sets",
+      "embedding_text": "Applying α-cut properties to determine subset and equality relations between fuzzy sets"
+    },
+    {
+      "chunk_id": "cc72de03",
+      "chunk_type": "exam_point",
+      "page": 4,
+      "content": "Using nested α-cuts to express fuzzy sets in terms of crisp sets",
+      "embedding_text": "Using nested α-cuts to express fuzzy sets in terms of crisp sets"
+    },
+    {
+      "chunk_id": "14e5a9f2",
+      "chunk_type": "summary",
+      "page": 5,
+      "title": "Representation of fuzzy sets",
+      "content": "The slide explains the representation of fuzzy sets using α-level sets (also known as level cuts or cross-sections). It introduces the concept of a special fuzzy set and its decomposition into α-level sets over the interval [0,1] or the set of all α-levels Λ(A).",
+      "keywords": [
+        "Fuzzy sets",
+        "α-level sets",
+        "Level cuts",
+        "Decomposition",
+        "Membership degree",
+        "αA(x)",
+        "Λ(A)",
+        "Union of sets"
+      ],
+      "raw_text": "Representation of fuzzy sets\n\n► Special fuzzy set:\nαA(x) = α · ^αA(x).\n\n► So:\nA = ∪ α∈[0,1] αA,\nA = ∪ α∈Λ(A) αA",
+      "embedding_text": "The slide explains the representation of fuzzy sets using α-level sets (also known as level cuts or cross-sections). It introduces the concept of a special fuzzy set and its decomposition into α-level sets over the interval [0,1] or the set of all α-levels Λ(A)."
+    },
+    {
+      "chunk_id": "cbff16ff",
+      "chunk_type": "definition",
+      "page": 5,
+      "concept": "α-level set (α-cut)",
+      "content": "A crisp set containing all elements of the universal set whose membership degree in a fuzzy set A is greater than or equal to α.",
+      "embedding_text": "α-level set (α-cut): A crisp set containing all elements of the universal set whose membership degree in a fuzzy set A is greater than or equal to α."
+    },
+    {
+      "chunk_id": "94481562",
+      "chunk_type": "definition",
+      "page": 5,
+      "concept": "Λ(A)",
+      "content": "The set of all α-levels for a fuzzy set A.",
+      "embedding_text": "Λ(A): The set of all α-levels for a fuzzy set A."
+    },
+    {
+      "chunk_id": "da1b9f7f",
+      "chunk_type": "formula",
+      "page": 5,
+      "formula": "αA(x) = α · ^αA(x)",
+      "embedding_text": "αA(x) = α · ^αA(x)"
+    },
+    {
+      "chunk_id": "46122c0f",
+      "chunk_type": "formula",
+      "page": 5,
+      "formula": "A = ∪ α∈[0,1] αA",
+      "embedding_text": "A = ∪ α∈[0,1] αA"
+    },
+    {
+      "chunk_id": "5169339c",
+      "chunk_type": "formula",
+      "page": 5,
+      "formula": "A = ∪ α∈Λ(A) αA",
+      "embedding_text": "A = ∪ α∈Λ(A) αA"
+    },
+    {
+      "chunk_id": "65d0c87c",
+      "chunk_type": "diagram",
+      "page": 5,
+      "diagram_type": "none",
+      "content": "No visual diagram present on the slide.",
+      "embedding_text": "No visual diagram present on the slide."
+    },
+    {
+      "chunk_id": "147de997",
+      "chunk_type": "exam_point",
+      "page": 5,
+      "content": "Understanding the concept of α-level sets in fuzzy set theory.",
+      "embedding_text": "Understanding the concept of α-level sets in fuzzy set theory."
+    },
+    {
+      "chunk_id": "04a3e1dd",
+      "chunk_type": "exam_point",
+      "page": 5,
+      "content": "Ability to write the decomposition of a fuzzy set using α-level sets.",
+      "embedding_text": "Ability to write the decomposition of a fuzzy set using α-level sets."
+    },
+    {
+      "chunk_id": "78b02a18",
+      "chunk_type": "exam_point",
+      "page": 5,
+      "content": "Recognizing the notation and usage of αA(x) and Λ(A).",
+      "embedding_text": "Recognizing the notation and usage of αA(x) and Λ(A)."
+    },
+    {
+      "chunk_id": "2e385e45",
+      "chunk_type": "summary",
+      "page": 7,
+      "title": "Extension principle of Fuzzy sets",
+      "content": "The slide explains the extension principle of fuzzy sets, detailing how a crisp function can be extended to fuzzy sets and the mathematical definitions for the extended function and its inverse.",
+      "keywords": [
+        "Extension principle",
+        "Fuzzy sets",
+        "Crisp function",
+        "Supremum",
+        "Function extension",
+        "Inverse function",
+        "Fuzzy function"
+      ],
+      "raw_text": "Extension principle of Fuzzy sets\n\n▶ If a crisp function\n\nf : X → Y\n\n▶ We can define:\n\nf : F(X) → F(Y),\n\nf⁻¹ : F(Y) → F(X).\n\n▶ Where\n\n[f(A)](y) = sup A(x)\n          x: y = f(x)\n\n[f⁻¹(B)](x) = B(f(x))",
+      "embedding_text": "The slide explains the extension principle of fuzzy sets, detailing how a crisp function can be extended to fuzzy sets and the mathematical definitions for the extended function and its inverse."
+    },
+    {
+      "chunk_id": "505f642c",
+      "chunk_type": "definition",
+      "page": 7,
+      "concept": "Extension principle of fuzzy sets",
+      "content": "A principle that allows the extension of a crisp function to fuzzy sets by defining new fuzzy functions and their inverses.",
+      "embedding_text": "Extension principle of fuzzy sets: A principle that allows the extension of a crisp function to fuzzy sets by defining new fuzzy functions and their inverses."
+    },
+    {
+      "chunk_id": "b189fdd7",
+      "chunk_type": "definition",
+      "page": 7,
+      "concept": "Crisp function",
+      "content": "A function that maps elements from one set to another without any degree of membership ambiguity.",
+      "embedding_text": "Crisp function: A function that maps elements from one set to another without any degree of membership ambiguity."
+    },
+    {
+      "chunk_id": "c2c83cd5",
+      "chunk_type": "formula",
+      "page": 7,
+      "formula": {
+        "formula": "[f(A)](y) = sup A(x) | x: y = f(x)",
+        "description": "Defines the extension of a fuzzy set A through function f to a fuzzy set in the codomain Y."
+      },
+      "embedding_text": {
+        "formula": "[f(A)](y) = sup A(x) | x: y = f(x)",
+        "description": "Defines the extension of a fuzzy set A through function f to a fuzzy set in the codomain Y."
+      }
+    },
+    {
+      "chunk_id": "cfd7f81f",
+      "chunk_type": "formula",
+      "page": 7,
+      "formula": {
+        "formula": "[f⁻¹(B)](x) = B(f(x))",
+        "description": "Defines the inverse extension of a fuzzy set B through function f to a fuzzy set in the domain X."
+      },
+      "embedding_text": {
+        "formula": "[f⁻¹(B)](x) = B(f(x))",
+        "description": "Defines the inverse extension of a fuzzy set B through function f to a fuzzy set in the domain X."
+      }
+    },
+    {
+      "chunk_id": "9012a9c9",
+      "chunk_type": "diagram",
+      "page": 7,
+      "diagram_type": "none",
+      "content": "No diagrams or charts are present on the slide.",
+      "embedding_text": "No diagrams or charts are present on the slide."
+    },
+    {
+      "chunk_id": "b2fe813d",
+      "chunk_type": "exam_point",
+      "page": 7,
+      "content": "Understanding the extension principle for fuzzy sets",
+      "embedding_text": "Understanding the extension principle for fuzzy sets"
+    },
+    {
+      "chunk_id": "51a69bbd",
+      "chunk_type": "exam_point",
+      "page": 7,
+      "content": "Ability to apply the extension principle to crisp functions",
+      "embedding_text": "Ability to apply the extension principle to crisp functions"
+    },
+    {
+      "chunk_id": "baaa9a18",
+      "chunk_type": "exam_point",
+      "page": 7,
+      "content": "Knowledge of how to define the extended function and its inverse for fuzzy sets",
+      "embedding_text": "Knowledge of how to define the extended function and its inverse for fuzzy sets"
+    },
+    {
+      "chunk_id": "3f82473a",
+      "chunk_type": "summary",
+      "page": 9,
+      "title": "Properties of extension principle",
+      "content": "The slide outlines key properties related to the extension principle in the context of functions and set operations, including properties of direct images and pre-images under a function.",
+      "keywords": [
+        "Extension Principle",
+        "Direct Image",
+        "Pre-image",
+        "Union",
+        "Intersection",
+        "Subset",
+        "Function Mapping",
+        "Empty Set",
+        "Set Operations"
+      ],
+      "raw_text": "Properties of extension principle\n\nf(A) = ∅ iff A = ∅;\nif A₁ ⊆ A₂, then f(A₁) ⊆ f(A₂);\nf(∪ Aᵢ) = ∪ f(Aᵢ);\nf(∩ Aᵢ) ⊆ ∩ f(Aᵢ);\nif B₁ ⊆ B₂, then f⁻¹(B₁) ⊆ f⁻¹(B₂);\nf⁻¹(∪ Bᵢ) = ∪ f⁻¹(Bᵢ);\nf⁻¹(∩ Bᵢ) = ∩ f⁻¹(Bᵢ);\nf⁻¹(B̅) = f⁻¹(B)̅;\nA ⊆ f⁻¹(f(A));\nB ⊇ f(f⁻¹(B)).",
+      "embedding_text": "The slide outlines key properties related to the extension principle in the context of functions and set operations, including properties of direct images and pre-images under a function."
+    },
+    {
+      "chunk_id": "8efca6df",
+      "chunk_type": "definition",
+      "page": 9,
+      "concept": "Extension Principle",
+      "content": "A principle that describes how functions behave with respect to set operations, including unions, intersections, and complements.",
+      "embedding_text": "Extension Principle: A principle that describes how functions behave with respect to set operations, including unions, intersections, and complements."
+    },
+    {
+      "chunk_id": "60b98d3b",
+      "chunk_type": "definition",
+      "page": 9,
+      "concept": "Direct Image (f(A))",
+      "content": "The set of all outputs of a function f when applied to each element of set A.",
+      "embedding_text": "Direct Image (f(A)): The set of all outputs of a function f when applied to each element of set A."
+    },
+    {
+      "chunk_id": "bfe40d26",
+      "chunk_type": "definition",
+      "page": 9,
+      "concept": "Pre-image (f⁻¹(B))",
+      "content": "The set of all elements in the domain that map to elements in set B under function f.",
+      "embedding_text": "Pre-image (f⁻¹(B)): The set of all elements in the domain that map to elements in set B under function f."
+    },
+    {
+      "chunk_id": "509d6fff",
+      "chunk_type": "formula",
+      "page": 9,
+      "formula": "f(A) = ∅ iff A = ∅",
+      "embedding_text": "f(A) = ∅ iff A = ∅"
+    },
+    {
+      "chunk_id": "6cfbfaf6",
+      "chunk_type": "formula",
+      "page": 9,
+      "formula": "if A₁ ⊆ A₂, then f(A₁) ⊆ f(A₂)",
+      "embedding_text": "if A₁ ⊆ A₂, then f(A₁) ⊆ f(A₂)"
+    },
+    {
+      "chunk_id": "da143f83",
+      "chunk_type": "formula",
+      "page": 9,
+      "formula": "f(∪ Aᵢ) = ∪ f(Aᵢ)",
+      "embedding_text": "f(∪ Aᵢ) = ∪ f(Aᵢ)"
+    },
+    {
+      "chunk_id": "fb366551",
+      "chunk_type": "formula",
+      "page": 9,
+      "formula": "f(∩ Aᵢ) ⊆ ∩ f(Aᵢ)",
+      "embedding_text": "f(∩ Aᵢ) ⊆ ∩ f(Aᵢ)"
+    },
+    {
+      "chunk_id": "682df370",
+      "chunk_type": "formula",
+      "page": 9,
+      "formula": "if B₁ ⊆ B₂, then f⁻¹(B₁) ⊆ f⁻¹(B₂)",
+      "embedding_text": "if B₁ ⊆ B₂, then f⁻¹(B₁) ⊆ f⁻¹(B₂)"
+    },
+    {
+      "chunk_id": "5e9c2839",
+      "chunk_type": "formula",
+      "page": 9,
+      "formula": "f⁻¹(∪ Bᵢ) = ∪ f⁻¹(Bᵢ)",
+      "embedding_text": "f⁻¹(∪ Bᵢ) = ∪ f⁻¹(Bᵢ)"
+    },
+    {
+      "chunk_id": "d18e715b",
+      "chunk_type": "formula",
+      "page": 9,
+      "formula": "f⁻¹(∩ Bᵢ) = ∩ f⁻¹(Bᵢ)",
+      "embedding_text": "f⁻¹(∩ Bᵢ) = ∩ f⁻¹(Bᵢ)"
+    },
+    {
+      "chunk_id": "67f91249",
+      "chunk_type": "formula",
+      "page": 9,
+      "formula": "f⁻¹(B̅) = f⁻¹(B)̅",
+      "embedding_text": "f⁻¹(B̅) = f⁻¹(B)̅"
+    },
+    {
+      "chunk_id": "a80f2de5",
+      "chunk_type": "formula",
+      "page": 9,
+      "formula": "A ⊆ f⁻¹(f(A))",
+      "embedding_text": "A ⊆ f⁻¹(f(A))"
+    },
+    {
+      "chunk_id": "5e2bf143",
+      "chunk_type": "formula",
+      "page": 9,
+      "formula": "B ⊇ f(f⁻¹(B))",
+      "embedding_text": "B ⊇ f(f⁻¹(B))"
+    },
+    {
+      "chunk_id": "6d588b7f",
+      "chunk_type": "diagram",
+      "page": 9,
+      "diagram_type": "none",
+      "content": "",
+      "embedding_text": ""
+    },
+    {
+      "chunk_id": "b82b9c4c",
+      "chunk_type": "exam_point",
+      "page": 9,
+      "content": "Understanding the behavior of direct and pre-images under set operations",
+      "embedding_text": "Understanding the behavior of direct and pre-images under set operations"
+    },
+    {
+      "chunk_id": "674cf47f",
+      "chunk_type": "exam_point",
+      "page": 9,
+      "content": "Applying the extension principle to unions and intersections of sets",
+      "embedding_text": "Applying the extension principle to unions and intersections of sets"
+    },
+    {
+      "chunk_id": "71bfeea3",
+      "chunk_type": "exam_point",
+      "page": 9,
+      "content": "Recognizing the implications of subset relations on function mappings",
+      "embedding_text": "Recognizing the implications of subset relations on function mappings"
+    },
+    {
+      "chunk_id": "ba2837c6",
+      "chunk_type": "exam_point",
+      "page": 9,
+      "content": "Differentiating between direct images and pre-images",
+      "embedding_text": "Differentiating between direct images and pre-images"
+    },
+    {
+      "chunk_id": "60dc1106",
+      "chunk_type": "summary",
+      "page": 11,
+      "title": "Operations of fuzzy sets",
+      "content": "The slide introduces the standard operations of fuzzy sets, including complement, intersection, and union, and explains that these operations can be redefined as t-norms and t-conorms based on specific problem requirements.",
+      "keywords": [
+        "Fuzzy sets",
+        "Complement",
+        "Intersection",
+        "Union",
+        "t-norm",
+        "t-conorm",
+        "Standard operations",
+        "Redefinition"
+      ],
+      "raw_text": "Operations of fuzzy sets\n\n▶ Recall that standard operations are\n\nA̅(x) = 1 - A(x),\n(A ∩ B)(x) = min[A(x), B(x)],\n(A ∪ B)(x) = max[A(x), B(x)]\n\n▶ We can redefine the operations based on the problem we have\n▶ We usually call fuzzy intersection: t-norm\n▶ We usually call fuzzy union t-conorm",
+      "embedding_text": "The slide introduces the standard operations of fuzzy sets, including complement, intersection, and union, and explains that these operations can be redefined as t-norms and t-conorms based on specific problem requirements."
+    },
+    {
+      "chunk_id": "3a00275b",
+      "chunk_type": "definition",
+      "page": 11,
+      "concept": "Complement of a fuzzy set",
+      "content": "The complement of a fuzzy set A(x) is defined as 1 - A(x).",
+      "embedding_text": "Complement of a fuzzy set: The complement of a fuzzy set A(x) is defined as 1 - A(x)."
+    },
+    {
+      "chunk_id": "f138649b",
+      "chunk_type": "definition",
+      "page": 11,
+      "concept": "t-norm",
+      "content": "A generalized intersection operation for fuzzy sets, often replacing the standard min function.",
+      "embedding_text": "t-norm: A generalized intersection operation for fuzzy sets, often replacing the standard min function."
+    },
+    {
+      "chunk_id": "dc812cfe",
+      "chunk_type": "definition",
+      "page": 11,
+      "concept": "t-conorm",
+      "content": "A generalized union operation for fuzzy sets, often replacing the standard max function.",
+      "embedding_text": "t-conorm: A generalized union operation for fuzzy sets, often replacing the standard max function."
+    },
+    {
+      "chunk_id": "b0d37e02",
+      "chunk_type": "formula",
+      "page": 11,
+      "formula": {
+        "formula": "A̅(x) = 1 - A(x)",
+        "description": "Complement of a fuzzy set A"
+      },
+      "embedding_text": {
+        "formula": "A̅(x) = 1 - A(x)",
+        "description": "Complement of a fuzzy set A"
+      }
+    },
+    {
+      "chunk_id": "b2fd818a",
+      "chunk_type": "formula",
+      "page": 11,
+      "formula": {
+        "formula": "(A ∩ B)(x) = min[A(x), B(x)]",
+        "description": "Standard intersection of fuzzy sets A and B"
+      },
+      "embedding_text": {
+        "formula": "(A ∩ B)(x) = min[A(x), B(x)]",
+        "description": "Standard intersection of fuzzy sets A and B"
+      }
+    },
+    {
+      "chunk_id": "8797b108",
+      "chunk_type": "formula",
+      "page": 11,
+      "formula": {
+        "formula": "(A ∪ B)(x) = max[A(x), B(x)]",
+        "description": "Standard union of fuzzy sets A and B"
+      },
+      "embedding_text": {
+        "formula": "(A ∪ B)(x) = max[A(x), B(x)]",
+        "description": "Standard union of fuzzy sets A and B"
+      }
+    },
+    {
+      "chunk_id": "8a99f93b",
+      "chunk_type": "exam_point",
+      "page": 11,
+      "content": "Understanding the standard operations of fuzzy sets",
+      "embedding_text": "Understanding the standard operations of fuzzy sets"
+    },
+    {
+      "chunk_id": "aa1b2db6",
+      "chunk_type": "exam_point",
+      "page": 11,
+      "content": "Knowing how to redefine operations based on t-norms and t-conorms",
+      "embedding_text": "Knowing how to redefine operations based on t-norms and t-conorms"
+    },
+    {
+      "chunk_id": "4e9d3e8d",
+      "chunk_type": "exam_point",
+      "page": 11,
+      "content": "Recognizing the difference between standard and generalized operations",
+      "embedding_text": "Recognizing the difference between standard and generalized operations"
+    },
+    {
+      "chunk_id": "fbd5e84b",
+      "chunk_type": "summary",
+      "page": 12,
+      "title": "Fuzzy complements",
+      "content": "The slide explains the concept of fuzzy complements, detailing the properties and axioms that a complement function must satisfy in fuzzy logic. It emphasizes the mathematical formulation and conditions for a function to be considered a valid complement function in the context of membership degrees.",
+      "keywords": [
+        "Fuzzy complement",
+        "Membership function",
+        "Boundary conditions",
+        "Monotonicity",
+        "Continuity",
+        "Involutive",
+        "Axiom c1",
+        "Axiom c2",
+        "Axiom c3",
+        "Axiom c4",
+        "Fuzzy logic"
+      ],
+      "raw_text": "Fuzzy complements\n\n► Any complement is a function of membership:\n\nc : [0, 1] → [0, 1],\n\n► Should satisfy:\n\nAxiom c1. c(0) = 1 and c(1) = 0 (boundary conditions).\nAxiom c2. For all a, b ∈ [0, 1], if a ≤ b, then c(a) ≥ c(b) (monotonicity).\nAxiom c3. c is a continuous function.\nAxiom c4. c is involutive, which means that c(c(a)) = a for each a ∈ [0, 1].",
+      "embedding_text": "The slide explains the concept of fuzzy complements, detailing the properties and axioms that a complement function must satisfy in fuzzy logic. It emphasizes the mathematical formulation and conditions for a function to be considered a valid complement function in the context of membership degrees."
+    },
+    {
+      "chunk_id": "a94f16fe",
+      "chunk_type": "definition",
+      "page": 12,
+      "concept": "Fuzzy complement",
+      "content": "A function of membership that maps values from the interval [0, 1] to [0, 1], satisfying specific axioms.",
+      "embedding_text": "Fuzzy complement: A function of membership that maps values from the interval [0, 1] to [0, 1], satisfying specific axioms."
+    },
+    {
+      "chunk_id": "01607453",
+      "chunk_type": "definition",
+      "page": 12,
+      "concept": "Boundary conditions",
+      "content": "Conditions where the complement function maps 0 to 1 and 1 to 0.",
+      "embedding_text": "Boundary conditions: Conditions where the complement function maps 0 to 1 and 1 to 0."
+    },
+    {
+      "chunk_id": "dbe70fa0",
+      "chunk_type": "definition",
+      "page": 12,
+      "concept": "Monotonicity",
+      "content": "A property where if a ≤ b, then c(a) ≥ c(b) for all a, b in [0, 1].",
+      "embedding_text": "Monotonicity: A property where if a ≤ b, then c(a) ≥ c(b) for all a, b in [0, 1]."
+    },
+    {
+      "chunk_id": "1ba370a0",
+      "chunk_type": "definition",
+      "page": 12,
+      "concept": "Involutive function",
+      "content": "A function where applying it twice returns the original input, i.e., c(c(a)) = a for each a in [0, 1].",
+      "embedding_text": "Involutive function: A function where applying it twice returns the original input, i.e., c(c(a)) = a for each a in [0, 1]."
+    },
+    {
+      "chunk_id": "11644bf3",
+      "chunk_type": "formula",
+      "page": 12,
+      "formula": "c : [0, 1] → [0, 1]",
+      "embedding_text": "c : [0, 1] → [0, 1]"
+    },
+    {
+      "chunk_id": "9a9dab0e",
+      "chunk_type": "formula",
+      "page": 12,
+      "formula": "c(0) = 1 and c(1) = 0",
+      "embedding_text": "c(0) = 1 and c(1) = 0"
+    },
+    {
+      "chunk_id": "fa49728e",
+      "chunk_type": "formula",
+      "page": 12,
+      "formula": "if a ≤ b, then c(a) ≥ c(b)",
+      "embedding_text": "if a ≤ b, then c(a) ≥ c(b)"
+    },
+    {
+      "chunk_id": "bde0d704",
+      "chunk_type": "formula",
+      "page": 12,
+      "formula": "c(c(a)) = a",
+      "embedding_text": "c(c(a)) = a"
+    },
+    {
+      "chunk_id": "79414a65",
+      "chunk_type": "diagram",
+      "page": 12,
+      "diagram_type": "none",
+      "content": "",
+      "embedding_text": ""
+    },
+    {
+      "chunk_id": "58f59898",
+      "chunk_type": "exam_point",
+      "page": 12,
+      "content": "Understanding the definition and properties of fuzzy complements",
+      "embedding_text": "Understanding the definition and properties of fuzzy complements"
+    },
+    {
+      "chunk_id": "feed95af",
+      "chunk_type": "exam_point",
+      "page": 12,
+      "content": "Recalling and applying the axioms c1, c2, c3, and c4",
+      "embedding_text": "Recalling and applying the axioms c1, c2, c3, and c4"
+    },
+    {
+      "chunk_id": "b0a392bd",
+      "chunk_type": "exam_point",
+      "page": 12,
+      "content": "Recognizing the importance of boundary conditions, monotonicity, continuity, and involution in fuzzy logic",
+      "embedding_text": "Recognizing the importance of boundary conditions, monotonicity, continuity, and involution in fuzzy logic"
+    },
+    {
+      "chunk_id": "782d45bb",
+      "chunk_type": "summary",
+      "page": 13,
+      "title": "Complement Examples",
+      "content": "The slide provides examples of different complement functions used in mathematical logic or fuzzy logic, including threshold, cosine, Sugemo, and Yager functions. Each function is defined with its respective formula.",
+      "keywords": [
+        "Complement Function",
+        "Threshold",
+        "Cosine",
+        "Sugemo",
+        "Yager",
+        "Fuzzy Logic",
+        "Involutive",
+        "Non-Involutive",
+        "Parameterized Functions"
+      ],
+      "raw_text": "Complement Examples\n\n▶ Threshold\nc(a) = { 1 for a ≤ t, 0 for a > t }\n\n▶ Cosine (not involutive)\nc(a) = 1/2 (1 + cos πa)\n\n▶ Sugemo\nc_λ(a) = (1 - a) / (1 + λa)\n\n▶ Yager\nc_w(a) = (1 - a^w)^(1/w)",
+      "embedding_text": "The slide provides examples of different complement functions used in mathematical logic or fuzzy logic, including threshold, cosine, Sugemo, and Yager functions. Each function is defined with its respective formula."
+    },
+    {
+      "chunk_id": "15ea8387",
+      "chunk_type": "definition",
+      "page": 13,
+      "concept": "Threshold Function",
+      "content": "A function that outputs 1 if the input is less than or equal to a threshold t, otherwise outputs 0.",
+      "embedding_text": "Threshold Function: A function that outputs 1 if the input is less than or equal to a threshold t, otherwise outputs 0."
+    },
+    {
+      "chunk_id": "eb587b6c",
+      "chunk_type": "definition",
+      "page": 13,
+      "concept": "Cosine Complement",
+      "content": "A non-involutive complement function defined using the cosine of π times the input.",
+      "embedding_text": "Cosine Complement: A non-involutive complement function defined using the cosine of π times the input."
+    },
+    {
+      "chunk_id": "aa892101",
+      "chunk_type": "definition",
+      "page": 13,
+      "concept": "Sugemo Function",
+      "content": "A complement function parameterized by λ, defined as (1 - a) / (1 + λa).",
+      "embedding_text": "Sugemo Function: A complement function parameterized by λ, defined as (1 - a) / (1 + λa)."
+    },
+    {
+      "chunk_id": "78c418d5",
+      "chunk_type": "definition",
+      "page": 13,
+      "concept": "Yager Function",
+      "content": "A complement function parameterized by w, defined as (1 - a^w)^(1/w).",
+      "embedding_text": "Yager Function: A complement function parameterized by w, defined as (1 - a^w)^(1/w)."
+    },
+    {
+      "chunk_id": "5e7b5576",
+      "chunk_type": "formula",
+      "page": 13,
+      "formula": {
+        "name": "Threshold",
+        "formula": "c(a) = { 1 for a ≤ t, 0 for a > t }"
+      },
+      "embedding_text": {
+        "name": "Threshold",
+        "formula": "c(a) = { 1 for a ≤ t, 0 for a > t }"
+      }
+    },
+    {
+      "chunk_id": "c4e320f5",
+      "chunk_type": "formula",
+      "page": 13,
+      "formula": {
+        "name": "Cosine",
+        "formula": "c(a) = 1/2 (1 + cos(πa))"
+      },
+      "embedding_text": {
+        "name": "Cosine",
+        "formula": "c(a) = 1/2 (1 + cos(πa))"
+      }
+    },
+    {
+      "chunk_id": "c294ec9a",
+      "chunk_type": "formula",
+      "page": 13,
+      "formula": {
+        "name": "Sugemo",
+        "formula": "c_λ(a) = (1 - a) / (1 + λa)"
+      },
+      "embedding_text": {
+        "name": "Sugemo",
+        "formula": "c_λ(a) = (1 - a) / (1 + λa)"
+      }
+    },
+    {
+      "chunk_id": "c901582f",
+      "chunk_type": "formula",
+      "page": 13,
+      "formula": {
+        "name": "Yager",
+        "formula": "c_w(a) = (1 - a^w)^(1/w)"
+      },
+      "embedding_text": {
+        "name": "Yager",
+        "formula": "c_w(a) = (1 - a^w)^(1/w)"
+      }
+    },
+    {
+      "chunk_id": "1b22ea8c",
+      "chunk_type": "exam_point",
+      "page": 13,
+      "content": "Understanding the difference between involutive and non-involutive complement functions.",
+      "embedding_text": "Understanding the difference between involutive and non-involutive complement functions."
+    },
+    {
+      "chunk_id": "351e2c01",
+      "chunk_type": "exam_point",
+      "page": 13,
+      "content": "Ability to apply and differentiate between the given complement functions.",
+      "embedding_text": "Ability to apply and differentiate between the given complement functions."
+    },
+    {
+      "chunk_id": "b4d0f08b",
+      "chunk_type": "exam_point",
+      "page": 13,
+      "content": "Recognizing the parameters and their roles in Sugemo and Yager functions.",
+      "embedding_text": "Recognizing the parameters and their roles in Sugemo and Yager functions."
+    },
+    {
+      "chunk_id": "82b908c6",
+      "chunk_type": "summary",
+      "page": 14,
+      "title": "How to generate Complements",
+      "content": "The slide explains the methods to generate complements in fuzzy logic using specific functions with given conditions. It provides two formulas to calculate complements based on whether a function is increasing or strictly decreasing.",
+      "keywords": [
+        "Fuzzy Complement",
+        "g(0) = 0",
+        "Increasing Function",
+        "g⁻¹",
+        "f(1) = 0",
+        "Strictly Decreasing Function",
+        "Complement Generation",
+        "Fuzzy Logic"
+      ],
+      "raw_text": "How to generate Complements\n\n▶ If g(0)=0 and g is increasing then:\n\nc(a) = g⁻¹(g(1) - g(a))\n\n▶ Is a fuzzy complement\n\n▶ If f(1) = 0 and is strictly decreasing:\n\nc(a) = f⁻¹(f(0) - f(a))",
+      "embedding_text": "The slide explains the methods to generate complements in fuzzy logic using specific functions with given conditions. It provides two formulas to calculate complements based on whether a function is increasing or strictly decreasing."
+    },
+    {
+      "chunk_id": "61a8b361",
+      "chunk_type": "definition",
+      "page": 14,
+      "concept": "Fuzzy Complement",
+      "content": "A function that generates the complement of a fuzzy set value based on specific conditions of another function.",
+      "embedding_text": "Fuzzy Complement: A function that generates the complement of a fuzzy set value based on specific conditions of another function."
+    },
+    {
+      "chunk_id": "c77518b8",
+      "chunk_type": "formula",
+      "page": 14,
+      "formula": {
+        "condition": "If g(0) = 0 and g is increasing",
+        "formula": "c(a) = g⁻¹(g(1) - g(a))"
+      },
+      "embedding_text": {
+        "condition": "If g(0) = 0 and g is increasing",
+        "formula": "c(a) = g⁻¹(g(1) - g(a))"
+      }
+    },
+    {
+      "chunk_id": "2ca8822b",
+      "chunk_type": "formula",
+      "page": 14,
+      "formula": {
+        "condition": "If f(1) = 0 and f is strictly decreasing",
+        "formula": "c(a) = f⁻¹(f(0) - f(a))"
+      },
+      "embedding_text": {
+        "condition": "If f(1) = 0 and f is strictly decreasing",
+        "formula": "c(a) = f⁻¹(f(0) - f(a))"
+      }
+    },
+    {
+      "chunk_id": "3eeea6e8",
+      "chunk_type": "exam_point",
+      "page": 14,
+      "content": "Understanding the conditions for generating complements using increasing and strictly decreasing functions.",
+      "embedding_text": "Understanding the conditions for generating complements using increasing and strictly decreasing functions."
+    },
+    {
+      "chunk_id": "36f3fa1e",
+      "chunk_type": "exam_point",
+      "page": 14,
+      "content": "Applying the formulas for generating complements in fuzzy logic.",
+      "embedding_text": "Applying the formulas for generating complements in fuzzy logic."
+    },
+    {
+      "chunk_id": "4cc5ffb5",
+      "chunk_type": "summary",
+      "page": 15,
+      "title": "Fuzzy intersection: t-norm",
+      "content": "The slide introduces the concept of fuzzy intersection using a t-norm function. It explains that a t-norm is a function that maps pairs of values in the interval [0, 1] to another value in the same interval, used to determine the intersection of two fuzzy sets.",
+      "keywords": [
+        "Fuzzy intersection",
+        "t-norm",
+        "Fuzzy sets",
+        "Function",
+        "Intersection",
+        "Fuzzy logic",
+        "Mapping",
+        "Interval [0, 1]"
+      ],
+      "raw_text": "Fuzzy intersection: t-norm\n\n▶ Is a function:\n\n  i : [0, 1] × [0, 1] → [0, 1].\n\n  (A ∩ B)(x) = i[A(x), B(x)]",
+      "embedding_text": "The slide introduces the concept of fuzzy intersection using a t-norm function. It explains that a t-norm is a function that maps pairs of values in the interval [0, 1] to another value in the same interval, used to determine the intersection of two fuzzy sets."
+    },
+    {
+      "chunk_id": "73b8aadb",
+      "chunk_type": "definition",
+      "page": 15,
+      "concept": "t-norm",
+      "content": "A function i: [0, 1] × [0, 1] → [0, 1] used to compute the intersection of two fuzzy sets.",
+      "embedding_text": "t-norm: A function i: [0, 1] × [0, 1] → [0, 1] used to compute the intersection of two fuzzy sets."
+    },
+    {
+      "chunk_id": "0005e98d",
+      "chunk_type": "definition",
+      "page": 15,
+      "concept": "Fuzzy intersection",
+      "content": "The operation (A ∩ B)(x) = i[A(x), B(x)] where i is a t-norm function.",
+      "embedding_text": "Fuzzy intersection: The operation (A ∩ B)(x) = i[A(x), B(x)] where i is a t-norm function."
+    },
+    {
+      "chunk_id": "40be73d6",
+      "chunk_type": "formula",
+      "page": 15,
+      "formula": "i : [0, 1] × [0, 1] → [0, 1]",
+      "embedding_text": "i : [0, 1] × [0, 1] → [0, 1]"
+    },
+    {
+      "chunk_id": "42995f02",
+      "chunk_type": "formula",
+      "page": 15,
+      "formula": "(A ∩ B)(x) = i[A(x), B(x)]",
+      "embedding_text": "(A ∩ B)(x) = i[A(x), B(x)]"
+    },
+    {
+      "chunk_id": "37cbb82c",
+      "chunk_type": "exam_point",
+      "page": 15,
+      "content": "Understanding the role of t-norm in fuzzy logic",
+      "embedding_text": "Understanding the role of t-norm in fuzzy logic"
+    },
+    {
+      "chunk_id": "bdf5e0cb",
+      "chunk_type": "exam_point",
+      "page": 15,
+      "content": "Ability to apply the t-norm function to find fuzzy intersections",
+      "embedding_text": "Ability to apply the t-norm function to find fuzzy intersections"
+    },
+    {
+      "chunk_id": "2d4b9633",
+      "chunk_type": "exam_point",
+      "page": 15,
+      "content": "Knowledge of the domain and range of t-norm functions",
+      "embedding_text": "Knowledge of the domain and range of t-norm functions"
+    },
+    {
+      "chunk_id": "5bc0af52",
+      "chunk_type": "summary",
+      "page": 16,
+      "title": "T-norm restrictions",
+      "content": "The slide outlines seven axioms that define the properties and restrictions of T-norms, which are functions used in fuzzy logic and multi-criteria decision-making. These axioms include boundary conditions, monotonicity, commutativity, associativity, continuity, subidempotency, and strict monotonicity.",
+      "keywords": [
+        "T-norm",
+        "Axiom",
+        "Boundary Condition",
+        "Monotonicity",
+        "Commutativity",
+        "Associativity",
+        "Continuity",
+        "Subidempotency",
+        "Strict Monotonicity",
+        "Fuzzy Logic"
+      ],
+      "raw_text": "T-norm restrictions\n\nAxiom i1. i(a, 1) = a (boundary condition).\nAxiom i2. b ≤ d implies i(a, b) ≤ i(a, d) (monotonicity).\nAxiom i3. i(a, b) = i(b, a) (commutativity).\nAxiom i4. i(a, i(b, d)) = i(i(a, b), d) (associativity).\nAxiom i5. i is a continuous function (continuity).\nAxiom i6. i(a, a) < a (subidempotency).\nAxiom i7. a1 < a2 and b1 < b2 implies i(a1, b1) < i(a2, b2) (strict monotonicity).",
+      "embedding_text": "The slide outlines seven axioms that define the properties and restrictions of T-norms, which are functions used in fuzzy logic and multi-criteria decision-making. These axioms include boundary conditions, monotonicity, commutativity, associativity, continuity, subidempotency, and strict monotonicity."
+    },
+    {
+      "chunk_id": "44b9fe00",
+      "chunk_type": "definition",
+      "page": 16,
+      "concept": "Boundary Condition",
+      "content": "The condition that i(a, 1) equals a.",
+      "embedding_text": "Boundary Condition: The condition that i(a, 1) equals a."
+    },
+    {
+      "chunk_id": "c5de10ee",
+      "chunk_type": "definition",
+      "page": 16,
+      "concept": "Monotonicity",
+      "content": "If b ≤ d, then i(a, b) ≤ i(a, d).",
+      "embedding_text": "Monotonicity: If b ≤ d, then i(a, b) ≤ i(a, d)."
+    },
+    {
+      "chunk_id": "86fdedcf",
+      "chunk_type": "definition",
+      "page": 16,
+      "concept": "Commutativity",
+      "content": "The function i(a, b) is equal to i(b, a).",
+      "embedding_text": "Commutativity: The function i(a, b) is equal to i(b, a)."
+    },
+    {
+      "chunk_id": "d5c1a6ba",
+      "chunk_type": "definition",
+      "page": 16,
+      "concept": "Associativity",
+      "content": "The function satisfies i(a, i(b, d)) = i(i(a, b), d).",
+      "embedding_text": "Associativity: The function satisfies i(a, i(b, d)) = i(i(a, b), d)."
+    },
+    {
+      "chunk_id": "39621a24",
+      "chunk_type": "definition",
+      "page": 16,
+      "concept": "Continuity",
+      "content": "The function i is continuous.",
+      "embedding_text": "Continuity: The function i is continuous."
+    },
+    {
+      "chunk_id": "4057c095",
+      "chunk_type": "definition",
+      "page": 16,
+      "concept": "Subidempotency",
+      "content": "The function satisfies i(a, a) < a.",
+      "embedding_text": "Subidempotency: The function satisfies i(a, a) < a."
+    },
+    {
+      "chunk_id": "d0b11a6b",
+      "chunk_type": "definition",
+      "page": 16,
+      "concept": "Strict Monotonicity",
+      "content": "If a1 < a2 and b1 < b2, then i(a1, b1) < i(a2, b2).",
+      "embedding_text": "Strict Monotonicity: If a1 < a2 and b1 < b2, then i(a1, b1) < i(a2, b2)."
+    },
+    {
+      "chunk_id": "446dd227",
+      "chunk_type": "formula",
+      "page": 16,
+      "formula": "i(a, 1) = a",
+      "embedding_text": "i(a, 1) = a"
+    },
+    {
+      "chunk_id": "65105108",
+      "chunk_type": "formula",
+      "page": 16,
+      "formula": "b ≤ d ⇒ i(a, b) ≤ i(a, d)",
+      "embedding_text": "b ≤ d ⇒ i(a, b) ≤ i(a, d)"
+    },
+    {
+      "chunk_id": "f2c3bdb6",
+      "chunk_type": "formula",
+      "page": 16,
+      "formula": "i(a, b) = i(b, a)",
+      "embedding_text": "i(a, b) = i(b, a)"
+    },
+    {
+      "chunk_id": "ce22b843",
+      "chunk_type": "formula",
+      "page": 16,
+      "formula": "i(a, i(b, d)) = i(i(a, b), d)",
+      "embedding_text": "i(a, i(b, d)) = i(i(a, b), d)"
+    },
+    {
+      "chunk_id": "7301e711",
+      "chunk_type": "formula",
+      "page": 16,
+      "formula": "i is continuous",
+      "embedding_text": "i is continuous"
+    },
+    {
+      "chunk_id": "08130d93",
+      "chunk_type": "formula",
+      "page": 16,
+      "formula": "i(a, a) < a",
+      "embedding_text": "i(a, a) < a"
+    },
+    {
+      "chunk_id": "acc249f3",
+      "chunk_type": "formula",
+      "page": 16,
+      "formula": "a1 < a2 and b1 < b2 ⇒ i(a1, b1) < i(a2, b2)",
+      "embedding_text": "a1 < a2 and b1 < b2 ⇒ i(a1, b1) < i(a2, b2)"
+    },
+    {
+      "chunk_id": "e80a8257",
+      "chunk_type": "diagram",
+      "page": 16,
+      "diagram_type": "none",
+      "content": "",
+      "embedding_text": ""
+    },
+    {
+      "chunk_id": "c19fe8ee",
+      "chunk_type": "exam_point",
+      "page": 16,
+      "content": "Understanding and applying each of the seven axioms of T-norms.",
+      "embedding_text": "Understanding and applying each of the seven axioms of T-norms."
+    },
+    {
+      "chunk_id": "0080ad4d",
+      "chunk_type": "exam_point",
+      "page": 16,
+      "content": "Recognizing the importance of each property in defining T-norms.",
+      "embedding_text": "Recognizing the importance of each property in defining T-norms."
+    },
+    {
+      "chunk_id": "056580cc",
+      "chunk_type": "exam_point",
+      "page": 16,
+      "content": "Differentiating between monotonicity and strict monotonicity.",
+      "embedding_text": "Differentiating between monotonicity and strict monotonicity."
+    },
+    {
+      "chunk_id": "1af0df6f",
+      "chunk_type": "exam_point",
+      "page": 16,
+      "content": "Explaining the role of continuity and associativity in T-norms.",
+      "embedding_text": "Explaining the role of continuity and associativity in T-norms."
+    },
+    {
+      "chunk_id": "63804d24",
+      "chunk_type": "summary",
+      "page": 17,
+      "title": "T-norm examples",
+      "content": "The slide provides various examples of T-norms, which are functions used in fuzzy logic to model logical conjunction. It includes definitions and formulas for standard intersection, algebraic product, bounded difference, drastic intersection, and Yager class t-norms.",
+      "keywords": [
+        "T-norm",
+        "Fuzzy logic",
+        "Conjunction",
+        "Standard intersection",
+        "Algebraic product",
+        "Bounded difference",
+        "Drastic intersection",
+        "Yager class",
+        "Minimum",
+        "Product",
+        "Maximum",
+        "Parameterized"
+      ],
+      "raw_text": "T-norm examples\n\nStandard intersection : i(a, b) = min(a, b).\nAlgebraic product : i(a, b) = ab.\nBounded difference : i(a, b) = max(0, a + b - 1).\nDrastic intersection : i(a, b) = { a when b = 1, b when a = 1, 0 otherwise. \nYager class t-norms:\ni_w(a, b) = 1 - min(1, [(1 - a)^w + (1 - b)^w]^1/w) (w > 0).",
+      "embedding_text": "The slide provides various examples of T-norms, which are functions used in fuzzy logic to model logical conjunction. It includes definitions and formulas for standard intersection, algebraic product, bounded difference, drastic intersection, and Yager class t-norms."
+    },
+    {
+      "chunk_id": "87b33564",
+      "chunk_type": "definition",
+      "page": 17,
+      "concept": "Standard intersection",
+      "content": "A T-norm defined as the minimum of two values.",
+      "embedding_text": "Standard intersection: A T-norm defined as the minimum of two values."
+    },
+    {
+      "chunk_id": "b2c6589d",
+      "chunk_type": "definition",
+      "page": 17,
+      "concept": "Algebraic product",
+      "content": "A T-norm defined as the product of two values.",
+      "embedding_text": "Algebraic product: A T-norm defined as the product of two values."
+    },
+    {
+      "chunk_id": "59f0ddbd",
+      "chunk_type": "definition",
+      "page": 17,
+      "concept": "Bounded difference",
+      "content": "A T-norm defined as the maximum of zero and the difference between one and the sum of the two values.",
+      "embedding_text": "Bounded difference: A T-norm defined as the maximum of zero and the difference between one and the sum of the two values."
+    },
+    {
+      "chunk_id": "8e4fbf3a",
+      "chunk_type": "definition",
+      "page": 17,
+      "concept": "Drastic intersection",
+      "content": "A T-norm that returns the first value if the second is 1, the second value if the first is 1, and 0 otherwise.",
+      "embedding_text": "Drastic intersection: A T-norm that returns the first value if the second is 1, the second value if the first is 1, and 0 otherwise."
+    },
+    {
+      "chunk_id": "92d07ea2",
+      "chunk_type": "definition",
+      "page": 17,
+      "concept": "Yager class t-norms",
+      "content": "A family of T-norms parameterized by a positive real number w, defined by the formula involving the minimum and power means.",
+      "embedding_text": "Yager class t-norms: A family of T-norms parameterized by a positive real number w, defined by the formula involving the minimum and power means."
+    },
+    {
+      "chunk_id": "4ddc168a",
+      "chunk_type": "formula",
+      "page": 17,
+      "formula": "i(a, b) = min(a, b)",
+      "embedding_text": "i(a, b) = min(a, b)"
+    },
+    {
+      "chunk_id": "79574f4a",
+      "chunk_type": "formula",
+      "page": 17,
+      "formula": "i(a, b) = a * b",
+      "embedding_text": "i(a, b) = a * b"
+    },
+    {
+      "chunk_id": "a01aaa35",
+      "chunk_type": "formula",
+      "page": 17,
+      "formula": "i(a, b) = max(0, a + b - 1)",
+      "embedding_text": "i(a, b) = max(0, a + b - 1)"
+    },
+    {
+      "chunk_id": "e8070412",
+      "chunk_type": "formula",
+      "page": 17,
+      "formula": "i(a, b) = { a when b = 1, b when a = 1, 0 otherwise }",
+      "embedding_text": "i(a, b) = { a when b = 1, b when a = 1, 0 otherwise }"
+    },
+    {
+      "chunk_id": "9f28612c",
+      "chunk_type": "formula",
+      "page": 17,
+      "formula": "i_w(a, b) = 1 - min(1, [(1 - a)^w + (1 - b)^w]^1/w) (w > 0)",
+      "embedding_text": "i_w(a, b) = 1 - min(1, [(1 - a)^w + (1 - b)^w]^1/w) (w > 0)"
+    },
+    {
+      "chunk_id": "9d9ab564",
+      "chunk_type": "diagram",
+      "page": 17,
+      "diagram_type": "none",
+      "content": "",
+      "embedding_text": ""
+    },
+    {
+      "chunk_id": "9bc13a0e",
+      "chunk_type": "exam_point",
+      "page": 17,
+      "content": "Understanding the different types of T-norms and their applications in fuzzy logic.",
+      "embedding_text": "Understanding the different types of T-norms and their applications in fuzzy logic."
+    },
+    {
+      "chunk_id": "8648f34f",
+      "chunk_type": "exam_point",
+      "page": 17,
+      "content": "Ability to recognize and apply the formulas for each type of T-norm.",
+      "embedding_text": "Ability to recognize and apply the formulas for each type of T-norm."
+    },
+    {
+      "chunk_id": "6ed7ba44",
+      "chunk_type": "exam_point",
+      "page": 17,
+      "content": "Knowledge of the Yager class t-norms and their parameterization.",
+      "embedding_text": "Knowledge of the Yager class t-norms and their parameterization."
+    },
+    {
+      "chunk_id": "b20779ed",
+      "chunk_type": "summary",
+      "page": 19,
+      "title": "Fuzzy union: t-conorm",
+      "content": "The slide introduces the concept of a fuzzy union using a t-conorm (t-conormative) function, which is a specific type of function used in fuzzy set theory to combine membership values of two fuzzy sets.",
+      "keywords": [
+        "Fuzzy union",
+        "t-conorm",
+        "Membership function",
+        "Fuzzy sets",
+        "Fuzzy logic",
+        "Union operation",
+        "Function u"
+      ],
+      "raw_text": "Fuzzy union: t-conorm\n\n▶ It is a function\n\nu : [0, 1] × [0, 1] → [0, 1].\n\n(A ∪ B)(x) = u[A(x), B(x)]",
+      "embedding_text": "The slide introduces the concept of a fuzzy union using a t-conorm (t-conormative) function, which is a specific type of function used in fuzzy set theory to combine membership values of two fuzzy sets."
+    },
+    {
+      "chunk_id": "ff8a51b0",
+      "chunk_type": "definition",
+      "page": 19,
+      "concept": "t-conorm",
+      "content": "A function u that takes two values from the interval [0, 1] and returns a value in [0, 1], used to compute the union of two fuzzy sets.",
+      "embedding_text": "t-conorm: A function u that takes two values from the interval [0, 1] and returns a value in [0, 1], used to compute the union of two fuzzy sets."
+    },
+    {
+      "chunk_id": "b7094116",
+      "chunk_type": "definition",
+      "page": 19,
+      "concept": "Fuzzy union",
+      "content": "An operation on fuzzy sets that combines the membership values of two sets A and B using a t-conorm function.",
+      "embedding_text": "Fuzzy union: An operation on fuzzy sets that combines the membership values of two sets A and B using a t-conorm function."
+    },
+    {
+      "chunk_id": "8dfd59e7",
+      "chunk_type": "formula",
+      "page": 19,
+      "formula": "u : [0, 1] × [0, 1] → [0, 1]",
+      "embedding_text": "u : [0, 1] × [0, 1] → [0, 1]"
+    },
+    {
+      "chunk_id": "79324659",
+      "chunk_type": "formula",
+      "page": 19,
+      "formula": "(A ∪ B)(x) = u[A(x), B(x)]",
+      "embedding_text": "(A ∪ B)(x) = u[A(x), B(x)]"
+    },
+    {
+      "chunk_id": "0567d221",
+      "chunk_type": "exam_point",
+      "page": 19,
+      "content": "Understanding the role of t-conorm in fuzzy union operations",
+      "embedding_text": "Understanding the role of t-conorm in fuzzy union operations"
+    },
+    {
+      "chunk_id": "4e420886",
+      "chunk_type": "exam_point",
+      "page": 19,
+      "content": "Ability to apply the t-conorm function to compute fuzzy union",
+      "embedding_text": "Ability to apply the t-conorm function to compute fuzzy union"
+    },
+    {
+      "chunk_id": "3313a02e",
+      "chunk_type": "exam_point",
+      "page": 19,
+      "content": "Knowledge of the domain and range of the t-conorm function",
+      "embedding_text": "Knowledge of the domain and range of the t-conorm function"
+    },
+    {
+      "chunk_id": "419f6a55",
+      "chunk_type": "summary",
+      "page": 23,
+      "title": "Fuzzy operation duality",
+      "content": "The slide explains the concept of duality in fuzzy operations, particularly focusing on De Morgan laws in crisp sets and their extension to fuzzy operations. It highlights that not all fuzzy operations satisfy De Morgan laws and introduces the duality between t-norms and t-conorms with respect to a complement operation.",
+      "keywords": [
+        "Fuzzy operation duality",
+        "De Morgan laws",
+        "Crisp sets",
+        "t-norm",
+        "t-conorm",
+        "Complement operation",
+        "Fuzzy sets",
+        "Logical conjunction",
+        "Logical disjunction"
+      ],
+      "raw_text": "Fuzzy operation duality\n\n► In crisp sets: De Morgan laws\n\nA̅ ∩ B̅ = A̅ ∪ B̅ and A̅ ∪ B̅ = A̅ ∩ B̅.\n\n► It is clear that some fuzzy operations but not all may satisfy the above low\n► t-norm i and t-conorm u are dual with respect to complement c iff:\n\nc(i(a, b)) = u(c(a), c(b))\n\nc(u(a, b)) = i(c(a), c(b)).",
+      "embedding_text": "The slide explains the concept of duality in fuzzy operations, particularly focusing on De Morgan laws in crisp sets and their extension to fuzzy operations. It highlights that not all fuzzy operations satisfy De Morgan laws and introduces the duality between t-norms and t-conorms with respect to a complement operation."
+    },
+    {
+      "chunk_id": "bb6ed167",
+      "chunk_type": "definition",
+      "page": 23,
+      "concept": "De Morgan laws (in crisp sets)",
+      "content": "Laws stating that the complement of the intersection of two sets is equal to the union of their complements, and vice versa.",
+      "embedding_text": "De Morgan laws (in crisp sets): Laws stating that the complement of the intersection of two sets is equal to the union of their complements, and vice versa."
+    },
+    {
+      "chunk_id": "bacfd180",
+      "chunk_type": "definition",
+      "page": 23,
+      "concept": "t-norm",
+      "content": "A function that generalizes logical conjunction to fuzzy sets.",
+      "embedding_text": "t-norm: A function that generalizes logical conjunction to fuzzy sets."
+    },
+    {
+      "chunk_id": "fea27e6a",
+      "chunk_type": "definition",
+      "page": 23,
+      "concept": "t-conorm",
+      "content": "A function that generalizes logical disjunction to fuzzy sets.",
+      "embedding_text": "t-conorm: A function that generalizes logical disjunction to fuzzy sets."
+    },
+    {
+      "chunk_id": "e772e294",
+      "chunk_type": "definition",
+      "page": 23,
+      "concept": "Complement (c)",
+      "content": "An operation that maps a membership value to its complement in the context of fuzzy sets.",
+      "embedding_text": "Complement (c): An operation that maps a membership value to its complement in the context of fuzzy sets."
+    },
+    {
+      "chunk_id": "3c0a3bc6",
+      "chunk_type": "formula",
+      "page": 23,
+      "formula": {
+        "formula": "A̅ ∩ B̅ = A̅ ∪ B̅ and A̅ ∪ B̅ = A̅ ∩ B̅",
+        "description": "De Morgan laws for crisp sets"
+      },
+      "embedding_text": {
+        "formula": "A̅ ∩ B̅ = A̅ ∪ B̅ and A̅ ∪ B̅ = A̅ ∩ B̅",
+        "description": "De Morgan laws for crisp sets"
+      }
+    },
+    {
+      "chunk_id": "8192f0c2",
+      "chunk_type": "formula",
+      "page": 23,
+      "formula": {
+        "formula": "c(i(a, b)) = u(c(a), c(b))",
+        "description": "Duality condition between t-norm i and t-conorm u with respect to complement c"
+      },
+      "embedding_text": {
+        "formula": "c(i(a, b)) = u(c(a), c(b))",
+        "description": "Duality condition between t-norm i and t-conorm u with respect to complement c"
+      }
+    },
+    {
+      "chunk_id": "66331179",
+      "chunk_type": "formula",
+      "page": 23,
+      "formula": {
+        "formula": "c(u(a, b)) = i(c(a), c(b))",
+        "description": "Duality condition between t-norm i and t-conorm u with respect to complement c"
+      },
+      "embedding_text": {
+        "formula": "c(u(a, b)) = i(c(a), c(b))",
+        "description": "Duality condition between t-norm i and t-conorm u with respect to complement c"
+      }
+    },
+    {
+      "chunk_id": "04d5ac7b",
+      "chunk_type": "exam_point",
+      "page": 23,
+      "content": "Understanding De Morgan laws in crisp sets and their relevance to fuzzy operations",
+      "embedding_text": "Understanding De Morgan laws in crisp sets and their relevance to fuzzy operations"
+    },
+    {
+      "chunk_id": "946ef813",
+      "chunk_type": "exam_point",
+      "page": 23,
+      "content": "Recognizing that not all fuzzy operations satisfy De Morgan laws",
+      "embedding_text": "Recognizing that not all fuzzy operations satisfy De Morgan laws"
+    },
+    {
+      "chunk_id": "0c70ad3e",
+      "chunk_type": "exam_point",
+      "page": 23,
+      "content": "Knowing the duality conditions between t-norms and t-conorms with respect to a complement operation",
+      "embedding_text": "Knowing the duality conditions between t-norms and t-conorms with respect to a complement operation"
+    }
+  ]
+}
